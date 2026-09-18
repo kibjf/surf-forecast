@@ -1,131 +1,131 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 600" role="img" aria-label="今日15時風速與浪高散佈圖，縮寫引線標註，含風向與浪向箭頭（去向）" style="width:100%;height:auto;display:block">
-<rect width="980" height="600" fill="#0b1220" rx="16"/>
-<rect x="118" y="56" width="740" height="440" fill="#111a2e" rx="8"/>
-<rect x="118.0" y="56" width="136.9" height="440" fill="#34d399" opacity="0.07"/>
-<rect x="254.9" y="56" width="266.2" height="440" fill="#fbbf24" opacity="0.07"/>
-<rect x="521.1" y="56" width="336.9" height="440" fill="#fb7185" opacity="0.07"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 680" role="img" aria-label="今日15時風速與浪高散佈圖，縮寫引線標註，含風向與浪向箭頭（去向）" style="width:100%;height:auto;display:block">
+<rect width="980" height="680" fill="#0b1220" rx="16"/>
+<rect x="52" y="56" width="908" height="400" fill="#111a2e" rx="8"/>
+<rect x="52.0" y="56" width="168.0" height="400" fill="#34d399" opacity="0.07"/>
+<rect x="220.0" y="56" width="326.6" height="400" fill="#fbbf24" opacity="0.07"/>
+<rect x="546.6" y="56" width="413.4" height="400" fill="#fb7185" opacity="0.07"/>
 <defs><marker id="arrow-38bdf8" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#38bdf8"/></marker><marker id="arrow-fbbf24" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#fbbf24"/></marker></defs>
-<text x="118" y="24" fill="#e2e8f0" font-size="16" font-weight="700" font-family="Noto Sans TC,system-ui,sans-serif">今日 15:00 風速 × 浪高　預報 vs 即時浮標</text>
-<text x="118" y="44" fill="#8b9bb4" font-size="11" font-family="Noto Sans TC,system-ui,sans-serif">圓點＝預報 · 菱形＝即時 · 縮寫＋引線（實線預報／虛線即時·即）· 箭頭為去向（北風→朝南；北=0°、東=90°）· 青＝風 · 金＝浪</text>
-<line x1="140.8" y1="56" x2="140.8" y2="496" stroke="#1e3a5f" stroke-dasharray="4 4" opacity="0.7"/>
-<text x="140.8" y="514" text-anchor="middle" fill="#8b9bb4" font-size="11">5</text>
-<line x1="216.9" y1="56" x2="216.9" y2="496" stroke="#1e3a5f" stroke-dasharray="4 4" opacity="0.7"/>
-<text x="216.9" y="514" text-anchor="middle" fill="#8b9bb4" font-size="11">7</text>
-<line x1="292.9" y1="56" x2="292.9" y2="496" stroke="#1e3a5f" stroke-dasharray="4 4" opacity="0.7"/>
-<text x="292.9" y="514" text-anchor="middle" fill="#8b9bb4" font-size="11">9</text>
-<line x1="369.0" y1="56" x2="369.0" y2="496" stroke="#1e3a5f" stroke-dasharray="4 4" opacity="0.7"/>
-<text x="369.0" y="514" text-anchor="middle" fill="#8b9bb4" font-size="11">11</text>
-<line x1="445.0" y1="56" x2="445.0" y2="496" stroke="#1e3a5f" stroke-dasharray="4 4" opacity="0.7"/>
-<text x="445.0" y="514" text-anchor="middle" fill="#8b9bb4" font-size="11">13</text>
-<line x1="521.1" y1="56" x2="521.1" y2="496" stroke="#1e3a5f" stroke-dasharray="4 4" opacity="0.7"/>
-<text x="521.1" y="514" text-anchor="middle" fill="#8b9bb4" font-size="11">15</text>
-<line x1="597.1" y1="56" x2="597.1" y2="496" stroke="#1e3a5f" stroke-dasharray="4 4" opacity="0.7"/>
-<text x="597.1" y="514" text-anchor="middle" fill="#8b9bb4" font-size="11">17</text>
-<line x1="673.2" y1="56" x2="673.2" y2="496" stroke="#1e3a5f" stroke-dasharray="4 4" opacity="0.7"/>
-<text x="673.2" y="514" text-anchor="middle" fill="#8b9bb4" font-size="11">19</text>
-<line x1="749.2" y1="56" x2="749.2" y2="496" stroke="#1e3a5f" stroke-dasharray="4 4" opacity="0.7"/>
-<text x="749.2" y="514" text-anchor="middle" fill="#8b9bb4" font-size="11">21</text>
-<line x1="825.3" y1="56" x2="825.3" y2="496" stroke="#1e3a5f" stroke-dasharray="4 4" opacity="0.7"/>
-<text x="825.3" y="514" text-anchor="middle" fill="#8b9bb4" font-size="11">23</text>
-<line x1="118" y1="431.3" x2="858" y2="431.3" stroke="#1e3a5f" stroke-dasharray="4 4" opacity="0.5"/>
-<text x="110" y="431.3" text-anchor="end" dominant-baseline="middle" fill="#8b9bb4" font-size="11">0.5</text>
-<line x1="118" y1="379.5" x2="858" y2="379.5" stroke="#1e3a5f" stroke-dasharray="4 4" opacity="0.5"/>
-<text x="110" y="379.5" text-anchor="end" dominant-baseline="middle" fill="#8b9bb4" font-size="11">0.7</text>
-<line x1="118" y1="327.8" x2="858" y2="327.8" stroke="#1e3a5f" stroke-dasharray="4 4" opacity="0.5"/>
-<text x="110" y="327.8" text-anchor="end" dominant-baseline="middle" fill="#8b9bb4" font-size="11">0.9</text>
-<line x1="118" y1="276.0" x2="858" y2="276.0" stroke="#1e3a5f" stroke-dasharray="4 4" opacity="0.5"/>
-<text x="110" y="276.0" text-anchor="end" dominant-baseline="middle" fill="#8b9bb4" font-size="11">1.1</text>
-<line x1="118" y1="250.1" x2="858" y2="250.1" stroke="#1e3a5f" stroke-dasharray="4 4" opacity="0.5"/>
-<text x="110" y="250.1" text-anchor="end" dominant-baseline="middle" fill="#8b9bb4" font-size="11">1.2</text>
-<line x1="118" y1="172.5" x2="858" y2="172.5" stroke="#1e3a5f" stroke-dasharray="4 4" opacity="0.5"/>
-<text x="110" y="172.5" text-anchor="end" dominant-baseline="middle" fill="#8b9bb4" font-size="11">1.5</text>
-<line x1="118" y1="120.7" x2="858" y2="120.7" stroke="#1e3a5f" stroke-dasharray="4 4" opacity="0.5"/>
-<text x="110" y="120.7" text-anchor="end" dominant-baseline="middle" fill="#8b9bb4" font-size="11">1.7</text>
-<line x1="118" y1="68.9" x2="858" y2="68.9" stroke="#1e3a5f" stroke-dasharray="4 4" opacity="0.5"/>
-<text x="110" y="68.9" text-anchor="end" dominant-baseline="middle" fill="#8b9bb4" font-size="11">1.9</text>
-<text x="488.0" y="536" text-anchor="middle" fill="#e2e8f0" font-size="12">風速（kt）</text>
-<text x="112" y="52" text-anchor="end" fill="#8b9bb4" font-size="11">浪高 m</text>
-<line x1="739.2" y1="180.9" x2="730.6" y2="210.9" stroke="#38bdf8" stroke-width="2.4" marker-end="url(#arrow-38bdf8)" />
-<line x1="737.6" y1="180.3" x2="723.5" y2="208.1" stroke="#fbbf24" stroke-width="2.4" marker-end="url(#arrow-fbbf24)" />
-<circle cx="741.6" cy="172.5" r="8.0" fill="#38bdf8" stroke="#fff" stroke-width="1.6" opacity="0.95"/>
-<line x1="610.7" y1="232.9" x2="604.7" y2="263.5" stroke="#38bdf8" stroke-width="2.4" marker-end="url(#arrow-38bdf8)" />
-<line x1="607.9" y1="231.9" x2="592.3" y2="258.9" stroke="#fbbf24" stroke-width="2.4" marker-end="url(#arrow-fbbf24)" />
-<circle cx="612.3" cy="224.2" r="8.0" fill="#2dd4bf" stroke="#fff" stroke-width="1.6" opacity="0.95"/>
-<line x1="585.2" y1="193.9" x2="576.6" y2="223.9" stroke="#38bdf8" stroke-width="2.4" marker-end="url(#arrow-38bdf8)" />
-<line x1="584.6" y1="193.7" x2="573.9" y2="223.0" stroke="#fbbf24" stroke-width="2.4" marker-end="url(#arrow-fbbf24)" />
-<circle cx="587.6" cy="185.4" r="8.0" fill="#fbbf24" stroke="#fff" stroke-width="1.6" opacity="0.95"/>
-<line x1="263.0" y1="358.8" x2="237.7" y2="377.2" stroke="#38bdf8" stroke-width="2.4" marker-end="url(#arrow-38bdf8)" />
-<line x1="263.8" y1="359.8" x2="241.3" y2="381.4" stroke="#fbbf24" stroke-width="2.4" marker-end="url(#arrow-fbbf24)" />
-<circle cx="270.1" cy="353.6" r="8.0" fill="#4ade80" stroke="#fff" stroke-width="1.6" opacity="0.95"/>
-<line x1="255.8" y1="359.3" x2="231.9" y2="379.4" stroke="#38bdf8" stroke-width="2.4" marker-end="url(#arrow-38bdf8)" />
-<line x1="255.0" y1="358.3" x2="228.6" y2="374.8" stroke="#fbbf24" stroke-width="2.4" marker-end="url(#arrow-fbbf24)" />
-<circle cx="262.5" cy="353.6" r="8.0" fill="#22d3ee" stroke="#fff" stroke-width="1.6" opacity="0.95"/>
-<line x1="382.4" y1="345.4" x2="356.0" y2="361.9" stroke="#38bdf8" stroke-width="2.4" marker-end="url(#arrow-38bdf8)" />
-<line x1="383.6" y1="346.8" x2="361.1" y2="368.5" stroke="#fbbf24" stroke-width="2.4" marker-end="url(#arrow-fbbf24)" />
-<circle cx="389.9" cy="340.7" r="8.0" fill="#fb923c" stroke="#fff" stroke-width="1.6" opacity="0.95"/>
-<line x1="267.5" y1="322.4" x2="251.4" y2="349.1" stroke="#38bdf8" stroke-width="2.4" marker-end="url(#arrow-38bdf8)" />
-<line x1="263.8" y1="311.7" x2="234.7" y2="300.5" stroke="#fbbf24" stroke-width="2.4" marker-end="url(#arrow-fbbf24)" />
-<circle cx="272.0" cy="314.8" r="8.0" fill="#a78bfa" stroke="#fff" stroke-width="1.6" opacity="0.95"/>
-<line x1="186.9" y1="410.6" x2="161.7" y2="428.9" stroke="#38bdf8" stroke-width="2.4" marker-end="url(#arrow-38bdf8)" />
-<line x1="185.3" y1="404.3" x2="154.4" y2="400.5" stroke="#fbbf24" stroke-width="2.4" marker-end="url(#arrow-fbbf24)" />
-<circle cx="194.1" cy="405.4" r="8.0" fill="#f472b6" stroke="#fff" stroke-width="1.6" opacity="0.95"/>
-<line x1="705.3" y1="325.0" x2="689.7" y2="352.1" stroke="#38bdf8" stroke-width="2.4" marker-end="url(#arrow-38bdf8)" />
-<line x1="706.4" y1="325.6" x2="694.7" y2="354.5" stroke="#fbbf24" stroke-width="2.4" marker-end="url(#arrow-fbbf24)" />
-<polygon points="709.7,308.2 718.9,317.4 709.7,326.6 700.5,317.4" fill="#38bdf8" stroke="#fff" stroke-width="1.5" opacity="0.92"/>
-<line x1="739.5" y1="345.7" x2="723.9" y2="372.8" stroke="#38bdf8" stroke-width="2.4" marker-end="url(#arrow-38bdf8)" />
-<line x1="740.6" y1="346.3" x2="728.9" y2="375.2" stroke="#fbbf24" stroke-width="2.4" marker-end="url(#arrow-fbbf24)" />
-<polygon points="743.9,328.9 753.1,338.1 743.9,347.3 734.7,338.1" fill="#2dd4bf" stroke="#fff" stroke-width="1.5" opacity="0.92"/>
-<line x1="541.8" y1="197.6" x2="523.0" y2="222.5" stroke="#38bdf8" stroke-width="2.4" marker-end="url(#arrow-38bdf8)" />
-<line x1="542.3" y1="198.0" x2="525.3" y2="224.1" stroke="#fbbf24" stroke-width="2.4" marker-end="url(#arrow-fbbf24)" />
-<polygon points="547.1,181.4 556.3,190.6 547.1,199.8 537.9,190.6" fill="#fbbf24" stroke="#fff" stroke-width="1.5" opacity="0.92"/>
-<line x1="346.2" y1="373.3" x2="315.5" y2="378.7" stroke="#38bdf8" stroke-width="2.4" marker-end="url(#arrow-38bdf8)" />
-<line x1="354.9" y1="380.6" x2="354.9" y2="411.8" stroke="#fbbf24" stroke-width="2.4" marker-end="url(#arrow-fbbf24)" />
-<polygon points="354.9,362.6 364.1,371.8 354.9,381.0 345.7,371.8" fill="#86efac" stroke="#fff" stroke-width="1.5" opacity="0.92"/>
-<line x1="215.6" y1="352.1" x2="193.6" y2="374.2" stroke="#38bdf8" stroke-width="2.4" marker-end="url(#arrow-38bdf8)" />
-<line x1="215.6" y1="352.1" x2="193.6" y2="374.2" stroke="#fbbf24" stroke-width="2.4" marker-end="url(#arrow-fbbf24)" />
-<polygon points="221.8,336.7 231.0,345.9 221.8,355.1 212.6,345.9" fill="#a78bfa" stroke="#fff" stroke-width="1.5" opacity="0.92"/>
-<line x1="321.0" y1="385.3" x2="297.5" y2="405.8" stroke="#38bdf8" stroke-width="2.4" marker-end="url(#arrow-38bdf8)" />
-<line x1="322.9" y1="386.9" x2="305.9" y2="413.1" stroke="#fbbf24" stroke-width="2.4" marker-end="url(#arrow-fbbf24)" />
-<polygon points="327.7,370.3 336.9,379.5 327.7,388.7 318.5,379.5" fill="#f472b6" stroke="#fff" stroke-width="1.5" opacity="0.92"/>
-<path d="M265.5,306.0 L114.0,101.3 L28.0,101.3" fill="none" stroke="#a78bfa" stroke-width="1.05" opacity="0.75"/>
-<text x="4.0" y="101.8" text-anchor="start" dominant-baseline="central" fill="#a78bfa" font-size="11" font-weight="700" font-family="Noto Sans TC,system-ui,sans-serif">無尾</text>
-<path d="M380.7,334.6 L114.0,156.0 L28.0,156.0" fill="none" stroke="#fb923c" stroke-width="1.05" opacity="0.75"/>
-<text x="4.0" y="156.5" text-anchor="start" dominant-baseline="central" fill="#fb923c" font-size="11" font-weight="700" font-family="Noto Sans TC,system-ui,sans-serif">石門</text>
-<path d="M215.0,337.3 L114.0,210.6 L56.0,210.6" fill="none" stroke="#a78bfa" stroke-width="1.05" opacity="0.75" stroke-dasharray="3.5 2.5"/>
-<text x="4.0" y="211.1" text-anchor="start" dominant-baseline="central" fill="#a78bfa" font-size="11" font-weight="700" font-family="Noto Sans TC,system-ui,sans-serif">無尾·即</text>
-<path d="M260.5,348.2 L114.0,265.3 L28.0,265.3" fill="none" stroke="#4ade80" stroke-width="1.05" opacity="0.75"/>
-<text x="4.0" y="265.8" text-anchor="start" dominant-baseline="central" fill="#4ade80" font-size="11" font-weight="700" font-family="Noto Sans TC,system-ui,sans-serif">中角</text>
-<path d="M251.8,351.2 L114.0,320.0 L28.0,320.0" fill="none" stroke="#22d3ee" stroke-width="1.05" opacity="0.75"/>
-<text x="4.0" y="320.5" text-anchor="start" dominant-baseline="central" fill="#22d3ee" font-size="11" font-weight="700" font-family="Noto Sans TC,system-ui,sans-serif">翡灣</text>
-<path d="M343.9,371.9 L114.0,374.7 L56.0,374.7" fill="none" stroke="#86efac" stroke-width="1.05" opacity="0.75" stroke-dasharray="3.5 2.5"/>
-<text x="4.0" y="375.2" text-anchor="start" dominant-baseline="central" fill="#86efac" font-size="11" font-weight="700" font-family="Noto Sans TC,system-ui,sans-serif">富貴·即</text>
-<path d="M316.9,382.0 L114.0,429.3 L56.0,429.3" fill="none" stroke="#f472b6" stroke-width="1.05" opacity="0.75" stroke-dasharray="3.5 2.5"/>
-<text x="4.0" y="429.8" text-anchor="start" dominant-baseline="central" fill="#f472b6" font-size="11" font-weight="700" font-family="Noto Sans TC,system-ui,sans-serif">烏石·即</text>
-<path d="M186.2,413.1 L114.0,484.0 L28.0,484.0" fill="none" stroke="#f472b6" stroke-width="1.05" opacity="0.75"/>
-<text x="4.0" y="484.5" text-anchor="start" dominant-baseline="central" fill="#f472b6" font-size="11" font-weight="700" font-family="Noto Sans TC,system-ui,sans-serif">烏石</text>
-<path d="M751.1,166.9 L862.0,101.3 L866.0,101.3" fill="none" stroke="#38bdf8" stroke-width="1.05" opacity="0.75"/>
-<text x="866.0" y="101.8" text-anchor="start" dominant-baseline="central" fill="#38bdf8" font-size="11" font-weight="700" font-family="Noto Sans TC,system-ui,sans-serif">後龍</text>
-<path d="M598.6,185.1 L862.0,177.8 L866.0,177.8" fill="none" stroke="#fbbf24" stroke-width="1.05" opacity="0.75"/>
-<text x="866.0" y="178.3" text-anchor="start" dominant-baseline="central" fill="#fbbf24" font-size="11" font-weight="700" font-family="Noto Sans TC,system-ui,sans-serif">松柏</text>
-<path d="M557.9,192.8 L862.0,254.4 L866.0,254.4" fill="none" stroke="#fbbf24" stroke-width="1.05" opacity="0.75" stroke-dasharray="3.5 2.5"/>
-<text x="866.0" y="254.9" text-anchor="start" dominant-baseline="central" fill="#fbbf24" font-size="11" font-weight="700" font-family="Noto Sans TC,system-ui,sans-serif">松柏·即</text>
-<path d="M622.5,228.6 L862.0,330.9 L866.0,330.9" fill="none" stroke="#2dd4bf" stroke-width="1.05" opacity="0.75"/>
-<text x="866.0" y="331.4" text-anchor="start" dominant-baseline="central" fill="#2dd4bf" font-size="11" font-weight="700" font-family="Noto Sans TC,system-ui,sans-serif">假森</text>
-<path d="M719.2,323.0 L862.0,407.5 L866.0,407.5" fill="none" stroke="#38bdf8" stroke-width="1.05" opacity="0.75" stroke-dasharray="3.5 2.5"/>
-<text x="866.0" y="408.0" text-anchor="start" dominant-baseline="central" fill="#38bdf8" font-size="11" font-weight="700" font-family="Noto Sans TC,system-ui,sans-serif">後龍·即</text>
-<path d="M750.8,346.7 L862.0,484.0 L866.0,484.0" fill="none" stroke="#2dd4bf" stroke-width="1.05" opacity="0.75" stroke-dasharray="3.5 2.5"/>
-<text x="866.0" y="484.5" text-anchor="start" dominant-baseline="central" fill="#2dd4bf" font-size="11" font-weight="700" font-family="Noto Sans TC,system-ui,sans-serif">假森·即</text>
-<circle cx="90" cy="548" r="7" fill="#94a3b8" stroke="#fff"/>
-<text x="106" y="552" fill="#e2e8f0" font-size="11" font-family="Noto Sans TC,system-ui,sans-serif">預報</text>
-<polygon points="160,541 167,548 160,555 153,548" fill="#94a3b8" stroke="#fff"/>
-<text x="176" y="552" fill="#e2e8f0" font-size="11" font-family="Noto Sans TC,system-ui,sans-serif">即時</text>
-<line x1="230" y1="548" x2="255" y2="548" stroke="#38bdf8" stroke-width="2.2"/>
-<text x="262" y="552" fill="#e2e8f0" font-size="11" font-family="Noto Sans TC,system-ui,sans-serif">風向去向</text>
-<line x1="340" y1="548" x2="365" y2="548" stroke="#fbbf24" stroke-width="2.2"/>
-<text x="372" y="552" fill="#e2e8f0" font-size="11" font-family="Noto Sans TC,system-ui,sans-serif">浪向去向</text>
-<line x1="450" y1="548" x2="478" y2="548" stroke="#94a3b8" stroke-width="1.2"/>
-<text x="484" y="552" fill="#8b9bb4" font-size="11" font-family="Noto Sans TC,system-ui,sans-serif">實線＝預報</text>
-<line x1="575" y1="548" x2="603" y2="548" stroke="#94a3b8" stroke-width="1.2" stroke-dasharray="3.5 2.5"/>
-<text x="609" y="552" fill="#8b9bb4" font-size="11" font-family="Noto Sans TC,system-ui,sans-serif">虛線＝即時·即</text>
-<text x="490" y="580" text-anchor="middle" fill="#64748b" font-size="10" font-family="Noto Sans TC,system-ui,sans-serif">預報 2026-09-18 15:00 台北｜即時約 2026-09-18 15:03｜北海岸三點即時共用富貴角（只顯示一點）｜後龍／假日之森共用新竹略偏移｜綠&lt;8kt／黃8–14／紅≥15</text>
+<text x="52" y="24" fill="#e2e8f0" font-size="16" font-weight="700" font-family="Noto Sans TC,system-ui,sans-serif">今日 15:00 風速 × 浪高　預報 vs 即時浮標</text>
+<text x="52" y="44" fill="#8b9bb4" font-size="11" font-family="Noto Sans TC,system-ui,sans-serif">圓點＝預報 · 菱形＝即時 · 縮寫＋底緣引線（實線預報／虛線即時·即）· 箭頭為去向（北風→朝南；北=0°、東=90°）· 青＝風 · 金＝浪</text>
+<line x1="80.0" y1="56" x2="80.0" y2="456" stroke="#1e3a5f" stroke-dasharray="4 4" opacity="0.7"/>
+<text x="80.0" y="474" text-anchor="middle" fill="#8b9bb4" font-size="11">5</text>
+<line x1="173.3" y1="56" x2="173.3" y2="456" stroke="#1e3a5f" stroke-dasharray="4 4" opacity="0.7"/>
+<text x="173.3" y="474" text-anchor="middle" fill="#8b9bb4" font-size="11">7</text>
+<line x1="266.6" y1="56" x2="266.6" y2="456" stroke="#1e3a5f" stroke-dasharray="4 4" opacity="0.7"/>
+<text x="266.6" y="474" text-anchor="middle" fill="#8b9bb4" font-size="11">9</text>
+<line x1="359.9" y1="56" x2="359.9" y2="456" stroke="#1e3a5f" stroke-dasharray="4 4" opacity="0.7"/>
+<text x="359.9" y="474" text-anchor="middle" fill="#8b9bb4" font-size="11">11</text>
+<line x1="453.3" y1="56" x2="453.3" y2="456" stroke="#1e3a5f" stroke-dasharray="4 4" opacity="0.7"/>
+<text x="453.3" y="474" text-anchor="middle" fill="#8b9bb4" font-size="11">13</text>
+<line x1="546.6" y1="56" x2="546.6" y2="456" stroke="#1e3a5f" stroke-dasharray="4 4" opacity="0.7"/>
+<text x="546.6" y="474" text-anchor="middle" fill="#8b9bb4" font-size="11">15</text>
+<line x1="639.9" y1="56" x2="639.9" y2="456" stroke="#1e3a5f" stroke-dasharray="4 4" opacity="0.7"/>
+<text x="639.9" y="474" text-anchor="middle" fill="#8b9bb4" font-size="11">17</text>
+<line x1="733.2" y1="56" x2="733.2" y2="456" stroke="#1e3a5f" stroke-dasharray="4 4" opacity="0.7"/>
+<text x="733.2" y="474" text-anchor="middle" fill="#8b9bb4" font-size="11">19</text>
+<line x1="826.5" y1="56" x2="826.5" y2="456" stroke="#1e3a5f" stroke-dasharray="4 4" opacity="0.7"/>
+<text x="826.5" y="474" text-anchor="middle" fill="#8b9bb4" font-size="11">21</text>
+<line x1="919.9" y1="56" x2="919.9" y2="456" stroke="#1e3a5f" stroke-dasharray="4 4" opacity="0.7"/>
+<text x="919.9" y="474" text-anchor="middle" fill="#8b9bb4" font-size="11">23</text>
+<line x1="52" y1="397.2" x2="960" y2="397.2" stroke="#1e3a5f" stroke-dasharray="4 4" opacity="0.5"/>
+<text x="44" y="397.2" text-anchor="end" dominant-baseline="middle" fill="#8b9bb4" font-size="11">0.5</text>
+<line x1="52" y1="350.1" x2="960" y2="350.1" stroke="#1e3a5f" stroke-dasharray="4 4" opacity="0.5"/>
+<text x="44" y="350.1" text-anchor="end" dominant-baseline="middle" fill="#8b9bb4" font-size="11">0.7</text>
+<line x1="52" y1="303.1" x2="960" y2="303.1" stroke="#1e3a5f" stroke-dasharray="4 4" opacity="0.5"/>
+<text x="44" y="303.1" text-anchor="end" dominant-baseline="middle" fill="#8b9bb4" font-size="11">0.9</text>
+<line x1="52" y1="256.0" x2="960" y2="256.0" stroke="#1e3a5f" stroke-dasharray="4 4" opacity="0.5"/>
+<text x="44" y="256.0" text-anchor="end" dominant-baseline="middle" fill="#8b9bb4" font-size="11">1.1</text>
+<line x1="52" y1="232.5" x2="960" y2="232.5" stroke="#1e3a5f" stroke-dasharray="4 4" opacity="0.5"/>
+<text x="44" y="232.5" text-anchor="end" dominant-baseline="middle" fill="#8b9bb4" font-size="11">1.2</text>
+<line x1="52" y1="161.9" x2="960" y2="161.9" stroke="#1e3a5f" stroke-dasharray="4 4" opacity="0.5"/>
+<text x="44" y="161.9" text-anchor="end" dominant-baseline="middle" fill="#8b9bb4" font-size="11">1.5</text>
+<line x1="52" y1="114.8" x2="960" y2="114.8" stroke="#1e3a5f" stroke-dasharray="4 4" opacity="0.5"/>
+<text x="44" y="114.8" text-anchor="end" dominant-baseline="middle" fill="#8b9bb4" font-size="11">1.7</text>
+<line x1="52" y1="67.8" x2="960" y2="67.8" stroke="#1e3a5f" stroke-dasharray="4 4" opacity="0.5"/>
+<text x="44" y="67.8" text-anchor="end" dominant-baseline="middle" fill="#8b9bb4" font-size="11">1.9</text>
+<text x="52" y="488" text-anchor="start" fill="#e2e8f0" font-size="12">風速（kt）</text>
+<text x="46" y="52" text-anchor="end" fill="#8b9bb4" font-size="11">浪高 m</text>
+<line x1="814.8" y1="170.3" x2="806.2" y2="200.3" stroke="#38bdf8" stroke-width="2.4" marker-end="url(#arrow-38bdf8)" />
+<line x1="813.2" y1="169.7" x2="799.0" y2="197.5" stroke="#fbbf24" stroke-width="2.4" marker-end="url(#arrow-fbbf24)" />
+<circle cx="817.2" cy="161.9" r="8.0" fill="#38bdf8" stroke="#fff" stroke-width="1.6" opacity="0.95"/>
+<line x1="656.9" y1="217.6" x2="650.9" y2="248.2" stroke="#38bdf8" stroke-width="2.4" marker-end="url(#arrow-38bdf8)" />
+<line x1="654.2" y1="216.6" x2="638.6" y2="243.6" stroke="#fbbf24" stroke-width="2.4" marker-end="url(#arrow-fbbf24)" />
+<circle cx="658.6" cy="208.9" r="8.0" fill="#2dd4bf" stroke="#fff" stroke-width="1.6" opacity="0.95"/>
+<line x1="625.8" y1="182.1" x2="617.2" y2="212.1" stroke="#38bdf8" stroke-width="2.4" marker-end="url(#arrow-38bdf8)" />
+<line x1="625.2" y1="181.9" x2="614.6" y2="211.2" stroke="#fbbf24" stroke-width="2.4" marker-end="url(#arrow-fbbf24)" />
+<circle cx="628.2" cy="173.6" r="8.0" fill="#fbbf24" stroke="#fff" stroke-width="1.6" opacity="0.95"/>
+<line x1="231.5" y1="331.8" x2="206.3" y2="350.1" stroke="#38bdf8" stroke-width="2.4" marker-end="url(#arrow-38bdf8)" />
+<line x1="232.3" y1="332.7" x2="209.9" y2="354.4" stroke="#fbbf24" stroke-width="2.4" marker-end="url(#arrow-fbbf24)" />
+<circle cx="238.6" cy="326.6" r="8.0" fill="#4ade80" stroke="#fff" stroke-width="1.6" opacity="0.95"/>
+<line x1="222.6" y1="332.2" x2="198.7" y2="352.3" stroke="#38bdf8" stroke-width="2.4" marker-end="url(#arrow-38bdf8)" />
+<line x1="221.8" y1="331.3" x2="195.4" y2="347.8" stroke="#fbbf24" stroke-width="2.4" marker-end="url(#arrow-fbbf24)" />
+<circle cx="229.3" cy="326.6" r="8.0" fill="#22d3ee" stroke="#fff" stroke-width="1.6" opacity="0.95"/>
+<line x1="378.1" y1="319.5" x2="351.7" y2="336.0" stroke="#38bdf8" stroke-width="2.4" marker-end="url(#arrow-38bdf8)" />
+<line x1="379.3" y1="320.9" x2="356.8" y2="342.6" stroke="#fbbf24" stroke-width="2.4" marker-end="url(#arrow-fbbf24)" />
+<circle cx="385.6" cy="314.8" r="8.0" fill="#fb923c" stroke="#fff" stroke-width="1.6" opacity="0.95"/>
+<line x1="236.4" y1="298.8" x2="220.4" y2="325.6" stroke="#38bdf8" stroke-width="2.4" marker-end="url(#arrow-38bdf8)" />
+<line x1="232.8" y1="288.1" x2="203.6" y2="277.0" stroke="#fbbf24" stroke-width="2.4" marker-end="url(#arrow-fbbf24)" />
+<circle cx="241.0" cy="291.3" r="8.0" fill="#a78bfa" stroke="#fff" stroke-width="1.6" opacity="0.95"/>
+<line x1="138.2" y1="378.8" x2="113.0" y2="397.2" stroke="#38bdf8" stroke-width="2.4" marker-end="url(#arrow-38bdf8)" />
+<line x1="136.6" y1="372.6" x2="105.6" y2="368.8" stroke="#fbbf24" stroke-width="2.4" marker-end="url(#arrow-fbbf24)" />
+<circle cx="145.3" cy="373.6" r="8.0" fill="#f472b6" stroke="#fff" stroke-width="1.6" opacity="0.95"/>
+<line x1="773.6" y1="301.3" x2="758.0" y2="328.3" stroke="#38bdf8" stroke-width="2.4" marker-end="url(#arrow-38bdf8)" />
+<line x1="774.7" y1="301.8" x2="763.0" y2="330.7" stroke="#fbbf24" stroke-width="2.4" marker-end="url(#arrow-fbbf24)" />
+<polygon points="778.0,284.4 787.2,293.6 778.0,302.8 768.8,293.6" fill="#38bdf8" stroke="#fff" stroke-width="1.5" opacity="0.92"/>
+<line x1="815.6" y1="320.1" x2="800.0" y2="347.1" stroke="#38bdf8" stroke-width="2.4" marker-end="url(#arrow-38bdf8)" />
+<line x1="816.7" y1="320.6" x2="805.0" y2="349.6" stroke="#fbbf24" stroke-width="2.4" marker-end="url(#arrow-fbbf24)" />
+<polygon points="820.0,303.3 829.2,312.5 820.0,321.7 810.8,312.5" fill="#2dd4bf" stroke="#fff" stroke-width="1.5" opacity="0.92"/>
+<line x1="573.2" y1="185.4" x2="554.4" y2="210.3" stroke="#38bdf8" stroke-width="2.4" marker-end="url(#arrow-38bdf8)" />
+<line x1="573.7" y1="185.7" x2="556.7" y2="211.9" stroke="#fbbf24" stroke-width="2.4" marker-end="url(#arrow-fbbf24)" />
+<polygon points="578.5,169.2 587.7,178.4 578.5,187.6 569.3,178.4" fill="#fbbf24" stroke="#fff" stroke-width="1.5" opacity="0.92"/>
+<line x1="334.0" y1="344.6" x2="303.3" y2="350.0" stroke="#38bdf8" stroke-width="2.4" marker-end="url(#arrow-38bdf8)" />
+<line x1="342.7" y1="351.9" x2="342.7" y2="383.1" stroke="#fbbf24" stroke-width="2.4" marker-end="url(#arrow-fbbf24)" />
+<polygon points="342.7,333.9 351.9,343.1 342.7,352.3 333.5,343.1" fill="#86efac" stroke="#fff" stroke-width="1.5" opacity="0.92"/>
+<line x1="173.2" y1="325.8" x2="151.1" y2="347.8" stroke="#38bdf8" stroke-width="2.4" marker-end="url(#arrow-38bdf8)" />
+<line x1="173.2" y1="325.8" x2="151.1" y2="347.8" stroke="#fbbf24" stroke-width="2.4" marker-end="url(#arrow-fbbf24)" />
+<polygon points="179.4,310.3 188.6,319.5 179.4,328.7 170.2,319.5" fill="#a78bfa" stroke="#fff" stroke-width="1.5" opacity="0.92"/>
+<line x1="302.6" y1="355.9" x2="279.1" y2="376.4" stroke="#38bdf8" stroke-width="2.4" marker-end="url(#arrow-38bdf8)" />
+<line x1="304.5" y1="357.5" x2="287.5" y2="383.7" stroke="#fbbf24" stroke-width="2.4" marker-end="url(#arrow-fbbf24)" />
+<polygon points="309.3,340.9 318.5,350.1 309.3,359.3 300.1,350.1" fill="#f472b6" stroke="#fff" stroke-width="1.5" opacity="0.92"/>
+<path d="M145.3,384.6 L144.7,460.0 L140.9,499.0" fill="none" stroke="#f472b6" stroke-width="1.05" opacity="0.75"/>
+<text x="140.9" y="508.0" text-anchor="middle" dominant-baseline="central" fill="#f472b6" font-size="11" font-weight="700" font-family="Noto Sans TC,system-ui,sans-serif">烏石</text>
+<path d="M179.4,330.5 L180.1,460.0 L183.9,517.0" fill="none" stroke="#a78bfa" stroke-width="1.05" opacity="0.75" stroke-dasharray="3.5 2.5"/>
+<text x="183.9" y="526.0" text-anchor="middle" dominant-baseline="central" fill="#a78bfa" font-size="11" font-weight="700" font-family="Noto Sans TC,system-ui,sans-serif">無尾·即</text>
+<path d="M229.3,337.6 L228.9,460.0 L226.9,499.0" fill="none" stroke="#22d3ee" stroke-width="1.05" opacity="0.75"/>
+<text x="226.9" y="508.0" text-anchor="middle" dominant-baseline="central" fill="#22d3ee" font-size="11" font-weight="700" font-family="Noto Sans TC,system-ui,sans-serif">翡灣</text>
+<path d="M238.6,337.6 L241.4,460.0 L256.9,517.0" fill="none" stroke="#4ade80" stroke-width="1.05" opacity="0.75"/>
+<text x="256.9" y="526.0" text-anchor="middle" dominant-baseline="central" fill="#4ade80" font-size="11" font-weight="700" font-family="Noto Sans TC,system-ui,sans-serif">中角</text>
+<path d="M241.0,302.3 L247.9,460.0 L286.9,499.0" fill="none" stroke="#a78bfa" stroke-width="1.05" opacity="0.75"/>
+<text x="286.9" y="508.0" text-anchor="middle" dominant-baseline="central" fill="#a78bfa" font-size="11" font-weight="700" font-family="Noto Sans TC,system-ui,sans-serif">無尾</text>
+<path d="M309.3,361.1 L312.4,460.0 L329.9,517.0" fill="none" stroke="#f472b6" stroke-width="1.05" opacity="0.75" stroke-dasharray="3.5 2.5"/>
+<text x="329.9" y="526.0" text-anchor="middle" dominant-baseline="central" fill="#f472b6" font-size="11" font-weight="700" font-family="Noto Sans TC,system-ui,sans-serif">烏石·即</text>
+<path d="M342.7,354.1 L349.2,460.0 L385.9,499.0" fill="none" stroke="#86efac" stroke-width="1.05" opacity="0.75" stroke-dasharray="3.5 2.5"/>
+<text x="385.9" y="508.0" text-anchor="middle" dominant-baseline="central" fill="#86efac" font-size="11" font-weight="700" font-family="Noto Sans TC,system-ui,sans-serif">富貴·即</text>
+<path d="M385.6,325.8 L392.1,460.0 L428.9,517.0" fill="none" stroke="#fb923c" stroke-width="1.05" opacity="0.75"/>
+<text x="428.9" y="526.0" text-anchor="middle" dominant-baseline="central" fill="#fb923c" font-size="11" font-weight="700" font-family="Noto Sans TC,system-ui,sans-serif">石門</text>
+<path d="M578.5,189.4 L578.5,460.0 L578.5,499.0" fill="none" stroke="#fbbf24" stroke-width="1.05" opacity="0.75" stroke-dasharray="3.5 2.5"/>
+<text x="578.5" y="508.0" text-anchor="middle" dominant-baseline="central" fill="#fbbf24" font-size="11" font-weight="700" font-family="Noto Sans TC,system-ui,sans-serif">松柏·即</text>
+<path d="M628.2,184.6 L628.2,460.0 L628.2,517.0" fill="none" stroke="#fbbf24" stroke-width="1.05" opacity="0.75"/>
+<text x="628.2" y="526.0" text-anchor="middle" dominant-baseline="central" fill="#fbbf24" font-size="11" font-weight="700" font-family="Noto Sans TC,system-ui,sans-serif">松柏</text>
+<path d="M658.6,219.9 L658.6,460.0 L658.6,499.0" fill="none" stroke="#2dd4bf" stroke-width="1.05" opacity="0.75"/>
+<text x="658.6" y="508.0" text-anchor="middle" dominant-baseline="central" fill="#2dd4bf" font-size="11" font-weight="700" font-family="Noto Sans TC,system-ui,sans-serif">假森</text>
+<path d="M778.0,304.6 L777.7,460.0 L776.1,517.0" fill="none" stroke="#38bdf8" stroke-width="1.05" opacity="0.75" stroke-dasharray="3.5 2.5"/>
+<text x="776.1" y="526.0" text-anchor="middle" dominant-baseline="central" fill="#38bdf8" font-size="11" font-weight="700" font-family="Noto Sans TC,system-ui,sans-serif">後龍·即</text>
+<path d="M817.2,172.9 L817.5,460.0 L819.1,499.0" fill="none" stroke="#38bdf8" stroke-width="1.05" opacity="0.75"/>
+<text x="819.1" y="508.0" text-anchor="middle" dominant-baseline="central" fill="#38bdf8" font-size="11" font-weight="700" font-family="Noto Sans TC,system-ui,sans-serif">後龍</text>
+<path d="M820.0,323.5 L826.3,460.0 L862.1,517.0" fill="none" stroke="#2dd4bf" stroke-width="1.05" opacity="0.75" stroke-dasharray="3.5 2.5"/>
+<text x="862.1" y="526.0" text-anchor="middle" dominant-baseline="central" fill="#2dd4bf" font-size="11" font-weight="700" font-family="Noto Sans TC,system-ui,sans-serif">假森·即</text>
+<circle cx="90" cy="550" r="7" fill="#94a3b8" stroke="#fff"/>
+<text x="106" y="554" fill="#e2e8f0" font-size="11" font-family="Noto Sans TC,system-ui,sans-serif">預報</text>
+<polygon points="160,543 167,550 160,557 153,550" fill="#94a3b8" stroke="#fff"/>
+<text x="176" y="554" fill="#e2e8f0" font-size="11" font-family="Noto Sans TC,system-ui,sans-serif">即時</text>
+<line x1="230" y1="550" x2="255" y2="550" stroke="#38bdf8" stroke-width="2.2"/>
+<text x="262" y="554" fill="#e2e8f0" font-size="11" font-family="Noto Sans TC,system-ui,sans-serif">風向去向</text>
+<line x1="340" y1="550" x2="365" y2="550" stroke="#fbbf24" stroke-width="2.2"/>
+<text x="372" y="554" fill="#e2e8f0" font-size="11" font-family="Noto Sans TC,system-ui,sans-serif">浪向去向</text>
+<line x1="450" y1="550" x2="478" y2="550" stroke="#94a3b8" stroke-width="1.2"/>
+<text x="484" y="554" fill="#8b9bb4" font-size="11" font-family="Noto Sans TC,system-ui,sans-serif">實線＝預報</text>
+<line x1="575" y1="550" x2="603" y2="550" stroke="#94a3b8" stroke-width="1.2" stroke-dasharray="3.5 2.5"/>
+<text x="609" y="554" fill="#8b9bb4" font-size="11" font-family="Noto Sans TC,system-ui,sans-serif">虛線＝即時·即</text>
+<text x="490" y="662" text-anchor="middle" fill="#64748b" font-size="10" font-family="Noto Sans TC,system-ui,sans-serif">預報 2026-09-18 15:00 台北｜即時約 2026-09-18 15:03｜北海岸三點即時共用富貴角（只顯示一點）｜後龍／假日之森共用新竹略偏移｜綠&lt;8kt／黃8–14／紅≥15</text>
 </svg>
