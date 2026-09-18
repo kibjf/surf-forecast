@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 660" role="img" aria-label="今日15時風速與浪高散佈圖，標籤含浪高與週期，含風向與浪向箭頭（去向）" style="width:100%;height:auto;display:block">
-<rect width="920" height="660" fill="#0b1220" rx="16"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 720" role="img" aria-label="今日15時風速與浪高散佈圖，標籤含浪高與週期，含風向與浪向箭頭（去向）" style="width:100%;height:auto;display:block">
+<rect width="920" height="720" fill="#0b1220" rx="16"/>
 <rect x="64" y="58" width="832" height="436" fill="#111a2e" rx="8"/>
 <rect x="64.0" y="58" width="153.9" height="436" fill="#34d399" opacity="0.07"/>
 <rect x="217.9" y="58" width="299.3" height="436" fill="#fbbf24" opacity="0.07"/>
@@ -57,6 +57,18 @@
 <line x1="589.0" y1="194.5" x2="578.3" y2="223.8" stroke="#fbbf24" stroke-width="2.4" marker-end="url(#arrow-fbbf24)" />
 <circle cx="592.0" cy="186.2" r="8.0" fill="#fbbf24" stroke="#fff" stroke-width="1.6" opacity="0.95"/>
 <text x="606.0" y="182.2" text-anchor="start" fill="#fbbf24" font-size="12" font-weight="700" font-family="Noto Sans TC,system-ui,sans-serif" stroke="#0b1220" stroke-width="3" paint-order="stroke">松柏港 1.4m／6s</text>
+<line x1="227.9" y1="358.1" x2="202.7" y2="376.5" stroke="#38bdf8" stroke-width="2.4" marker-end="url(#arrow-38bdf8)" />
+<line x1="228.7" y1="359.1" x2="206.2" y2="380.7" stroke="#fbbf24" stroke-width="2.4" marker-end="url(#arrow-fbbf24)" />
+<circle cx="235.0" cy="352.9" r="8.0" fill="#4ade80" stroke="#fff" stroke-width="1.6" opacity="0.95"/>
+<text x="249.0" y="348.9" text-anchor="start" fill="#4ade80" font-size="12" font-weight="700" font-family="Noto Sans TC,system-ui,sans-serif" stroke="#0b1220" stroke-width="3" paint-order="stroke">中角 0.8m／8s</text>
+<line x1="219.7" y1="358.6" x2="195.8" y2="378.7" stroke="#38bdf8" stroke-width="2.4" marker-end="url(#arrow-38bdf8)" />
+<line x1="219.0" y1="357.6" x2="192.5" y2="374.1" stroke="#fbbf24" stroke-width="2.4" marker-end="url(#arrow-fbbf24)" />
+<circle cx="226.5" cy="352.9" r="8.0" fill="#22d3ee" stroke="#fff" stroke-width="1.6" opacity="0.95"/>
+<text x="240.5" y="348.9" text-anchor="start" fill="#22d3ee" font-size="12" font-weight="700" font-family="Noto Sans TC,system-ui,sans-serif" stroke="#0b1220" stroke-width="3" paint-order="stroke">翡翠灣 0.8m／8s</text>
+<line x1="362.2" y1="344.8" x2="335.8" y2="361.3" stroke="#38bdf8" stroke-width="2.4" marker-end="url(#arrow-38bdf8)" />
+<line x1="363.4" y1="346.2" x2="340.9" y2="367.9" stroke="#fbbf24" stroke-width="2.4" marker-end="url(#arrow-fbbf24)" />
+<circle cx="369.7" cy="340.1" r="8.0" fill="#fb923c" stroke="#fff" stroke-width="1.6" opacity="0.95"/>
+<text x="383.7" y="336.1" text-anchor="start" fill="#fb923c" font-size="12" font-weight="700" font-family="Noto Sans TC,system-ui,sans-serif" stroke="#0b1220" stroke-width="3" paint-order="stroke">石門婚紗 0.8m／8s</text>
 <line x1="232.6" y1="322.0" x2="216.6" y2="348.8" stroke="#38bdf8" stroke-width="2.4" marker-end="url(#arrow-38bdf8)" />
 <line x1="228.9" y1="311.3" x2="199.8" y2="300.1" stroke="#fbbf24" stroke-width="2.4" marker-end="url(#arrow-fbbf24)" />
 <circle cx="237.2" cy="314.5" r="8.0" fill="#a78bfa" stroke="#fff" stroke-width="1.6" opacity="0.95"/>
@@ -77,6 +89,18 @@
 <line x1="541.6" y1="198.7" x2="524.6" y2="224.9" stroke="#fbbf24" stroke-width="2.4" marker-end="url(#arrow-fbbf24)" />
 <polygon points="546.4,182.2 555.6,191.4 546.4,200.6 537.2,191.4" fill="#fbbf24" stroke="#fff" stroke-width="1.5" opacity="0.92"/>
 <text x="533.2" y="194.4" text-anchor="end" fill="#fbbf24" font-size="10" font-family="Noto Sans TC,system-ui,sans-serif" stroke="#0b1220" stroke-width="3" paint-order="stroke">松柏港·即時 1.5m／4.7s</text>
+<line x1="317.4" y1="339.1" x2="286.7" y2="344.5" stroke="#38bdf8" stroke-width="2.4" marker-end="url(#arrow-38bdf8)" />
+<line x1="326.1" y1="346.4" x2="326.1" y2="377.6" stroke="#fbbf24" stroke-width="2.4" marker-end="url(#arrow-fbbf24)" />
+<polygon points="326.1,328.4 335.3,337.6 326.1,346.8 316.9,337.6" fill="#4ade80" stroke="#fff" stroke-width="1.5" opacity="0.92"/>
+<text x="312.9" y="340.6" text-anchor="end" fill="#4ade80" font-size="10" font-family="Noto Sans TC,system-ui,sans-serif" stroke="#0b1220" stroke-width="3" paint-order="stroke">中角·即時 0.8m／5.3s</text>
+<line x1="340.9" y1="354.5" x2="310.2" y2="359.9" stroke="#38bdf8" stroke-width="2.4" marker-end="url(#arrow-38bdf8)" />
+<line x1="349.6" y1="361.7" x2="349.6" y2="392.9" stroke="#fbbf24" stroke-width="2.4" marker-end="url(#arrow-fbbf24)" />
+<polygon points="349.6,343.7 358.8,352.9 349.6,362.1 340.4,352.9" fill="#22d3ee" stroke="#fff" stroke-width="1.5" opacity="0.92"/>
+<text x="336.4" y="355.9" text-anchor="end" fill="#22d3ee" font-size="10" font-family="Noto Sans TC,system-ui,sans-serif" stroke="#0b1220" stroke-width="3" paint-order="stroke">翡翠灣·即時 0.8m／5.3s</text>
+<line x1="345.2" y1="387.8" x2="314.5" y2="393.2" stroke="#38bdf8" stroke-width="2.4" marker-end="url(#arrow-38bdf8)" />
+<line x1="353.9" y1="395.1" x2="353.9" y2="426.3" stroke="#fbbf24" stroke-width="2.4" marker-end="url(#arrow-fbbf24)" />
+<polygon points="353.9,377.1 363.1,386.3 353.9,395.5 344.7,386.3" fill="#fb923c" stroke="#fff" stroke-width="1.5" opacity="0.92"/>
+<text x="340.7" y="389.3" text-anchor="end" fill="#fb923c" font-size="10" font-family="Noto Sans TC,system-ui,sans-serif" stroke="#0b1220" stroke-width="3" paint-order="stroke">石門婚紗·即時 0.8m／5.3s</text>
 <line x1="174.5" y1="351.5" x2="152.5" y2="373.5" stroke="#38bdf8" stroke-width="2.4" marker-end="url(#arrow-38bdf8)" />
 <line x1="174.5" y1="351.5" x2="152.5" y2="373.5" stroke="#fbbf24" stroke-width="2.4" marker-end="url(#arrow-fbbf24)" />
 <polygon points="180.8,336.0 190.0,345.2 180.8,354.4 171.6,345.2" fill="#a78bfa" stroke="#fff" stroke-width="1.5" opacity="0.92"/>
@@ -85,13 +109,13 @@
 <line x1="294.9" y1="386.0" x2="277.9" y2="412.1" stroke="#fbbf24" stroke-width="2.4" marker-end="url(#arrow-fbbf24)" />
 <polygon points="299.7,369.4 308.9,378.6 299.7,387.8 290.5,378.6" fill="#f472b6" stroke="#fff" stroke-width="1.5" opacity="0.92"/>
 <text x="286.5" y="381.6" text-anchor="end" fill="#f472b6" font-size="10" font-family="Noto Sans TC,system-ui,sans-serif" stroke="#0b1220" stroke-width="3" paint-order="stroke">烏石·即時 0.7m／5.3s</text>
-<circle cx="100" cy="560" r="8" fill="#94a3b8" stroke="#fff"/>
-<text x="118" y="564" fill="#e2e8f0" font-size="12" font-family="Noto Sans TC,system-ui,sans-serif">預報 · Windguru 15:00</text>
-<polygon points="280,552 288,560 280,568 272,560" fill="#94a3b8" stroke="#fff"/>
-<text x="298" y="564" fill="#e2e8f0" font-size="12" font-family="Noto Sans TC,system-ui,sans-serif">即時 · CWA 浮標</text>
-<line x1="430" y1="560" x2="460" y2="560" stroke="#38bdf8" stroke-width="2.4"/>
-<text x="470" y="564" fill="#e2e8f0" font-size="12" font-family="Noto Sans TC,system-ui,sans-serif">風向（去向／吹往）</text>
-<line x1="620" y1="560" x2="650" y2="560" stroke="#fbbf24" stroke-width="2.4"/>
-<text x="660" y="564" fill="#e2e8f0" font-size="12" font-family="Noto Sans TC,system-ui,sans-serif">浪向（去向／傳往）</text>
-<text x="460" y="630" text-anchor="middle" fill="#64748b" font-size="10" font-family="Noto Sans TC,system-ui,sans-serif">預報 2026-09-18 15:00 台北｜即時約 2026-09-18 14:37｜同浮標點位略偏移以免重疊｜綠&lt;8kt／黃8–14／紅≥15｜標籤＝浪高／週期</text>
+<circle cx="100" cy="600" r="8" fill="#94a3b8" stroke="#fff"/>
+<text x="118" y="604" fill="#e2e8f0" font-size="12" font-family="Noto Sans TC,system-ui,sans-serif">預報 · Windguru 15:00</text>
+<polygon points="280,592 288,600 280,608 272,600" fill="#94a3b8" stroke="#fff"/>
+<text x="298" y="604" fill="#e2e8f0" font-size="12" font-family="Noto Sans TC,system-ui,sans-serif">即時 · CWA 浮標</text>
+<line x1="430" y1="600" x2="460" y2="600" stroke="#38bdf8" stroke-width="2.4"/>
+<text x="470" y="604" fill="#e2e8f0" font-size="12" font-family="Noto Sans TC,system-ui,sans-serif">風向（去向／吹往）</text>
+<line x1="620" y1="600" x2="650" y2="600" stroke="#fbbf24" stroke-width="2.4"/>
+<text x="660" y="604" fill="#e2e8f0" font-size="12" font-family="Noto Sans TC,system-ui,sans-serif">浪向（去向／傳往）</text>
+<text x="460" y="680" text-anchor="middle" fill="#64748b" font-size="10" font-family="Noto Sans TC,system-ui,sans-serif">預報 2026-09-18 15:00 台北｜即時約 2026-09-18 14:47｜同浮標點位略偏移以免重疊｜綠&lt;8kt／黃8–14／紅≥15｜標籤＝浪高／週期</text>
 </svg>
