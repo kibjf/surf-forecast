@@ -117,5 +117,5 @@
 <text x="470" y="604" fill="#e2e8f0" font-size="12" font-family="Noto Sans TC,system-ui,sans-serif">風向（去向／吹往）</text>
 <line x1="620" y1="600" x2="650" y2="600" stroke="#fbbf24" stroke-width="2.4"/>
 <text x="660" y="604" fill="#e2e8f0" font-size="12" font-family="Noto Sans TC,system-ui,sans-serif">浪向（去向／傳往）</text>
-<text x="460" y="680" text-anchor="middle" fill="#64748b" font-size="10" font-family="Noto Sans TC,system-ui,sans-serif">預報 2026-09-18 15:00 台北｜即時約 2026-09-18 14:47｜同浮標點位略偏移以免重疊｜綠&lt;8kt／黃8–14／紅≥15｜標籤＝浪高／週期</text>
+<text x="460" y="680" text-anchor="middle" fill="#64748b" font-size="10" font-family="Noto Sans TC,system-ui,sans-serif">預報 2026-09-18 15:00 台北｜即時約 2026-09-18 15:03｜同浮標點位略偏移以免重疊｜綠&lt;8kt／黃8–14／紅≥15｜標籤＝浪高／週期</text>
 </svg>
