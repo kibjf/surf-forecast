@@ -246,6 +246,50 @@ footer.page-foot { margin-top: 32px; padding-top: 16px; border-top: 1px solid va
 .pick-notes { color:var(--muted); font-size:.9rem; line-height:1.55; }
 .page-head .meta { color:var(--muted); font-size:.85rem; margin-top:6px; }
 
+
+.scatter-layout { display:flex; flex-direction:column; gap:12px; }
+@media (min-width:900px) {
+  .scatter-layout { flex-direction:row; align-items:stretch; }
+  .scatter-layout .scatter-svg-wrap { flex:1.35; min-width:0; }
+  .scatter-layout .scatter-key { flex:1; min-width:220px; max-width:360px; }
+}
+.scatter-key {
+  background: rgba(11,18,32,0.72); border:1px solid var(--line);
+  border-radius:14px; padding:10px 10px 8px; overflow:auto;
+}
+.scatter-key h4 {
+  margin:0 0 8px; font-size:0.88rem; color:var(--cyan); font-weight:700;
+}
+.scatter-key table {
+  width:100%; border-collapse:collapse; font-size:0.78rem;
+}
+.scatter-key th, .scatter-key td {
+  padding:5px 6px; text-align:left; border-bottom:1px solid rgba(30,58,95,0.55);
+  white-space:nowrap;
+}
+.scatter-key th { color:var(--muted); font-weight:600; font-size:0.7rem; }
+.scatter-key td { color:#e2e8f0; }
+.scatter-key .num {
+  display:inline-flex; align-items:center; justify-content:center;
+  width:1.35rem; height:1.35rem; border-radius:999px;
+  border:1.5px solid currentColor; background:#0b1220;
+  font-family:"JetBrains Mono",ui-monospace,monospace;
+  font-weight:800; font-size:0.72rem;
+}
+.scatter-key .mark-fc { color:#38bdf8; }
+.scatter-key .mark-live { color:#fbbf24; }
+.scatter-key .tag {
+  display:inline-block; padding:1px 6px; border-radius:999px;
+  font-size:0.68rem; font-weight:700; border:1px solid currentColor;
+}
+.scatter-key .tag-fc { color:#7dd3fc; }
+.scatter-key .tag-live { color:#fbbf24; }
+.scatter-key .spot-name { font-weight:700; }
+.scatter-key .shared { color:var(--muted); font-size:0.68rem; font-weight:500; }
+.scatter-table { margin-top:8px; }
+.scatter-table summary { cursor:pointer; color:var(--muted); font-size:0.8rem; }
+.scatter-table table { width:100%; border-collapse:collapse; font-size:0.8rem; margin-top:8px; }
+.scatter-table th, .scatter-table td { padding:6px 8px; border-bottom:1px solid var(--line); text-align:left; }
 </style>
 </head>
 <body>
@@ -333,131 +377,157 @@ footer.page-foot { margin-top: 32px; padding-top: 16px; border-top: 1px solid va
   <h2 class="section">風速 × 浪高（今日 15:00）</h2>
   <div class="scatter-block">
     <div class="scatter-head">
-      <h3>散佈圖 · 預報圓點 ／ 即時菱形 · 標籤含浪高／週期</h3>
-      <p>X＝風速 (kt)、Y＝浪高 (m)；標記大小固定。每點兩支箭頭：<strong style="color:#38bdf8">青＝風向</strong>、<strong style="color:#fbbf24">金＝浪向</strong>，皆為<strong>去向／吹往／傳往（flow to）</strong>——箭頭指向風／浪吹往或傳往的方向（北風→朝南；北=0°、東=90°）。週期以文字標在點旁（如「後龍 5s」）。</p>
+      <h3>散佈圖 · 預報圓點 ／ 即時菱形 · 編號對應圖例</h3>
+      <p>X＝風速 (kt)、Y＝浪高 (m)；標記大小固定。圖上僅顯示色點與<strong>編號</strong>；浪點名稱與數值見右側／下方圖例。每點兩支箭頭：<strong style="color:#38bdf8">青＝風向</strong>、<strong style="color:#fbbf24">金＝浪向</strong>，皆為<strong>去向／吹往／傳往（flow to）</strong>（北風→朝南；北=0°、東=90°）。</p>
     </div>
+    <div class="scatter-layout">
     <div class="scatter-svg-wrap">
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 720" role="img" aria-label="今日15時風速與浪高散佈圖，標籤含浪高與週期，含風向與浪向箭頭（去向）" style="width:100%;height:auto;display:block">
-<rect width="920" height="720" fill="#0b1220" rx="16"/>
-<rect x="64" y="58" width="832" height="436" fill="#111a2e" rx="8"/>
-<rect x="64.0" y="58" width="153.9" height="436" fill="#34d399" opacity="0.07"/>
-<rect x="217.9" y="58" width="299.3" height="436" fill="#fbbf24" opacity="0.07"/>
-<rect x="517.2" y="58" width="378.8" height="436" fill="#fb7185" opacity="0.07"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 580" role="img" aria-label="今日15時風速與浪高散佈圖，編號標記對應圖外圖例，含風向與浪向箭頭（去向）" style="width:100%;height:auto;display:block">
+<rect width="920" height="580" fill="#0b1220" rx="16"/>
+<rect x="64" y="58" width="832" height="430" fill="#111a2e" rx="8"/>
+<rect x="64.0" y="58" width="153.9" height="430" fill="#34d399" opacity="0.07"/>
+<rect x="217.9" y="58" width="299.3" height="430" fill="#fbbf24" opacity="0.07"/>
+<rect x="517.2" y="58" width="378.8" height="430" fill="#fb7185" opacity="0.07"/>
 <defs><marker id="arrow-38bdf8" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#38bdf8"/></marker><marker id="arrow-fbbf24" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#fbbf24"/></marker></defs>
 <text x="64" y="26" fill="#e2e8f0" font-size="16" font-weight="700" font-family="Noto Sans TC,system-ui,sans-serif">今日 15:00 風速 × 浪高　預報 vs 即時浮標</text>
-<text x="64" y="46" fill="#8b9bb4" font-size="11" font-family="Noto Sans TC,system-ui,sans-serif">標籤含浪高／週期（如「無尾港 0.9m／8s」）· 箭頭為去向／吹往／傳往（flow to｜北風→朝南；北=0°、東=90°）· 青＝風向 · 金＝浪向</text>
-<line x1="89.7" y1="58" x2="89.7" y2="494" stroke="#1e3a5f" stroke-dasharray="4 4" opacity="0.7"/>
-<text x="89.7" y="512" text-anchor="middle" fill="#8b9bb4" font-size="11">5</text>
-<line x1="175.2" y1="58" x2="175.2" y2="494" stroke="#1e3a5f" stroke-dasharray="4 4" opacity="0.7"/>
-<text x="175.2" y="512" text-anchor="middle" fill="#8b9bb4" font-size="11">7</text>
-<line x1="260.7" y1="58" x2="260.7" y2="494" stroke="#1e3a5f" stroke-dasharray="4 4" opacity="0.7"/>
-<text x="260.7" y="512" text-anchor="middle" fill="#8b9bb4" font-size="11">9</text>
-<line x1="346.2" y1="58" x2="346.2" y2="494" stroke="#1e3a5f" stroke-dasharray="4 4" opacity="0.7"/>
-<text x="346.2" y="512" text-anchor="middle" fill="#8b9bb4" font-size="11">11</text>
-<line x1="431.7" y1="58" x2="431.7" y2="494" stroke="#1e3a5f" stroke-dasharray="4 4" opacity="0.7"/>
-<text x="431.7" y="512" text-anchor="middle" fill="#8b9bb4" font-size="11">13</text>
-<line x1="517.2" y1="58" x2="517.2" y2="494" stroke="#1e3a5f" stroke-dasharray="4 4" opacity="0.7"/>
-<text x="517.2" y="512" text-anchor="middle" fill="#8b9bb4" font-size="11">15</text>
-<line x1="602.7" y1="58" x2="602.7" y2="494" stroke="#1e3a5f" stroke-dasharray="4 4" opacity="0.7"/>
-<text x="602.7" y="512" text-anchor="middle" fill="#8b9bb4" font-size="11">17</text>
-<line x1="688.2" y1="58" x2="688.2" y2="494" stroke="#1e3a5f" stroke-dasharray="4 4" opacity="0.7"/>
-<text x="688.2" y="512" text-anchor="middle" fill="#8b9bb4" font-size="11">19</text>
-<line x1="773.7" y1="58" x2="773.7" y2="494" stroke="#1e3a5f" stroke-dasharray="4 4" opacity="0.7"/>
-<text x="773.7" y="512" text-anchor="middle" fill="#8b9bb4" font-size="11">21</text>
-<line x1="859.2" y1="58" x2="859.2" y2="494" stroke="#1e3a5f" stroke-dasharray="4 4" opacity="0.7"/>
-<text x="859.2" y="512" text-anchor="middle" fill="#8b9bb4" font-size="11">23</text>
-<line x1="64" y1="429.9" x2="896" y2="429.9" stroke="#1e3a5f" stroke-dasharray="4 4" opacity="0.5"/>
-<text x="56" y="429.9" text-anchor="end" dominant-baseline="middle" fill="#8b9bb4" font-size="11">0.5</text>
-<line x1="64" y1="378.6" x2="896" y2="378.6" stroke="#1e3a5f" stroke-dasharray="4 4" opacity="0.5"/>
-<text x="56" y="378.6" text-anchor="end" dominant-baseline="middle" fill="#8b9bb4" font-size="11">0.7</text>
-<line x1="64" y1="327.3" x2="896" y2="327.3" stroke="#1e3a5f" stroke-dasharray="4 4" opacity="0.5"/>
-<text x="56" y="327.3" text-anchor="end" dominant-baseline="middle" fill="#8b9bb4" font-size="11">0.9</text>
-<line x1="64" y1="276.0" x2="896" y2="276.0" stroke="#1e3a5f" stroke-dasharray="4 4" opacity="0.5"/>
-<text x="56" y="276.0" text-anchor="end" dominant-baseline="middle" fill="#8b9bb4" font-size="11">1.1</text>
-<line x1="64" y1="250.4" x2="896" y2="250.4" stroke="#1e3a5f" stroke-dasharray="4 4" opacity="0.5"/>
-<text x="56" y="250.4" text-anchor="end" dominant-baseline="middle" fill="#8b9bb4" font-size="11">1.2</text>
-<line x1="64" y1="173.4" x2="896" y2="173.4" stroke="#1e3a5f" stroke-dasharray="4 4" opacity="0.5"/>
-<text x="56" y="173.4" text-anchor="end" dominant-baseline="middle" fill="#8b9bb4" font-size="11">1.5</text>
-<line x1="64" y1="122.1" x2="896" y2="122.1" stroke="#1e3a5f" stroke-dasharray="4 4" opacity="0.5"/>
-<text x="56" y="122.1" text-anchor="end" dominant-baseline="middle" fill="#8b9bb4" font-size="11">1.7</text>
-<line x1="64" y1="70.8" x2="896" y2="70.8" stroke="#1e3a5f" stroke-dasharray="4 4" opacity="0.5"/>
-<text x="56" y="70.8" text-anchor="end" dominant-baseline="middle" fill="#8b9bb4" font-size="11">1.9</text>
-<text x="480.0" y="534" text-anchor="middle" fill="#e2e8f0" font-size="12">風速（kt）</text>
-<text x="18" y="276.0" fill="#e2e8f0" font-size="12" transform="rotate(-90 18 276.0)">浪高（m）</text>
-<line x1="762.7" y1="181.9" x2="754.1" y2="211.9" stroke="#38bdf8" stroke-width="2.4" marker-end="url(#arrow-38bdf8)" />
-<line x1="761.2" y1="181.3" x2="747.0" y2="209.1" stroke="#fbbf24" stroke-width="2.4" marker-end="url(#arrow-fbbf24)" />
-<circle cx="765.2" cy="173.4" r="8.0" fill="#38bdf8" stroke="#fff" stroke-width="1.6" opacity="0.95"/>
-<text x="779.2" y="169.4" text-anchor="start" fill="#38bdf8" font-size="12" font-weight="700" font-family="Noto Sans TC,system-ui,sans-serif" stroke="#0b1220" stroke-width="3" paint-order="stroke">後龍 1.5m／6s</text>
-<line x1="618.1" y1="233.3" x2="612.2" y2="264.0" stroke="#38bdf8" stroke-width="2.4" marker-end="url(#arrow-38bdf8)" />
-<line x1="615.4" y1="232.3" x2="599.8" y2="259.3" stroke="#fbbf24" stroke-width="2.4" marker-end="url(#arrow-fbbf24)" />
-<circle cx="619.8" cy="224.7" r="8.0" fill="#2dd4bf" stroke="#fff" stroke-width="1.6" opacity="0.95"/>
-<text x="633.8" y="220.7" text-anchor="start" fill="#2dd4bf" font-size="12" font-weight="700" font-family="Noto Sans TC,system-ui,sans-serif" stroke="#0b1220" stroke-width="3" paint-order="stroke">假日之森 1.3m／5s</text>
-<line x1="589.6" y1="194.7" x2="581.0" y2="224.7" stroke="#38bdf8" stroke-width="2.4" marker-end="url(#arrow-38bdf8)" />
-<line x1="589.0" y1="194.5" x2="578.3" y2="223.8" stroke="#fbbf24" stroke-width="2.4" marker-end="url(#arrow-fbbf24)" />
-<circle cx="592.0" cy="186.2" r="8.0" fill="#fbbf24" stroke="#fff" stroke-width="1.6" opacity="0.95"/>
-<text x="606.0" y="182.2" text-anchor="start" fill="#fbbf24" font-size="12" font-weight="700" font-family="Noto Sans TC,system-ui,sans-serif" stroke="#0b1220" stroke-width="3" paint-order="stroke">松柏港 1.4m／6s</text>
-<line x1="227.9" y1="358.1" x2="202.7" y2="376.5" stroke="#38bdf8" stroke-width="2.4" marker-end="url(#arrow-38bdf8)" />
-<line x1="228.7" y1="359.1" x2="206.2" y2="380.7" stroke="#fbbf24" stroke-width="2.4" marker-end="url(#arrow-fbbf24)" />
-<circle cx="235.0" cy="352.9" r="8.0" fill="#4ade80" stroke="#fff" stroke-width="1.6" opacity="0.95"/>
-<text x="249.0" y="348.9" text-anchor="start" fill="#4ade80" font-size="12" font-weight="700" font-family="Noto Sans TC,system-ui,sans-serif" stroke="#0b1220" stroke-width="3" paint-order="stroke">中角 0.8m／8s</text>
-<line x1="219.7" y1="358.6" x2="195.8" y2="378.7" stroke="#38bdf8" stroke-width="2.4" marker-end="url(#arrow-38bdf8)" />
-<line x1="219.0" y1="357.6" x2="192.5" y2="374.1" stroke="#fbbf24" stroke-width="2.4" marker-end="url(#arrow-fbbf24)" />
-<circle cx="226.5" cy="352.9" r="8.0" fill="#22d3ee" stroke="#fff" stroke-width="1.6" opacity="0.95"/>
-<text x="240.5" y="348.9" text-anchor="start" fill="#22d3ee" font-size="12" font-weight="700" font-family="Noto Sans TC,system-ui,sans-serif" stroke="#0b1220" stroke-width="3" paint-order="stroke">翡翠灣 0.8m／8s</text>
-<line x1="362.2" y1="344.8" x2="335.8" y2="361.3" stroke="#38bdf8" stroke-width="2.4" marker-end="url(#arrow-38bdf8)" />
-<line x1="363.4" y1="346.2" x2="340.9" y2="367.9" stroke="#fbbf24" stroke-width="2.4" marker-end="url(#arrow-fbbf24)" />
-<circle cx="369.7" cy="340.1" r="8.0" fill="#fb923c" stroke="#fff" stroke-width="1.6" opacity="0.95"/>
-<text x="383.7" y="336.1" text-anchor="start" fill="#fb923c" font-size="12" font-weight="700" font-family="Noto Sans TC,system-ui,sans-serif" stroke="#0b1220" stroke-width="3" paint-order="stroke">石門婚紗 0.8m／8s</text>
-<line x1="232.6" y1="322.0" x2="216.6" y2="348.8" stroke="#38bdf8" stroke-width="2.4" marker-end="url(#arrow-38bdf8)" />
-<line x1="228.9" y1="311.3" x2="199.8" y2="300.1" stroke="#fbbf24" stroke-width="2.4" marker-end="url(#arrow-fbbf24)" />
-<circle cx="237.2" cy="314.5" r="8.0" fill="#a78bfa" stroke="#fff" stroke-width="1.6" opacity="0.95"/>
-<text x="251.2" y="310.5" text-anchor="start" fill="#a78bfa" font-size="12" font-weight="700" font-family="Noto Sans TC,system-ui,sans-serif" stroke="#0b1220" stroke-width="3" paint-order="stroke">無尾港 0.9m／8s</text>
-<line x1="142.4" y1="409.4" x2="117.1" y2="427.7" stroke="#38bdf8" stroke-width="2.4" marker-end="url(#arrow-38bdf8)" />
-<line x1="140.8" y1="403.2" x2="109.8" y2="399.4" stroke="#fbbf24" stroke-width="2.4" marker-end="url(#arrow-fbbf24)" />
-<circle cx="149.5" cy="404.2" r="8.0" fill="#f472b6" stroke="#fff" stroke-width="1.6" opacity="0.95"/>
-<text x="163.5" y="400.2" text-anchor="start" fill="#f472b6" font-size="12" font-weight="700" font-family="Noto Sans TC,system-ui,sans-serif" stroke="#0b1220" stroke-width="3" paint-order="stroke">烏石 0.6m／9s</text>
-<line x1="724.9" y1="324.7" x2="709.3" y2="351.7" stroke="#38bdf8" stroke-width="2.4" marker-end="url(#arrow-38bdf8)" />
-<line x1="726.0" y1="325.2" x2="714.3" y2="354.1" stroke="#fbbf24" stroke-width="2.4" marker-end="url(#arrow-fbbf24)" />
-<polygon points="729.3,307.8 738.5,317.0 729.3,326.2 720.1,317.0" fill="#38bdf8" stroke="#fff" stroke-width="1.5" opacity="0.92"/>
-<text x="716.1" y="320.0" text-anchor="end" fill="#38bdf8" font-size="10" font-family="Noto Sans TC,system-ui,sans-serif" stroke="#0b1220" stroke-width="3" paint-order="stroke">後龍·即時 0.9m／4.0s</text>
-<line x1="763.3" y1="345.2" x2="747.7" y2="372.2" stroke="#38bdf8" stroke-width="2.4" marker-end="url(#arrow-38bdf8)" />
-<line x1="764.4" y1="345.7" x2="752.8" y2="374.6" stroke="#fbbf24" stroke-width="2.4" marker-end="url(#arrow-fbbf24)" />
-<polygon points="767.7,328.4 776.9,337.6 767.7,346.8 758.5,337.6" fill="#2dd4bf" stroke="#fff" stroke-width="1.5" opacity="0.92"/>
-<text x="754.5" y="340.6" text-anchor="end" fill="#2dd4bf" font-size="10" font-family="Noto Sans TC,system-ui,sans-serif" stroke="#0b1220" stroke-width="3" paint-order="stroke">假日之森·即時 0.9m／4.0s</text>
-<line x1="541.1" y1="198.4" x2="522.4" y2="223.3" stroke="#38bdf8" stroke-width="2.4" marker-end="url(#arrow-38bdf8)" />
-<line x1="541.6" y1="198.7" x2="524.6" y2="224.9" stroke="#fbbf24" stroke-width="2.4" marker-end="url(#arrow-fbbf24)" />
-<polygon points="546.4,182.2 555.6,191.4 546.4,200.6 537.2,191.4" fill="#fbbf24" stroke="#fff" stroke-width="1.5" opacity="0.92"/>
-<text x="533.2" y="194.4" text-anchor="end" fill="#fbbf24" font-size="10" font-family="Noto Sans TC,system-ui,sans-serif" stroke="#0b1220" stroke-width="3" paint-order="stroke">松柏港·即時 1.5m／4.7s</text>
-<line x1="321.7" y1="372.4" x2="291.0" y2="377.8" stroke="#38bdf8" stroke-width="2.4" marker-end="url(#arrow-38bdf8)" />
-<line x1="330.4" y1="379.7" x2="330.4" y2="410.9" stroke="#fbbf24" stroke-width="2.4" marker-end="url(#arrow-fbbf24)" />
-<polygon points="330.4,361.7 339.6,370.9 330.4,380.1 321.2,370.9" fill="#86efac" stroke="#fff" stroke-width="1.5" opacity="0.92"/>
-<text x="317.2" y="373.9" text-anchor="end" fill="#86efac" font-size="10" font-family="Noto Sans TC,system-ui,sans-serif" stroke="#0b1220" stroke-width="3" paint-order="stroke">富貴角·即時 0.8m／5.3s</text>
-<line x1="174.5" y1="351.5" x2="152.5" y2="373.5" stroke="#38bdf8" stroke-width="2.4" marker-end="url(#arrow-38bdf8)" />
-<line x1="174.5" y1="351.5" x2="152.5" y2="373.5" stroke="#fbbf24" stroke-width="2.4" marker-end="url(#arrow-fbbf24)" />
-<polygon points="180.8,336.0 190.0,345.2 180.8,354.4 171.6,345.2" fill="#a78bfa" stroke="#fff" stroke-width="1.5" opacity="0.92"/>
-<text x="167.6" y="348.2" text-anchor="end" fill="#a78bfa" font-size="10" font-family="Noto Sans TC,system-ui,sans-serif" stroke="#0b1220" stroke-width="3" paint-order="stroke">無尾港·即時 0.9m／5.4s</text>
-<line x1="293.1" y1="384.4" x2="269.5" y2="404.8" stroke="#38bdf8" stroke-width="2.4" marker-end="url(#arrow-38bdf8)" />
-<line x1="294.9" y1="386.0" x2="277.9" y2="412.1" stroke="#fbbf24" stroke-width="2.4" marker-end="url(#arrow-fbbf24)" />
-<polygon points="299.7,369.4 308.9,378.6 299.7,387.8 290.5,378.6" fill="#f472b6" stroke="#fff" stroke-width="1.5" opacity="0.92"/>
-<text x="286.5" y="381.6" text-anchor="end" fill="#f472b6" font-size="10" font-family="Noto Sans TC,system-ui,sans-serif" stroke="#0b1220" stroke-width="3" paint-order="stroke">烏石·即時 0.7m／5.3s</text>
-<circle cx="100" cy="600" r="8" fill="#94a3b8" stroke="#fff"/>
-<text x="118" y="604" fill="#e2e8f0" font-size="12" font-family="Noto Sans TC,system-ui,sans-serif">預報 · Windguru 15:00</text>
-<polygon points="280,592 288,600 280,608 272,600" fill="#94a3b8" stroke="#fff"/>
-<text x="298" y="604" fill="#e2e8f0" font-size="12" font-family="Noto Sans TC,system-ui,sans-serif">即時 · CWA 浮標</text>
-<line x1="430" y1="600" x2="460" y2="600" stroke="#38bdf8" stroke-width="2.4"/>
-<text x="470" y="604" fill="#e2e8f0" font-size="12" font-family="Noto Sans TC,system-ui,sans-serif">風向（去向／吹往）</text>
-<line x1="620" y1="600" x2="650" y2="600" stroke="#fbbf24" stroke-width="2.4"/>
-<text x="660" y="604" fill="#e2e8f0" font-size="12" font-family="Noto Sans TC,system-ui,sans-serif">浪向（去向／傳往）</text>
-<text x="460" y="680" text-anchor="middle" fill="#64748b" font-size="10" font-family="Noto Sans TC,system-ui,sans-serif">預報 2026-09-18 15:00 台北｜即時約 2026-09-18 15:03｜北海岸三點即時共用富貴角浮標（只顯示一點）｜後龍／假日之森共用新竹略偏移｜綠&lt;8kt／黃8–14／紅≥15｜標籤＝浪高／週期</text>
+<text x="64" y="46" fill="#8b9bb4" font-size="11" font-family="Noto Sans TC,system-ui,sans-serif">圓點＝預報 · 菱形＝即時 · 編號對應圖外圖例 · 箭頭為去向／吹往／傳往（flow to｜北風→朝南；北=0°、東=90°）· 青＝風 · 金＝浪</text>
+<line x1="89.7" y1="58" x2="89.7" y2="488" stroke="#1e3a5f" stroke-dasharray="4 4" opacity="0.7"/>
+<text x="89.7" y="506" text-anchor="middle" fill="#8b9bb4" font-size="11">5</text>
+<line x1="175.2" y1="58" x2="175.2" y2="488" stroke="#1e3a5f" stroke-dasharray="4 4" opacity="0.7"/>
+<text x="175.2" y="506" text-anchor="middle" fill="#8b9bb4" font-size="11">7</text>
+<line x1="260.7" y1="58" x2="260.7" y2="488" stroke="#1e3a5f" stroke-dasharray="4 4" opacity="0.7"/>
+<text x="260.7" y="506" text-anchor="middle" fill="#8b9bb4" font-size="11">9</text>
+<line x1="346.2" y1="58" x2="346.2" y2="488" stroke="#1e3a5f" stroke-dasharray="4 4" opacity="0.7"/>
+<text x="346.2" y="506" text-anchor="middle" fill="#8b9bb4" font-size="11">11</text>
+<line x1="431.7" y1="58" x2="431.7" y2="488" stroke="#1e3a5f" stroke-dasharray="4 4" opacity="0.7"/>
+<text x="431.7" y="506" text-anchor="middle" fill="#8b9bb4" font-size="11">13</text>
+<line x1="517.2" y1="58" x2="517.2" y2="488" stroke="#1e3a5f" stroke-dasharray="4 4" opacity="0.7"/>
+<text x="517.2" y="506" text-anchor="middle" fill="#8b9bb4" font-size="11">15</text>
+<line x1="602.7" y1="58" x2="602.7" y2="488" stroke="#1e3a5f" stroke-dasharray="4 4" opacity="0.7"/>
+<text x="602.7" y="506" text-anchor="middle" fill="#8b9bb4" font-size="11">17</text>
+<line x1="688.2" y1="58" x2="688.2" y2="488" stroke="#1e3a5f" stroke-dasharray="4 4" opacity="0.7"/>
+<text x="688.2" y="506" text-anchor="middle" fill="#8b9bb4" font-size="11">19</text>
+<line x1="773.7" y1="58" x2="773.7" y2="488" stroke="#1e3a5f" stroke-dasharray="4 4" opacity="0.7"/>
+<text x="773.7" y="506" text-anchor="middle" fill="#8b9bb4" font-size="11">21</text>
+<line x1="859.2" y1="58" x2="859.2" y2="488" stroke="#1e3a5f" stroke-dasharray="4 4" opacity="0.7"/>
+<text x="859.2" y="506" text-anchor="middle" fill="#8b9bb4" font-size="11">23</text>
+<line x1="64" y1="424.8" x2="896" y2="424.8" stroke="#1e3a5f" stroke-dasharray="4 4" opacity="0.5"/>
+<text x="56" y="424.8" text-anchor="end" dominant-baseline="middle" fill="#8b9bb4" font-size="11">0.5</text>
+<line x1="64" y1="374.2" x2="896" y2="374.2" stroke="#1e3a5f" stroke-dasharray="4 4" opacity="0.5"/>
+<text x="56" y="374.2" text-anchor="end" dominant-baseline="middle" fill="#8b9bb4" font-size="11">0.7</text>
+<line x1="64" y1="323.6" x2="896" y2="323.6" stroke="#1e3a5f" stroke-dasharray="4 4" opacity="0.5"/>
+<text x="56" y="323.6" text-anchor="end" dominant-baseline="middle" fill="#8b9bb4" font-size="11">0.9</text>
+<line x1="64" y1="273.0" x2="896" y2="273.0" stroke="#1e3a5f" stroke-dasharray="4 4" opacity="0.5"/>
+<text x="56" y="273.0" text-anchor="end" dominant-baseline="middle" fill="#8b9bb4" font-size="11">1.1</text>
+<line x1="64" y1="247.7" x2="896" y2="247.7" stroke="#1e3a5f" stroke-dasharray="4 4" opacity="0.5"/>
+<text x="56" y="247.7" text-anchor="end" dominant-baseline="middle" fill="#8b9bb4" font-size="11">1.2</text>
+<line x1="64" y1="171.8" x2="896" y2="171.8" stroke="#1e3a5f" stroke-dasharray="4 4" opacity="0.5"/>
+<text x="56" y="171.8" text-anchor="end" dominant-baseline="middle" fill="#8b9bb4" font-size="11">1.5</text>
+<line x1="64" y1="121.2" x2="896" y2="121.2" stroke="#1e3a5f" stroke-dasharray="4 4" opacity="0.5"/>
+<text x="56" y="121.2" text-anchor="end" dominant-baseline="middle" fill="#8b9bb4" font-size="11">1.7</text>
+<line x1="64" y1="70.6" x2="896" y2="70.6" stroke="#1e3a5f" stroke-dasharray="4 4" opacity="0.5"/>
+<text x="56" y="70.6" text-anchor="end" dominant-baseline="middle" fill="#8b9bb4" font-size="11">1.9</text>
+<text x="480.0" y="528" text-anchor="middle" fill="#e2e8f0" font-size="12">風速（kt）</text>
+<text x="18" y="273.0" fill="#e2e8f0" font-size="12" transform="rotate(-90 18 273.0)">浪高（m）</text>
+<line x1="762.7" y1="180.3" x2="754.1" y2="210.3" stroke="#38bdf8" stroke-width="2.4" marker-end="url(#arrow-38bdf8)" />
+<line x1="761.2" y1="179.7" x2="747.0" y2="207.5" stroke="#fbbf24" stroke-width="2.4" marker-end="url(#arrow-fbbf24)" />
+<circle cx="765.2" cy="171.8" r="8.0" fill="#38bdf8" stroke="#fff" stroke-width="1.6" opacity="0.95"/>
+<circle cx="784.2" cy="161.8" r="9" fill="#0b1220" stroke="#38bdf8" stroke-width="1.6"/>
+<text x="784.2" y="162.3" text-anchor="middle" dominant-baseline="central" fill="#e2e8f0" font-size="11" font-weight="800" font-family="JetBrains Mono,ui-monospace,monospace">1</text>
+<line x1="618.1" y1="231.1" x2="612.2" y2="261.7" stroke="#38bdf8" stroke-width="2.4" marker-end="url(#arrow-38bdf8)" />
+<line x1="615.4" y1="230.0" x2="599.8" y2="257.1" stroke="#fbbf24" stroke-width="2.4" marker-end="url(#arrow-fbbf24)" />
+<circle cx="619.8" cy="222.4" r="8.0" fill="#2dd4bf" stroke="#fff" stroke-width="1.6" opacity="0.95"/>
+<circle cx="638.8" cy="212.4" r="9" fill="#0b1220" stroke="#2dd4bf" stroke-width="1.6"/>
+<text x="638.8" y="212.9" text-anchor="middle" dominant-baseline="central" fill="#e2e8f0" font-size="11" font-weight="800" font-family="JetBrains Mono,ui-monospace,monospace">2</text>
+<line x1="589.6" y1="192.9" x2="581.0" y2="222.9" stroke="#38bdf8" stroke-width="2.4" marker-end="url(#arrow-38bdf8)" />
+<line x1="589.0" y1="192.7" x2="578.3" y2="222.1" stroke="#fbbf24" stroke-width="2.4" marker-end="url(#arrow-fbbf24)" />
+<circle cx="592.0" cy="184.5" r="8.0" fill="#fbbf24" stroke="#fff" stroke-width="1.6" opacity="0.95"/>
+<circle cx="611.0" cy="174.5" r="9" fill="#0b1220" stroke="#fbbf24" stroke-width="1.6"/>
+<text x="611.0" y="175.0" text-anchor="middle" dominant-baseline="central" fill="#e2e8f0" font-size="11" font-weight="800" font-family="JetBrains Mono,ui-monospace,monospace">3</text>
+<line x1="227.9" y1="354.1" x2="202.7" y2="372.4" stroke="#38bdf8" stroke-width="2.4" marker-end="url(#arrow-38bdf8)" />
+<line x1="228.7" y1="355.0" x2="206.2" y2="376.7" stroke="#fbbf24" stroke-width="2.4" marker-end="url(#arrow-fbbf24)" />
+<circle cx="235.0" cy="348.9" r="8.0" fill="#4ade80" stroke="#fff" stroke-width="1.6" opacity="0.95"/>
+<circle cx="254.0" cy="338.9" r="9" fill="#0b1220" stroke="#4ade80" stroke-width="1.6"/>
+<text x="254.0" y="339.4" text-anchor="middle" dominant-baseline="central" fill="#e2e8f0" font-size="11" font-weight="800" font-family="JetBrains Mono,ui-monospace,monospace">4</text>
+<line x1="219.7" y1="354.5" x2="195.8" y2="374.6" stroke="#38bdf8" stroke-width="2.4" marker-end="url(#arrow-38bdf8)" />
+<line x1="219.0" y1="353.5" x2="192.5" y2="370.1" stroke="#fbbf24" stroke-width="2.4" marker-end="url(#arrow-fbbf24)" />
+<circle cx="226.5" cy="348.9" r="8.0" fill="#22d3ee" stroke="#fff" stroke-width="1.6" opacity="0.95"/>
+<circle cx="245.5" cy="338.9" r="9" fill="#0b1220" stroke="#22d3ee" stroke-width="1.6"/>
+<text x="245.5" y="339.4" text-anchor="middle" dominant-baseline="central" fill="#e2e8f0" font-size="11" font-weight="800" font-family="JetBrains Mono,ui-monospace,monospace">5</text>
+<line x1="362.2" y1="340.9" x2="335.8" y2="357.4" stroke="#38bdf8" stroke-width="2.4" marker-end="url(#arrow-38bdf8)" />
+<line x1="363.4" y1="342.3" x2="340.9" y2="364.0" stroke="#fbbf24" stroke-width="2.4" marker-end="url(#arrow-fbbf24)" />
+<circle cx="369.7" cy="336.2" r="8.0" fill="#fb923c" stroke="#fff" stroke-width="1.6" opacity="0.95"/>
+<circle cx="388.7" cy="326.2" r="9" fill="#0b1220" stroke="#fb923c" stroke-width="1.6"/>
+<text x="388.7" y="326.7" text-anchor="middle" dominant-baseline="central" fill="#e2e8f0" font-size="11" font-weight="800" font-family="JetBrains Mono,ui-monospace,monospace">6</text>
+<line x1="232.6" y1="318.5" x2="216.6" y2="345.2" stroke="#38bdf8" stroke-width="2.4" marker-end="url(#arrow-38bdf8)" />
+<line x1="228.9" y1="307.8" x2="199.8" y2="296.6" stroke="#fbbf24" stroke-width="2.4" marker-end="url(#arrow-fbbf24)" />
+<circle cx="237.2" cy="310.9" r="8.0" fill="#a78bfa" stroke="#fff" stroke-width="1.6" opacity="0.95"/>
+<circle cx="256.2" cy="300.9" r="9" fill="#0b1220" stroke="#a78bfa" stroke-width="1.6"/>
+<text x="256.2" y="301.4" text-anchor="middle" dominant-baseline="central" fill="#e2e8f0" font-size="11" font-weight="800" font-family="JetBrains Mono,ui-monospace,monospace">7</text>
+<line x1="142.4" y1="404.6" x2="117.1" y2="423.0" stroke="#38bdf8" stroke-width="2.4" marker-end="url(#arrow-38bdf8)" />
+<line x1="140.8" y1="398.4" x2="109.8" y2="394.6" stroke="#fbbf24" stroke-width="2.4" marker-end="url(#arrow-fbbf24)" />
+<circle cx="149.5" cy="399.5" r="8.0" fill="#f472b6" stroke="#fff" stroke-width="1.6" opacity="0.95"/>
+<circle cx="168.5" cy="389.5" r="9" fill="#0b1220" stroke="#f472b6" stroke-width="1.6"/>
+<text x="168.5" y="390.0" text-anchor="middle" dominant-baseline="central" fill="#e2e8f0" font-size="11" font-weight="800" font-family="JetBrains Mono,ui-monospace,monospace">8</text>
+<line x1="724.9" y1="321.1" x2="709.3" y2="348.1" stroke="#38bdf8" stroke-width="2.4" marker-end="url(#arrow-38bdf8)" />
+<line x1="726.0" y1="321.6" x2="714.3" y2="350.6" stroke="#fbbf24" stroke-width="2.4" marker-end="url(#arrow-fbbf24)" />
+<polygon points="729.3,304.3 738.5,313.5 729.3,322.7 720.1,313.5" fill="#38bdf8" stroke="#fff" stroke-width="1.5" opacity="0.92"/>
+<circle cx="748.3" cy="303.5" r="9" fill="#0b1220" stroke="#38bdf8" stroke-width="1.6"/>
+<text x="748.3" y="304.0" text-anchor="middle" dominant-baseline="central" fill="#e2e8f0" font-size="11" font-weight="800" font-family="JetBrains Mono,ui-monospace,monospace">9</text>
+<line x1="763.3" y1="341.3" x2="747.7" y2="368.3" stroke="#38bdf8" stroke-width="2.4" marker-end="url(#arrow-38bdf8)" />
+<line x1="764.4" y1="341.9" x2="752.8" y2="370.8" stroke="#fbbf24" stroke-width="2.4" marker-end="url(#arrow-fbbf24)" />
+<polygon points="767.7,324.5 776.9,333.7 767.7,342.9 758.5,333.7" fill="#2dd4bf" stroke="#fff" stroke-width="1.5" opacity="0.92"/>
+<circle cx="786.7" cy="323.7" r="9" fill="#0b1220" stroke="#2dd4bf" stroke-width="1.6"/>
+<text x="786.7" y="324.2" text-anchor="middle" dominant-baseline="central" fill="#e2e8f0" font-size="11" font-weight="800" font-family="JetBrains Mono,ui-monospace,monospace">10</text>
+<line x1="541.1" y1="196.6" x2="522.4" y2="221.5" stroke="#38bdf8" stroke-width="2.4" marker-end="url(#arrow-38bdf8)" />
+<line x1="541.6" y1="196.9" x2="524.6" y2="223.1" stroke="#fbbf24" stroke-width="2.4" marker-end="url(#arrow-fbbf24)" />
+<polygon points="546.4,180.3 555.6,189.5 546.4,198.7 537.2,189.5" fill="#fbbf24" stroke="#fff" stroke-width="1.5" opacity="0.92"/>
+<circle cx="565.4" cy="179.5" r="9" fill="#0b1220" stroke="#fbbf24" stroke-width="1.6"/>
+<text x="565.4" y="180.0" text-anchor="middle" dominant-baseline="central" fill="#e2e8f0" font-size="11" font-weight="800" font-family="JetBrains Mono,ui-monospace,monospace">11</text>
+<line x1="321.7" y1="368.1" x2="291.0" y2="373.5" stroke="#38bdf8" stroke-width="2.4" marker-end="url(#arrow-38bdf8)" />
+<line x1="330.4" y1="375.4" x2="330.4" y2="406.6" stroke="#fbbf24" stroke-width="2.4" marker-end="url(#arrow-fbbf24)" />
+<polygon points="330.4,357.4 339.6,366.6 330.4,375.8 321.2,366.6" fill="#86efac" stroke="#fff" stroke-width="1.5" opacity="0.92"/>
+<circle cx="349.4" cy="356.6" r="9" fill="#0b1220" stroke="#86efac" stroke-width="1.6"/>
+<text x="349.4" y="357.1" text-anchor="middle" dominant-baseline="central" fill="#e2e8f0" font-size="11" font-weight="800" font-family="JetBrains Mono,ui-monospace,monospace">12</text>
+<line x1="174.5" y1="347.5" x2="152.5" y2="369.6" stroke="#38bdf8" stroke-width="2.4" marker-end="url(#arrow-38bdf8)" />
+<line x1="174.5" y1="347.5" x2="152.5" y2="369.6" stroke="#fbbf24" stroke-width="2.4" marker-end="url(#arrow-fbbf24)" />
+<polygon points="180.8,332.1 190.0,341.3 180.8,350.5 171.6,341.3" fill="#a78bfa" stroke="#fff" stroke-width="1.5" opacity="0.92"/>
+<circle cx="199.8" cy="331.3" r="9" fill="#0b1220" stroke="#a78bfa" stroke-width="1.6"/>
+<text x="199.8" y="331.8" text-anchor="middle" dominant-baseline="central" fill="#e2e8f0" font-size="11" font-weight="800" font-family="JetBrains Mono,ui-monospace,monospace">13</text>
+<line x1="293.1" y1="379.9" x2="269.5" y2="400.4" stroke="#38bdf8" stroke-width="2.4" marker-end="url(#arrow-38bdf8)" />
+<line x1="294.9" y1="381.6" x2="277.9" y2="407.7" stroke="#fbbf24" stroke-width="2.4" marker-end="url(#arrow-fbbf24)" />
+<polygon points="299.7,365.0 308.9,374.2 299.7,383.4 290.5,374.2" fill="#f472b6" stroke="#fff" stroke-width="1.5" opacity="0.92"/>
+<circle cx="318.7" cy="364.2" r="9" fill="#0b1220" stroke="#f472b6" stroke-width="1.6"/>
+<text x="318.7" y="364.7" text-anchor="middle" dominant-baseline="central" fill="#e2e8f0" font-size="11" font-weight="800" font-family="JetBrains Mono,ui-monospace,monospace">14</text>
+<circle cx="100" cy="532" r="8" fill="#94a3b8" stroke="#fff"/>
+<text x="118" y="536" fill="#e2e8f0" font-size="12" font-family="Noto Sans TC,system-ui,sans-serif">預報 · Windguru 15:00</text>
+<polygon points="280,524 288,532 280,540 272,532" fill="#94a3b8" stroke="#fff"/>
+<text x="298" y="536" fill="#e2e8f0" font-size="12" font-family="Noto Sans TC,system-ui,sans-serif">即時 · CWA 浮標</text>
+<line x1="430" y1="532" x2="460" y2="532" stroke="#38bdf8" stroke-width="2.4"/>
+<text x="470" y="536" fill="#e2e8f0" font-size="12" font-family="Noto Sans TC,system-ui,sans-serif">風向（去向）</text>
+<line x1="580" y1="532" x2="610" y2="532" stroke="#fbbf24" stroke-width="2.4"/>
+<text x="620" y="536" fill="#e2e8f0" font-size="12" font-family="Noto Sans TC,system-ui,sans-serif">浪向（去向）</text>
+<circle cx="760" cy="532" r="9" fill="#0b1220" stroke="#94a3b8" stroke-width="1.4"/><text x="760" y="532.5" text-anchor="middle" dominant-baseline="central" fill="#e2e8f0" font-size="10" font-weight="800" font-family="JetBrains Mono,ui-monospace,monospace">N</text><text x="776" y="536" fill="#8b9bb4" font-size="11" font-family="Noto Sans TC,system-ui,sans-serif">編號→圖例</text>
+<text x="460" y="562" text-anchor="middle" fill="#64748b" font-size="10" font-family="Noto Sans TC,system-ui,sans-serif">預報 2026-09-18 15:00 台北｜即時約 2026-09-18 15:03｜北海岸三點即時共用富貴角（只顯示一點）｜後龍／假日之森共用新竹略偏移｜綠&lt;8kt／黃8–14／紅≥15</text>
 </svg>
     </div>
-    <p class="scatter-cap">資料：Windguru GFS 預報（2026-09-18 15:00 台北）＋ CWA 浮標即時（約 2026-09-18 15:03）。標籤含浪高／週期（預報來自 Windguru <span class="mono">wave_m</span>／<span class="mono">wave_per_s</span>；即時來自 CWA 浮標 WaveHeight／WavePeriod）。預報與即時座標接近時會略偏移以免重疊。後龍／假日之森共用新竹浮標（圖上即時點略偏移）；<strong>北海岸三點即時共用富貴角浮標（只顯示一點）</strong>（中角／翡翠灣／石門婚紗 → 富貴角 C6AH2，預報圓點仍各自顯示）；無尾港→蘇澳資料浮標 46706A；烏石→龜山島浮標 46708A。綠帶&lt;8 kt、黃 8–14、紅 ≥15。</p>
-    <details class="scatter-table">
-      <summary>數值對照表</summary>
+    <aside class="scatter-key" aria-label="散佈圖編號圖例">
+      <h4>編號圖例 · 風 kt／浪 m／週期 s</h4>
       <table>
-        <thead><tr><th>據點</th><th>來源</th><th>風速 kt</th><th>浪高 m</th><th>週期 s</th><th>風向</th><th>浪向</th></tr></thead>
+        <thead><tr><th>#</th><th>浪點</th><th>來源</th><th>風</th><th>浪</th><th>週期</th></tr></thead>
         <tbody>
-<tr><td>後龍</td><td>預報 15:00</td><td>21</td><td>1.5</td><td>6</td><td>NNE 16°</td><td>NNE 27°</td></tr><tr><td>假日之森</td><td>預報 15:00</td><td>17</td><td>1.3</td><td>5</td><td>N 11°</td><td>NNE 30°</td></tr><tr><td>松柏港</td><td>預報 15:00</td><td>16</td><td>1.4</td><td>6</td><td>NNE 16°</td><td>NNE 20°</td></tr><tr><td>中角</td><td>預報 15:00</td><td>8</td><td>0.8</td><td>8</td><td>NE 54°</td><td>NE 46°</td></tr><tr><td>翡翠灣</td><td>預報 15:00</td><td>8</td><td>0.8</td><td>8</td><td>NE 50°</td><td>ENE 58°</td></tr><tr><td>石門婚紗</td><td>預報 15:00</td><td>11</td><td>0.8</td><td>8</td><td>ENE 58°</td><td>NE 46°</td></tr><tr><td>無尾港</td><td>預報 15:00</td><td>8</td><td>0.9</td><td>8</td><td>NNE 31°</td><td>ESE 111°</td></tr><tr><td>烏石</td><td>預報 15:00</td><td>6</td><td>0.6</td><td>9</td><td>NE 54°</td><td>E 97°</td></tr><tr><td>後龍</td><td>即時</td><td>20.4</td><td>0.9</td><td>4.0</td><td>NNE 30°</td><td>NNE 22°</td></tr><tr><td>假日之森</td><td>即時</td><td>20.4</td><td>0.9</td><td>4.0</td><td>NNE 30°</td><td>NNE 22°</td></tr><tr><td>松柏港</td><td>即時</td><td>16.1</td><td>1.5</td><td>4.7</td><td>NE 37°</td><td>NNE 33°</td></tr><tr><td>富貴角</td><td>即時</td><td>11.1</td><td>0.8</td><td>5.3</td><td>E 80°</td><td>N 0°</td></tr><tr><td>無尾港</td><td>即時</td><td>7.6</td><td>0.9</td><td>5.4</td><td>NE 45°</td><td>NE 45°</td></tr><tr><td>烏石</td><td>即時</td><td>9.9</td><td>0.7</td><td>5.3</td><td>NE 49°</td><td>NNE 33°</td></tr>
+<tr><td><span class="num mark-fc" style="color:#38bdf8">1</span></td><td><span class="spot-name">後龍</span></td><td><span class="tag tag-fc">預報</span></td><td>21</td><td>1.5</td><td>5.5</td></tr><tr><td><span class="num mark-fc" style="color:#2dd4bf">2</span></td><td><span class="spot-name">假日之森</span></td><td><span class="tag tag-fc">預報</span></td><td>17</td><td>1.3</td><td>5.2</td></tr><tr><td><span class="num mark-fc" style="color:#fbbf24">3</span></td><td><span class="spot-name">松柏港</span></td><td><span class="tag tag-fc">預報</span></td><td>16</td><td>1.4</td><td>5.6</td></tr><tr><td><span class="num mark-fc" style="color:#4ade80">4</span></td><td><span class="spot-name">中角</span></td><td><span class="tag tag-fc">預報</span></td><td>8</td><td>0.8</td><td>7.6</td></tr><tr><td><span class="num mark-fc" style="color:#22d3ee">5</span></td><td><span class="spot-name">翡翠灣</span></td><td><span class="tag tag-fc">預報</span></td><td>8</td><td>0.8</td><td>7.9</td></tr><tr><td><span class="num mark-fc" style="color:#fb923c">6</span></td><td><span class="spot-name">石門婚紗</span></td><td><span class="tag tag-fc">預報</span></td><td>11</td><td>0.8</td><td>7.5</td></tr><tr><td><span class="num mark-fc" style="color:#a78bfa">7</span></td><td><span class="spot-name">無尾港</span></td><td><span class="tag tag-fc">預報</span></td><td>8</td><td>0.9</td><td>8.3</td></tr><tr><td><span class="num mark-fc" style="color:#f472b6">8</span></td><td><span class="spot-name">烏石</span></td><td><span class="tag tag-fc">預報</span></td><td>6</td><td>0.6</td><td>8.8</td></tr><tr><td><span class="num mark-live" style="color:#38bdf8">9</span></td><td><span class="spot-name">後龍</span></td><td><span class="tag tag-live">即時</span></td><td>20.4</td><td>0.9</td><td>4.0</td></tr><tr><td><span class="num mark-live" style="color:#2dd4bf">10</span></td><td><span class="spot-name">假日之森</span></td><td><span class="tag tag-live">即時</span></td><td>20.4</td><td>0.9</td><td>4.0</td></tr><tr><td><span class="num mark-live" style="color:#fbbf24">11</span></td><td><span class="spot-name">松柏港</span></td><td><span class="tag tag-live">即時</span></td><td>16.1</td><td>1.5</td><td>4.7</td></tr><tr><td><span class="num mark-live" style="color:#86efac">12</span></td><td><span class="spot-name">富貴角</span><div class="shared">共用：中角／翡翠灣／石門婚紗廣場</div></td><td><span class="tag tag-live">即時</span></td><td>11.1</td><td>0.8</td><td>5.3</td></tr><tr><td><span class="num mark-live" style="color:#a78bfa">13</span></td><td><span class="spot-name">無尾港</span></td><td><span class="tag tag-live">即時</span></td><td>7.6</td><td>0.9</td><td>5.4</td></tr><tr><td><span class="num mark-live" style="color:#f472b6">14</span></td><td><span class="spot-name">烏石</span></td><td><span class="tag tag-live">即時</span></td><td>9.9</td><td>0.7</td><td>5.3</td></tr>
+        </tbody>
+      </table>
+    </aside>
+    </div>
+    <p class="scatter-cap">資料：Windguru GFS 預報（2026-09-18 15:00 台北）＋ CWA 浮標即時（約 2026-09-18 15:03）。圖上編號對應圖例外表（風 kt／浪 m／週期 s，並標示預報或即時）。預報與即時座標接近時會略偏移以免重疊。後龍／假日之森共用新竹浮標（圖上即時點略偏移）；<strong>北海岸三點即時共用富貴角浮標（只顯示一點）</strong>（中角／翡翠灣／石門婚紗 → 富貴角 C6AH2，預報圓點仍各自顯示）；無尾港→蘇澳資料浮標 46706A；烏石→龜山島浮標 46708A。綠帶&lt;8 kt、黃 8–14、紅 ≥15。</p>
+    <details class="scatter-table">
+      <summary>完整數值對照（含風向／浪向）</summary>
+      <table>
+        <thead><tr><th>#</th><th>據點</th><th>來源</th><th>風速 kt</th><th>浪高 m</th><th>週期 s</th><th>風向</th><th>浪向</th></tr></thead>
+        <tbody>
+<tr><td>1</td><td>後龍</td><td>預報</td><td>21</td><td>1.5</td><td>5.5</td><td>NNE 16°</td><td>NNE 27°</td></tr><tr><td>2</td><td>假日之森</td><td>預報</td><td>17</td><td>1.3</td><td>5.2</td><td>N 11°</td><td>NNE 30°</td></tr><tr><td>3</td><td>松柏港</td><td>預報</td><td>16</td><td>1.4</td><td>5.6</td><td>NNE 16°</td><td>NNE 20°</td></tr><tr><td>4</td><td>中角</td><td>預報</td><td>8</td><td>0.8</td><td>7.6</td><td>NE 54°</td><td>NE 46°</td></tr><tr><td>5</td><td>翡翠灣</td><td>預報</td><td>8</td><td>0.8</td><td>7.9</td><td>NE 50°</td><td>ENE 58°</td></tr><tr><td>6</td><td>石門婚紗</td><td>預報</td><td>11</td><td>0.8</td><td>7.5</td><td>ENE 58°</td><td>NE 46°</td></tr><tr><td>7</td><td>無尾港</td><td>預報</td><td>8</td><td>0.9</td><td>8.3</td><td>NNE 31°</td><td>ESE 111°</td></tr><tr><td>8</td><td>烏石</td><td>預報</td><td>6</td><td>0.6</td><td>8.8</td><td>NE 54°</td><td>E 97°</td></tr><tr><td>9</td><td>後龍</td><td>即時</td><td>20.4</td><td>0.9</td><td>4.0</td><td>NNE 30°</td><td>NNE 22°</td></tr><tr><td>10</td><td>假日之森</td><td>即時</td><td>20.4</td><td>0.9</td><td>4.0</td><td>NNE 30°</td><td>NNE 22°</td></tr><tr><td>11</td><td>松柏港</td><td>即時</td><td>16.1</td><td>1.5</td><td>4.7</td><td>NE 37°</td><td>NNE 33°</td></tr><tr><td>12</td><td>富貴角</td><td>即時</td><td>11.1</td><td>0.8</td><td>5.3</td><td>E 80°</td><td>N 0°</td></tr><tr><td>13</td><td>無尾港</td><td>即時</td><td>7.6</td><td>0.9</td><td>5.4</td><td>NE 45°</td><td>NE 45°</td></tr><tr><td>14</td><td>烏石</td><td>即時</td><td>9.9</td><td>0.7</td><td>5.3</td><td>NE 49°</td><td>NNE 33°</td></tr>
         </tbody>
       </table>
     </details>
