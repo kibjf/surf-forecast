@@ -272,12 +272,29 @@ footer.page-foot { margin-top: 32px; padding-top: 16px; border-top: 1px solid va
 .scatter-table table { width:100%; border-collapse:collapse; font-size:0.8rem; margin-top:8px; }
 .scatter-table th, .scatter-table td { padding:6px 8px; border-bottom:1px solid var(--line); text-align:left; }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* scatter-time-css */
 .scatter-time {
   margin: 12px 0 4px; padding: 12px 14px; border-radius: 12px;
   background: rgba(15, 23, 42, 0.65); border: 1px solid var(--line, #1e3a5f);
 }
 .scatter-time-row {
-  display: flex; flex-wrap: wrap; align-items: center; gap: 10px 14px;
+  display: flex; flex-wrap: wrap; align-items: baseline; gap: 10px 14px;
+  margin-bottom: 6px;
 }
 .scatter-time-label {
   font-size: 0.85rem; font-weight: 700; color: var(--text, #e2e8f0);
@@ -285,11 +302,29 @@ footer.page-foot { margin-top: 32px; padding-top: 16px; border-top: 1px solid va
 }
 .scatter-time-now {
   font-family: "JetBrains Mono", ui-monospace, monospace;
-  font-size: 0.95rem; font-weight: 600; color: #7dd3fc;
-  min-width: 6.5rem;
+  font-size: 1.2rem; font-weight: 700; color: #7dd3fc;
+  min-width: 7.5rem; letter-spacing: 0.01em;
+}
+.scatter-time-track-wrap {
+  position: relative;
+  width: 100%;
+  padding: 4px 0;
+}
+.scatter-time-day-seps {
+  position: absolute; left: 11px; right: 11px; top: 0; bottom: 0;
+  pointer-events: none; z-index: 1;
+}
+.scatter-time-day-sep {
+  position: absolute; top: 50%; left: 0;
+  width: 2px; height: 18px; margin-top: -9px;
+  background: rgba(148, 163, 184, 0.65);
+  border-radius: 1px;
+  transform: translateX(-50%);
+  box-shadow: 0 0 0 1px rgba(15, 23, 42, 0.35);
 }
 .scatter-time input[type=range] {
-  flex: 1 1 180px; width: 100%; min-width: 140px; height: 28px;
+  position: relative; z-index: 2;
+  display: block; width: 100%; height: 28px; margin: 0;
   -webkit-appearance: none; appearance: none; background: transparent; cursor: pointer;
 }
 .scatter-time input[type=range]:focus { outline: none; }
@@ -308,11 +343,22 @@ footer.page-foot { margin-top: 32px; padding-top: 16px; border-top: 1px solid va
   border: 2px solid #e2e8f0;
 }
 .scatter-time-ticks {
-  display: flex; justify-content: space-between; gap: 4px; margin-top: 6px;
-  font-size: 0.68rem; color: var(--muted, #8b9bb4); overflow-x: auto;
-  -webkit-overflow-scrolling: touch;
+  position: relative;
+  height: 1.15rem;
+  margin: 2px 11px 0;
+  font-size: 0.72rem; color: var(--muted, #8b9bb4);
 }
-.scatter-time-ticks span { flex: 1; text-align: center; white-space: nowrap; min-width: 2.6rem; }
+.scatter-time-day-tick {
+  position: absolute; top: 0;
+  transform: translateX(-50%);
+  white-space: nowrap; font-weight: 600; letter-spacing: 0.02em;
+  pointer-events: none;
+}
+@media (max-width: 560px) {
+  .scatter-time { padding: 10px 12px; }
+  .scatter-time-now { font-size: 1.05rem; }
+}
+/* /scatter-time-css */
 </style>
 </head>
 <body>
@@ -506,11 +552,14 @@ footer.page-foot { margin-top: 32px; padding-top: 16px; border-top: 1px solid va
       <div class="scatter-time-row">
         <label class="scatter-time-label" for="wws-time-range">預報時間</label>
         <span class="scatter-time-now" id="wws-time-label">9/18 15:00</span>
+      </div>
+      <div class="scatter-time-track-wrap">
+        <div class="scatter-time-day-seps" aria-hidden="true"><span class="scatter-time-day-sep" style="left:18.97%"></span><span class="scatter-time-day-sep" style="left:39.66%"></span><span class="scatter-time-day-sep" style="left:60.34%"></span><span class="scatter-time-day-sep" style="left:81.03%"></span></div>
         <input type="range" id="wws-time-range" min="0" max="29" step="1" value="3"
                aria-valuemin="0" aria-valuemax="29" aria-valuenow="3"
                aria-label="預報時間" />
       </div>
-      <div class="scatter-time-ticks" aria-hidden="true"><span>9/18 08:00</span><span>9/18 09:00</span><span>9/18 12:00</span><span>9/18 15:00</span><span>9/18 18:00</span><span>9/18 21:00</span><span>9/19 06:00</span><span>9/19 09:00</span><span>9/19 12:00</span><span>9/19 15:00</span><span>9/19 18:00</span><span>9/19 21:00</span><span>9/20 06:00</span><span>9/20 09:00</span><span>9/20 12:00</span><span>9/20 15:00</span><span>9/20 18:00</span><span>9/20 21:00</span><span>9/21 06:00</span><span>9/21 09:00</span><span>9/21 12:00</span><span>9/21 14:00</span><span>9/21 17:00</span><span>9/21 20:00</span><span>9/22 05:00</span><span>9/22 08:00</span><span>9/22 11:00</span><span>9/22 14:00</span><span>9/22 17:00</span><span>9/22 20:00</span></div>
+      <div class="scatter-time-ticks" aria-hidden="true"><span class="scatter-time-day-tick" style="left:8.62%">9/18</span><span class="scatter-time-day-tick" style="left:29.31%">9/19</span><span class="scatter-time-day-tick" style="left:50.00%">9/20</span><span class="scatter-time-day-tick" style="left:70.69%">9/21</span><span class="scatter-time-day-tick" style="left:91.38%">9/22</span></div>
     </div>
     <p class="scatter-cap" id="wws-cap">資料：Windguru GFS 預報（9/18 15:00 台北）＋ CWA 浮標即時（約 2026-09-18 16:08）。縮寫：後龍、假森、松柏、中角、翡灣、石門、無尾、烏石、富貴（即時）。預報與即時座標接近時預報點會略偏移以免重疊。後龍／假日之森共用新竹浮標；<strong>北海岸三點即時共用富貴角浮標（只顯示一點）</strong>（中角／翡翠灣／石門婚紗 → 富貴角 C6AH2，預報圓點仍各自顯示）；無尾港→蘇澳資料浮標 46706A；烏石→龜山島浮標 46708A。綠帶&lt;8 kt、黃 8–14、紅 ≥15。</p>
     <details class="scatter-table">
