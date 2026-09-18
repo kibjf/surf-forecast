@@ -1,0 +1,1540 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>衝浪預報對照 · 後龍／假日之森／松柏港／無尾港／烏石</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet"/>
+<style>
+:root {
+  --bg: #0b1220; --bg2: #111a2e; --card: #152038; --card2: #1a2744;
+  --line: rgba(125, 211, 252, 0.12); --text: #e8eef7; --muted: #8b9bb4;
+  --cyan: #38bdf8; --teal: #2dd4bf; --good: #34d399; --ok: #fbbf24;
+  --weak: #94a3b8; --hl: rgba(56, 189, 248, 0.12); --radius: 16px;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0; font-family: "Noto Sans TC", system-ui, sans-serif;
+  background:
+    radial-gradient(1200px 600px at 10% -10%, rgba(56,189,248,0.18), transparent 60%),
+    radial-gradient(900px 500px at 90% 0%, rgba(45,212,191,0.12), transparent 55%),
+    radial-gradient(800px 400px at 50% 100%, rgba(167,139,250,0.10), transparent 50%),
+    var(--bg);
+  color: var(--text); line-height: 1.55; min-height: 100vh;
+}
+.wrap { max-width: 1240px; margin: 0 auto; padding: 28px 18px 64px; }
+header.hero {
+  display: flex; flex-wrap: wrap; justify-content: space-between; gap: 16px;
+  align-items: flex-end; margin-bottom: 28px;
+  border-bottom: 1px solid var(--line); padding-bottom: 22px;
+}
+.hero h1 {
+  font-size: clamp(1.35rem, 3.2vw, 1.9rem);
+  font-weight: 900; letter-spacing: 0.02em; margin: 0 0 8px;
+  background: linear-gradient(105deg, #7dd3fc 0%, #2dd4bf 40%, #fbbf24 70%, #a78bfa 100%);
+  -webkit-background-clip: text; background-clip: text; color: transparent;
+}
+.hero .tagline { color: var(--muted); margin: 0; font-size: 0.95rem; }
+.meta-pill {
+  background: rgba(21,32,56,0.9); border: 1px solid var(--line); border-radius: 999px;
+  padding: 10px 16px; font-size: 0.82rem; color: var(--muted);
+  font-family: "JetBrains Mono", ui-monospace, monospace;
+}
+.meta-pill strong { color: var(--cyan); font-weight: 600; }
+h2.section {
+  font-size: 1.05rem; font-weight: 700; margin: 28px 0 14px;
+  display: flex; align-items: center; gap: 10px;
+}
+h2.section::before {
+  content: ""; width: 8px; height: 8px; border-radius: 50%;
+  background: var(--cyan); box-shadow: 0 0 12px var(--cyan);
+}
+.overview {
+  display: grid; grid-template-columns: repeat(5, 1fr); gap: 12px; margin-bottom: 8px;
+}
+@media (max-width: 1100px) { .overview { grid-template-columns: repeat(3, 1fr); } }
+@media (max-width: 700px) { .overview { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 480px) { .overview { grid-template-columns: 1fr; } }
+.ov-card {
+  background: linear-gradient(165deg, var(--card) 0%, var(--card2) 100%);
+  border: 1px solid var(--line); border-top: 3px solid var(--accent);
+  border-radius: var(--radius); padding: 14px 14px 12px;
+  box-shadow: 0 8px 28px rgba(0,0,0,0.25);
+}
+.ov-head { display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px; }
+.ov-name { font-weight: 700; font-size: 1.0rem; }
+.badge { font-size: 0.72rem; font-weight: 700; padding: 2px 8px; border-radius: 999px; letter-spacing: 0.04em; }
+.badge.good { background: rgba(52,211,153,0.18); color: var(--good); }
+.badge.ok { background: rgba(251,191,36,0.18); color: var(--ok); }
+.badge.weak { background: rgba(148,163,184,0.18); color: var(--weak); }
+.ov-when { color: var(--cyan); font-family: "JetBrains Mono", monospace; font-size: 0.82rem; margin-bottom: 8px; }
+.ov-stats { display: flex; flex-direction: column; gap: 3px; font-size: 0.85rem; }
+.ov-tip { margin-top: 8px; font-size: 0.75rem; color: var(--muted); }
+.legend {
+  display: flex; flex-wrap: wrap; gap: 14px; font-size: 0.8rem; color: var(--muted);
+  margin: 10px 0 24px; padding: 10px 14px; background: rgba(255,255,255,0.03);
+  border-radius: 10px; border: 1px dashed var(--line);
+}
+.legend span { display: inline-flex; align-items: center; gap: 6px; }
+.dot { width: 8px; height: 8px; border-radius: 50%; display: inline-block; }
+.spot-card {
+  background: linear-gradient(180deg, rgba(21,32,56,0.95), rgba(17,26,46,0.98));
+  border: 1px solid var(--line); border-radius: calc(var(--radius) + 4px);
+  padding: 20px 18px 16px; margin-bottom: 22px;
+  box-shadow: 0 12px 40px rgba(0,0,0,0.28); position: relative; overflow: hidden;
+}
+.spot-card::before {
+  content: ""; position: absolute; inset: 0 auto 0 0; width: 4px;
+  background: var(--accent); border-radius: 4px 0 0 4px;
+}
+.spot-head {
+  display: flex; flex-wrap: wrap; justify-content: space-between; gap: 10px;
+  align-items: flex-start; margin-bottom: 8px; padding-left: 8px;
+}
+.spot-head h2 { margin: 0; font-size: 1.35rem; font-weight: 800; }
+.spot-sub { margin: 4px 0 0; color: var(--muted); font-size: 0.88rem; }
+.spot-meta { display: flex; flex-direction: column; align-items: flex-end; gap: 4px; font-size: 0.8rem; color: var(--muted); }
+.spot-meta a { color: var(--cyan); text-decoration: none; }
+.spot-meta a:hover { text-decoration: underline; }
+.caveat {
+  margin: 0 0 16px; padding: 8px 12px 8px 16px; font-size: 0.82rem; color: var(--muted);
+  border-left: 2px solid var(--accent); background: rgba(0,0,0,0.15); border-radius: 0 8px 8px 0;
+}
+.days-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
+@media (max-width: 980px) { .days-grid { grid-template-columns: 1fr; } }
+.day-block { background: rgba(11,18,32,0.55); border: 1px solid var(--line); border-radius: 12px; padding: 12px; }
+.day-title { font-weight: 700; font-size: 0.92rem; margin-bottom: 8px; color: #c7d2fe; }
+.fc-table { width: 100%; border-collapse: collapse; font-size: 0.82rem; }
+.fc-table th { text-align: left; color: var(--muted); font-weight: 500; padding: 4px 6px; border-bottom: 1px solid var(--line); font-size: 0.75rem; }
+.fc-table td { padding: 8px 6px; vertical-align: top; border-bottom: 1px solid rgba(255,255,255,0.04); }
+.fc-table tr.slot.hl { background: var(--hl); }
+.fc-table tr.slot.hl td:first-child { box-shadow: inset 3px 0 0 var(--cyan); }
+.t { font-family: "JetBrains Mono", monospace; font-weight: 600; color: #cbd5e1; white-space: nowrap; }
+.arrow { display: inline-block; font-size: 1.05rem; color: var(--cyan); line-height: 1; margin-right: 2px; }
+.wave-a { color: var(--teal); }
+.wspd { font-weight: 700; }
+.wspd.light { color: var(--good); }
+.wspd.mod { color: var(--ok); }
+.wspd.strong { color: #fb7185; }
+.wspd-ms { color: var(--muted); font-size: 0.78rem; margin-left: 2px; }
+.sub { color: var(--muted); font-size: 0.72rem; margin-top: 2px; }
+.tide-box { margin-top: 10px; padding-top: 10px; border-top: 1px dashed var(--line); }
+.tide-label { font-size: 0.75rem; color: var(--muted); margin-bottom: 6px; }
+.tide-timeline { display: flex; flex-direction: column; gap: 4px; }
+.tide-ev {
+  display: grid; grid-template-columns: 18px 36px 48px 1fr; gap: 6px; align-items: center;
+  font-size: 0.8rem; font-family: "JetBrains Mono", monospace;
+}
+.tide-icon { color: var(--teal); }
+.tide-type { color: #e2e8f0; font-family: "Noto Sans TC", sans-serif; font-size: 0.78rem; }
+.tide-time { color: var(--cyan); }
+.tide-h { color: var(--muted); text-align: right; }
+.tide-src { margin-top: 14px; padding-top: 10px; border-top: 1px solid var(--line); font-size: 0.75rem; color: var(--muted); padding-left: 8px; }
+.tide-src a { color: var(--cyan); }
+.takeaway {
+  background: linear-gradient(135deg, rgba(56,189,248,0.12), rgba(251,191,36,0.08));
+  border: 1px solid var(--line); border-radius: var(--radius); padding: 18px 20px; margin: 8px 0 28px;
+}
+.takeaway h3 { margin: 0 0 8px; font-size: 1rem; color: var(--cyan); }
+.takeaway p { margin: 0 0 8px; font-size: 0.92rem; }
+.takeaway ul { margin: 0; padding-left: 1.2em; color: #cbd5e1; font-size: 0.88rem; }
+.takeaway li { margin-bottom: 4px; }
+footer.page-foot { margin-top: 32px; padding-top: 16px; border-top: 1px solid var(--line); font-size: 0.75rem; color: var(--muted); text-align: center; }
+.muted { color: var(--muted); }
+.west-cmp {
+  display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin-top: 12px;
+}
+@media (max-width: 700px) { .west-cmp { grid-template-columns: 1fr; } }
+.west-cmp .wc {
+  background: rgba(0,0,0,0.25); border-radius: 10px; padding: 10px 12px; border: 1px solid var(--line);
+  font-size: 0.85rem;
+}
+.west-cmp .wc strong { color: var(--ok); }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="hero">
+    <div>
+      <h1>衝浪預報對照 · 後龍／假日之森／松柏港／無尾港／烏石</h1>
+      <p class="tagline">Windguru GFS 風浪 × 中央氣象署潮汐 · 五據點 · 未來 3 日白天時段</p>
+    </div>
+    <div class="meta-pill">
+      <div>擷取 <strong>2026-09-18 10:38（台北時間）</strong></div>
+      <div>模式 <strong>GFS 13 km</strong> · init 2026-09-17 18 UTC</div>
+    </div>
+  </header>
+
+  <h2 class="section">最佳場次速覽（相對比較）</h2>
+  <div class="overview">
+    <div class="ov-card" style="--accent:#38bdf8">
+      <div class="ov-head"><span class="ov-name">後龍</span><span class="badge good">佳</span></div>
+      <div class="ov-when">週五 9/18 06:00</div>
+      <div class="ov-stats">
+        <span>🌊 1.1m / 6s 北北東</span>
+        <span>💨 9 kt 東北</span>
+      </div>
+      <div class="ov-tip">風強時浪面易亂；清晨／離岸感較佳</div>
+    </div>
+    <div class="ov-card" style="--accent:#2dd4bf">
+      <div class="ov-head"><span class="ov-name">假日之森</span><span class="badge good">佳</span></div>
+      <div class="ov-when">週五 9/18 06:00</div>
+      <div class="ov-stats">
+        <span>🌊 1.0m / 6s 北北東</span>
+        <span>💨 5 kt 東北東</span>
+      </div>
+      <div class="ov-tip">風強時浪面易亂；清晨／離岸感較佳</div>
+    </div>
+    <div class="ov-card" style="--accent:#fbbf24">
+      <div class="ov-head"><span class="ov-name">松柏港</span><span class="badge good">佳</span></div>
+      <div class="ov-when">週五 9/18 06:00</div>
+      <div class="ov-stats">
+        <span>🌊 1.1m / 6s 北北東</span>
+        <span>💨 4 kt 東北</span>
+      </div>
+      <div class="ov-tip">風強時浪面易亂；清晨／離岸感較佳</div>
+    </div>
+    <div class="ov-card" style="--accent:#a78bfa">
+      <div class="ov-head"><span class="ov-name">無尾港</span><span class="badge good">佳</span></div>
+      <div class="ov-when">週日 9/20 09:00</div>
+      <div class="ov-stats">
+        <span>🌊 1.1m / 16s 東</span>
+        <span>💨 9 kt 北北東</span>
+      </div>
+      <div class="ov-tip">浪向偏東、風偏弱時較乾淨</div>
+    </div>
+    <div class="ov-card" style="--accent:#f472b6">
+      <div class="ov-head"><span class="ov-name">烏石</span><span class="badge good">佳</span></div>
+      <div class="ov-when">週日 9/20 18:00</div>
+      <div class="ov-stats">
+        <span>🌊 1.0m / 14s 東</span>
+        <span>💨 6 kt 北</span>
+      </div>
+      <div class="ov-tip">浪向偏東、風偏弱時較乾淨</div>
+    </div></div>
+  <div class="legend">
+    <span><i class="dot" style="background:var(--good)"></i>風速 &lt;8 kt 偏乾淨</span>
+    <span><i class="dot" style="background:var(--ok)"></i>8–14 kt 中等</span>
+    <span><i class="dot" style="background:#fb7185"></i>≥15 kt 浪面易亂</span>
+    <span>列反白＝相對較佳衝浪視窗</span>
+    <span>箭頭＝風／浪來向</span>
+  </div>
+
+  <div class="takeaway">
+    <h3>今日建議（9/18）· 含松柏港</h3>
+    <p>若以<strong>衝浪乾淨度</strong>優先：宜蘭東岸（烏石／無尾港）白天風偏弱（約 4–9 kt），浪向偏東、週期約 8–9s，浪面相對乾淨。西岸三點（後龍／假日之森／<strong>松柏港</strong>）午後北北東風可到 14–20 kt——較適合風箏／風浪板；衝浪宜抓清晨。</p>
+    <div class="west-cmp">
+      <div class="wc"><strong>後龍</strong><br/>09h 9 kt → 15h 20 kt<br/>浪 1.4 m</div>
+      <div class="wc"><strong>假日之森</strong><br/>09h 6 kt → 15h 16 kt<br/>浪 1.3 m</div>
+      <div class="wc"><strong>松柏港</strong><br/>09h 7 kt → 15h 16 kt<br/>浪 1.4 m</div>
+    </div>
+    <ul style="margin-top:12px">
+      <li><strong>松柏港 vs 後龍／假日之森</strong>：同屬西岸 GFS 北北東場；松柏港（台中大甲）今日午後風約 16 kt，略低於後龍（20 kt）、接近假日之森（16 kt）；浪高相近約 1.2–1.5 m。清晨三點都較輕，松柏港 09h 僅約 7 kt。</li>
+      <li><strong>西岸潮汐</strong>：後龍／竹南乾潮約 09:20、滿潮約 15:54；松柏港（大甲站）乾潮 09:16、滿潮 15:50——幾乎同步。</li>
+      <li><strong>週日</strong>：東岸長週期湧（~14–16s）；西岸風持續偏強。</li>
+    </ul>
+  </div>
+
+  <h2 class="section">各據點明細</h2>
+  
+  <section class="spot-card" style="--accent:#38bdf8" id="spot-453788">
+    <header class="spot-head">
+      <div>
+        <h2>後龍</h2>
+        <p class="spot-sub">苗栗 後龍 外埔漁港 · 苗栗西岸</p>
+      </div>
+      <div class="spot-meta">
+        <a href="https://www.windguru.cz/453788" target="_blank" rel="noopener">Windguru 453788</a>
+        <span>SST 27 C</span>
+      </div>
+    </header>
+    <p class="caveat">海岸：面向西／西北海域。北北東風多為側岸～偏離岸（相對西向海岸）（簡要參考，勿過度解讀）。</p>
+    <div class="days-grid">
+      <div class="day-block">
+        <div class="day-title">週五 9/18</div>
+        <table class="fc-table">
+          <thead><tr><th>時間</th><th>風</th><th>浪</th></tr></thead>
+          <tbody>
+        <tr class="slot hl">
+          <td class="t">06:00</td>
+          <td class="wind">
+            <span class="arrow" style="transform:rotate(51.0deg)">↓</span>
+            <span class="wspd mod">9 kt</span>
+            <span class="wspd-ms">(4.6 m/s)</span>
+            <div class="sub">陣風 9 kt · 東北 51°</div>
+          </td>
+          <td class="wave">
+            <span class="arrow wave-a" style="transform:rotate(22deg)">↓</span>
+            <strong>1.1 m</strong> / 6s
+            <div class="sub">北北東 22°（NNE）</div>
+          </td>
+        </tr>
+        <tr class="slot hl">
+          <td class="t">09:00</td>
+          <td class="wind">
+            <span class="arrow" style="transform:rotate(33.0deg)">↓</span>
+            <span class="wspd mod">9 kt</span>
+            <span class="wspd-ms">(4.6 m/s)</span>
+            <div class="sub">陣風 10 kt · 北北東 33°</div>
+          </td>
+          <td class="wave">
+            <span class="arrow wave-a" style="transform:rotate(22deg)">↓</span>
+            <strong>1.0 m</strong> / 6s
+            <div class="sub">北北東 22°（NNE）</div>
+          </td>
+        </tr>
+        <tr class="slot">
+          <td class="t">12:00</td>
+          <td class="wind">
+            <span class="arrow" style="transform:rotate(13.0deg)">↓</span>
+            <span class="wspd strong">17 kt</span>
+            <span class="wspd-ms">(8.7 m/s)</span>
+            <div class="sub">陣風 15 kt · 北北東 13°</div>
+          </td>
+          <td class="wave">
+            <span class="arrow wave-a" style="transform:rotate(22deg)">↓</span>
+            <strong>1.3 m</strong> / 5s
+            <div class="sub">北北東 22°（NNE）</div>
+          </td>
+        </tr>
+        <tr class="slot">
+          <td class="t">15:00</td>
+          <td class="wind">
+            <span class="arrow" style="transform:rotate(15.0deg)">↓</span>
+            <span class="wspd strong">20 kt</span>
+            <span class="wspd-ms">(10.3 m/s)</span>
+            <div class="sub">陣風 19 kt · 北北東 15°</div>
+          </td>
+          <td class="wave">
+            <span class="arrow wave-a" style="transform:rotate(22deg)">↓</span>
+            <strong>1.4 m</strong> / 5s
+            <div class="sub">北北東 22°（NNE）</div>
+          </td>
+        </tr>
+        <tr class="slot">
+          <td class="t">18:00</td>
+          <td class="wind">
+            <span class="arrow" style="transform:rotate(27.0deg)">↓</span>
+            <span class="wspd strong">20 kt</span>
+            <span class="wspd-ms">(10.3 m/s)</span>
+            <div class="sub">陣風 21 kt · 北北東 27°</div>
+          </td>
+          <td class="wave">
+            <span class="arrow wave-a" style="transform:rotate(22deg)">↓</span>
+            <strong>1.5 m</strong> / 5s
+            <div class="sub">北北東 22°（NNE）</div>
+          </td>
+        </tr></tbody>
+        </table>
+        <div class="tide-box">
+          <div class="tide-label">潮汐 · 苗栗縣後龍</div>
+          <div class="tide-timeline"><div class="tide-ev"><span class="tide-icon">▲</span><span class="tide-type">滿潮</span><span class="tide-time">02:52</span><span class="tide-h">+157 cm</span></div><div class="tide-ev"><span class="tide-icon">▼</span><span class="tide-type">乾潮</span><span class="tide-time">09:19</span><span class="tide-h">-165 cm</span></div><div class="tide-ev"><span class="tide-icon">▲</span><span class="tide-type">滿潮</span><span class="tide-time">15:54</span><span class="tide-h">+144 cm</span></div><div class="tide-ev"><span class="tide-icon">▼</span><span class="tide-type">乾潮</span><span class="tide-time">21:51</span><span class="tide-h">-93 cm</span></div></div>
+        </div>
+      </div>
+      <div class="day-block">
+        <div class="day-title">週六 9/19</div>
+        <table class="fc-table">
+          <thead><tr><th>時間</th><th>風</th><th>浪</th></tr></thead>
+          <tbody>
+        <tr class="slot">
+          <td class="t">06:00</td>
+          <td class="wind">
+            <span class="arrow" style="transform:rotate(43.0deg)">↓</span>
+            <span class="wspd strong">15 kt</span>
+            <span class="wspd-ms">(7.7 m/s)</span>
+            <div class="sub">陣風 17 kt · 東北 43°</div>
+          </td>
+          <td class="wave">
+            <span class="arrow wave-a" style="transform:rotate(22deg)">↓</span>
+            <strong>1.2 m</strong> / 5s
+            <div class="sub">北北東 22°（NNE）</div>
+          </td>
+        </tr>
+        <tr class="slot">
+          <td class="t">09:00</td>
+          <td class="wind">
+            <span class="arrow" style="transform:rotate(36.0deg)">↓</span>
+            <span class="wspd mod">14 kt</span>
+            <span class="wspd-ms">(7.2 m/s)</span>
+            <div class="sub">陣風 15 kt · 東北 36°</div>
+          </td>
+          <td class="wave">
+            <span class="arrow wave-a" style="transform:rotate(22deg)">↓</span>
+            <strong>1.1 m</strong> / 5s
+            <div class="sub">北北東 22°（NNE）</div>
+          </td>
+        </tr>
+        <tr class="slot">
+          <td class="t">12:00</td>
+          <td class="wind">
+            <span class="arrow" style="transform:rotate(12.0deg)">↓</span>
+            <span class="wspd strong">17 kt</span>
+            <span class="wspd-ms">(8.7 m/s)</span>
+            <div class="sub">陣風 16 kt · 北北東 12°</div>
+          </td>
+          <td class="wave">
+            <span class="arrow wave-a" style="transform:rotate(22deg)">↓</span>
+            <strong>1.1 m</strong> / 5s
+            <div class="sub">北北東 22°（NNE）</div>
+          </td>
+        </tr>
+        <tr class="slot">
+          <td class="t">15:00</td>
+          <td class="wind">
+            <span class="arrow" style="transform:rotate(13.0deg)">↓</span>
+            <span class="wspd strong">19 kt</span>
+            <span class="wspd-ms">(9.8 m/s)</span>
+            <div class="sub">陣風 20 kt · 北北東 13°</div>
+          </td>
+          <td class="wave">
+            <span class="arrow wave-a" style="transform:rotate(22deg)">↓</span>
+            <strong>1.1 m</strong> / 5s
+            <div class="sub">北北東 22°（NNE）</div>
+          </td>
+        </tr>
+        <tr class="slot">
+          <td class="t">18:00</td>
+          <td class="wind">
+            <span class="arrow" style="transform:rotate(30.0deg)">↓</span>
+            <span class="wspd strong">20 kt</span>
+            <span class="wspd-ms">(10.3 m/s)</span>
+            <div class="sub">陣風 24 kt · 北北東 30°</div>
+          </td>
+          <td class="wave">
+            <span class="arrow wave-a" style="transform:rotate(22deg)">↓</span>
+            <strong>1.3 m</strong> / 5s
+            <div class="sub">北北東 22°（NNE）</div>
+          </td>
+        </tr></tbody>
+        </table>
+        <div class="tide-box">
+          <div class="tide-label">潮汐 · 苗栗縣後龍</div>
+          <div class="tide-timeline"><div class="tide-ev"><span class="tide-icon">▲</span><span class="tide-type">滿潮</span><span class="tide-time">03:49</span><span class="tide-h">+128 cm</span></div><div class="tide-ev"><span class="tide-icon">▼</span><span class="tide-type">乾潮</span><span class="tide-time">10:14</span><span class="tide-h">-145 cm</span></div><div class="tide-ev"><span class="tide-icon">▲</span><span class="tide-type">滿潮</span><span class="tide-time">16:59</span><span class="tide-h">+123 cm</span></div><div class="tide-ev"><span class="tide-icon">▼</span><span class="tide-type">乾潮</span><span class="tide-time">22:58</span><span class="tide-h">-71 cm</span></div></div>
+        </div>
+      </div>
+      <div class="day-block">
+        <div class="day-title">週日 9/20</div>
+        <table class="fc-table">
+          <thead><tr><th>時間</th><th>風</th><th>浪</th></tr></thead>
+          <tbody>
+        <tr class="slot">
+          <td class="t">06:00</td>
+          <td class="wind">
+            <span class="arrow" style="transform:rotate(38.0deg)">↓</span>
+            <span class="wspd strong">15 kt</span>
+            <span class="wspd-ms">(7.7 m/s)</span>
+            <div class="sub">陣風 18 kt · 東北 38°</div>
+          </td>
+          <td class="wave">
+            <span class="arrow wave-a" style="transform:rotate(22deg)">↓</span>
+            <strong>1.2 m</strong> / 5s
+            <div class="sub">北北東 22°（NNE）</div>
+          </td>
+        </tr>
+        <tr class="slot">
+          <td class="t">09:00</td>
+          <td class="wind">
+            <span class="arrow" style="transform:rotate(26.0deg)">↓</span>
+            <span class="wspd strong">16 kt</span>
+            <span class="wspd-ms">(8.2 m/s)</span>
+            <div class="sub">陣風 18 kt · 北北東 26°</div>
+          </td>
+          <td class="wave">
+            <span class="arrow wave-a" style="transform:rotate(22deg)">↓</span>
+            <strong>1.1 m</strong> / 5s
+            <div class="sub">北北東 22°（NNE）</div>
+          </td>
+        </tr>
+        <tr class="slot">
+          <td class="t">12:00</td>
+          <td class="wind">
+            <span class="arrow" style="transform:rotate(15.0deg)">↓</span>
+            <span class="wspd strong">21 kt</span>
+            <span class="wspd-ms">(10.8 m/s)</span>
+            <div class="sub">陣風 22 kt · 北北東 15°</div>
+          </td>
+          <td class="wave">
+            <span class="arrow wave-a" style="transform:rotate(22deg)">↓</span>
+            <strong>1.4 m</strong> / 5s
+            <div class="sub">北北東 22°（NNE）</div>
+          </td>
+        </tr>
+        <tr class="slot">
+          <td class="t">15:00</td>
+          <td class="wind">
+            <span class="arrow" style="transform:rotate(22.0deg)">↓</span>
+            <span class="wspd strong">21 kt</span>
+            <span class="wspd-ms">(10.8 m/s)</span>
+            <div class="sub">陣風 23 kt · 北北東 22°</div>
+          </td>
+          <td class="wave">
+            <span class="arrow wave-a" style="transform:rotate(22deg)">↓</span>
+            <strong>1.6 m</strong> / 6s
+            <div class="sub">北北東 22°（NNE）</div>
+          </td>
+        </tr>
+        <tr class="slot">
+          <td class="t">18:00</td>
+          <td class="wind">
+            <span class="arrow" style="transform:rotate(30.0deg)">↓</span>
+            <span class="wspd strong">21 kt</span>
+            <span class="wspd-ms">(10.8 m/s)</span>
+            <div class="sub">陣風 24 kt · 北北東 30°</div>
+          </td>
+          <td class="wave">
+            <span class="arrow wave-a" style="transform:rotate(22deg)">↓</span>
+            <strong>1.6 m</strong> / 6s
+            <div class="sub">北北東 22°（NNE）</div>
+          </td>
+        </tr></tbody>
+        </table>
+        <div class="tide-box">
+          <div class="tide-label">潮汐 · 苗栗縣後龍</div>
+          <div class="tide-timeline"><div class="tide-ev"><span class="tide-icon">▲</span><span class="tide-type">滿潮</span><span class="tide-time">05:01</span><span class="tide-h">+108 cm</span></div><div class="tide-ev"><span class="tide-icon">▼</span><span class="tide-type">乾潮</span><span class="tide-time">11:35</span><span class="tide-h">-129 cm</span></div><div class="tide-ev"><span class="tide-icon">▲</span><span class="tide-type">滿潮</span><span class="tide-time">18:17</span><span class="tide-h">+117 cm</span></div></div>
+        </div>
+      </div></div>
+    <footer class="tide-src">潮位站：中央氣象署 · 苗栗縣後龍（T000506 / 10005060）· 潮高為相對當地平均海平面 (cm) · 潮差：小 · <a href="https://www.cwa.gov.tw/V8/C/M/Fishery/tide_30day_MOD/T000506.html" target="_blank">CWA 來源</a></footer>
+  </section>
+  <section class="spot-card" style="--accent:#2dd4bf" id="spot-167590">
+    <header class="spot-head">
+      <div>
+        <h2>假日之森</h2>
+        <p class="spot-sub">竹南 - 假日之森 · 苗栗西岸</p>
+      </div>
+      <div class="spot-meta">
+        <a href="https://www.windguru.cz/167590" target="_blank" rel="noopener">Windguru 167590</a>
+        <span>SST 27 C</span>
+      </div>
+    </header>
+    <p class="caveat">海岸：面向西／西北海域。北～北北東風偏側岸／離岸感（簡要參考，勿過度解讀）。</p>
+    <div class="days-grid">
+      <div class="day-block">
+        <div class="day-title">週五 9/18</div>
+        <table class="fc-table">
+          <thead><tr><th>時間</th><th>風</th><th>浪</th></tr></thead>
+          <tbody>
+        <tr class="slot hl">
+          <td class="t">06:00</td>
+          <td class="wind">
+            <span class="arrow" style="transform:rotate(57.0deg)">↓</span>
+            <span class="wspd light">5 kt</span>
+            <span class="wspd-ms">(2.6 m/s)</span>
+            <div class="sub">陣風 7 kt · 東北東 57°</div>
+          </td>
+          <td class="wave">
+            <span class="arrow wave-a" style="transform:rotate(22deg)">↓</span>
+            <strong>1.0 m</strong> / 6s
+            <div class="sub">北北東 22°（NNE）</div>
+          </td>
+        </tr>
+        <tr class="slot hl">
+          <td class="t">09:00</td>
+          <td class="wind">
+            <span class="arrow" style="transform:rotate(25.0deg)">↓</span>
+            <span class="wspd light">6 kt</span>
+            <span class="wspd-ms">(3.1 m/s)</span>
+            <div class="sub">陣風 8 kt · 北北東 25°</div>
+          </td>
+          <td class="wave">
+            <span class="arrow wave-a" style="transform:rotate(22deg)">↓</span>
+            <strong>0.9 m</strong> / 5s
+            <div class="sub">北北東 22°（NNE）</div>
+          </td>
+        </tr>
+        <tr class="slot">
+          <td class="t">12:00</td>
+          <td class="wind">
+            <span class="arrow" style="transform:rotate(4.0deg)">↓</span>
+            <span class="wspd mod">14 kt</span>
+            <span class="wspd-ms">(7.2 m/s)</span>
+            <div class="sub">陣風 12 kt · 北 4°</div>
+          </td>
+          <td class="wave">
+            <span class="arrow wave-a" style="transform:rotate(22deg)">↓</span>
+            <strong>1.1 m</strong> / 5s
+            <div class="sub">北北東 22°（NNE）</div>
+          </td>
+        </tr>
+        <tr class="slot">
+          <td class="t">15:00</td>
+          <td class="wind">
+            <span class="arrow" style="transform:rotate(9.0deg)">↓</span>
+            <span class="wspd strong">16 kt</span>
+            <span class="wspd-ms">(8.2 m/s)</span>
+            <div class="sub">陣風 15 kt · 北 9°</div>
+          </td>
+          <td class="wave">
+            <span class="arrow wave-a" style="transform:rotate(22deg)">↓</span>
+            <strong>1.3 m</strong> / 5s
+            <div class="sub">北北東 22°（NNE）</div>
+          </td>
+        </tr>
+        <tr class="slot hl">
+          <td class="t">18:00</td>
+          <td class="wind">
+            <span class="arrow" style="transform:rotate(27.0deg)">↓</span>
+            <span class="wspd strong">15 kt</span>
+            <span class="wspd-ms">(7.7 m/s)</span>
+            <div class="sub">陣風 18 kt · 北北東 27°</div>
+          </td>
+          <td class="wave">
+            <span class="arrow wave-a" style="transform:rotate(22deg)">↓</span>
+            <strong>1.3 m</strong> / 5s
+            <div class="sub">北北東 22°（NNE）</div>
+          </td>
+        </tr></tbody>
+        </table>
+        <div class="tide-box">
+          <div class="tide-label">潮汐 · 苗栗縣竹南</div>
+          <div class="tide-timeline"><div class="tide-ev"><span class="tide-icon">▲</span><span class="tide-type">滿潮</span><span class="tide-time">02:52</span><span class="tide-h">+158 cm</span></div><div class="tide-ev"><span class="tide-icon">▼</span><span class="tide-type">乾潮</span><span class="tide-time">09:21</span><span class="tide-h">-156 cm</span></div><div class="tide-ev"><span class="tide-icon">▲</span><span class="tide-type">滿潮</span><span class="tide-time">15:54</span><span class="tide-h">+148 cm</span></div><div class="tide-ev"><span class="tide-icon">▼</span><span class="tide-type">乾潮</span><span class="tide-time">21:52</span><span class="tide-h">-84 cm</span></div></div>
+        </div>
+      </div>
+      <div class="day-block">
+        <div class="day-title">週六 9/19</div>
+        <table class="fc-table">
+          <thead><tr><th>時間</th><th>風</th><th>浪</th></tr></thead>
+          <tbody>
+        <tr class="slot hl">
+          <td class="t">06:00</td>
+          <td class="wind">
+            <span class="arrow" style="transform:rotate(47.0deg)">↓</span>
+            <span class="wspd mod">10 kt</span>
+            <span class="wspd-ms">(5.1 m/s)</span>
+            <div class="sub">陣風 14 kt · 東北 47°</div>
+          </td>
+          <td class="wave">
+            <span class="arrow wave-a" style="transform:rotate(45deg)">↓</span>
+            <strong>1.0 m</strong> / 5s
+            <div class="sub">東北 45°（NE）</div>
+          </td>
+        </tr>
+        <tr class="slot hl">
+          <td class="t">09:00</td>
+          <td class="wind">
+            <span class="arrow" style="transform:rotate(33.0deg)">↓</span>
+            <span class="wspd mod">11 kt</span>
+            <span class="wspd-ms">(5.7 m/s)</span>
+            <div class="sub">陣風 13 kt · 北北東 33°</div>
+          </td>
+          <td class="wave">
+            <span class="arrow wave-a" style="transform:rotate(22deg)">↓</span>
+            <strong>0.9 m</strong> / 5s
+            <div class="sub">北北東 22°（NNE）</div>
+          </td>
+        </tr>
+        <tr class="slot">
+          <td class="t">12:00</td>
+          <td class="wind">
+            <span class="arrow" style="transform:rotate(8.0deg)">↓</span>
+            <span class="wspd strong">15 kt</span>
+            <span class="wspd-ms">(7.7 m/s)</span>
+            <div class="sub">陣風 14 kt · 北 8°</div>
+          </td>
+          <td class="wave">
+            <span class="arrow wave-a" style="transform:rotate(22deg)">↓</span>
+            <strong>0.9 m</strong> / 4s
+            <div class="sub">北北東 22°（NNE）</div>
+          </td>
+        </tr>
+        <tr class="slot">
+          <td class="t">15:00</td>
+          <td class="wind">
+            <span class="arrow" style="transform:rotate(12.0deg)">↓</span>
+            <span class="wspd strong">17 kt</span>
+            <span class="wspd-ms">(8.7 m/s)</span>
+            <div class="sub">陣風 17 kt · 北北東 12°</div>
+          </td>
+          <td class="wave">
+            <span class="arrow wave-a" style="transform:rotate(22deg)">↓</span>
+            <strong>1.0 m</strong> / 4s
+            <div class="sub">北北東 22°（NNE）</div>
+          </td>
+        </tr>
+        <tr class="slot">
+          <td class="t">18:00</td>
+          <td class="wind">
+            <span class="arrow" style="transform:rotate(30.0deg)">↓</span>
+            <span class="wspd strong">16 kt</span>
+            <span class="wspd-ms">(8.2 m/s)</span>
+            <div class="sub">陣風 21 kt · 北北東 30°</div>
+          </td>
+          <td class="wave">
+            <span class="arrow wave-a" style="transform:rotate(22deg)">↓</span>
+            <strong>1.1 m</strong> / 5s
+            <div class="sub">北北東 22°（NNE）</div>
+          </td>
+        </tr></tbody>
+        </table>
+        <div class="tide-box">
+          <div class="tide-label">潮汐 · 苗栗縣竹南</div>
+          <div class="tide-timeline"><div class="tide-ev"><span class="tide-icon">▲</span><span class="tide-type">滿潮</span><span class="tide-time">03:50</span><span class="tide-h">+130 cm</span></div><div class="tide-ev"><span class="tide-icon">▼</span><span class="tide-type">乾潮</span><span class="tide-time">10:15</span><span class="tide-h">-136 cm</span></div><div class="tide-ev"><span class="tide-icon">▲</span><span class="tide-type">滿潮</span><span class="tide-time">16:59</span><span class="tide-h">+126 cm</span></div><div class="tide-ev"><span class="tide-icon">▼</span><span class="tide-type">乾潮</span><span class="tide-time">22:58</span><span class="tide-h">-63 cm</span></div></div>
+        </div>
+      </div>
+      <div class="day-block">
+        <div class="day-title">週日 9/20</div>
+        <table class="fc-table">
+          <thead><tr><th>時間</th><th>風</th><th>浪</th></tr></thead>
+          <tbody>
+        <tr class="slot hl">
+          <td class="t">06:00</td>
+          <td class="wind">
+            <span class="arrow" style="transform:rotate(40.0deg)">↓</span>
+            <span class="wspd mod">11 kt</span>
+            <span class="wspd-ms">(5.7 m/s)</span>
+            <div class="sub">陣風 16 kt · 東北 40°</div>
+          </td>
+          <td class="wave">
+            <span class="arrow wave-a" style="transform:rotate(22deg)">↓</span>
+            <strong>1.0 m</strong> / 5s
+            <div class="sub">北北東 22°（NNE）</div>
+          </td>
+        </tr>
+        <tr class="slot">
+          <td class="t">09:00</td>
+          <td class="wind">
+            <span class="arrow" style="transform:rotate(24.0deg)">↓</span>
+            <span class="wspd mod">13 kt</span>
+            <span class="wspd-ms">(6.7 m/s)</span>
+            <div class="sub">陣風 16 kt · 北北東 24°</div>
+          </td>
+          <td class="wave">
+            <span class="arrow wave-a" style="transform:rotate(22deg)">↓</span>
+            <strong>1.0 m</strong> / 4s
+            <div class="sub">北北東 22°（NNE）</div>
+          </td>
+        </tr>
+        <tr class="slot">
+          <td class="t">12:00</td>
+          <td class="wind">
+            <span class="arrow" style="transform:rotate(13.0deg)">↓</span>
+            <span class="wspd strong">19 kt</span>
+            <span class="wspd-ms">(9.8 m/s)</span>
+            <div class="sub">陣風 19 kt · 北北東 13°</div>
+          </td>
+          <td class="wave">
+            <span class="arrow wave-a" style="transform:rotate(22deg)">↓</span>
+            <strong>1.3 m</strong> / 5s
+            <div class="sub">北北東 22°（NNE）</div>
+          </td>
+        </tr>
+        <tr class="slot">
+          <td class="t">15:00</td>
+          <td class="wind">
+            <span class="arrow" style="transform:rotate(20.0deg)">↓</span>
+            <span class="wspd strong">18 kt</span>
+            <span class="wspd-ms">(9.3 m/s)</span>
+            <div class="sub">陣風 19 kt · 北北東 20°</div>
+          </td>
+          <td class="wave">
+            <span class="arrow wave-a" style="transform:rotate(22deg)">↓</span>
+            <strong>1.4 m</strong> / 5s
+            <div class="sub">北北東 22°（NNE）</div>
+          </td>
+        </tr>
+        <tr class="slot">
+          <td class="t">18:00</td>
+          <td class="wind">
+            <span class="arrow" style="transform:rotate(31.0deg)">↓</span>
+            <span class="wspd strong">17 kt</span>
+            <span class="wspd-ms">(8.7 m/s)</span>
+            <div class="sub">陣風 21 kt · 北北東 31°</div>
+          </td>
+          <td class="wave">
+            <span class="arrow wave-a" style="transform:rotate(22deg)">↓</span>
+            <strong>1.4 m</strong> / 5s
+            <div class="sub">北北東 22°（NNE）</div>
+          </td>
+        </tr></tbody>
+        </table>
+        <div class="tide-box">
+          <div class="tide-label">潮汐 · 苗栗縣竹南</div>
+          <div class="tide-timeline"><div class="tide-ev"><span class="tide-icon">▲</span><span class="tide-type">滿潮</span><span class="tide-time">05:02</span><span class="tide-h">+111 cm</span></div><div class="tide-ev"><span class="tide-icon">▼</span><span class="tide-type">乾潮</span><span class="tide-time">11:34</span><span class="tide-h">-121 cm</span></div><div class="tide-ev"><span class="tide-icon">▲</span><span class="tide-type">滿潮</span><span class="tide-time">18:17</span><span class="tide-h">+121 cm</span></div></div>
+        </div>
+      </div></div>
+    <footer class="tide-src">潮位站：中央氣象署 · 苗栗縣竹南（T000504 / 10005040）· 潮高為相對當地平均海平面 (cm) · 潮差：小 · <a href="https://www.cwa.gov.tw/V8/C/M/Fishery/tide_30day_MOD/T000504.html" target="_blank">CWA 來源</a></footer>
+  </section>
+  <section class="spot-card" style="--accent:#fbbf24" id="spot-138043">
+    <header class="spot-head">
+      <div>
+        <h2>松柏港</h2>
+        <p class="spot-sub">松柏港 · 台中大甲西岸</p>
+      </div>
+      <div class="spot-meta">
+        <a href="https://www.windguru.cz/138043" target="_blank" rel="noopener">Windguru 138043</a>
+        <span>SST 27 C</span>
+      </div>
+    </header>
+    <p class="caveat">海岸：面向西／西北海域（大安溪口北側）。北北東風偏側岸～離岸；風強時與後龍類似易亂浪面（簡要參考，勿過度解讀）。</p>
+    <div class="days-grid">
+      <div class="day-block">
+        <div class="day-title">週五 9/18</div>
+        <table class="fc-table">
+          <thead><tr><th>時間</th><th>風</th><th>浪</th></tr></thead>
+          <tbody>
+        <tr class="slot hl">
+          <td class="t">06:00</td>
+          <td class="wind">
+            <span class="arrow" style="transform:rotate(54.0deg)">↓</span>
+            <span class="wspd light">4 kt</span>
+            <span class="wspd-ms">(2.1 m/s)</span>
+            <div class="sub">陣風 6 kt · 東北 54°</div>
+          </td>
+          <td class="wave">
+            <span class="arrow wave-a" style="transform:rotate(17.0deg)">↓</span>
+            <strong>1.1 m</strong> / 6s
+            <div class="sub">北北東 17°（NNE）</div>
+          </td>
+        </tr>
+        <tr class="slot hl">
+          <td class="t">09:00</td>
+          <td class="wind">
+            <span class="arrow" style="transform:rotate(24.0deg)">↓</span>
+            <span class="wspd light">7 kt</span>
+            <span class="wspd-ms">(3.6 m/s)</span>
+            <div class="sub">陣風 7 kt · 北北東 24°</div>
+          </td>
+          <td class="wave">
+            <span class="arrow wave-a" style="transform:rotate(17.0deg)">↓</span>
+            <strong>1.0 m</strong> / 6s
+            <div class="sub">北北東 17°（NNE）</div>
+          </td>
+        </tr>
+        <tr class="slot hl">
+          <td class="t">12:00</td>
+          <td class="wind">
+            <span class="arrow" style="transform:rotate(11.0deg)">↓</span>
+            <span class="wspd mod">14 kt</span>
+            <span class="wspd-ms">(7.2 m/s)</span>
+            <div class="sub">陣風 12 kt · 北 11°</div>
+          </td>
+          <td class="wave">
+            <span class="arrow wave-a" style="transform:rotate(20.0deg)">↓</span>
+            <strong>1.2 m</strong> / 6s
+            <div class="sub">北北東 20°（NNE）</div>
+          </td>
+        </tr>
+        <tr class="slot hl">
+          <td class="t">15:00</td>
+          <td class="wind">
+            <span class="arrow" style="transform:rotate(17.0deg)">↓</span>
+            <span class="wspd strong">16 kt</span>
+            <span class="wspd-ms">(8.2 m/s)</span>
+            <div class="sub">陣風 16 kt · 北北東 17°</div>
+          </td>
+          <td class="wave">
+            <span class="arrow wave-a" style="transform:rotate(20.0deg)">↓</span>
+            <strong>1.4 m</strong> / 6s
+            <div class="sub">北北東 20°（NNE）</div>
+          </td>
+        </tr>
+        <tr class="slot hl">
+          <td class="t">18:00</td>
+          <td class="wind">
+            <span class="arrow" style="transform:rotate(25.0deg)">↓</span>
+            <span class="wspd strong">16 kt</span>
+            <span class="wspd-ms">(8.2 m/s)</span>
+            <div class="sub">陣風 20 kt · 北北東 25°</div>
+          </td>
+          <td class="wave">
+            <span class="arrow wave-a" style="transform:rotate(23.0deg)">↓</span>
+            <strong>1.5 m</strong> / 6s
+            <div class="sub">北北東 23°（NNE）</div>
+          </td>
+        </tr></tbody>
+        </table>
+        <div class="tide-box">
+          <div class="tide-label">潮汐 · 臺中市大甲</div>
+          <div class="tide-timeline"><div class="tide-ev"><span class="tide-icon">▲</span><span class="tide-type">滿潮</span><span class="tide-time">02:50</span><span class="tide-h">+180 cm</span></div><div class="tide-ev"><span class="tide-icon">▼</span><span class="tide-type">乾潮</span><span class="tide-time">09:16</span><span class="tide-h">-162 cm</span></div><div class="tide-ev"><span class="tide-icon">▲</span><span class="tide-type">滿潮</span><span class="tide-time">15:50</span><span class="tide-h">+156 cm</span></div><div class="tide-ev"><span class="tide-icon">▼</span><span class="tide-type">乾潮</span><span class="tide-time">21:51</span><span class="tide-h">-79 cm</span></div></div>
+        </div>
+      </div>
+      <div class="day-block">
+        <div class="day-title">週六 9/19</div>
+        <table class="fc-table">
+          <thead><tr><th>時間</th><th>風</th><th>浪</th></tr></thead>
+          <tbody>
+        <tr class="slot hl">
+          <td class="t">06:00</td>
+          <td class="wind">
+            <span class="arrow" style="transform:rotate(39.0deg)">↓</span>
+            <span class="wspd mod">11 kt</span>
+            <span class="wspd-ms">(5.7 m/s)</span>
+            <div class="sub">陣風 13 kt · 東北 39°</div>
+          </td>
+          <td class="wave">
+            <span class="arrow wave-a" style="transform:rotate(24.0deg)">↓</span>
+            <strong>1.2 m</strong> / 6s
+            <div class="sub">北北東 24°（NNE）</div>
+          </td>
+        </tr>
+        <tr class="slot hl">
+          <td class="t">09:00</td>
+          <td class="wind">
+            <span class="arrow" style="transform:rotate(27.0deg)">↓</span>
+            <span class="wspd mod">12 kt</span>
+            <span class="wspd-ms">(6.2 m/s)</span>
+            <div class="sub">陣風 12 kt · 北北東 27°</div>
+          </td>
+          <td class="wave">
+            <span class="arrow wave-a" style="transform:rotate(22.0deg)">↓</span>
+            <strong>1.2 m</strong> / 6s
+            <div class="sub">北北東 22°（NNE）</div>
+          </td>
+        </tr>
+        <tr class="slot">
+          <td class="t">12:00</td>
+          <td class="wind">
+            <span class="arrow" style="transform:rotate(10.0deg)">↓</span>
+            <span class="wspd strong">15 kt</span>
+            <span class="wspd-ms">(7.7 m/s)</span>
+            <div class="sub">陣風 14 kt · 北 10°</div>
+          </td>
+          <td class="wave">
+            <span class="arrow wave-a" style="transform:rotate(20.0deg)">↓</span>
+            <strong>1.2 m</strong> / 5s
+            <div class="sub">北北東 20°（NNE）</div>
+          </td>
+        </tr>
+        <tr class="slot">
+          <td class="t">15:00</td>
+          <td class="wind">
+            <span class="arrow" style="transform:rotate(14.0deg)">↓</span>
+            <span class="wspd strong">16 kt</span>
+            <span class="wspd-ms">(8.2 m/s)</span>
+            <div class="sub">陣風 18 kt · 北北東 14°</div>
+          </td>
+          <td class="wave">
+            <span class="arrow wave-a" style="transform:rotate(19.0deg)">↓</span>
+            <strong>1.2 m</strong> / 5s
+            <div class="sub">北北東 19°（NNE）</div>
+          </td>
+        </tr>
+        <tr class="slot">
+          <td class="t">18:00</td>
+          <td class="wind">
+            <span class="arrow" style="transform:rotate(26.0deg)">↓</span>
+            <span class="wspd strong">17 kt</span>
+            <span class="wspd-ms">(8.7 m/s)</span>
+            <div class="sub">陣風 23 kt · 北北東 26°</div>
+          </td>
+          <td class="wave">
+            <span class="arrow wave-a" style="transform:rotate(21.0deg)">↓</span>
+            <strong>1.4 m</strong> / 5s
+            <div class="sub">北北東 21°（NNE）</div>
+          </td>
+        </tr></tbody>
+        </table>
+        <div class="tide-box">
+          <div class="tide-label">潮汐 · 臺中市大甲</div>
+          <div class="tide-timeline"><div class="tide-ev"><span class="tide-icon">▲</span><span class="tide-type">滿潮</span><span class="tide-time">03:45</span><span class="tide-h">+150 cm</span></div><div class="tide-ev"><span class="tide-icon">▼</span><span class="tide-type">乾潮</span><span class="tide-time">10:17</span><span class="tide-h">-135 cm</span></div><div class="tide-ev"><span class="tide-icon">▲</span><span class="tide-type">滿潮</span><span class="tide-time">17:01</span><span class="tide-h">+134 cm</span></div><div class="tide-ev"><span class="tide-icon">▼</span><span class="tide-type">乾潮</span><span class="tide-time">23:03</span><span class="tide-h">-56 cm</span></div></div>
+        </div>
+      </div>
+      <div class="day-block">
+        <div class="day-title">週日 9/20</div>
+        <table class="fc-table">
+          <thead><tr><th>時間</th><th>風</th><th>浪</th></tr></thead>
+          <tbody>
+        <tr class="slot hl">
+          <td class="t">06:00</td>
+          <td class="wind">
+            <span class="arrow" style="transform:rotate(39.0deg)">↓</span>
+            <span class="wspd mod">11 kt</span>
+            <span class="wspd-ms">(5.7 m/s)</span>
+            <div class="sub">陣風 14 kt · 東北 39°</div>
+          </td>
+          <td class="wave">
+            <span class="arrow wave-a" style="transform:rotate(21.0deg)">↓</span>
+            <strong>1.2 m</strong> / 5s
+            <div class="sub">北北東 21°（NNE）</div>
+          </td>
+        </tr>
+        <tr class="slot hl">
+          <td class="t">09:00</td>
+          <td class="wind">
+            <span class="arrow" style="transform:rotate(24.0deg)">↓</span>
+            <span class="wspd mod">12 kt</span>
+            <span class="wspd-ms">(6.2 m/s)</span>
+            <div class="sub">陣風 14 kt · 北北東 24°</div>
+          </td>
+          <td class="wave">
+            <span class="arrow wave-a" style="transform:rotate(21.0deg)">↓</span>
+            <strong>1.1 m</strong> / 5s
+            <div class="sub">北北東 21°（NNE）</div>
+          </td>
+        </tr>
+        <tr class="slot">
+          <td class="t">12:00</td>
+          <td class="wind">
+            <span class="arrow" style="transform:rotate(10.0deg)">↓</span>
+            <span class="wspd strong">17 kt</span>
+            <span class="wspd-ms">(8.7 m/s)</span>
+            <div class="sub">陣風 18 kt · 北 10°</div>
+          </td>
+          <td class="wave">
+            <span class="arrow wave-a" style="transform:rotate(18.0deg)">↓</span>
+            <strong>1.4 m</strong> / 5s
+            <div class="sub">北北東 18°（NNE）</div>
+          </td>
+        </tr>
+        <tr class="slot hl">
+          <td class="t">15:00</td>
+          <td class="wind">
+            <span class="arrow" style="transform:rotate(17.0deg)">↓</span>
+            <span class="wspd strong">18 kt</span>
+            <span class="wspd-ms">(9.3 m/s)</span>
+            <div class="sub">陣風 20 kt · 北北東 17°</div>
+          </td>
+          <td class="wave">
+            <span class="arrow wave-a" style="transform:rotate(18.0deg)">↓</span>
+            <strong>1.6 m</strong> / 6s
+            <div class="sub">北北東 18°（NNE）</div>
+          </td>
+        </tr>
+        <tr class="slot hl">
+          <td class="t">18:00</td>
+          <td class="wind">
+            <span class="arrow" style="transform:rotate(25.0deg)">↓</span>
+            <span class="wspd strong">17 kt</span>
+            <span class="wspd-ms">(8.7 m/s)</span>
+            <div class="sub">陣風 22 kt · 北北東 25°</div>
+          </td>
+          <td class="wave">
+            <span class="arrow wave-a" style="transform:rotate(21.0deg)">↓</span>
+            <strong>1.6 m</strong> / 6s
+            <div class="sub">北北東 21°（NNE）</div>
+          </td>
+        </tr></tbody>
+        </table>
+        <div class="tide-box">
+          <div class="tide-label">潮汐 · 臺中市大甲</div>
+          <div class="tide-timeline"><div class="tide-ev"><span class="tide-icon">▲</span><span class="tide-type">滿潮</span><span class="tide-time">04:57</span><span class="tide-h">+128 cm</span></div><div class="tide-ev"><span class="tide-icon">▼</span><span class="tide-type">乾潮</span><span class="tide-time">11:37</span><span class="tide-h">-119 cm</span></div><div class="tide-ev"><span class="tide-icon">▲</span><span class="tide-type">滿潮</span><span class="tide-time">18:23</span><span class="tide-h">+130 cm</span></div></div>
+        </div>
+      </div></div>
+    <footer class="tide-src">潮位站：中央氣象署 · 臺中市大甲（T600011 / 66000110）· 潮高為相對當地平均海平面 (cm) · 潮差：小 · <a href="https://www.cwa.gov.tw/V8/C/M/Fishery/tide_30day_MOD/T600011.html" target="_blank">CWA 來源</a></footer>
+  </section>
+  <section class="spot-card" style="--accent:#a78bfa" id="spot-167601">
+    <header class="spot-head">
+      <div>
+        <h2>無尾港</h2>
+        <p class="spot-sub">蘇澳 - 無尾港 · 宜蘭蘇澳</p>
+      </div>
+      <div class="spot-meta">
+        <a href="https://www.windguru.cz/167601" target="_blank" rel="noopener">Windguru 167601</a>
+        <span>SST 27 C</span>
+      </div>
+    </header>
+    <p class="caveat">海岸：面向東海域。北北東風多為側岸～偏向岸（簡要參考，勿過度解讀）。</p>
+    <div class="days-grid">
+      <div class="day-block">
+        <div class="day-title">週五 9/18</div>
+        <table class="fc-table">
+          <thead><tr><th>時間</th><th>風</th><th>浪</th></tr></thead>
+          <tbody>
+        <tr class="slot hl">
+          <td class="t">06:00</td>
+          <td class="wind">
+            <span class="arrow" style="transform:rotate(20.0deg)">↓</span>
+            <span class="wspd light">3 kt</span>
+            <span class="wspd-ms">(1.5 m/s)</span>
+            <div class="sub">陣風 4 kt · 北北東 20°</div>
+          </td>
+          <td class="wave">
+            <span class="arrow wave-a" style="transform:rotate(45deg)">↓</span>
+            <strong>1.0 m</strong> / 5s
+            <div class="sub">東北 45°（NE）</div>
+          </td>
+        </tr>
+        <tr class="slot hl">
+          <td class="t">09:00</td>
+          <td class="wind">
+            <span class="arrow" style="transform:rotate(18.0deg)">↓</span>
+            <span class="wspd light">5 kt</span>
+            <span class="wspd-ms">(2.6 m/s)</span>
+            <div class="sub">陣風 5 kt · 北北東 18°</div>
+          </td>
+          <td class="wave">
+            <span class="arrow wave-a" style="transform:rotate(112deg)">↓</span>
+            <strong>0.9 m</strong> / 9s
+            <div class="sub">東南東 112°（ESE）</div>
+          </td>
+        </tr>
+        <tr class="slot hl">
+          <td class="t">12:00</td>
+          <td class="wind">
+            <span class="arrow" style="transform:rotate(19.0deg)">↓</span>
+            <span class="wspd light">7 kt</span>
+            <span class="wspd-ms">(3.6 m/s)</span>
+            <div class="sub">陣風 6 kt · 北北東 19°</div>
+          </td>
+          <td class="wave">
+            <span class="arrow wave-a" style="transform:rotate(112deg)">↓</span>
+            <strong>0.9 m</strong> / 8s
+            <div class="sub">東南東 112°（ESE）</div>
+          </td>
+        </tr>
+        <tr class="slot hl">
+          <td class="t">15:00</td>
+          <td class="wind">
+            <span class="arrow" style="transform:rotate(33.0deg)">↓</span>
+            <span class="wspd mod">8 kt</span>
+            <span class="wspd-ms">(4.1 m/s)</span>
+            <div class="sub">陣風 6 kt · 北北東 33°</div>
+          </td>
+          <td class="wave">
+            <span class="arrow wave-a" style="transform:rotate(112deg)">↓</span>
+            <strong>0.9 m</strong> / 8s
+            <div class="sub">東南東 112°（ESE）</div>
+          </td>
+        </tr>
+        <tr class="slot hl">
+          <td class="t">18:00</td>
+          <td class="wind">
+            <span class="arrow" style="transform:rotate(16.0deg)">↓</span>
+            <span class="wspd mod">9 kt</span>
+            <span class="wspd-ms">(4.6 m/s)</span>
+            <div class="sub">陣風 7 kt · 北北東 16°</div>
+          </td>
+          <td class="wave">
+            <span class="arrow wave-a" style="transform:rotate(112deg)">↓</span>
+            <strong>0.9 m</strong> / 8s
+            <div class="sub">東南東 112°（ESE）</div>
+          </td>
+        </tr></tbody>
+        </table>
+        <div class="tide-box">
+          <div class="tide-label">潮汐 · 宜蘭縣蘇澳</div>
+          <div class="tide-timeline"><div class="tide-ev"><span class="tide-icon">▼</span><span class="tide-type">乾潮</span><span class="tide-time">04:21</span><span class="tide-h">-27 cm</span></div><div class="tide-ev"><span class="tide-icon">▲</span><span class="tide-type">滿潮</span><span class="tide-time">11:08</span><span class="tide-h">+13 cm</span></div><div class="tide-ev"><span class="tide-icon">▼</span><span class="tide-type">乾潮</span><span class="tide-time">14:36</span><span class="tide-h">+7 cm</span></div><div class="tide-ev"><span class="tide-icon">▲</span><span class="tide-type">滿潮</span><span class="tide-time">21:29</span><span class="tide-h">+58 cm</span></div></div>
+        </div>
+      </div>
+      <div class="day-block">
+        <div class="day-title">週六 9/19</div>
+        <table class="fc-table">
+          <thead><tr><th>時間</th><th>風</th><th>浪</th></tr></thead>
+          <tbody>
+        <tr class="slot hl">
+          <td class="t">06:00</td>
+          <td class="wind">
+            <span class="arrow" style="transform:rotate(315.0deg)">↓</span>
+            <span class="wspd light">7 kt</span>
+            <span class="wspd-ms">(3.6 m/s)</span>
+            <div class="sub">陣風 6 kt · 西北 315°</div>
+          </td>
+          <td class="wave">
+            <span class="arrow wave-a" style="transform:rotate(112deg)">↓</span>
+            <strong>0.8 m</strong> / 8s
+            <div class="sub">東南東 112°（ESE）</div>
+          </td>
+        </tr>
+        <tr class="slot hl">
+          <td class="t">09:00</td>
+          <td class="wind">
+            <span class="arrow" style="transform:rotate(5.0deg)">↓</span>
+            <span class="wspd light">6 kt</span>
+            <span class="wspd-ms">(3.1 m/s)</span>
+            <div class="sub">陣風 8 kt · 北 5°</div>
+          </td>
+          <td class="wave">
+            <span class="arrow wave-a" style="transform:rotate(112deg)">↓</span>
+            <strong>0.8 m</strong> / 8s
+            <div class="sub">東南東 112°（ESE）</div>
+          </td>
+        </tr>
+        <tr class="slot">
+          <td class="t">12:00</td>
+          <td class="wind">
+            <span class="arrow" style="transform:rotate(47.0deg)">↓</span>
+            <span class="wspd mod">12 kt</span>
+            <span class="wspd-ms">(6.2 m/s)</span>
+            <div class="sub">陣風 11 kt · 東北 47°</div>
+          </td>
+          <td class="wave">
+            <span class="arrow wave-a" style="transform:rotate(112deg)">↓</span>
+            <strong>1.0 m</strong> / 8s
+            <div class="sub">東南東 112°（ESE）</div>
+          </td>
+        </tr>
+        <tr class="slot">
+          <td class="t">15:00</td>
+          <td class="wind">
+            <span class="arrow" style="transform:rotate(33.0deg)">↓</span>
+            <span class="wspd strong">15 kt</span>
+            <span class="wspd-ms">(7.7 m/s)</span>
+            <div class="sub">陣風 13 kt · 北北東 33°</div>
+          </td>
+          <td class="wave">
+            <span class="arrow wave-a" style="transform:rotate(22deg)">↓</span>
+            <strong>1.3 m</strong> / 4s
+            <div class="sub">北北東 22°（NNE）</div>
+          </td>
+        </tr>
+        <tr class="slot">
+          <td class="t">18:00</td>
+          <td class="wind">
+            <span class="arrow" style="transform:rotate(22.0deg)">↓</span>
+            <span class="wspd mod">13 kt</span>
+            <span class="wspd-ms">(6.7 m/s)</span>
+            <div class="sub">陣風 11 kt · 北北東 22°</div>
+          </td>
+          <td class="wave">
+            <span class="arrow wave-a" style="transform:rotate(22deg)">↓</span>
+            <strong>1.2 m</strong> / 5s
+            <div class="sub">北北東 22°（NNE）</div>
+          </td>
+        </tr></tbody>
+        </table>
+        <div class="tide-box">
+          <div class="tide-label">潮汐 · 宜蘭縣蘇澳</div>
+          <div class="tide-timeline"><div class="tide-ev"><span class="tide-icon">▼</span><span class="tide-type">乾潮</span><span class="tide-time">05:54</span><span class="tide-h">-21 cm</span></div><div class="tide-ev"><span class="tide-icon">▲</span><span class="tide-type">滿潮</span><span class="tide-time">22:28</span><span class="tide-h">+49 cm</span></div></div>
+        </div>
+      </div>
+      <div class="day-block">
+        <div class="day-title">週日 9/20</div>
+        <table class="fc-table">
+          <thead><tr><th>時間</th><th>風</th><th>浪</th></tr></thead>
+          <tbody>
+        <tr class="slot hl">
+          <td class="t">06:00</td>
+          <td class="wind">
+            <span class="arrow" style="transform:rotate(322.0deg)">↓</span>
+            <span class="wspd mod">8 kt</span>
+            <span class="wspd-ms">(4.1 m/s)</span>
+            <div class="sub">陣風 10 kt · 西北 322°</div>
+          </td>
+          <td class="wave">
+            <span class="arrow wave-a" style="transform:rotate(90deg)">↓</span>
+            <strong>1.0 m</strong> / 8s
+            <div class="sub">東 90°（E）</div>
+          </td>
+        </tr>
+        <tr class="slot hl">
+          <td class="t">09:00</td>
+          <td class="wind">
+            <span class="arrow" style="transform:rotate(14.0deg)">↓</span>
+            <span class="wspd mod">9 kt</span>
+            <span class="wspd-ms">(4.6 m/s)</span>
+            <div class="sub">陣風 11 kt · 北北東 14°</div>
+          </td>
+          <td class="wave">
+            <span class="arrow wave-a" style="transform:rotate(90deg)">↓</span>
+            <strong>1.1 m</strong> / 16s
+            <div class="sub">東 90°（E）</div>
+          </td>
+        </tr>
+        <tr class="slot hl">
+          <td class="t">12:00</td>
+          <td class="wind">
+            <span class="arrow" style="transform:rotate(36.0deg)">↓</span>
+            <span class="wspd strong">18 kt</span>
+            <span class="wspd-ms">(9.3 m/s)</span>
+            <div class="sub">陣風 13 kt · 東北 36°</div>
+          </td>
+          <td class="wave">
+            <span class="arrow wave-a" style="transform:rotate(90deg)">↓</span>
+            <strong>1.4 m</strong> / 15s
+            <div class="sub">東 90°（E）</div>
+          </td>
+        </tr>
+        <tr class="slot hl">
+          <td class="t">15:00</td>
+          <td class="wind">
+            <span class="arrow" style="transform:rotate(33.0deg)">↓</span>
+            <span class="wspd strong">19 kt</span>
+            <span class="wspd-ms">(9.8 m/s)</span>
+            <div class="sub">陣風 14 kt · 北北東 33°</div>
+          </td>
+          <td class="wave">
+            <span class="arrow wave-a" style="transform:rotate(90deg)">↓</span>
+            <strong>1.7 m</strong> / 15s
+            <div class="sub">東 90°（E）</div>
+          </td>
+        </tr>
+        <tr class="slot hl">
+          <td class="t">18:00</td>
+          <td class="wind">
+            <span class="arrow" style="transform:rotate(13.0deg)">↓</span>
+            <span class="wspd mod">14 kt</span>
+            <span class="wspd-ms">(7.2 m/s)</span>
+            <div class="sub">陣風 12 kt · 北北東 13°</div>
+          </td>
+          <td class="wave">
+            <span class="arrow wave-a" style="transform:rotate(90deg)">↓</span>
+            <strong>1.6 m</strong> / 14s
+            <div class="sub">東 90°（E）</div>
+          </td>
+        </tr></tbody>
+        </table>
+        <div class="tide-box">
+          <div class="tide-label">潮汐 · 宜蘭縣蘇澳</div>
+          <div class="tide-timeline"><div class="tide-ev"><span class="tide-icon">▼</span><span class="tide-type">乾潮</span><span class="tide-time">08:09</span><span class="tide-h">-23 cm</span></div></div>
+        </div>
+      </div></div>
+    <footer class="tide-src">潮位站：中央氣象署 · 宜蘭縣蘇澳（T000203 / 10002030）· 潮高為相對當地平均海平面 (cm) · 潮差：小（東岸潮差原本較小） · <a href="https://www.cwa.gov.tw/V8/C/M/Fishery/tide_30day_MOD/T000203.html" target="_blank">CWA 來源</a></footer>
+  </section>
+  <section class="spot-card" style="--accent:#f472b6" id="spot-331495">
+    <header class="spot-head">
+      <div>
+        <h2>烏石</h2>
+        <p class="spot-sub">Yilan-烏石港 · 宜蘭頭城</p>
+      </div>
+      <div class="spot-meta">
+        <a href="https://www.windguru.cz/331495" target="_blank" rel="noopener">Windguru 331495</a>
+        <span>SST - C</span>
+      </div>
+    </header>
+    <p class="caveat">海岸：面向東海域。東北東／北風偏側岸；浪向偏東時較乾淨（簡要參考，勿過度解讀）。</p>
+    <div class="days-grid">
+      <div class="day-block">
+        <div class="day-title">週五 9/18</div>
+        <table class="fc-table">
+          <thead><tr><th>時間</th><th>風</th><th>浪</th></tr></thead>
+          <tbody>
+        <tr class="slot">
+          <td class="t">06:00</td>
+          <td class="wind">
+            <span class="arrow" style="transform:rotate(66.0deg)">↓</span>
+            <span class="wspd light">4 kt</span>
+            <span class="wspd-ms">(2.1 m/s)</span>
+            <div class="sub">陣風 5 kt · 東北東 66°</div>
+          </td>
+          <td class="wave">
+            <span class="arrow wave-a" style="transform:rotate(90deg)">↓</span>
+            <strong>0.7 m</strong> / 9s
+            <div class="sub">東 90°（E）</div>
+          </td>
+        </tr>
+        <tr class="slot">
+          <td class="t">09:00</td>
+          <td class="wind">
+            <span class="arrow" style="transform:rotate(61.0deg)">↓</span>
+            <span class="wspd light">4 kt</span>
+            <span class="wspd-ms">(2.1 m/s)</span>
+            <div class="sub">陣風 6 kt · 東北東 61°</div>
+          </td>
+          <td class="wave">
+            <span class="arrow wave-a" style="transform:rotate(90deg)">↓</span>
+            <strong>0.7 m</strong> / 9s
+            <div class="sub">東 90°（E）</div>
+          </td>
+        </tr>
+        <tr class="slot">
+          <td class="t">12:00</td>
+          <td class="wind">
+            <span class="arrow" style="transform:rotate(62.0deg)">↓</span>
+            <span class="wspd light">6 kt</span>
+            <span class="wspd-ms">(3.1 m/s)</span>
+            <div class="sub">陣風 5 kt · 東北東 62°</div>
+          </td>
+          <td class="wave">
+            <span class="arrow wave-a" style="transform:rotate(90deg)">↓</span>
+            <strong>0.7 m</strong> / 9s
+            <div class="sub">東 90°（E）</div>
+          </td>
+        </tr>
+        <tr class="slot">
+          <td class="t">15:00</td>
+          <td class="wind">
+            <span class="arrow" style="transform:rotate(60.0deg)">↓</span>
+            <span class="wspd light">7 kt</span>
+            <span class="wspd-ms">(3.6 m/s)</span>
+            <div class="sub">陣風 6 kt · 東北東 60°</div>
+          </td>
+          <td class="wave">
+            <span class="arrow wave-a" style="transform:rotate(90deg)">↓</span>
+            <strong>0.6 m</strong> / 9s
+            <div class="sub">東 90°（E）</div>
+          </td>
+        </tr>
+        <tr class="slot hl">
+          <td class="t">18:00</td>
+          <td class="wind">
+            <span class="arrow" style="transform:rotate(24.0deg)">↓</span>
+            <span class="wspd light">5 kt</span>
+            <span class="wspd-ms">(2.6 m/s)</span>
+            <div class="sub">陣風 6 kt · 北北東 24°</div>
+          </td>
+          <td class="wave">
+            <span class="arrow wave-a" style="transform:rotate(90deg)">↓</span>
+            <strong>0.6 m</strong> / 9s
+            <div class="sub">東 90°（E）</div>
+          </td>
+        </tr></tbody>
+        </table>
+        <div class="tide-box">
+          <div class="tide-label">潮汐 · 宜蘭縣頭城（烏石港最近鄉鎮站）</div>
+          <div class="tide-timeline"><div class="tide-ev"><span class="tide-icon">▼</span><span class="tide-type">乾潮</span><span class="tide-time">05:01</span><span class="tide-h">-36 cm</span></div><div class="tide-ev"><span class="tide-icon">▲</span><span class="tide-type">滿潮</span><span class="tide-time">12:30</span><span class="tide-h">+19 cm</span></div><div class="tide-ev"><span class="tide-icon">▼</span><span class="tide-type">乾潮</span><span class="tide-time">15:39</span><span class="tide-h">+13 cm</span></div><div class="tide-ev"><span class="tide-icon">▲</span><span class="tide-type">滿潮</span><span class="tide-time">21:58</span><span class="tide-h">+46 cm</span></div></div>
+        </div>
+      </div>
+      <div class="day-block">
+        <div class="day-title">週六 9/19</div>
+        <table class="fc-table">
+          <thead><tr><th>時間</th><th>風</th><th>浪</th></tr></thead>
+          <tbody>
+        <tr class="slot hl">
+          <td class="t">06:00</td>
+          <td class="wind">
+            <span class="arrow" style="transform:rotate(327.0deg)">↓</span>
+            <span class="wspd light">3 kt</span>
+            <span class="wspd-ms">(1.5 m/s)</span>
+            <div class="sub">陣風 4 kt · 北北西 327°</div>
+          </td>
+          <td class="wave">
+            <span class="arrow wave-a" style="transform:rotate(90deg)">↓</span>
+            <strong>0.6 m</strong> / 9s
+            <div class="sub">東 90°（E）</div>
+          </td>
+        </tr>
+        <tr class="slot hl">
+          <td class="t">09:00</td>
+          <td class="wind">
+            <span class="arrow" style="transform:rotate(19.0deg)">↓</span>
+            <span class="wspd light">4 kt</span>
+            <span class="wspd-ms">(2.1 m/s)</span>
+            <div class="sub">陣風 6 kt · 北北東 19°</div>
+          </td>
+          <td class="wave">
+            <span class="arrow wave-a" style="transform:rotate(90deg)">↓</span>
+            <strong>0.5 m</strong> / 9s
+            <div class="sub">東 90°（E）</div>
+          </td>
+        </tr>
+        <tr class="slot hl">
+          <td class="t">12:00</td>
+          <td class="wind">
+            <span class="arrow" style="transform:rotate(19.0deg)">↓</span>
+            <span class="wspd light">7 kt</span>
+            <span class="wspd-ms">(3.6 m/s)</span>
+            <div class="sub">陣風 10 kt · 北北東 19°</div>
+          </td>
+          <td class="wave">
+            <span class="arrow wave-a" style="transform:rotate(90deg)">↓</span>
+            <strong>0.6 m</strong> / 8s
+            <div class="sub">東 90°（E）</div>
+          </td>
+        </tr>
+        <tr class="slot hl">
+          <td class="t">15:00</td>
+          <td class="wind">
+            <span class="arrow" style="transform:rotate(5.0deg)">↓</span>
+            <span class="wspd mod">8 kt</span>
+            <span class="wspd-ms">(4.1 m/s)</span>
+            <div class="sub">陣風 11 kt · 北 5°</div>
+          </td>
+          <td class="wave">
+            <span class="arrow wave-a" style="transform:rotate(90deg)">↓</span>
+            <strong>0.6 m</strong> / 8s
+            <div class="sub">東 90°（E）</div>
+          </td>
+        </tr>
+        <tr class="slot hl">
+          <td class="t">18:00</td>
+          <td class="wind">
+            <span class="arrow" style="transform:rotate(351.0deg)">↓</span>
+            <span class="wspd light">5 kt</span>
+            <span class="wspd-ms">(2.6 m/s)</span>
+            <div class="sub">陣風 8 kt · 北 351°</div>
+          </td>
+          <td class="wave">
+            <span class="arrow wave-a" style="transform:rotate(90deg)">↓</span>
+            <strong>0.6 m</strong> / 8s
+            <div class="sub">東 90°（E）</div>
+          </td>
+        </tr></tbody>
+        </table>
+        <div class="tide-box">
+          <div class="tide-label">潮汐 · 宜蘭縣頭城（烏石港最近鄉鎮站）</div>
+          <div class="tide-timeline"><div class="tide-ev"><span class="tide-icon">▼</span><span class="tide-type">乾潮</span><span class="tide-time">06:24</span><span class="tide-h">-31 cm</span></div><div class="tide-ev"><span class="tide-icon">▲</span><span class="tide-type">滿潮</span><span class="tide-time">22:55</span><span class="tide-h">+38 cm</span></div></div>
+        </div>
+      </div>
+      <div class="day-block">
+        <div class="day-title">週日 9/20</div>
+        <table class="fc-table">
+          <thead><tr><th>時間</th><th>風</th><th>浪</th></tr></thead>
+          <tbody>
+        <tr class="slot hl">
+          <td class="t">06:00</td>
+          <td class="wind">
+            <span class="arrow" style="transform:rotate(322.0deg)">↓</span>
+            <span class="wspd light">5 kt</span>
+            <span class="wspd-ms">(2.6 m/s)</span>
+            <div class="sub">陣風 7 kt · 西北 322°</div>
+          </td>
+          <td class="wave">
+            <span class="arrow wave-a" style="transform:rotate(90deg)">↓</span>
+            <strong>0.6 m</strong> / 17s
+            <div class="sub">東 90°（E）</div>
+          </td>
+        </tr>
+        <tr class="slot hl">
+          <td class="t">09:00</td>
+          <td class="wind">
+            <span class="arrow" style="transform:rotate(4.0deg)">↓</span>
+            <span class="wspd light">5 kt</span>
+            <span class="wspd-ms">(2.6 m/s)</span>
+            <div class="sub">陣風 9 kt · 北 4°</div>
+          </td>
+          <td class="wave">
+            <span class="arrow wave-a" style="transform:rotate(90deg)">↓</span>
+            <strong>0.7 m</strong> / 16s
+            <div class="sub">東 90°（E）</div>
+          </td>
+        </tr>
+        <tr class="slot hl">
+          <td class="t">12:00</td>
+          <td class="wind">
+            <span class="arrow" style="transform:rotate(21.0deg)">↓</span>
+            <span class="wspd mod">9 kt</span>
+            <span class="wspd-ms">(4.6 m/s)</span>
+            <div class="sub">陣風 11 kt · 北北東 21°</div>
+          </td>
+          <td class="wave">
+            <span class="arrow wave-a" style="transform:rotate(90deg)">↓</span>
+            <strong>0.8 m</strong> / 15s
+            <div class="sub">東 90°（E）</div>
+          </td>
+        </tr>
+        <tr class="slot hl">
+          <td class="t">15:00</td>
+          <td class="wind">
+            <span class="arrow" style="transform:rotate(11.0deg)">↓</span>
+            <span class="wspd mod">10 kt</span>
+            <span class="wspd-ms">(5.1 m/s)</span>
+            <div class="sub">陣風 12 kt · 北 11°</div>
+          </td>
+          <td class="wave">
+            <span class="arrow wave-a" style="transform:rotate(90deg)">↓</span>
+            <strong>1.0 m</strong> / 15s
+            <div class="sub">東 90°（E）</div>
+          </td>
+        </tr>
+        <tr class="slot hl">
+          <td class="t">18:00</td>
+          <td class="wind">
+            <span class="arrow" style="transform:rotate(0.0deg)">↓</span>
+            <span class="wspd light">6 kt</span>
+            <span class="wspd-ms">(3.1 m/s)</span>
+            <div class="sub">陣風 9 kt · 北 0°</div>
+          </td>
+          <td class="wave">
+            <span class="arrow wave-a" style="transform:rotate(90deg)">↓</span>
+            <strong>1.0 m</strong> / 14s
+            <div class="sub">東 90°（E）</div>
+          </td>
+        </tr></tbody>
+        </table>
+        <div class="tide-box">
+          <div class="tide-label">潮汐 · 宜蘭縣頭城（烏石港最近鄉鎮站）</div>
+          <div class="tide-timeline"><div class="tide-ev"><span class="tide-icon">▼</span><span class="tide-type">乾潮</span><span class="tide-time">08:07</span><span class="tide-h">-30 cm</span></div><div class="tide-ev"><span class="tide-icon">▲</span><span class="tide-type">滿潮</span><span class="tide-time">16:27</span><span class="tide-h">+28 cm</span></div><div class="tide-ev"><span class="tide-icon">▼</span><span class="tide-type">乾潮</span><span class="tide-time">19:59</span><span class="tide-h">+24 cm</span></div></div>
+        </div>
+      </div></div>
+    <footer class="tide-src">潮位站：中央氣象署 · 宜蘭縣頭城（烏石港最近鄉鎮站）（T000204 / 10002040）· 潮高為相對當地平均海平面 (cm) · 潮差：小（東岸潮差原本較小） · <a href="https://www.cwa.gov.tw/V8/C/M/Fishery/tide_30day_MOD/T000204.html" target="_blank">CWA 來源</a></footer>
+  </section>
+
+  <footer class="page-foot">
+    風浪：Windguru micro／GFS（松柏港另併 GFS-Wave 16 km）· 潮汐：中央氣象署未來 30 天潮汐預報（相對當地平均海平面）·
+    天文潮不含氣象增水 · 下水前請再對現場 · 產生於 2026-09-18 10:38（台北時間）
+  </footer>
+</div>
+</body>
+</html>
