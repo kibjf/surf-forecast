@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 620" role="img" aria-label="今日15時風速與浪高散佈圖，含風向與浪向箭頭（去向）" style="width:100%;height:auto;display:block">
-<rect width="920" height="620" fill="#0b1220" rx="16"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 660" role="img" aria-label="今日15時風速與浪高散佈圖，標記大小＝波浪週期，含風向與浪向箭頭（去向）" style="width:100%;height:auto;display:block">
+<rect width="920" height="660" fill="#0b1220" rx="16"/>
 <rect x="64" y="58" width="832" height="436" fill="#111a2e" rx="8"/>
 <rect x="64.0" y="58" width="277.3" height="436" fill="#34d399" opacity="0.07"/>
 <rect x="341.3" y="58" width="208.0" height="436" fill="#fbbf24" opacity="0.06"/>
@@ -53,115 +53,118 @@
 <text x="480.0" y="530" text-anchor="middle" fill="#cbd5e1" font-size="13" font-family="Noto Sans TC,system-ui,sans-serif">風速 (kt)</text>
 <text x="18" y="276.0" text-anchor="middle" fill="#cbd5e1" font-size="13" font-family="Noto Sans TC,system-ui,sans-serif" transform="rotate(-90 18 276.0)">浪高 (m)</text>
 <text x="64" y="26" fill="#e2e8f0" font-size="16" font-weight="700" font-family="Noto Sans TC,system-ui,sans-serif">今日 15:00 風速 × 浪高　預報 vs 即時浮標</text>
-<text x="64" y="46" fill="#8b9bb4" font-size="11" font-family="Noto Sans TC,system-ui,sans-serif">箭頭指向去向／吹往／傳往（flow to｜北風→箭頭朝南；北=0°、東=90°）· 青色＝風向 · 金色＝浪向</text>
+<text x="64" y="46" fill="#8b9bb4" font-size="11" font-family="Noto Sans TC,system-ui,sans-serif">標記大小＝波浪週期 (s｜越大越長) · 箭頭為去向／吹往／傳往（flow to｜北風→朝南；北=0°、東=90°）· 青＝風向 · 金＝浪向</text>
 <g aria-hidden="true">
     <line x1="757.3" y1="154.9" x2="749.1" y2="185.8" stroke="#38bdf8" stroke-width="2.3" stroke-linecap="round"/>
-    <path d="M749.1,185.8 L747.6,177.1 L754.6,179.0 Z" fill="#38bdf8"/>
+    <path d="M749.1,185.8 L746.7,177.1 L755.4,179.4 Z" fill="#38bdf8"/>
   </g>
 <g aria-hidden="true">
     <line x1="757.3" y1="154.9" x2="745.1" y2="184.5" stroke="#fbbf24" stroke-width="2.0" stroke-linecap="round"/>
-    <path d="M745.1,184.5 L744.8,175.7 L751.5,178.4 Z" fill="#fbbf24"/>
+    <path d="M745.1,184.5 L743.9,175.5 L752.2,179.0 Z" fill="#fbbf24"/>
   </g>
-<circle cx="757.3" cy="154.9" r="7.5" fill="#38bdf8" stroke="#fff" stroke-width="1.5"/>
-<text x="771.5" y="115.5" text-anchor="start" fill="#38bdf8" font-size="12" font-weight="700" font-family="Noto Sans TC,system-ui,sans-serif" stroke="#0b1220" stroke-width="3" paint-order="stroke">後龍</text>
+<circle cx="757.3" cy="154.9" r="6.14" fill="#38bdf8" stroke="#fff" stroke-width="1.5"/>
+<text x="771.3" y="115.9" text-anchor="start" fill="#38bdf8" font-size="12" font-weight="700" font-family="Noto Sans TC,system-ui,sans-serif" stroke="#0b1220" stroke-width="3" paint-order="stroke">後龍 5s</text>
 <g aria-hidden="true">
     <line x1="618.7" y1="179.1" x2="613.7" y2="210.7" stroke="#38bdf8" stroke-width="2.3" stroke-linecap="round"/>
-    <path d="M613.7,210.7 L611.4,202.3 L618.5,203.4 Z" fill="#38bdf8"/>
+    <path d="M613.7,210.7 L610.4,202.3 L619.3,203.7 Z" fill="#38bdf8"/>
   </g>
 <g aria-hidden="true">
     <line x1="618.7" y1="179.1" x2="606.4" y2="208.7" stroke="#fbbf24" stroke-width="2.0" stroke-linecap="round"/>
-    <path d="M606.4,208.7 L606.2,199.9 L612.8,202.7 Z" fill="#fbbf24"/>
+    <path d="M606.4,208.7 L605.2,199.8 L613.6,203.2 Z" fill="#fbbf24"/>
   </g>
-<circle cx="618.7" cy="179.1" r="7.5" fill="#2dd4bf" stroke="#fff" stroke-width="1.5"/>
-<text x="631.5" y="139.0" text-anchor="start" fill="#2dd4bf" font-size="12" font-weight="700" font-family="Noto Sans TC,system-ui,sans-serif" stroke="#0b1220" stroke-width="3" paint-order="stroke">假日之森</text>
+<circle cx="618.7" cy="179.1" r="6.14" fill="#2dd4bf" stroke="#fff" stroke-width="1.5"/>
+<text x="631.7" y="139.1" text-anchor="start" fill="#2dd4bf" font-size="12" font-weight="700" font-family="Noto Sans TC,system-ui,sans-serif" stroke="#0b1220" stroke-width="3" paint-order="stroke">假日之森 5s</text>
 <g aria-hidden="true">
     <line x1="618.7" y1="154.9" x2="609.3" y2="185.5" stroke="#38bdf8" stroke-width="2.3" stroke-linecap="round"/>
-    <path d="M609.3,185.5 L608.2,176.8 L615.1,178.9 Z" fill="#38bdf8"/>
+    <path d="M609.3,185.5 L607.3,176.7 L615.9,179.4 Z" fill="#38bdf8"/>
   </g>
 <g aria-hidden="true">
     <line x1="618.7" y1="154.9" x2="606.4" y2="184.5" stroke="#fbbf24" stroke-width="2.0" stroke-linecap="round"/>
-    <path d="M606.4,184.5 L606.2,175.7 L612.8,178.4 Z" fill="#fbbf24"/>
+    <path d="M606.4,184.5 L605.2,175.5 L613.6,179.0 Z" fill="#fbbf24"/>
   </g>
-<circle cx="618.7" cy="154.9" r="7.5" fill="#fbbf24" stroke="#fff" stroke-width="1.5"/>
-<text x="633.2" y="115.8" text-anchor="start" fill="#fbbf24" font-size="12" font-weight="700" font-family="Noto Sans TC,system-ui,sans-serif" stroke="#0b1220" stroke-width="3" paint-order="stroke">松柏港</text>
+<circle cx="618.7" cy="154.9" r="7.48" fill="#fbbf24" stroke="#fff" stroke-width="1.5"/>
+<text x="632.7" y="115.9" text-anchor="start" fill="#fbbf24" font-size="12" font-weight="700" font-family="Noto Sans TC,system-ui,sans-serif" stroke="#0b1220" stroke-width="3" paint-order="stroke">松柏港 6s</text>
 <g aria-hidden="true">
     <line x1="341.3" y1="276.0" x2="323.9" y2="302.8" stroke="#38bdf8" stroke-width="2.3" stroke-linecap="round"/>
-    <path d="M323.9,302.8 L325.2,294.2 L331.3,298.1 Z" fill="#38bdf8"/>
+    <path d="M323.9,302.8 L324.4,293.8 L331.9,298.8 Z" fill="#38bdf8"/>
   </g>
 <g aria-hidden="true">
     <line x1="341.3" y1="276.0" x2="311.8" y2="263.8" stroke="#fbbf24" stroke-width="2.0" stroke-linecap="round"/>
-    <path d="M311.8,263.8 L320.5,263.5 L317.8,270.1 Z" fill="#fbbf24"/>
+    <path d="M311.8,263.8 L320.7,262.6 L317.2,270.9 Z" fill="#fbbf24"/>
   </g>
-<circle cx="341.3" cy="276.0" r="7.5" fill="#a78bfa" stroke="#fff" stroke-width="1.5"/>
-<text x="352.9" y="235.3" text-anchor="start" fill="#a78bfa" font-size="12" font-weight="700" font-family="Noto Sans TC,system-ui,sans-serif" stroke="#0b1220" stroke-width="3" paint-order="stroke">無尾港</text>
+<circle cx="341.3" cy="276.0" r="10.16" fill="#a78bfa" stroke="#fff" stroke-width="1.5"/>
+<text x="353.3" y="235.0" text-anchor="start" fill="#a78bfa" font-size="12" font-weight="700" font-family="Noto Sans TC,system-ui,sans-serif" stroke="#0b1220" stroke-width="3" paint-order="stroke">無尾港 8s</text>
 <g aria-hidden="true">
     <line x1="306.7" y1="348.7" x2="279.0" y2="364.7" stroke="#38bdf8" stroke-width="2.3" stroke-linecap="round"/>
-    <path d="M279.0,364.7 L284.1,357.5 L287.7,363.8 Z" fill="#38bdf8"/>
+    <path d="M279.0,364.7 L283.5,356.9 L288.0,364.7 Z" fill="#38bdf8"/>
   </g>
 <g aria-hidden="true">
     <line x1="306.7" y1="348.7" x2="274.7" y2="348.7" stroke="#fbbf24" stroke-width="2.0" stroke-linecap="round"/>
-    <path d="M274.7,348.7 L282.7,345.1 L282.7,352.3 Z" fill="#fbbf24"/>
+    <path d="M274.7,348.7 L282.5,344.2 L282.5,353.2 Z" fill="#fbbf24"/>
   </g>
-<circle cx="306.7" cy="348.7" r="7.5" fill="#f472b6" stroke="#fff" stroke-width="1.5"/>
-<text x="319.2" y="397.3" text-anchor="start" fill="#f472b6" font-size="12" font-weight="700" font-family="Noto Sans TC,system-ui,sans-serif" stroke="#0b1220" stroke-width="3" paint-order="stroke">烏石</text>
+<circle cx="306.7" cy="348.7" r="11.50" fill="#f472b6" stroke="#fff" stroke-width="1.5"/>
+<text x="318.7" y="396.7" text-anchor="start" fill="#f472b6" font-size="12" font-weight="700" font-family="Noto Sans TC,system-ui,sans-serif" stroke="#0b1220" stroke-width="3" paint-order="stroke">烏石 9s</text>
 <g aria-hidden="true">
     <line x1="601.0" y1="266.3" x2="587.8" y2="291.0" stroke="#38bdf8" stroke-width="1.8" stroke-linecap="round"/>
-    <path d="M587.8,291.0 L588.3,283.2 L594.1,286.2 Z" fill="#38bdf8"/>
+    <path d="M587.8,291.0 L587.5,283.0 L594.6,286.8 Z" fill="#38bdf8"/>
   </g>
 <g aria-hidden="true">
     <line x1="601.0" y1="266.3" x2="595.6" y2="293.8" stroke="#fbbf24" stroke-width="1.6" stroke-linecap="round"/>
-    <path d="M595.6,293.8 L593.8,286.1 L600.2,287.3 Z" fill="#fbbf24"/>
+    <path d="M595.6,293.8 L593.0,286.2 L600.9,287.8 Z" fill="#fbbf24"/>
   </g>
-<rect x="594.5" y="259.8" width="13" height="13" rx="2" fill="none" stroke="#38bdf8" stroke-width="2.2" transform="rotate(45 601.0 266.3)"/>
-<text x="590.4" y="224.6" text-anchor="end" fill="#38bdf8" font-size="10" font-family="Noto Sans TC,system-ui,sans-serif" stroke="#0b1220" stroke-width="3" paint-order="stroke">後龍·即時</text>
+<rect x="596.4" y="261.8" width="9.10" height="9.10" rx="2" fill="none" stroke="#38bdf8" stroke-width="2.2" transform="rotate(45 601.0 266.3)"/>
+<text x="590.0" y="224.3" text-anchor="end" fill="#38bdf8" font-size="10" font-family="Noto Sans TC,system-ui,sans-serif" stroke="#0b1220" stroke-width="3" paint-order="stroke"><tspan x="590.0" dy="0">後龍·即時</tspan><tspan x="590.0" dy="12">4.3s</tspan></text>
 <g aria-hidden="true">
     <line x1="632.2" y1="285.7" x2="619.0" y2="310.4" stroke="#38bdf8" stroke-width="1.8" stroke-linecap="round"/>
-    <path d="M619.0,310.4 L619.5,302.5 L625.3,305.6 Z" fill="#38bdf8"/>
+    <path d="M619.0,310.4 L618.7,302.4 L625.8,306.2 Z" fill="#38bdf8"/>
   </g>
 <g aria-hidden="true">
     <line x1="632.2" y1="285.7" x2="626.8" y2="313.2" stroke="#fbbf24" stroke-width="1.6" stroke-linecap="round"/>
-    <path d="M626.8,313.2 L625.0,305.5 L631.4,306.7 Z" fill="#fbbf24"/>
+    <path d="M626.8,313.2 L624.2,305.6 L632.1,307.1 Z" fill="#fbbf24"/>
   </g>
-<rect x="625.7" y="279.2" width="13" height="13" rx="2" fill="none" stroke="#2dd4bf" stroke-width="2.2" transform="rotate(45 632.2 285.7)"/>
-<text x="646.6" y="245.8" text-anchor="start" fill="#2dd4bf" font-size="10" font-family="Noto Sans TC,system-ui,sans-serif" stroke="#0b1220" stroke-width="3" paint-order="stroke">假日之森·即時</text>
+<rect x="627.6" y="281.1" width="9.10" height="9.10" rx="2" fill="none" stroke="#2dd4bf" stroke-width="2.2" transform="rotate(45 632.2 285.7)"/>
+<text x="646.2" y="245.7" text-anchor="start" fill="#2dd4bf" font-size="10" font-family="Noto Sans TC,system-ui,sans-serif" stroke="#0b1220" stroke-width="3" paint-order="stroke"><tspan x="646.2" dy="0">假日之森·即時</tspan><tspan x="646.2" dy="12">4.3s</tspan></text>
 <g aria-hidden="true">
     <line x1="407.7" y1="251.8" x2="392.0" y2="275.0" stroke="#38bdf8" stroke-width="1.8" stroke-linecap="round"/>
-    <path d="M392.0,275.0 L393.4,267.2 L398.7,270.8 Z" fill="#38bdf8"/>
+    <path d="M392.0,275.0 L392.6,267.0 L399.2,271.5 Z" fill="#38bdf8"/>
   </g>
 <g aria-hidden="true">
     <line x1="407.7" y1="251.8" x2="392.4" y2="275.3" stroke="#fbbf24" stroke-width="1.6" stroke-linecap="round"/>
-    <path d="M392.4,275.3 L393.6,267.5 L399.1,271.0 Z" fill="#fbbf24"/>
+    <path d="M392.4,275.3 L392.8,267.3 L399.5,271.6 Z" fill="#fbbf24"/>
   </g>
-<rect x="401.2" y="245.3" width="13" height="13" rx="2" fill="none" stroke="#fbbf24" stroke-width="2.2" transform="rotate(45 407.7 251.8)"/>
-<text x="421.7" y="211.7" text-anchor="start" fill="#fbbf24" font-size="10" font-family="Noto Sans TC,system-ui,sans-serif" stroke="#0b1220" stroke-width="3" paint-order="stroke">松柏港·即時</text>
+<rect x="402.2" y="246.3" width="10.98" height="10.98" rx="2" fill="none" stroke="#fbbf24" stroke-width="2.2" transform="rotate(45 407.7 251.8)"/>
+<text x="421.7" y="211.8" text-anchor="start" fill="#fbbf24" font-size="10" font-family="Noto Sans TC,system-ui,sans-serif" stroke="#0b1220" stroke-width="3" paint-order="stroke"><tspan x="421.7" dy="0">松柏港·即時</tspan><tspan x="421.7" dy="12">5.1s</tspan></text>
 <g aria-hidden="true">
     <line x1="139.5" y1="339.0" x2="111.5" y2="340.0" stroke="#38bdf8" stroke-width="1.8" stroke-linecap="round"/>
-    <path d="M111.5,340.0 L118.6,336.5 L118.8,342.9 Z" fill="#38bdf8"/>
+    <path d="M111.5,340.0 L118.3,335.7 L118.5,343.7 Z" fill="#38bdf8"/>
   </g>
 <g aria-hidden="true">
     <line x1="139.5" y1="339.0" x2="113.7" y2="349.9" stroke="#fbbf24" stroke-width="1.6" stroke-linecap="round"/>
-    <path d="M113.7,349.9 L119.1,344.1 L121.6,350.1 Z" fill="#fbbf24"/>
+    <path d="M113.7,349.9 L118.5,343.5 L121.6,350.9 Z" fill="#fbbf24"/>
   </g>
-<rect x="133.0" y="332.5" width="13" height="13" rx="2" fill="none" stroke="#a78bfa" stroke-width="2.2" transform="rotate(45 139.5 339.0)"/>
-<text x="153.1" y="298.6" text-anchor="start" fill="#a78bfa" font-size="10" font-family="Noto Sans TC,system-ui,sans-serif" stroke="#0b1220" stroke-width="3" paint-order="stroke">無尾港·即時</text>
+<rect x="133.9" y="333.4" width="11.21" height="11.21" rx="2" fill="none" stroke="#a78bfa" stroke-width="2.2" transform="rotate(45 139.5 339.0)"/>
+<text x="153.5" y="299.0" text-anchor="start" fill="#a78bfa" font-size="10" font-family="Noto Sans TC,system-ui,sans-serif" stroke="#0b1220" stroke-width="3" paint-order="stroke"><tspan x="153.5" dy="0">無尾港·即時</tspan><tspan x="153.5" dy="12">5.2s</tspan></text>
 <g aria-hidden="true">
     <line x1="163.7" y1="358.4" x2="135.8" y2="359.3" stroke="#38bdf8" stroke-width="1.8" stroke-linecap="round"/>
-    <path d="M135.8,359.3 L142.8,355.8 L143.1,362.3 Z" fill="#38bdf8"/>
+    <path d="M135.8,359.3 L142.5,355.1 L142.8,363.1 Z" fill="#38bdf8"/>
   </g>
 <g aria-hidden="true">
     <line x1="163.7" y1="358.4" x2="138.0" y2="369.3" stroke="#fbbf24" stroke-width="1.6" stroke-linecap="round"/>
-    <path d="M138.0,369.3 L143.3,363.5 L145.9,369.5 Z" fill="#fbbf24"/>
+    <path d="M138.0,369.3 L142.8,362.9 L145.9,370.3 Z" fill="#fbbf24"/>
   </g>
-<rect x="157.2" y="351.9" width="13" height="13" rx="2" fill="none" stroke="#f472b6" stroke-width="2.2" transform="rotate(45 163.7 358.4)"/>
-<text x="175.2" y="406.8" text-anchor="start" fill="#f472b6" font-size="10" font-family="Noto Sans TC,system-ui,sans-serif" stroke="#0b1220" stroke-width="3" paint-order="stroke">烏石·即時</text>
-<rect x="64" y="542" width="832" height="36" rx="8" fill="#152038" stroke="#334155"/>
-<circle cx="86" cy="560.0" r="6" fill="#94a3b8" stroke="#fff" stroke-width="1"/>
-<text x="100" y="564.0" fill="#e2e8f0" font-size="12" font-family="Noto Sans TC,system-ui,sans-serif">預報 · Windguru 15:00</text>
-<rect x="262.5" y="554.5" width="11" height="11" fill="none" stroke="#94a3b8" stroke-width="2" transform="rotate(45 268 560.0)"/>
-<text x="290" y="564.0" fill="#e2e8f0" font-size="12" font-family="Noto Sans TC,system-ui,sans-serif">即時 · CWA 浮標</text>
-<line x1="430" y1="560.0" x2="452" y2="560.0" stroke="#38bdf8" stroke-width="2.5"/>
-<text x="460" y="564.0" fill="#e2e8f0" font-size="12" font-family="Noto Sans TC,system-ui,sans-serif">風向（去向／吹往）</text>
-<line x1="600" y1="560.0" x2="622" y2="560.0" stroke="#fbbf24" stroke-width="2.5"/>
-<text x="630" y="564.0" fill="#e2e8f0" font-size="12" font-family="Noto Sans TC,system-ui,sans-serif">浪向（去向／傳往）</text>
-<text x="480.0" y="600" text-anchor="middle" fill="#64748b" font-size="10" font-family="Noto Sans TC,system-ui,sans-serif">預報 2026-09-18 15:00 台北｜即時約 2026-09-18 11:21｜同浮標點位略偏移以免重疊｜綠&lt;8kt／黃8–14／紅≥15</text>
+<rect x="158.1" y="352.7" width="11.21" height="11.21" rx="2" fill="none" stroke="#f472b6" stroke-width="2.2" transform="rotate(45 163.7 358.4)"/>
+<text x="175.7" y="406.4" text-anchor="start" fill="#f472b6" font-size="10" font-family="Noto Sans TC,system-ui,sans-serif" stroke="#0b1220" stroke-width="3" paint-order="stroke"><tspan x="175.7" dy="0">烏石·即時</tspan><tspan x="175.7" dy="12">5.2s</tspan></text>
+<rect x="64" y="548" width="832" height="58" rx="8" fill="#152038" stroke="#334155"/>
+<circle cx="86" cy="568.0" r="6" fill="#94a3b8" stroke="#fff" stroke-width="1"/>
+<text x="100" y="572.0" fill="#e2e8f0" font-size="12" font-family="Noto Sans TC,system-ui,sans-serif">預報 · Windguru 15:00</text>
+<rect x="262.5" y="562.5" width="11" height="11" fill="none" stroke="#94a3b8" stroke-width="2" transform="rotate(45 268 568.0)"/>
+<text x="290" y="572.0" fill="#e2e8f0" font-size="12" font-family="Noto Sans TC,system-ui,sans-serif">即時 · CWA 浮標</text>
+<line x1="430" y1="568.0" x2="452" y2="568.0" stroke="#38bdf8" stroke-width="2.5"/>
+<text x="460" y="572.0" fill="#e2e8f0" font-size="12" font-family="Noto Sans TC,system-ui,sans-serif">風向（去向／吹往）</text>
+<line x1="600" y1="568.0" x2="622" y2="568.0" stroke="#fbbf24" stroke-width="2.5"/>
+<text x="630" y="572.0" fill="#e2e8f0" font-size="12" font-family="Noto Sans TC,system-ui,sans-serif">浪向（去向／傳往）</text>
+<circle cx="90" cy="592.0" r="5.20" fill="none" stroke="#94a3b8" stroke-width="1.5"/>
+<circle cx="130" cy="592.0" r="11.50" fill="none" stroke="#94a3b8" stroke-width="1.5"/>
+<text x="155" y="596.0" fill="#e2e8f0" font-size="12" font-family="Noto Sans TC,system-ui,sans-serif">大小＝波浪週期 (s)｜小≈4.3s · 大≈9s</text>
+<text x="480.0" y="630" text-anchor="middle" fill="#64748b" font-size="10" font-family="Noto Sans TC,system-ui,sans-serif">預報 2026-09-18 15:00 台北｜即時約 2026-09-18 11:21｜同浮標點位略偏移以免重疊｜綠&lt;8kt／黃8–14／紅≥15｜標記越大＝週期越長</text>
 </svg>
