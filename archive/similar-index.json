@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T23:46:03+08:00",
+  "generated_at": "2026-09-20T03:02:34+08:00",
   "archive_spots": [
     "zhongjiao",
     "wuwei",
@@ -19,16 +19,7 @@
       "wave_notes_zh": "今日天氣晴朗，中角灣浪高目測約膝到腰，多層白色碎浪向岸推進，浪型偏瑣碎不夠乾淨。海面風力尚輕，沙灘遊客多，水中衝浪者不多，適合初學者在白浪區練習。",
       "live_ok": true,
       "thumb": "archive/2026-09-19/1145/zhongjiao.jpg",
-      "clip": "archive/2026-09-19/1145/zhongjiao.mp4",
-      "conditions": {
-        "hour": 14,
-        "source": "windguru",
-        "wspd_kt": 6.9,
-        "wave_m": 0.8,
-        "wave_per_s": 7.7,
-        "dir_deg": 23.0,
-        "wave_dir_deg": 41.0
-      }
+      "clip": "archive/2026-09-19/1145/zhongjiao.mp4"
     },
     {
       "date": "2026-09-19",
@@ -38,16 +29,7 @@
       "wave_notes_zh": "天氣晴朗能見度佳。海面可見數層較整齊的白浪線向岸推進，浪況穩定持續，浪高目測約膝至腰部。岸邊白浪區明顯，整體適合進行衝浪活動。",
       "live_ok": true,
       "thumb": "archive/2026-09-19/1145/wuwei.jpg",
-      "clip": "archive/2026-09-19/1145/wuwei.mp4",
-      "conditions": {
-        "hour": 14,
-        "source": "windguru",
-        "wspd_kt": 16.4,
-        "wave_m": 1.3,
-        "wave_per_s": 4.5,
-        "dir_deg": 40.0,
-        "wave_dir_deg": 25.0
-      }
+      "clip": "archive/2026-09-19/1145/wuwei.mp4"
     },
     {
       "date": "2026-09-19",
@@ -57,16 +39,7 @@
       "wave_notes_zh": "沙灘露出範圍很寬，研判為退潮偏低潮位。浪況偏雜亂破碎、浪高不高，水色稍混，有數排碎浪但不夠整齊。遠處可見離岸風機，天氣晴朗，較適合初學或長板在碎浪區練習。",
       "live_ok": true,
       "thumb": "archive/2026-09-19/1145/zhunan.jpg",
-      "clip": "archive/2026-09-19/1145/zhunan.mp4",
-      "conditions": {
-        "hour": 14,
-        "source": "windguru",
-        "wspd_kt": 17.8,
-        "wave_m": 1.1,
-        "wave_per_s": 4.4,
-        "dir_deg": 13.0,
-        "wave_dir_deg": 27.0
-      }
+      "clip": "archive/2026-09-19/1145/zhunan.mp4"
     },
     {
       "date": "2026-09-19",
@@ -76,16 +49,7 @@
       "wave_notes_zh": "晴朗無雲。中角灣可見多層碎浪向岸推進，浪高目測約膝到腰，白浪區明顯；海面紋理輕，風力偏弱。沙灘人潮與陽傘多，水中有少量衝浪者，適合初學或長板。",
       "live_ok": true,
       "thumb": "archive/2026-09-19/1205/zhongjiao.jpg",
-      "clip": "archive/2026-09-19/1205/zhongjiao.mp4",
-      "conditions": {
-        "hour": 14,
-        "source": "windguru",
-        "wspd_kt": 6.9,
-        "wave_m": 0.8,
-        "wave_per_s": 7.7,
-        "dir_deg": 23.0,
-        "wave_dir_deg": 41.0
-      }
+      "clip": "archive/2026-09-19/1205/zhongjiao.mp4"
     },
     {
       "date": "2026-09-19",
@@ -95,16 +59,7 @@
       "wave_notes_zh": "天氣晴朗能見度佳。無尾港可見三至四層較規律白浪線，碎浪區偏廣，浪況持續。岸邊消波塊與礫石被浪沖刷，整體適合衝浪活動。",
       "live_ok": true,
       "thumb": "archive/2026-09-19/1205/wuwei.jpg",
-      "clip": "archive/2026-09-19/1205/wuwei.mp4",
-      "conditions": {
-        "hour": 14,
-        "source": "windguru",
-        "wspd_kt": 16.4,
-        "wave_m": 1.3,
-        "wave_per_s": 4.5,
-        "dir_deg": 40.0,
-        "wave_dir_deg": 25.0
-      }
+      "clip": "archive/2026-09-19/1205/wuwei.mp4"
     },
     {
       "date": "2026-09-19",
@@ -114,16 +69,7 @@
       "wave_notes_zh": "沙灘露出很寬、潮位偏低。可見多排小型碎浪，浪高不高、偏淺水區。遠方有風箏衝浪風箏，天氣晴朗，較適合初學或風箏浪板。",
       "live_ok": true,
       "thumb": "archive/2026-09-19/1205/zhunan.jpg",
-      "clip": "archive/2026-09-19/1205/zhunan.mp4",
-      "conditions": {
-        "hour": 14,
-        "source": "windguru",
-        "wspd_kt": 17.8,
-        "wave_m": 1.1,
-        "wave_per_s": 4.4,
-        "dir_deg": 13.0,
-        "wave_dir_deg": 27.0
-      }
+      "clip": "archive/2026-09-19/1205/zhunan.mp4"
     },
     {
       "date": "2026-09-19",
@@ -133,16 +79,7 @@
       "wave_notes_zh": "晴朗微霧。可見數道整齊長浪線向岸推進，碎浪白浪明顯，浪高目測約膝到腰；水面偏平靜、風弱。水中有少量衝浪者在等待，適合初學或長板。",
       "live_ok": true,
       "thumb": "archive/2026-09-19/1405/zhongjiao.jpg",
-      "clip": "archive/2026-09-19/1405/zhongjiao.mp4",
-      "conditions": {
-        "hour": 14,
-        "source": "windguru",
-        "wspd_kt": 6.9,
-        "wave_m": 0.8,
-        "wave_per_s": 7.7,
-        "dir_deg": 23.0,
-        "wave_dir_deg": 41.0
-      }
+      "clip": "archive/2026-09-19/1405/zhongjiao.mp4"
     },
     {
       "date": "2026-09-19",
@@ -152,16 +89,7 @@
       "wave_notes_zh": "晴朗能見度佳。多層白浪線持續推進，外海有風紋；前景林投葉明顯偏斜，風感偏強。整體浪況持續，適合有經驗者，初學需留意側／離岸風。",
       "live_ok": true,
       "thumb": "archive/2026-09-19/1405/wuwei.jpg",
-      "clip": "archive/2026-09-19/1405/wuwei.mp4",
-      "conditions": {
-        "hour": 14,
-        "source": "windguru",
-        "wspd_kt": 16.4,
-        "wave_m": 1.3,
-        "wave_per_s": 4.5,
-        "dir_deg": 40.0,
-        "wave_dir_deg": 25.0
-      }
+      "clip": "archive/2026-09-19/1405/wuwei.mp4"
     },
     {
       "date": "2026-09-19",
@@ -171,16 +99,7 @@
       "wave_notes_zh": "晴朗有薄霧。多排小型碎浪、海面有風浪紋；沙灘寬，遠方可見風機。畫面左上有風箏、水中有活動跡象，偏風箏衝浪／初學短板條件。",
       "live_ok": true,
       "thumb": "archive/2026-09-19/1405/zhunan.jpg",
-      "clip": "archive/2026-09-19/1405/zhunan.mp4",
-      "conditions": {
-        "hour": 14,
-        "source": "windguru",
-        "wspd_kt": 17.8,
-        "wave_m": 1.1,
-        "wave_per_s": 4.4,
-        "dir_deg": 13.0,
-        "wave_dir_deg": 27.0
-      }
+      "clip": "archive/2026-09-19/1405/zhunan.mp4"
     },
     {
       "date": "2026-09-19",
@@ -190,16 +109,7 @@
       "wave_notes_zh": "晴朗週末午後。岸邊多層小碎浪、外海偏平；沙灘人潮與傘帳很多，水中有數名衝浪者。目測浪小、適合初學／長板。",
       "live_ok": true,
       "thumb": "archive/2026-09-19/1605/zhongjiao.jpg",
-      "clip": "archive/2026-09-19/1605/zhongjiao.mp4",
-      "conditions": {
-        "hour": 15,
-        "source": "windguru",
-        "wspd_kt": 7.2,
-        "wave_m": 0.8,
-        "wave_per_s": 7.7,
-        "dir_deg": 29.0,
-        "wave_dir_deg": 41.0
-      }
+      "clip": "archive/2026-09-19/1605/zhongjiao.mp4"
     },
     {
       "date": "2026-09-19",
@@ -209,16 +119,7 @@
       "wave_notes_zh": "晴朗微霾。多層白浪持續推進，海面有白沫與風紋；前景林投、岸線礁石清楚。浪況持續、風感偏強，較適合有經驗者。",
       "live_ok": true,
       "thumb": "archive/2026-09-19/1605/wuwei.jpg",
-      "clip": "archive/2026-09-19/1605/wuwei.mp4",
-      "conditions": {
-        "hour": 15,
-        "source": "windguru",
-        "wspd_kt": 18.2,
-        "wave_m": 1.4,
-        "wave_per_s": 4.7,
-        "dir_deg": 34.0,
-        "wave_dir_deg": 22.0
-      }
+      "clip": "archive/2026-09-19/1605/wuwei.mp4"
     },
     {
       "date": "2026-09-19",
@@ -228,16 +129,7 @@
       "wave_notes_zh": "薄陰有霾。多排小型碎浪、近岸白沫明顯；遠方風機隱約可見，畫面有風箏。偏風箏衝浪／初學短板條件。",
       "live_ok": true,
       "thumb": "archive/2026-09-19/1605/zhunan.jpg",
-      "clip": "archive/2026-09-19/1605/zhunan.mp4",
-      "conditions": {
-        "hour": 15,
-        "source": "windguru",
-        "wspd_kt": 17.9,
-        "wave_m": 1.1,
-        "wave_per_s": 4.6,
-        "dir_deg": 19.0,
-        "wave_dir_deg": 28.0
-      }
+      "clip": "archive/2026-09-19/1605/zhunan.mp4"
     }
   ],
   "note_zh": "歷史樣本尚少，僅供參考"
