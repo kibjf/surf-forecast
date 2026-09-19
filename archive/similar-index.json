@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T22:12:48+08:00",
+  "generated_at": "2026-09-19T22:16:40+08:00",
   "archive_spots": [
     "zhongjiao",
     "wuwei",
@@ -20,6 +20,7 @@
       "live_ok": true,
       "thumb": "archive/2026-09-19/1145/zhongjiao.jpg",
       "drive_folder": "https://drive.google.com/drive/folders/1hYQ9NjczkUUiUKr2WcBDnBnCiotywBLQ",
+      "clip": "archive/2026-09-19/1145/zhongjiao.mp4",
       "conditions": {
         "hour": 14,
         "source": "windguru",
@@ -39,6 +40,7 @@
       "live_ok": true,
       "thumb": "archive/2026-09-19/1145/wuwei.jpg",
       "drive_folder": "https://drive.google.com/drive/folders/1GAzIKFN6pVfXRgwq1ariDdyatQE3XZdF",
+      "clip": "archive/2026-09-19/1145/wuwei.mp4",
       "conditions": {
         "hour": 14,
         "source": "windguru",
@@ -58,6 +60,7 @@
       "live_ok": true,
       "thumb": "archive/2026-09-19/1145/zhunan.jpg",
       "drive_folder": "https://drive.google.com/drive/folders/1GaZFO0HRAFUQR0ZyZEVKOJEEDCAWqBO6",
+      "clip": "archive/2026-09-19/1145/zhunan.mp4",
       "conditions": {
         "hour": 14,
         "source": "windguru",
@@ -77,6 +80,7 @@
       "live_ok": true,
       "thumb": "archive/2026-09-19/1205/zhongjiao.jpg",
       "drive_folder": "https://drive.google.com/drive/folders/1ywhg1FBek2wWmMdUkOa5KeASbsfQsbtO",
+      "clip": "archive/2026-09-19/1205/zhongjiao.mp4",
       "conditions": {
         "hour": 14,
         "source": "windguru",
@@ -96,6 +100,7 @@
       "live_ok": true,
       "thumb": "archive/2026-09-19/1205/wuwei.jpg",
       "drive_folder": "https://drive.google.com/drive/folders/1EPGwUENTdxLn3xQkZxwKtbhM4ZCVvIrC",
+      "clip": "archive/2026-09-19/1205/wuwei.mp4",
       "conditions": {
         "hour": 14,
         "source": "windguru",
@@ -115,6 +120,7 @@
       "live_ok": true,
       "thumb": "archive/2026-09-19/1205/zhunan.jpg",
       "drive_folder": "https://drive.google.com/drive/folders/1NFW3qnvhxtTZ-d7vm-2_GRgbvXCKyafK",
+      "clip": "archive/2026-09-19/1205/zhunan.mp4",
       "conditions": {
         "hour": 14,
         "source": "windguru",
@@ -134,6 +140,7 @@
       "live_ok": true,
       "thumb": "archive/2026-09-19/1405/zhongjiao.jpg",
       "drive_folder": "https://drive.google.com/drive/folders/12DYvq3tWLWBhM0CYTNCbBL1Y1d27H_Kl",
+      "clip": "archive/2026-09-19/1405/zhongjiao.mp4",
       "conditions": {
         "hour": 14,
         "source": "windguru",
@@ -153,6 +160,7 @@
       "live_ok": true,
       "thumb": "archive/2026-09-19/1405/wuwei.jpg",
       "drive_folder": "https://drive.google.com/drive/folders/15P_Vqp-ic0pHAaBP1E8f_oG6uhpuIM_P",
+      "clip": "archive/2026-09-19/1405/wuwei.mp4",
       "conditions": {
         "hour": 14,
         "source": "windguru",
@@ -172,6 +180,7 @@
       "live_ok": true,
       "thumb": "archive/2026-09-19/1405/zhunan.jpg",
       "drive_folder": "https://drive.google.com/drive/folders/1pim2iVda_Kx6sogcneEOpLTIRoRWiMhu",
+      "clip": "archive/2026-09-19/1405/zhunan.mp4",
       "conditions": {
         "hour": 14,
         "source": "windguru",
@@ -191,6 +200,7 @@
       "live_ok": true,
       "thumb": "archive/2026-09-19/1605/zhongjiao.jpg",
       "drive_folder": "https://drive.google.com/drive/folders/1ymG6mQx5KYpldi8IXJn8q7xBzBMV7AkW",
+      "clip": "archive/2026-09-19/1605/zhongjiao.mp4",
       "conditions": {
         "hour": 15,
         "source": "windguru",
@@ -210,6 +220,7 @@
       "live_ok": true,
       "thumb": "archive/2026-09-19/1605/wuwei.jpg",
       "drive_folder": "https://drive.google.com/drive/folders/1T4TMSLuxWkvFWXLJsHS7APpnZtix8-ff",
+      "clip": "archive/2026-09-19/1605/wuwei.mp4",
       "conditions": {
         "hour": 15,
         "source": "windguru",
@@ -229,6 +240,7 @@
       "live_ok": true,
       "thumb": "archive/2026-09-19/1605/zhunan.jpg",
       "drive_folder": "https://drive.google.com/drive/folders/1dsyRvr2ZHFbD6VJx4Ke_OSEX6VmLhNTo",
+      "clip": "archive/2026-09-19/1605/zhunan.mp4",
       "conditions": {
         "hour": 15,
         "source": "windguru",
