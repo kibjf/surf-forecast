@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T18:01:55+08:00",
+  "generated_at": "2026-09-19T18:34:31+08:00",
   "archive_spots": [
     "zhongjiao",
     "wuwei",
@@ -237,6 +237,63 @@
         "wave_per_s": 4.6,
         "dir_deg": 19.0,
         "wave_dir_deg": 28.0
+      }
+    },
+    {
+      "date": "2026-09-19",
+      "slug": "zhongjiao",
+      "spot": "中角",
+      "captured_at": "2026-09-19T18:15:31+08:00",
+      "wave_notes_zh": "夜間光線昏暗，海面可見多處強光（疑似漁船）與長條倒影。浪況平緩，僅近岸小碎浪，無清晰可衝浪面；沙灘人少，僅見一名坐在岸邊者。視線不佳，目前不適合衝浪。",
+      "live_ok": true,
+      "thumb": "archive/2026-09-19/1805/zhongjiao.jpg",
+      "drive_folder": "https://drive.google.com/drive/folders/1G-2109epLDAASXr_GYCucXQ3soibvB5G",
+      "conditions": {
+        "hour": 17,
+        "source": "windguru",
+        "wspd_kt": 6.5,
+        "wave_m": 0.8,
+        "wave_per_s": 7.6,
+        "dir_deg": 36.0,
+        "wave_dir_deg": 43.0
+      }
+    },
+    {
+      "date": "2026-09-19",
+      "slug": "wuwei",
+      "spot": "無尾港",
+      "captured_at": "2026-09-19T18:18:19+08:00",
+      "wave_notes_zh": "傍晚天色已暗、視線不佳。海面多層白沫碎浪持續推向岸邊，浪型凌亂難辨浪頭；前景林投剪影清楚，岸邊與水中無人。接近入夜且破碎凌亂，目前不適合衝浪。",
+      "live_ok": true,
+      "thumb": "archive/2026-09-19/1805/wuwei.jpg",
+      "drive_folder": "https://drive.google.com/drive/folders/1fm_NLp9CCGhDASX_ToAIhpegyinfuXxt",
+      "conditions": {
+        "hour": 17,
+        "source": "windguru",
+        "wspd_kt": 15.3,
+        "wave_m": 1.4,
+        "wave_per_s": 4.8,
+        "dir_deg": 28.0,
+        "wave_dir_deg": 19.0
+      }
+    },
+    {
+      "date": "2026-09-19",
+      "slug": "zhunan",
+      "spot": "竹南假日之森",
+      "captured_at": "2026-09-19T18:18:41+08:00",
+      "wave_notes_zh": "傍晚餘暉，左側天際有橘黃餘光、整體偏暗。多層淺灘小碎浪、偏軟塌；遠方風機剪影可見，岸邊僅少數人影、水面無人。光線不足且浪小，目前不適合一般衝浪。",
+      "live_ok": true,
+      "thumb": "archive/2026-09-19/1805/zhunan.jpg",
+      "drive_folder": "https://drive.google.com/drive/folders/1650-VC5InX70o6Uo0A3FUpUsIcjTPlOb",
+      "conditions": {
+        "hour": 17,
+        "source": "windguru",
+        "wspd_kt": 17.0,
+        "wave_m": 1.2,
+        "wave_per_s": 4.8,
+        "dir_deg": 27.0,
+        "wave_dir_deg": 31.0
       }
     }
   ],
