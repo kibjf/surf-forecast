@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T22:08:02+08:00",
+  "generated_at": "2026-09-19T22:12:48+08:00",
   "archive_spots": [
     "zhongjiao",
     "wuwei",
@@ -237,120 +237,6 @@
         "wave_per_s": 4.6,
         "dir_deg": 19.0,
         "wave_dir_deg": 28.0
-      }
-    },
-    {
-      "date": "2026-09-19",
-      "slug": "zhongjiao",
-      "spot": "中角",
-      "captured_at": "2026-09-19T18:15:31+08:00",
-      "wave_notes_zh": "夜間光線昏暗，海面可見多處強光（疑似漁船）與長條倒影。浪況平緩，僅近岸小碎浪，無清晰可衝浪面；沙灘人少，僅見一名坐在岸邊者。視線不佳，目前不適合衝浪。",
-      "live_ok": true,
-      "thumb": "archive/2026-09-19/1805/zhongjiao.jpg",
-      "drive_folder": "https://drive.google.com/drive/folders/1G-2109epLDAASXr_GYCucXQ3soibvB5G",
-      "conditions": {
-        "hour": 17,
-        "source": "windguru",
-        "wspd_kt": 6.9,
-        "wave_m": 0.8,
-        "wave_per_s": 7.6,
-        "dir_deg": 34.0,
-        "wave_dir_deg": 41.0
-      }
-    },
-    {
-      "date": "2026-09-19",
-      "slug": "wuwei",
-      "spot": "無尾港",
-      "captured_at": "2026-09-19T18:18:19+08:00",
-      "wave_notes_zh": "傍晚天色已暗、視線不佳。海面多層白沫碎浪持續推向岸邊，浪型凌亂難辨浪頭；前景林投剪影清楚，岸邊與水中無人。接近入夜且破碎凌亂，目前不適合衝浪。",
-      "live_ok": true,
-      "thumb": "archive/2026-09-19/1805/wuwei.jpg",
-      "drive_folder": "https://drive.google.com/drive/folders/1fm_NLp9CCGhDASX_ToAIhpegyinfuXxt",
-      "conditions": {
-        "hour": 17,
-        "source": "windguru",
-        "wspd_kt": 15.6,
-        "wave_m": 1.4,
-        "wave_per_s": 4.9,
-        "dir_deg": 26.0,
-        "wave_dir_deg": 18.0
-      }
-    },
-    {
-      "date": "2026-09-19",
-      "slug": "zhunan",
-      "spot": "竹南假日之森",
-      "captured_at": "2026-09-19T18:18:41+08:00",
-      "wave_notes_zh": "傍晚餘暉，左側天際有橘黃餘光、整體偏暗。多層淺灘小碎浪、偏軟塌；遠方風機剪影可見，岸邊僅少數人影、水面無人。光線不足且浪小，目前不適合一般衝浪。",
-      "live_ok": true,
-      "thumb": "archive/2026-09-19/1805/zhunan.jpg",
-      "drive_folder": "https://drive.google.com/drive/folders/1650-VC5InX70o6Uo0A3FUpUsIcjTPlOb",
-      "conditions": {
-        "hour": 17,
-        "source": "windguru",
-        "wspd_kt": 17.4,
-        "wave_m": 1.2,
-        "wave_per_s": 4.8,
-        "dir_deg": 27.0,
-        "wave_dir_deg": 30.0
-      }
-    },
-    {
-      "date": "2026-09-19",
-      "slug": "zhongjiao",
-      "spot": "中角",
-      "captured_at": "2026-09-19T20:14:13+08:00",
-      "wave_notes_zh": "夜間視野昏暗，海面可見幾排白色碎浪線，遠方海平線有多盞燈火（疑似漁船）。近岸有小碎浪但整體偏暗難判浪高，目前視線不佳、不適合衝浪。",
-      "live_ok": true,
-      "thumb": "archive/2026-09-19/2005/zhongjiao.jpg",
-      "drive_folder": "https://drive.google.com/drive/folders/12WW5uutrJRF78GkwftZZBq-XrV0b-Bbb",
-      "conditions": {
-        "hour": 19,
-        "source": "windguru",
-        "wspd_kt": 3.7,
-        "wave_m": 0.8,
-        "wave_per_s": 7.6,
-        "dir_deg": 50.0,
-        "wave_dir_deg": 42.0
-      }
-    },
-    {
-      "date": "2026-09-19",
-      "slug": "wuwei",
-      "spot": "無尾港",
-      "captured_at": "2026-09-19T20:14:48+08:00",
-      "wave_notes_zh": "夜間畫面極暗、雜訊明顯；隱約可見近岸些微白色浪花與遠方微弱燈火，浪況細節因光線不足難以辨識。無人在水中，目前不適合衝浪。",
-      "live_ok": true,
-      "thumb": "archive/2026-09-19/2005/wuwei.jpg",
-      "drive_folder": "https://drive.google.com/drive/folders/1KztTRm9WF1WgbmvtuWBOlOp7-cV0Qe-m",
-      "conditions": {
-        "hour": 19,
-        "source": "windguru",
-        "wspd_kt": 11.6,
-        "wave_m": 1.3,
-        "wave_per_s": 4.7,
-        "dir_deg": 6.0,
-        "wave_dir_deg": 18.0
-      }
-    },
-    {
-      "date": "2026-09-19",
-      "slug": "zhunan",
-      "spot": "竹南假日之森",
-      "captured_at": "2026-09-19T20:15:19+08:00",
-      "wave_notes_zh": "夜間能見度極低，海面幾乎全黑，僅隱約有少量灰白碎浪痕跡；右上角有強光眩光。無法清楚辨識浪型，目前不適合衝浪。",
-      "live_ok": true,
-      "thumb": "archive/2026-09-19/2005/zhunan.jpg",
-      "drive_folder": "https://drive.google.com/drive/folders/1idAltccxKWqIrEjf-FGkfVhyYMJJrG--",
-      "conditions": {
-        "hour": 19,
-        "source": "windguru",
-        "wspd_kt": 16.2,
-        "wave_m": 1.3,
-        "wave_per_s": 5.0,
-        "dir_deg": 35.0,
-        "wave_dir_deg": 33.0
       }
     }
   ],
