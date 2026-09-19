@@ -1,0 +1,73 @@
+{
+  "generated_at": "2026-09-19T11:57:32+08:00",
+  "archive_spots": [
+    "zhongjiao",
+    "wuwei",
+    "zhunan"
+  ],
+  "spot_map": {
+    "zhongjiao": "中角",
+    "wuwei": "無尾港",
+    "zhunan": "竹南假日之森"
+  },
+  "entries": [
+    {
+      "date": "2026-09-19",
+      "slug": "zhongjiao",
+      "spot": "中角",
+      "captured_at": "2026-09-19T11:45:35+08:00",
+      "wave_notes_zh": "今日天氣晴朗，中角灣浪高目測約膝到腰，多層白色碎浪向岸推進，浪型偏瑣碎不夠乾淨。海面風力尚輕，沙灘遊客多，水中衝浪者不多，適合初學者在白浪區練習。",
+      "live_ok": true,
+      "thumb": "archive/2026-09-19/zhongjiao.jpg",
+      "drive_folder": "https://drive.google.com/drive/folders/1hYQ9NjczkUUiUKr2WcBDnBnCiotywBLQ",
+      "conditions": {
+        "hour": 11,
+        "source": "windguru",
+        "wspd_kt": 7.7,
+        "wave_m": 0.8,
+        "wave_per_s": 7.8,
+        "dir_deg": 17.0,
+        "wave_dir_deg": 45.0
+      }
+    },
+    {
+      "date": "2026-09-19",
+      "slug": "wuwei",
+      "spot": "無尾港",
+      "captured_at": "2026-09-19T11:45:35+08:00",
+      "wave_notes_zh": "天氣晴朗能見度佳。海面可見數層較整齊的白浪線向岸推進，浪況穩定持續，浪高目測約膝至腰部。岸邊白浪區明顯，整體適合進行衝浪活動。",
+      "live_ok": true,
+      "thumb": "archive/2026-09-19/wuwei.jpg",
+      "drive_folder": "https://drive.google.com/drive/folders/1GAzIKFN6pVfXRgwq1ariDdyatQE3XZdF",
+      "conditions": {
+        "hour": 11,
+        "source": "windguru",
+        "wspd_kt": 8.4,
+        "wave_m": 0.9,
+        "wave_per_s": 8.3,
+        "dir_deg": 47.0,
+        "wave_dir_deg": 104.0
+      }
+    },
+    {
+      "date": "2026-09-19",
+      "slug": "zhunan",
+      "spot": "竹南假日之森",
+      "captured_at": "2026-09-19T11:45:35+08:00",
+      "wave_notes_zh": "沙灘露出範圍很寬，研判為退潮偏低潮位。浪況偏雜亂破碎、浪高不高，水色稍混，有數排碎浪但不夠整齊。遠處可見離岸風機，天氣晴朗，較適合初學或長板在碎浪區練習。",
+      "live_ok": true,
+      "thumb": "archive/2026-09-19/zhunan.jpg",
+      "drive_folder": "https://drive.google.com/drive/folders/1GaZFO0HRAFUQR0ZyZEVKOJEEDCAWqBO6",
+      "conditions": {
+        "hour": 11,
+        "source": "windguru",
+        "wspd_kt": 14.2,
+        "wave_m": 0.9,
+        "wave_per_s": 4.4,
+        "dir_deg": 11.0,
+        "wave_dir_deg": 30.0
+      }
+    }
+  ],
+  "note_zh": "歷史樣本尚少，僅供參考"
+}
