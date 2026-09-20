@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "updated": "2026-09-20",
+  "source": "user local experience (Yu Chen Chiang)",
+  "spots": [
+    {
+      "id": "zhunan-holiday-forest",
+      "names": ["竹南假日之森", "假日之森", "zhunan"],
+      "rules": {
+        "wind": { "prefer": "little_or_none", "notes_zh": "要沒風" },
+        "tide": {
+          "prefer": "around_low",
+          "window_hours_before_low": 2,
+          "window_hours_after_low": 2,
+          "notes_zh": "退潮退到底的前後兩小時"
+        },
+        "wave_height_m": { "min_ideal": 0.8, "notes_zh": "浪高最好要超過0.8m" }
+      },
+      "summary_zh": "要沒風，退潮退到底前後兩小時會有好浪，浪高最好超過0.8m"
+    },
+    {
+      "id": "zhongjiao",
+      "names": ["中角", "中角灣", "zhongjiao"],
+      "rules": {
+        "wind": {
+          "prefer": "calm",
+          "offshore_dirs": ["W", "SW", "西", "西南"],
+          "notes_zh": "沒風當然比較好；偏西風或西南風因地形會變 offshore，浪會很好"
+        }
+      },
+      "summary_zh": "沒風最好；偏西／西南風因地形成 offshore，浪會很好"
+    },
+    {
+      "id": "feicuiwan",
+      "names": ["翡翠灣", "feicuiwan"],
+      "rules": {
+        "wind": {
+          "prefer": "little_or_none",
+          "sensitive": true,
+          "notes_zh": "有一些風就會不好"
+        }
+      },
+      "summary_zh": "有一些風就會不好"
+    },
+    {
+      "id": "shimen-wedding-plaza",
+      "names": ["石門婚紗廣場", "婚紗廣場"],
+      "rules": {
+        "wind": {
+          "allow_some": true,
+          "bad_dirs": ["N", "北"],
+          "offshore_dirs": ["NE", "E", "東北", "東"],
+          "notes_zh": "可以有風；偏北風不好；偏東北或偏東會是 offshore，浪整齊乾淨"
+        },
+        "tide": {
+          "prefer": "around_high",
+          "window_hours_before_high": 3,
+          "window_hours_after_high": 2,
+          "notes_zh": "潮汐在漲滿前三小時到滿潮後兩小時不錯"
+        }
+      },
+      "summary_zh": "可有風；北風不好，東北／東風為 offshore 浪較整齊；漲滿前3小時到後2小時潮汐較佳"
+    }
+  ]
+}
