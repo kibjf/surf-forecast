@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T06:01:51+08:00",
+  "generated_at": "2026-09-21T06:31:07+08:00",
   "archive_spots": [
     "zhongjiao",
     "wuwei",
@@ -388,6 +388,63 @@
       "live_ok": true,
       "thumb": "archive/2026-09-21/0505/zhunan.jpg",
       "clip": "archive/2026-09-21/0505/zhunan.mp4",
+      "conditions": {
+        "hour": 5,
+        "source": "windguru",
+        "wspd_kt": 11.0,
+        "wave_m": 1.0,
+        "wave_per_s": 4.7,
+        "dir_deg": 41.0,
+        "wave_dir_deg": 33.0
+      }
+    },
+    {
+      "date": "2026-09-21",
+      "slug": "zhongjiao",
+      "spot": "中角",
+      "captured_at": "2026-09-21T06:17:24+08:00",
+      "wave_notes_zh": "清晨日出、金光強烈反光；近岸多層碎浪持續進場，海面略帶紋理。沙灘可見一名衝浪者在岸際活動，右側岬角山巒朦朧，能見度受日照眩光影響。",
+      "live_ok": true,
+      "thumb": "archive/2026-09-21/0605/zhongjiao.jpg",
+      "clip": "archive/2026-09-21/0605/zhongjiao.mp4",
+      "conditions": {
+        "hour": 5,
+        "source": "windguru",
+        "wspd_kt": 6.1,
+        "wave_m": 1.4,
+        "wave_per_s": 13.2,
+        "dir_deg": 29.0,
+        "wave_dir_deg": 80.0
+      }
+    },
+    {
+      "date": "2026-09-21",
+      "slug": "wuwei",
+      "spot": "無尾港",
+      "captured_at": "2026-09-21T06:17:27+08:00",
+      "wave_notes_zh": "晨光中霧氣與水氣偏重，陽光在海面形成強烈光束白茫；岸邊可見細小碎浪拍岸，遠海觀測受眩光阻礙。右側山巒籠罩薄霧，整體目測偏平靜。",
+      "live_ok": true,
+      "thumb": "archive/2026-09-21/0605/wuwei.jpg",
+      "clip": "archive/2026-09-21/0605/wuwei.mp4",
+      "conditions": {
+        "hour": 5,
+        "source": "windguru",
+        "wspd_kt": 8.3,
+        "wave_m": 1.5,
+        "wave_per_s": 13.4,
+        "dir_deg": 330.0,
+        "wave_dir_deg": 81.0
+      }
+    },
+    {
+      "date": "2026-09-21",
+      "slug": "zhunan",
+      "spot": "竹南假日之森",
+      "captured_at": "2026-09-21T06:17:32+08:00",
+      "wave_notes_zh": "清晨陰沉灰亮、遠方離岸風機清晰；近岸多層低矮碎浪略凌亂、能量偏弱。前景消波塊與濕沙清楚，沙灘無人。",
+      "live_ok": true,
+      "thumb": "archive/2026-09-21/0605/zhunan.jpg",
+      "clip": "archive/2026-09-21/0605/zhunan.mp4",
       "conditions": {
         "hour": 5,
         "source": "windguru",
