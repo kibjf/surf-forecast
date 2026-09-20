@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T12:15:39+08:00",
+  "generated_at": "2026-09-20T14:21:48+08:00",
   "archive_spots": [
     "zhongjiao",
     "wuwei",
@@ -357,6 +357,63 @@
         "wave_per_s": 4.4,
         "dir_deg": 13.0,
         "wave_dir_deg": 25.0
+      }
+    },
+    {
+      "date": "2026-09-20",
+      "slug": "wuwei",
+      "spot": "無尾港",
+      "captured_at": "2026-09-20T14:16:50+08:00",
+      "wave_notes_zh": "天色略陰；前景林投與塊石護岸清楚，海面多層白色碎浪綿延、浪況偏凌亂但浪高不高。岸邊有人停留，能見度普通偏好。",
+      "live_ok": true,
+      "thumb": "archive/2026-09-20/1405/wuwei.jpg",
+      "clip": "archive/2026-09-20/1405/wuwei.mp4",
+      "conditions": {
+        "hour": 13,
+        "source": "windguru",
+        "wspd_kt": 20.2,
+        "wave_m": 1.6,
+        "wave_per_s": 11.2,
+        "dir_deg": 30.0,
+        "wave_dir_deg": 64.0
+      }
+    },
+    {
+      "date": "2026-09-20",
+      "slug": "zhongjiao",
+      "spot": "中角",
+      "captured_at": "2026-09-20T14:16:54+08:00",
+      "wave_notes_zh": "陰天灰白雲層；近岸多層白色碎浪持續推進，浪形尚可、浪高看起來不大。砂石混合灘岸，水中約有數名衝浪者，岸邊有人。能見度佳。整體偏適合長板或初學練習。",
+      "live_ok": true,
+      "thumb": "archive/2026-09-20/1405/zhongjiao.jpg",
+      "clip": "archive/2026-09-20/1405/zhongjiao.mp4",
+      "conditions": {
+        "hour": 13,
+        "source": "windguru",
+        "wspd_kt": 8.2,
+        "wave_m": 1.2,
+        "wave_per_s": 15.2,
+        "dir_deg": 31.0,
+        "wave_dir_deg": 82.0
+      }
+    },
+    {
+      "date": "2026-09-20",
+      "slug": "zhunan",
+      "spot": "竹南假日之森",
+      "captured_at": "2026-09-20T14:16:57+08:00",
+      "wave_notes_zh": "晴朗藍天；廣闊沙灘、近岸多層白色碎浪，海面略顯風吹凌亂。沙灘有遊客，遠處可見風箏活動。浪況偏小，適合長板／初學或風箏評估。",
+      "live_ok": true,
+      "thumb": "archive/2026-09-20/1405/zhunan.jpg",
+      "clip": "archive/2026-09-20/1405/zhunan.mp4",
+      "conditions": {
+        "hour": 13,
+        "source": "windguru",
+        "wspd_kt": 17.7,
+        "wave_m": 1.1,
+        "wave_per_s": 4.6,
+        "dir_deg": 14.0,
+        "wave_dir_deg": 26.0
       }
     }
   ],
