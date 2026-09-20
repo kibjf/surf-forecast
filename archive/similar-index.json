@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T03:09:33+08:00",
+  "generated_at": "2026-09-21T05:28:40+08:00",
   "archive_spots": [
     "zhongjiao",
     "wuwei",
@@ -340,6 +340,63 @@
       "live_ok": true,
       "thumb": "archive/2026-09-20/1805/zhunan.jpg",
       "clip": "archive/2026-09-20/1805/zhunan.mp4"
+    },
+    {
+      "date": "2026-09-21",
+      "slug": "zhongjiao",
+      "spot": "中角",
+      "captured_at": "2026-09-21T05:19:06+08:00",
+      "wave_notes_zh": "清晨破曉、天際粉橘與灰雲交織；近岸多層白色碎浪與泡沫偏凌亂。砂石灘空無一人，右側岬角可見岸上燈火，能見度尚可。",
+      "live_ok": true,
+      "thumb": "archive/2026-09-21/0505/zhongjiao.jpg",
+      "clip": "archive/2026-09-21/0505/zhongjiao.mp4",
+      "conditions": {
+        "hour": 5,
+        "source": "windguru",
+        "wspd_kt": 6.1,
+        "wave_m": 1.4,
+        "wave_per_s": 13.2,
+        "dir_deg": 29.0,
+        "wave_dir_deg": 80.0
+      }
+    },
+    {
+      "date": "2026-09-21",
+      "slug": "wuwei",
+      "spot": "無尾港",
+      "captured_at": "2026-09-21T05:19:09+08:00",
+      "wave_notes_zh": "晨曦橘黃光暈，整體偏暗且有霧氣；海面可見長排、尚稱整齊的白浪推向岸邊。前景暗、右側山巒朦朧，岸邊無人，能見度因霧略差。",
+      "live_ok": true,
+      "thumb": "archive/2026-09-21/0505/wuwei.jpg",
+      "clip": "archive/2026-09-21/0505/wuwei.mp4",
+      "conditions": {
+        "hour": 5,
+        "source": "windguru",
+        "wspd_kt": 8.3,
+        "wave_m": 1.5,
+        "wave_per_s": 13.4,
+        "dir_deg": 330.0,
+        "wave_dir_deg": 81.0
+      }
+    },
+    {
+      "date": "2026-09-21",
+      "slug": "zhunan",
+      "spot": "竹南假日之森",
+      "captured_at": "2026-09-21T05:19:11+08:00",
+      "wave_notes_zh": "黎明光線偏暗、天空灰平；近岸多層白色碎浪略顯凌亂。前景消波塊與草地清楚，遠方水平線有風機／船燈點點，沙灘無人。",
+      "live_ok": true,
+      "thumb": "archive/2026-09-21/0505/zhunan.jpg",
+      "clip": "archive/2026-09-21/0505/zhunan.mp4",
+      "conditions": {
+        "hour": 5,
+        "source": "windguru",
+        "wspd_kt": 11.0,
+        "wave_m": 1.0,
+        "wave_per_s": 4.7,
+        "dir_deg": 41.0,
+        "wave_dir_deg": 33.0
+      }
     }
   ],
   "note_zh": ""
