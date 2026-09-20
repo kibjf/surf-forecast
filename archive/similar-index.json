@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T18:04:50+08:00",
+  "generated_at": "2026-09-20T18:17:35+08:00",
   "archive_spots": [
     "zhongjiao",
     "wuwei",
@@ -471,6 +471,63 @@
         "wave_per_s": 4.8,
         "dir_deg": 21.0,
         "wave_dir_deg": 28.0
+      }
+    },
+    {
+      "date": "2026-09-20",
+      "slug": "zhongjiao",
+      "spot": "中角",
+      "captured_at": "2026-09-20T18:11:09+08:00",
+      "wave_notes_zh": "傍晚天色昏暗、雲層偏厚；近岸多層白色碎浪持續推向卵石岸，浪形偏碎、海面略顯凌亂，未見明顯乾淨浪面。前景步道／觀景區清楚，水中與岸邊無人。整體偏適合長板或初學在白浪區練習評估。",
+      "live_ok": true,
+      "thumb": "archive/2026-09-20/1805/zhongjiao.jpg",
+      "clip": "archive/2026-09-20/1805/zhongjiao.mp4",
+      "conditions": {
+        "hour": 17,
+        "source": "windguru",
+        "wspd_kt": 6.9,
+        "wave_m": 1.2,
+        "wave_per_s": 14.3,
+        "dir_deg": 44.0,
+        "wave_dir_deg": 83.0
+      }
+    },
+    {
+      "date": "2026-09-20",
+      "slug": "wuwei",
+      "spot": "無尾港",
+      "captured_at": "2026-09-20T18:11:16+08:00",
+      "wave_notes_zh": "黃昏低光、天際略有殘霞；前景林投剪影與停放車輛清楚，近岸多層碎浪偏凌亂、風吹感明顯，幾乎看不到乾淨浪面。岸邊與水中無人。光線與浪況皆偏不利實際衝浪。",
+      "live_ok": true,
+      "thumb": "archive/2026-09-20/1805/wuwei.jpg",
+      "clip": "archive/2026-09-20/1805/wuwei.mp4",
+      "conditions": {
+        "hour": 17,
+        "source": "windguru",
+        "wspd_kt": 15.0,
+        "wave_m": 1.6,
+        "wave_per_s": 14.3,
+        "dir_deg": 26.0,
+        "wave_dir_deg": 86.0
+      }
+    },
+    {
+      "date": "2026-09-20",
+      "slug": "zhunan",
+      "spot": "竹南假日之森",
+      "captured_at": "2026-09-20T18:11:18+08:00",
+      "wave_notes_zh": "黃昏西邊有餘暉；廣闊濕沙灘、近岸多層偏小白色碎浪，遠處風機剪影可見。沙灘／水際約有十多名遊客散步或站立，未見明顯衝浪或風箏活動。浪況偏小碎，適合長板／初學或傍晚散步評估。",
+      "live_ok": true,
+      "thumb": "archive/2026-09-20/1805/zhunan.jpg",
+      "clip": "archive/2026-09-20/1805/zhunan.mp4",
+      "conditions": {
+        "hour": 17,
+        "source": "windguru",
+        "wspd_kt": 16.9,
+        "wave_m": 1.3,
+        "wave_per_s": 5.0,
+        "dir_deg": 29.0,
+        "wave_dir_deg": 33.0
       }
     }
   ],
