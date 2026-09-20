@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T08:02:09+08:00",
+  "generated_at": "2026-09-20T08:10:17+08:00",
   "archive_spots": [
     "zhongjiao",
     "wuwei",
@@ -186,6 +186,63 @@
         "wave_per_s": 4.8,
         "dir_deg": 44.0,
         "wave_dir_deg": 28.0
+      }
+    },
+    {
+      "date": "2026-09-20",
+      "slug": "zhongjiao",
+      "spot": "中角",
+      "captured_at": "2026-09-20T08:02:34+08:00",
+      "wave_notes_zh": "早晨陽光充足，畫面清晰；近岸可見多層小型碎浪與白沫，外海略有薄霧。浪偏小偏破碎，沙灘與水中無人，適合觀察或長板／初學輕鬆練習。",
+      "live_ok": true,
+      "thumb": "archive/2026-09-20/0805/zhongjiao.jpg",
+      "clip": "archive/2026-09-20/0805/zhongjiao.mp4",
+      "conditions": {
+        "hour": 7,
+        "source": "windguru",
+        "wspd_kt": 5.3,
+        "wave_m": 1.0,
+        "wave_per_s": 13.9,
+        "dir_deg": 7.0,
+        "wave_dir_deg": 73.0
+      }
+    },
+    {
+      "date": "2026-09-20",
+      "slug": "wuwei",
+      "spot": "無尾港",
+      "captured_at": "2026-09-20T08:03:16+08:00",
+      "wave_notes_zh": "晴朗早晨，前景林投清楚；海面有規律碎浪與多層白沫推進，視線良好。浪況穩定可見，適合長板或初學評估，岸邊與水中暫無人。",
+      "live_ok": true,
+      "thumb": "archive/2026-09-20/0805/wuwei.jpg",
+      "clip": "archive/2026-09-20/0805/wuwei.mp4",
+      "conditions": {
+        "hour": 7,
+        "source": "windguru",
+        "wspd_kt": 8.2,
+        "wave_m": 1.1,
+        "wave_per_s": 16.6,
+        "dir_deg": 328.0,
+        "wave_dir_deg": 90.0
+      }
+    },
+    {
+      "date": "2026-09-20",
+      "slug": "zhunan",
+      "spot": "竹南假日之森",
+      "captured_at": "2026-09-20T08:03:53+08:00",
+      "wave_notes_zh": "天氣晴朗，近岸數排小型白浪，沙灘寬廣偏乾；前景消波塊清楚，遠方可見離岸風機。浪平緩偏小，適合長板／初學或風箏觀察。",
+      "live_ok": true,
+      "thumb": "archive/2026-09-20/0805/zhunan.jpg",
+      "clip": "archive/2026-09-20/0805/zhunan.mp4",
+      "conditions": {
+        "hour": 7,
+        "source": "windguru",
+        "wspd_kt": 9.8,
+        "wave_m": 0.9,
+        "wave_per_s": 4.8,
+        "dir_deg": 43.0,
+        "wave_dir_deg": 26.0
       }
     }
   ],
