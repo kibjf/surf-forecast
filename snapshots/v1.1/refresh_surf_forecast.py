@@ -23,6 +23,15 @@ from surf_archive_ui import (
     similar_match_js,
 )
 
+_SNAP_DIR = Path(__file__).resolve().parent
+if str(_SNAP_DIR) not in sys.path:
+    sys.path.insert(0, str(_SNAP_DIR))
+from spot_heuristics import (  # noqa: E402
+    apply_spot_heuristics,
+    slot_local_dt,
+    tide_events_for_spot_day,
+)
+
 TZ = timezone(timedelta(hours=8))
 TODAY = "2026-09-19"
 DAYS = [
@@ -520,15 +529,30 @@ def slots_in_period(slots, period):
     ]
 
 
-def score_surf_slot(s, tip_west=True):
+def score_surf_slot(
+    s,
+    tip_west=True,
+    spot_key=None,
+    wind_kt=None,
+    wind_dir_deg=None,
+    wind_dir_zh=None,
+    wave_height_m=None,
+    slot_dt=None,
+    tide_events=None,
+    reasons=None,
+):
     """玩浪：乾淨優先。浪大但風大不一定好；風 >6 kt 重罰。
 
     score ≈ wave*10 + period*1.2 − soft wind − steep excess over 6 kt
-    (+ daytime / east swell dir).
+    (+ daytime / east swell dir). Optional local-experience delta from
+    ``data/spot-heuristics.json`` when ``spot_key`` matches; spots without
+    an entry are unchanged. Does not affect wind-sport scoring.
     """
-    wave = s.get("wave_m") or 0
+    wave = s.get("wave_m") if wave_height_m is None else wave_height_m
+    wave = wave or 0
     per = s.get("wave_per_s") or 0
-    wind = s.get("wspd_kt") or 0
+    wind = s.get("wspd_kt") if wind_kt is None else wind_kt
+    wind = wind or 0
     score = wave * 10 + per * 1.2
     # Light drag below 6 kt; steep penalty once wind dirties the face
     if wind <= 6:
@@ -541,6 +565,21 @@ def score_surf_slot(s, tip_west=True):
         wd = s["wave_dir_deg"]
         if 45 <= wd <= 135:
             score += 3
+    if spot_key:
+        deg = s.get("dir_deg") if wind_dir_deg is None else wind_dir_deg
+        zh = s.get("dir_zh") if wind_dir_zh is None else wind_dir_zh
+        delta, why = apply_spot_heuristics(
+            spot_key,
+            wind_kt=wind,
+            wind_dir_deg=deg,
+            wind_dir_zh=zh,
+            wave_height_m=wave,
+            slot_dt=slot_dt,
+            tide_events=tide_events,
+        )
+        score += delta
+        if reasons is not None and why:
+            reasons.extend(why)
     return score
 
 
@@ -582,17 +621,29 @@ def badge_for_mode(mode, wind, wave):
     return "偏強", "weak"
 
 
-def tip_for_pick(mode, sp, s):
+def _append_heuristic_clause(text, heuristic_reasons):
+    """Append at most one short local-experience clause; skip if already present."""
+    if not heuristic_reasons:
+        return text
+    clause = heuristic_reasons[0]
+    if not clause or clause in (text or ""):
+        return text
+    return f"{text}（{clause}）"
+
+
+def tip_for_pick(mode, sp, s, heuristic_reasons=None):
     wind = s.get("wspd_kt") or 0
     wave = s.get("wave_m") or 0
     if mode == "surf":
         if wind < 10 and wave >= 0.6:
-            return "風偏弱、浪夠用，較適合衝浪"
-        if wind >= 16:
-            return "風偏強浪面易亂；可改清晨或東岸"
-        if sp["tip_west"]:
-            return "西岸風況；衝浪抓風較弱時段"
-        return "東岸視浪向；偏東湧較直接"
+            text = "風偏弱、浪夠用，較適合衝浪"
+        elif wind >= 16:
+            text = "風偏強浪面易亂；可改清晨或東岸"
+        elif sp["tip_west"]:
+            text = "西岸風況；衝浪抓風較弱時段"
+        else:
+            text = "東岸視浪向；偏東湧較直接"
+        return _append_heuristic_clause(text, heuristic_reasons)
     # wind
     if wind < 12:
         return "風偏弱，風箏／風浪板可能不夠力"
@@ -603,7 +654,7 @@ def tip_for_pick(mode, sp, s):
     return "風速可用；留意陣風與浪高"
 
 
-def _slot_pick_payload(sp, day, s, mode, score):
+def _slot_pick_payload(sp, day, s, mode, score, heuristic_reasons=None):
     badge, bclass = badge_for_mode(mode, s.get("wspd_kt"), s.get("wave_m"))
     return {
         "key": sp["key"],
@@ -620,27 +671,38 @@ def _slot_pick_payload(sp, day, s, mode, score):
         "dir_zh": s.get("dir_zh") or "",
         "badge": badge,
         "badge_class": bclass,
-        "tip": tip_for_pick(mode, sp, s),
+        "tip": tip_for_pick(mode, sp, s, heuristic_reasons),
         "score": round(score, 2),
     }
 
 
-def best_in_period_for_spot(slots, tip_west, mode):
+def best_in_period_for_spot(slots, tip_west, mode, *, spot_key=None, day=None, tide_events=None):
     """Best real slot in period for one spot; None if empty."""
-    scorer = score_surf_slot if mode == "surf" else score_wind_slot
     best = None
     best_score = -1e9
     for s in slots:
-        sc = scorer(s, tip_west)
+        reasons = []
+        if mode == "surf":
+            sc = score_surf_slot(
+                s,
+                tip_west,
+                spot_key=spot_key,
+                slot_dt=slot_local_dt(day, s.get("hour")),
+                tide_events=tide_events,
+                reasons=reasons,
+            )
+        else:
+            sc = score_wind_slot(s, tip_west)
         if sc > best_score:
             best_score = sc
-            best = (s, sc)
+            best = (s, sc, reasons)
     return best
 
 
-def compute_daily_best(forecast, today=None):
+def compute_daily_best(forecast, today=None, tides=None):
     """Precompute top-2 spots per (date, period, mode) from real forecast slots."""
     today = today or TODAY
+    tides = tides if tides is not None else (forecast.get("tides") or {})
     dates = []
     for sp in SPOTS:
         for d in (forecast["spots"][sp["key"]].get("days") or {}):
@@ -666,11 +728,21 @@ def compute_daily_best(forecast, today=None):
                 for sp in SPOTS:
                     day_slots = (forecast["spots"][sp["key"]].get("days") or {}).get(day) or []
                     cand = slots_in_period(day_slots, period)
-                    hit = best_in_period_for_spot(cand, sp["tip_west"], mode)
+                    tide_ev = (
+                        tide_events_for_spot_day(tides, sp["key"], day) if mode == "surf" else None
+                    )
+                    hit = best_in_period_for_spot(
+                        cand,
+                        sp["tip_west"],
+                        mode,
+                        spot_key=sp["key"] if mode == "surf" else None,
+                        day=day,
+                        tide_events=tide_ev,
+                    )
                     if not hit:
                         continue
-                    s, sc = hit
-                    ranked.append(_slot_pick_payload(sp, day, s, mode, sc))
+                    s, sc, why = hit
+                    ranked.append(_slot_pick_payload(sp, day, s, mode, sc, why))
                 ranked.sort(key=lambda x: x["score"], reverse=True)
                 best = ranked[0] if ranked else None
                 second = ranked[1] if len(ranked) > 1 else None
@@ -686,6 +758,8 @@ def compute_daily_best(forecast, today=None):
         "by": by,
         "scoring_tip": (
             "玩浪：浪高×10＋週期×1.2；風≤6 kt 輕扣、>6 kt 重罰（浪大風大不一定好；東岸浪向 45–135°＋3）。"
+            "現地經驗微調（有規則的四點）：假日之森要沒風／近乾潮／浪高；中角西～西南偏 offshore；"
+            "翡翠灣風敏感；石門可有風、北風不宜、東北～東偏 offshore／近滿潮。無規則據點分數不變。"
             "玩風：風速×1.5＋陣風×0.3＋浪高×2（過弱／過強扣分；西岸強風＋2）。"
             "晚＝15:00（非夜間）。僅用實際預報時次，無資料則略過。"
         ),
@@ -693,16 +767,23 @@ def compute_daily_best(forecast, today=None):
 
 
 
-def best_slot_for_spot(days_map, tip_west=True):
+def best_slot_for_spot(days_map, tip_west=True, *, spot_key=None, tides=None):
     """Pick a highlight window for overview cards from real data."""
     best = None
     best_score = -1e9
     for day, slots in days_map.items():
+        tide_ev = tide_events_for_spot_day(tides, spot_key, day) if spot_key else None
         for s in slots:
             if s.get("wave_m") is None or s.get("wspd_kt") is None:
                 continue
             # Prefer lower wind + decent wave + longer period for surfing
-            score = score_surf_slot(s, tip_west)
+            score = score_surf_slot(
+                s,
+                tip_west,
+                spot_key=spot_key,
+                slot_dt=slot_local_dt(day, s.get("hour")),
+                tide_events=tide_ev,
+            )
             # Prefer daytime
             if 6 <= s["hour"] <= 18:
                 score += 2
@@ -736,15 +817,17 @@ def _surf_score_tuple(it):
     return score
 
 
-def pick_tomorrow_morning_recommendation(forecast, hours=(5, 7, 9), top_n=3):
+def pick_tomorrow_morning_recommendation(forecast, hours=(5, 7, 9), top_n=3, tides=None):
     """Top-N surf picks for tomorrow at fixed morning hours (05/07/09).
 
-    Uses score_surf_slot (wind >6 kt heavily penalized). Returns
+    Uses score_surf_slot (wind >6 kt heavily penalized) plus local
+    heuristics when a spot has a JSON entry. Returns
     (headline_pick, html_block) for the top「今日怎麼選」section.
     """
     if len(DAYS) < 2:
         return None, "<p class=\"pick-tomorrow\">明日預報尚未載入。</p>"
     tomorrow = DAYS[1]
+    tides = tides if tides is not None else (forecast.get("tides") or {})
     blocks = []
     headline = None
     for hour in hours:
@@ -755,8 +838,16 @@ def pick_tomorrow_morning_recommendation(forecast, hours=(5, 7, 9), top_n=3):
             s = by_h.get(int(hour))
             if not s or s.get("wave_m") is None or s.get("wspd_kt") is None:
                 continue
-            sc = score_surf_slot(s, sp["tip_west"])
-            ranked.append((sc, sp, s))
+            why = []
+            sc = score_surf_slot(
+                s,
+                sp["tip_west"],
+                spot_key=sp["key"],
+                slot_dt=slot_local_dt(tomorrow, s.get("hour")),
+                tide_events=tide_events_for_spot_day(tides, sp["key"], tomorrow),
+                reasons=why,
+            )
+            ranked.append((sc, sp, s, why))
         ranked.sort(key=lambda x: x[0], reverse=True)
         top = ranked[:top_n]
         if not top:
@@ -768,16 +859,19 @@ def pick_tomorrow_morning_recommendation(forecast, hours=(5, 7, 9), top_n=3):
         if headline is None:
             headline = top[0][1]["short"]
         items = []
-        for i, (sc, sp, s) in enumerate(top, 1):
+        for i, (sc, sp, s, why) in enumerate(top, 1):
             per = s.get("wave_per_s")
             per_s = f"{per:.0f}s" if per is not None else "—"
+            reason_html = ""
+            if i == 1 and why:
+                reason_html = f'<span class="tm-why">（{why[0]}）</span>'
             items.append(
                 f'<li><span class="tm-rank">{i}</span>'
                 f'<strong>{sp["short"]}</strong>'
                 f'<span class="tm-meta">風 {s["wspd_kt"]:.0f} kt · '
                 f'浪 {s["wave_m"]:.1f} m／{per_s}'
                 f'{" · " + (s.get("wave_dir_zh") or "") if s.get("wave_dir_zh") else ""}'
-                f'</span></li>'
+                f'</span>{reason_html}</li>'
             )
         blocks.append(
             f'<div class="tm-hour"><div class="tm-hour-label">{hour:02d}:00</div>'
@@ -794,55 +888,89 @@ def pick_tomorrow_morning_recommendation(forecast, hours=(5, 7, 9), top_n=3):
 
 
 
+def _with_today_reason(rec, reasons):
+    clause = (reasons or [None])[0]
+    if not clause or clause in rec:
+        return rec
+    if rec.endswith("。"):
+        return rec[:-1] + f"；{clause}。"
+    return rec + f"（{clause}）"
+
+
 def pick_today_recommendation(forecast, tides):
     """Short Traditional Chinese tip based on real today 09/12/15 data."""
-    lines = []
     east = []
     west = []
+    tides = tides or forecast.get("tides") or {}
     for sp in SPOTS:
         slots = forecast["spots"][sp["key"]]["days"].get(TODAY) or []
         by_h = {s["hour"]: s for s in slots}
         s15 = by_h.get(15) or by_h.get(12) or (slots[-1] if slots else None)
         if not s15:
             continue
-        item = (sp["short"], s15["wspd_kt"], s15["wave_m"], s15.get("wave_per_s"), s15.get("dir_zh"), s15.get("wave_dir_zh"))
+        why = []
+        sc = score_surf_slot(
+            s15,
+            sp["tip_west"],
+            spot_key=sp["key"],
+            slot_dt=slot_local_dt(TODAY, s15.get("hour")),
+            tide_events=tide_events_for_spot_day(tides, sp["key"], TODAY),
+            reasons=why,
+        )
+        item = {
+            "short": sp["short"],
+            "key": sp["key"],
+            "wind": s15["wspd_kt"],
+            "wave": s15["wave_m"],
+            "per": s15.get("wave_per_s"),
+            "dir_zh": s15.get("dir_zh"),
+            "wave_dir_zh": s15.get("wave_dir_zh"),
+            "score": sc,
+            "reasons": why,
+        }
         if sp["tip_west"]:
             west.append(item)
         else:
             east.append(item)
 
-    # Surfing preference: lower wind, usable wave
     def surf_score(it):
-        return _surf_score_tuple(it)
+        return it["score"]
 
     east_sorted = sorted(east, key=surf_score, reverse=True)
-    west_sorted = sorted(west, key=lambda it: it[1], reverse=True)
+    west_sorted = sorted(west, key=lambda it: it["wind"] or 0, reverse=True)
+    calmest_west = min(west, key=lambda it: it["wind"] or 0) if west else None
 
-    if east_sorted and (not west_sorted or surf_score(east_sorted[0]) >= surf_score(min(west, key=lambda it: it[1] if west else east_sorted[0]))):
+    if east_sorted and (
+        not west
+        or east_sorted[0]["score"] >= (calmest_west["score"] if calmest_west else -1e9)
+    ):
         top = east_sorted[0]
         # If west wind is high and east wind low -> east for surfing
-        west_wind = max((w[1] for w in west), default=0)
-        east_wind = min((e[1] for e in east), default=99)
+        west_wind = max((w["wind"] for w in west), default=0)
+        east_wind = min((e["wind"] for e in east), default=99)
         if east_wind < 6 and west_wind >= 12:
-            names = "／".join(e[0] for e in east_sorted[:2])
+            names = "／".join(e["short"] for e in east_sorted[:2])
             rec = (
                 f"衝浪優先 → 宜蘭東岸（{names}）：午後風約 "
-                f"{east[0][1]:.0f}–{max(e[1] for e in east):.0f} kt，"
-                f"浪約 {min(e[2] for e in east):.1f}–{max(e[2] for e in east):.1f} m、"
-                f"週期約 {min(e[3] or 0 for e in east):.0f}–{max(e[3] or 0 for e in east):.0f}s。"
+                f"{east[0]['wind']:.0f}–{max(e['wind'] for e in east):.0f} kt，"
+                f"浪約 {min(e['wave'] for e in east):.1f}–{max(e['wave'] for e in east):.1f} m、"
+                f"週期約 {min(e['per'] or 0 for e in east):.0f}–{max(e['per'] or 0 for e in east):.0f}s。"
                 f"西岸風偏強（約 {west_wind:.0f} kt）較適合風箏／風浪板，衝浪抓清晨。"
             )
             pick = names.split("／")[0]
+            rec = _with_today_reason(rec, east_sorted[0].get("reasons"))
         else:
-            pick = top[0]
+            pick = top["short"]
             rec = (
-                f"今日首選 {pick}：風約 {top[1]:.0f} kt、浪 {top[2]:.1f} m／"
-                f"{(top[3] or 0):.0f}s（{top[5] or ''}）。"
+                f"今日首選 {pick}：風約 {top['wind']:.0f} kt、浪 {top['wave']:.1f} m／"
+                f"{(top['per'] or 0):.0f}s（{top['wave_dir_zh'] or ''}）。"
             )
+            rec = _with_today_reason(rec, top.get("reasons"))
     else:
         top = west_sorted[0] if west_sorted else east_sorted[0]
-        pick = top[0]
-        rec = f"今日首選 {pick}：風約 {top[1]:.0f} kt、浪 {top[2]:.1f} m。"
+        pick = top["short"]
+        rec = f"今日首選 {pick}：風約 {top['wind']:.0f} kt、浪 {top['wave']:.1f} m。"
+        rec = _with_today_reason(rec, top.get("reasons"))
     return pick, rec
 
 
@@ -1547,6 +1675,7 @@ def build_html(forecast, tides, cwa, svg, wg_fetched, cwa_fetched, pick, rec, pi
   font-size: 0.7rem; font-weight: 800; color: #0b1220; background: #7dd3fc;
 }
 .tm-meta { color: var(--muted, #8b9bb4); font-size: 0.78rem; }
+.tm-why { color: var(--muted, #8b9bb4); font-size: 0.75rem; }
 .tm-hour-empty { color: var(--muted, #8b9bb4); font-size: 0.8rem; }
 @media (min-width: 720px) {
   .pick-tomorrow-board {
@@ -2316,7 +2445,7 @@ def rebuild_html_from_cache():
         json.dumps(scatter_json, ensure_ascii=False, indent=2), encoding="utf-8"
     )
     pick, rec = pick_today_recommendation(forecast, tides)
-    pick_tm, rec_tm = pick_tomorrow_morning_recommendation(forecast)
+    pick_tm, rec_tm = pick_tomorrow_morning_recommendation(forecast, tides=tides)
     print("今日首選:", pick)
     print("明日早上:", pick_tm, rec_tm)
     print(rec)
@@ -2381,7 +2510,7 @@ def main():
     )
 
     pick, rec = pick_today_recommendation(forecast, tides)
-    pick_tm, rec_tm = pick_tomorrow_morning_recommendation(forecast)
+    pick_tm, rec_tm = pick_tomorrow_morning_recommendation(forecast, tides=tides)
     print("今日首選:", pick)
     print("明日早上:", pick_tm, rec_tm)
     print(rec)
