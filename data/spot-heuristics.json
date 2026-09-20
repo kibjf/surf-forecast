@@ -8,8 +8,7 @@
       "names": [
         "竹南假日之森",
         "假日之森",
-        "zhunan",
-        "竹南 - 假日之森"
+        "zhunan"
       ],
       "rules": {
         "wind": {
@@ -27,7 +26,8 @@
           "notes_zh": "浪高最好要超過0.8m"
         }
       },
-      "summary_zh": "要沒風，退潮退到底前後兩小時會有好浪，浪高最好超過0.8m"
+      "summary_zh": "要沒風，退潮退到底前後兩小時會有好浪，浪高最好超過0.8m",
+      "station_key": "竹南假日之森"
     },
     {
       "id": "zhongjiao",
@@ -48,7 +48,8 @@
           "notes_zh": "沒風當然比較好；偏西風或西南風因地形會變 offshore，浪會很好"
         }
       },
-      "summary_zh": "沒風最好；偏西／西南風因地形成 offshore，浪會很好"
+      "summary_zh": "沒風最好；偏西／西南風因地形成 offshore，浪會很好",
+      "station_key": "中角"
     },
     {
       "id": "feicuiwan",
@@ -63,14 +64,14 @@
           "notes_zh": "有一些風就會不好"
         }
       },
-      "summary_zh": "有一些風就會不好"
+      "summary_zh": "有一些風就會不好",
+      "station_key": "翡翠灣"
     },
     {
       "id": "shimen-wedding-plaza",
       "names": [
         "石門婚紗廣場",
-        "婚紗廣場",
-        "石門婚紗"
+        "婚紗廣場"
       ],
       "rules": {
         "wind": {
@@ -94,7 +95,8 @@
           "notes_zh": "潮汐在漲滿前三小時到滿潮後兩小時不錯"
         }
       },
-      "summary_zh": "可有風；北風不好，東北／東風為 offshore 浪較整齊；漲滿前3小時到後2小時潮汐較佳"
+      "summary_zh": "可有風；北風不好，東北／東風為 offshore 浪較整齊；漲滿前3小時到後2小時潮汐較佳",
+      "station_key": "石門婚紗廣場"
     }
   ]
 }
