@@ -132,16 +132,24 @@ def _norm(name: str) -> str:
 
 
 def find_spot(spot_key: str | None, data: dict[str, Any] | None = None) -> dict[str, Any] | None:
-    """Match SPOTS[].key / short / JSON names / id."""
+    """Match ``station_key == spot_key`` first, then ``names`` aliases."""
     if not spot_key:
         return None
     data = data if data is not None else load_spot_heuristics()
+    spots = data.get("spots") or []
+    for spot in spots:
+        if spot.get("station_key") == spot_key:
+            return spot
     want = _norm(spot_key)
     if not want:
         return None
-    for spot in data.get("spots") or []:
-        aliases = [spot.get("id"), *(spot.get("names") or [])]
-        if want in {_norm(a) for a in aliases if a}:
+    for spot in spots:
+        sk = spot.get("station_key")
+        if sk and _norm(sk) == want:
+            return spot
+    for spot in spots:
+        aliases = {_norm(a) for a in (spot.get("names") or []) if a}
+        if want in aliases:
             return spot
     return None
 

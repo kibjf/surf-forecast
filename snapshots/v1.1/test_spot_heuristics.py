@@ -52,6 +52,7 @@ class HeuristicsJsonTests(unittest.TestCase):
         data = json.loads(JSON_PATH.read_text(encoding="utf-8"))
         self.assertIsInstance(data, dict)
         self.assertIsInstance(data.get("spots"), list)
+        self.assertEqual(len(data["spots"]), 4)
         names = {n for sp in data["spots"] for n in (sp.get("names") or [])}
         for required in (
             "竹南假日之森",
@@ -62,9 +63,18 @@ class HeuristicsJsonTests(unittest.TestCase):
             "翡翠灣",
             "石門婚紗廣場",
             "婚紗廣場",
-            "石門婚紗",
         ):
             self.assertIn(required, names)
+        keys = [sp.get("station_key") for sp in data["spots"]]
+        self.assertEqual(
+            keys,
+            ["竹南假日之森", "中角", "翡翠灣", "石門婚紗廣場"],
+        )
+        from refresh_surf_forecast import SPOTS
+
+        spot_keys = {sp["key"] for sp in SPOTS}
+        for sk in keys:
+            self.assertIn(sk, spot_keys)
 
     def test_load_from_repo_root(self):
         data = load_spot_heuristics(JSON_PATH, reload=True)
@@ -72,21 +82,30 @@ class HeuristicsJsonTests(unittest.TestCase):
 
 
 class MatchingTests(unittest.TestCase):
-    def test_spot_key_and_aliases(self):
-        cases = {
+    def test_station_key_then_name_aliases(self):
+        # Canonical SPOTS[].key via station_key
+        station_cases = {
             "竹南假日之森": "zhunan-holiday-forest",
+            "中角": "zhongjiao",
+            "翡翠灣": "feicuiwan",
+            "石門婚紗廣場": "shimen-wedding-plaza",
+        }
+        for key, expected_id in station_cases.items():
+            spot = find_spot(key)
+            self.assertIsNotNone(spot, key)
+            self.assertEqual(spot["station_key"], key)
+            self.assertEqual(spot["id"], expected_id, key)
+
+        # Fallback: names aliases (not the station_key string)
+        alias_cases = {
             "假日之森": "zhunan-holiday-forest",
             "zhunan": "zhunan-holiday-forest",
-            "假森": "zhunan-holiday-forest",
-            "中角": "zhongjiao",
+            "中角灣": "zhongjiao",
             "zhongjiao": "zhongjiao",
-            "翡翠灣": "feicuiwan",
-            "翡灣": "feicuiwan",
-            "石門婚紗廣場": "shimen-wedding-plaza",
+            "feicuiwan": "feicuiwan",
             "婚紗廣場": "shimen-wedding-plaza",
-            "石門婚紗": "shimen-wedding-plaza",
         }
-        for alias, expected_id in cases.items():
+        for alias, expected_id in alias_cases.items():
             spot = find_spot(alias)
             self.assertIsNotNone(spot, alias)
             self.assertEqual(spot["id"], expected_id, alias)
@@ -190,14 +209,14 @@ class AdjustmentTests(unittest.TestCase):
         self.assertTrue(any("offshore" in r or "滿潮" in r for r in why))
         # 3h before high is in; 4h before is out; 2h after is in.
         t3, _ = apply_spot_heuristics(
-            "石門婚紗",
+            "石門婚紗廣場",
             wind_kt=2.0,
             wind_dir_deg=180.0,
             slot_dt=datetime(2026, 9, 20, 13, 0, tzinfo=TZ),
             tide_events=tides,
         )
         t4, _ = apply_spot_heuristics(
-            "石門婚紗",
+            "石門婚紗廣場",
             wind_kt=2.0,
             wind_dir_deg=180.0,
             slot_dt=datetime(2026, 9, 20, 11, 30, tzinfo=TZ),
