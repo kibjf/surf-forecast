@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T06:31:07+08:00",
+  "generated_at": "2026-09-21T08:20:34+08:00",
   "archive_spots": [
     "zhongjiao",
     "wuwei",
@@ -453,6 +453,63 @@
         "wave_per_s": 4.7,
         "dir_deg": 41.0,
         "wave_dir_deg": 33.0
+      }
+    },
+    {
+      "date": "2026-09-21",
+      "slug": "wuwei",
+      "spot": "無尾港",
+      "captured_at": "2026-09-21T08:16:52+08:00",
+      "wave_notes_zh": "晨間薄霧淡藍天空；前景林投與消波塊清楚，近岸多層白沫碎浪偏活躍，海面略凌亂，整體浪況中等。",
+      "live_ok": true,
+      "thumb": "archive/2026-09-21/0805/wuwei.jpg",
+      "clip": "archive/2026-09-21/0805/wuwei.mp4",
+      "conditions": {
+        "hour": 7,
+        "source": "windguru",
+        "wspd_kt": 8.1,
+        "wave_m": 1.5,
+        "wave_per_s": 13.4,
+        "dir_deg": 345.0,
+        "wave_dir_deg": 81.0
+      }
+    },
+    {
+      "date": "2026-09-21",
+      "slug": "zhongjiao",
+      "spot": "中角",
+      "captured_at": "2026-09-21T08:16:58+08:00",
+      "wave_notes_zh": "陰天灰亮、能見度佳可見燭台雙嶼；近岸多層碎浪持續進場，浪況中小、海面略有紋理，沙灘無人。",
+      "live_ok": true,
+      "thumb": "archive/2026-09-21/0805/zhongjiao.jpg",
+      "clip": "archive/2026-09-21/0805/zhongjiao.mp4",
+      "conditions": {
+        "hour": 7,
+        "source": "windguru",
+        "wspd_kt": 6.3,
+        "wave_m": 1.4,
+        "wave_per_s": 13.2,
+        "dir_deg": 27.0,
+        "wave_dir_deg": 80.0
+      }
+    },
+    {
+      "date": "2026-09-21",
+      "slug": "zhunan",
+      "spot": "竹南假日之森",
+      "captured_at": "2026-09-21T08:17:02+08:00",
+      "wave_notes_zh": "晴朗藍天、離岸風機清晰；潮位偏低濕沙面寬，近岸數層低矮平行碎浪偏弱偏整齊，沙灘無人。",
+      "live_ok": true,
+      "thumb": "archive/2026-09-21/0805/zhunan.jpg",
+      "clip": "archive/2026-09-21/0805/zhunan.mp4",
+      "conditions": {
+        "hour": 7,
+        "source": "windguru",
+        "wspd_kt": 12.7,
+        "wave_m": 1.0,
+        "wave_per_s": 7.4,
+        "dir_deg": 41.0,
+        "wave_dir_deg": 38.0
       }
     }
   ],
