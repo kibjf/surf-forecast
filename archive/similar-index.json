@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T15:22:06+08:00",
+  "generated_at": "2026-09-21T16:38:08+08:00",
   "archive_spots": [
     "zhongjiao",
     "wuwei",
@@ -681,6 +681,63 @@
         "wave_per_s": 4.7,
         "dir_deg": 17.0,
         "wave_dir_deg": 29.0
+      }
+    },
+    {
+      "date": "2026-09-21",
+      "slug": "zhongjiao",
+      "spot": "中角",
+      "captured_at": "2026-09-21T16:24:09+08:00",
+      "wave_notes_zh": "晴空亮藍、遠方薄雲；外水深藍、近岸偏青綠，多排整齊長線白沫碎浪持續進場偏乾淨。沙灘寬闊淺棕、濕沙帶明顯，右側木欄與白浪板，沙灘上少數人。",
+      "live_ok": true,
+      "thumb": "archive/2026-09-21/1605/zhongjiao.jpg",
+      "clip": "archive/2026-09-21/1605/zhongjiao.mp4",
+      "conditions": {
+        "hour": 15,
+        "source": "windguru",
+        "wspd_kt": 8.2,
+        "wave_m": 1.4,
+        "wave_per_s": 11.6,
+        "dir_deg": 46.0,
+        "wave_dir_deg": 70.0
+      }
+    },
+    {
+      "date": "2026-09-21",
+      "slug": "wuwei",
+      "spot": "無尾港",
+      "captured_at": "2026-09-21T16:24:17+08:00",
+      "wave_notes_zh": "天空淡藍灰帶薄霧；水色深灰藍，近岸多層白沫碎浪連綿進場偏活躍。岸邊消波塊／岩石灘，前景林投清楚，右側綠山頭，畫面無人。",
+      "live_ok": true,
+      "thumb": "archive/2026-09-21/1605/wuwei.jpg",
+      "clip": "archive/2026-09-21/1605/wuwei.mp4",
+      "conditions": {
+        "hour": 15,
+        "source": "windguru",
+        "wspd_kt": 16.2,
+        "wave_m": 1.6,
+        "wave_per_s": 13.2,
+        "dir_deg": 36.0,
+        "wave_dir_deg": 77.0
+      }
+    },
+    {
+      "date": "2026-09-21",
+      "slug": "zhunan",
+      "spot": "竹南假日之森",
+      "captured_at": "2026-09-21T16:24:25+08:00",
+      "wave_notes_zh": "晴空偏亮、遠方薄霧；海面藍灰，近岸多排平行白沫碎浪，外海可見離岸風機。沙灘寬闊淺棕，前景草坡與消波塊，沙灘右側少數人。",
+      "live_ok": true,
+      "thumb": "archive/2026-09-21/1605/zhunan.jpg",
+      "clip": "archive/2026-09-21/1605/zhunan.mp4",
+      "conditions": {
+        "hour": 15,
+        "source": "windguru",
+        "wspd_kt": 18.2,
+        "wave_m": 1.3,
+        "wave_per_s": 5.0,
+        "dir_deg": 22.0,
+        "wave_dir_deg": 30.0
       }
     }
   ],
