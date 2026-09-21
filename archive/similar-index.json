@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T03:14:34+08:00",
+  "generated_at": "2026-09-22T05:32:10+08:00",
   "archive_spots": [
     "zhongjiao",
     "wuwei",
@@ -550,6 +550,63 @@
       "live_ok": true,
       "thumb": "archive/2026-09-21/1605/zhunan.jpg",
       "clip": "archive/2026-09-21/1605/zhunan.mp4"
+    },
+    {
+      "date": "2026-09-22",
+      "slug": "wuwei",
+      "spot": "無尾港",
+      "captured_at": "2026-09-22T05:23:20+08:00",
+      "wave_notes_zh": "日出粉橘霞光、天色柔和；海面多層長線白沫碎浪規律推向岸邊，浪況穩定偏小。前景岸植與礁石呈剪影，畫面無人。",
+      "live_ok": true,
+      "thumb": "archive/2026-09-22/0505/wuwei.jpg",
+      "clip": "archive/2026-09-22/0505/wuwei.mp4",
+      "conditions": {
+        "hour": 5,
+        "source": "windguru",
+        "wspd_kt": 8.8,
+        "wave_m": 1.1,
+        "wave_per_s": 10.3,
+        "dir_deg": 300.0,
+        "wave_dir_deg": 57.0
+      }
+    },
+    {
+      "date": "2026-09-22",
+      "slug": "zhongjiao",
+      "spot": "中角",
+      "captured_at": "2026-09-22T05:23:23+08:00",
+      "wave_notes_zh": "清晨晨曦橙粉紫；外海相對平穩，多排小白沫碎浪規律進場拍打卵石岸。前景步道與觀景台空無一人，整體偏寧靜。",
+      "live_ok": true,
+      "thumb": "archive/2026-09-22/0505/zhongjiao.jpg",
+      "clip": "archive/2026-09-22/0505/zhongjiao.mp4",
+      "conditions": {
+        "hour": 5,
+        "source": "windguru",
+        "wspd_kt": 6.9,
+        "wave_m": 1.2,
+        "wave_per_s": 10.8,
+        "dir_deg": 66.0,
+        "wave_dir_deg": 65.0
+      }
+    },
+    {
+      "date": "2026-09-22",
+      "slug": "zhunan",
+      "spot": "竹南假日之森",
+      "captured_at": "2026-09-22T05:23:27+08:00",
+      "wave_notes_zh": "清晨天色灰藍微亮；近岸多排小碎浪平緩進場。沙灘寬闊偏暗濕，前景消波塊與草坡，海中一人影；遠方離岸風機紅燈可見。",
+      "live_ok": true,
+      "thumb": "archive/2026-09-22/0505/zhunan.jpg",
+      "clip": "archive/2026-09-22/0505/zhunan.mp4",
+      "conditions": {
+        "hour": 5,
+        "source": "windguru",
+        "wspd_kt": 11.5,
+        "wave_m": 1.2,
+        "wave_per_s": 5.2,
+        "dir_deg": 50.0,
+        "wave_dir_deg": 32.0
+      }
     }
   ],
   "note_zh": ""
