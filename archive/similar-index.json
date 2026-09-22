@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T15:08:27+08:00",
+  "generated_at": "2026-09-22T16:28:31+08:00",
   "archive_spots": [
     "zhongjiao",
     "wuwei",
@@ -891,6 +891,63 @@
         "wave_per_s": 4.9,
         "dir_deg": 12.0,
         "wave_dir_deg": 29.0
+      }
+    },
+    {
+      "date": "2026-09-22",
+      "slug": "zhongjiao",
+      "spot": "中角",
+      "captured_at": "2026-09-22T16:25:57+08:00",
+      "wave_notes_zh": "午後陽光充足、天空淡藍有疏雲；外海可見多層平行白沫碎浪向沙岸推進，水色藍綠偏清。沙岸較寬，岸上可見少數人與藍色帳篷；遠方有防波堤／礁岩與山丘建築。未估浪高。",
+      "live_ok": true,
+      "thumb": "archive/2026-09-22/1605/zhongjiao.jpg",
+      "clip": "archive/2026-09-22/1605/zhongjiao.mp4",
+      "conditions": {
+        "hour": 15,
+        "source": "windguru",
+        "wspd_kt": 9.4,
+        "wave_m": 1.1,
+        "wave_per_s": 7.4,
+        "dir_deg": 60.0,
+        "wave_dir_deg": 45.0
+      }
+    },
+    {
+      "date": "2026-09-22",
+      "slug": "wuwei",
+      "spot": "無尾港",
+      "captured_at": "2026-09-22T16:25:57+08:00",
+      "wave_notes_zh": "午後光線偏平、天空略帶薄霾；近岸多排碎浪白沫覆蓋浪帶，遠海偏藍灰。前景為濱海綠植，右側山丘坡下；畫面中未見明顯人影。未估浪高。",
+      "live_ok": true,
+      "thumb": "archive/2026-09-22/1605/wuwei.jpg",
+      "clip": "archive/2026-09-22/1605/wuwei.mp4",
+      "conditions": {
+        "hour": 15,
+        "source": "windguru",
+        "wspd_kt": 10.0,
+        "wave_m": 1.1,
+        "wave_per_s": 8.1,
+        "dir_deg": 35.0,
+        "wave_dir_deg": 45.0
+      }
+    },
+    {
+      "date": "2026-09-22",
+      "slug": "zhunan",
+      "spot": "竹南",
+      "captured_at": "2026-09-22T16:25:57+08:00",
+      "wave_notes_zh": "午後陽光充足、天空晴朗略有薄霾；寬闊沙岸外可見碎浪白頭與數層浪線，遠方風機清晰。前景消波塊堤防與草坡；沙灘近水線有少數行人。未估浪高。",
+      "live_ok": true,
+      "thumb": "archive/2026-09-22/1605/zhunan.jpg",
+      "clip": "archive/2026-09-22/1605/zhunan.mp4",
+      "conditions": {
+        "hour": 15,
+        "source": "windguru",
+        "wspd_kt": 19.7,
+        "wave_m": 1.5,
+        "wave_per_s": 5.2,
+        "dir_deg": 15.0,
+        "wave_dir_deg": 28.0
       }
     }
   ],
