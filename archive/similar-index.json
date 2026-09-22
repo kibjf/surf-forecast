@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T21:31:04+08:00",
+  "generated_at": "2026-09-23T03:16:23+08:00",
   "archive_spots": [
     "zhongjiao",
     "wuwei",
@@ -559,16 +559,7 @@
       "wave_notes_zh": "日出粉橘霞光、天色柔和；海面多層長線白沫碎浪規律推向岸邊，浪況穩定偏小。前景岸植與礁石呈剪影，畫面無人。",
       "live_ok": true,
       "thumb": "archive/2026-09-22/0505/wuwei.jpg",
-      "clip": "archive/2026-09-22/0505/wuwei.mp4",
-      "conditions": {
-        "hour": 14,
-        "source": "windguru",
-        "wspd_kt": 12.4,
-        "wave_m": 1.1,
-        "wave_per_s": 8.0,
-        "dir_deg": 40.0,
-        "wave_dir_deg": 44.0
-      }
+      "clip": "archive/2026-09-22/0505/wuwei.mp4"
     },
     {
       "date": "2026-09-22",
@@ -578,16 +569,7 @@
       "wave_notes_zh": "清晨晨曦橙粉紫；外海相對平穩，多排小白沫碎浪規律進場拍打卵石岸。前景步道與觀景台空無一人，整體偏寧靜。",
       "live_ok": true,
       "thumb": "archive/2026-09-22/0505/zhongjiao.jpg",
-      "clip": "archive/2026-09-22/0505/zhongjiao.mp4",
-      "conditions": {
-        "hour": 14,
-        "source": "windguru",
-        "wspd_kt": 8.9,
-        "wave_m": 1.1,
-        "wave_per_s": 7.4,
-        "dir_deg": 52.0,
-        "wave_dir_deg": 44.0
-      }
+      "clip": "archive/2026-09-22/0505/zhongjiao.mp4"
     },
     {
       "date": "2026-09-22",
@@ -597,16 +579,7 @@
       "wave_notes_zh": "清晨天色灰藍微亮；近岸多排小碎浪平緩進場。沙灘寬闊偏暗濕，前景消波塊與草坡，海中一人影；遠方離岸風機紅燈可見。",
       "live_ok": true,
       "thumb": "archive/2026-09-22/0505/zhunan.jpg",
-      "clip": "archive/2026-09-22/0505/zhunan.mp4",
-      "conditions": {
-        "hour": 14,
-        "source": "windguru",
-        "wspd_kt": 19.4,
-        "wave_m": 1.3,
-        "wave_per_s": 4.9,
-        "dir_deg": 11.0,
-        "wave_dir_deg": 26.0
-      }
+      "clip": "archive/2026-09-22/0505/zhunan.mp4"
     },
     {
       "date": "2026-09-22",
@@ -616,16 +589,7 @@
       "wave_notes_zh": "晨間日出強逆光與水面反光，畫面偏白、能見度差。左側隱約可見成排白浪往岸邊推進，但細節與浪形難以判斷。未估浪高。",
       "live_ok": true,
       "thumb": "archive/2026-09-22/0605/wuwei.jpg",
-      "clip": "archive/2026-09-22/0605/wuwei.mp4",
-      "conditions": {
-        "hour": 14,
-        "source": "windguru",
-        "wspd_kt": 12.4,
-        "wave_m": 1.1,
-        "wave_per_s": 8.0,
-        "dir_deg": 40.0,
-        "wave_dir_deg": 44.0
-      }
+      "clip": "archive/2026-09-22/0605/wuwei.mp4"
     },
     {
       "date": "2026-09-22",
@@ -635,16 +599,7 @@
       "wave_notes_zh": "清晨光線充足；外海可見多排白沫碎浪規律進場，拍打卵石岸，浪帶偏寬。前景步道與觀景台空曠，海面可見一名衝浪者。未估浪高。",
       "live_ok": true,
       "thumb": "archive/2026-09-22/0605/zhongjiao.jpg",
-      "clip": "archive/2026-09-22/0605/zhongjiao.mp4",
-      "conditions": {
-        "hour": 14,
-        "source": "windguru",
-        "wspd_kt": 8.9,
-        "wave_m": 1.1,
-        "wave_per_s": 7.4,
-        "dir_deg": 52.0,
-        "wave_dir_deg": 44.0
-      }
+      "clip": "archive/2026-09-22/0605/zhongjiao.mp4"
     },
     {
       "date": "2026-09-22",
@@ -654,16 +609,7 @@
       "wave_notes_zh": "清晨晴朗；外海偏平靜，近岸有多排小型白沫碎浪線進場。沙灘寬闊潮濕，遠方離岸風機清晰；岸上少數行人。未估浪高。",
       "live_ok": true,
       "thumb": "archive/2026-09-22/0605/zhunan.jpg",
-      "clip": "archive/2026-09-22/0605/zhunan.mp4",
-      "conditions": {
-        "hour": 14,
-        "source": "windguru",
-        "wspd_kt": 19.4,
-        "wave_m": 1.3,
-        "wave_per_s": 4.9,
-        "dir_deg": 11.0,
-        "wave_dir_deg": 26.0
-      }
+      "clip": "archive/2026-09-22/0605/zhunan.mp4"
     },
     {
       "date": "2026-09-22",
@@ -673,16 +619,7 @@
       "wave_notes_zh": "上午光線充足、天空晴朗偏薄霧；外海可見多排寬白沫碎浪規律進場，拍打沙岸與左側卵石帶。前景沙灘有漂流木，右下方可見兩人，其中一人持板走向水邊。未估浪高。",
       "live_ok": true,
       "thumb": "archive/2026-09-22/0805/zhongjiao.jpg",
-      "clip": "archive/2026-09-22/0805/zhongjiao.mp4",
-      "conditions": {
-        "hour": 14,
-        "source": "windguru",
-        "wspd_kt": 8.9,
-        "wave_m": 1.1,
-        "wave_per_s": 7.4,
-        "dir_deg": 52.0,
-        "wave_dir_deg": 44.0
-      }
+      "clip": "archive/2026-09-22/0805/zhongjiao.mp4"
     },
     {
       "date": "2026-09-22",
@@ -692,16 +629,7 @@
       "wave_notes_zh": "清晨陽光充足、天空晴朗微霾；外海可見多排長白沫線持續向岸推進，濕沙帶明顯。前景為濱海林投與消波塊，畫面中未見人影。未估浪高。",
       "live_ok": true,
       "thumb": "archive/2026-09-22/0805/wuwei.jpg",
-      "clip": "archive/2026-09-22/0805/wuwei.mp4",
-      "conditions": {
-        "hour": 14,
-        "source": "windguru",
-        "wspd_kt": 12.4,
-        "wave_m": 1.1,
-        "wave_per_s": 8.0,
-        "dir_deg": 40.0,
-        "wave_dir_deg": 44.0
-      }
+      "clip": "archive/2026-09-22/0805/wuwei.mp4"
     },
     {
       "date": "2026-09-22",
@@ -711,16 +639,7 @@
       "wave_notes_zh": "陽光普照、天空晴朗；外海可見多層平行白沫浪線向岸推進，浪間水面相對平整。沙灘寬闊偏濕，遠方離岸風機清晰；岸邊與近水處有少數人影。未估浪高。",
       "live_ok": true,
       "thumb": "archive/2026-09-22/0805/zhunan.jpg",
-      "clip": "archive/2026-09-22/0805/zhunan.mp4",
-      "conditions": {
-        "hour": 14,
-        "source": "windguru",
-        "wspd_kt": 19.4,
-        "wave_m": 1.3,
-        "wave_per_s": 4.9,
-        "dir_deg": 11.0,
-        "wave_dir_deg": 26.0
-      }
+      "clip": "archive/2026-09-22/0805/zhunan.mp4"
     },
     {
       "date": "2026-09-22",
@@ -730,16 +649,7 @@
       "wave_notes_zh": "上午陽光充足、天空晴朗；外海可見多排平行白沫碎浪規律向沙岸推進，近岸水色偏青綠。前景沙灘有漂流木與左側卵石帶，畫面中未見人影；遠方地平線隱約有船影。未估浪高。",
       "live_ok": true,
       "thumb": "archive/2026-09-22/1005/zhongjiao.jpg",
-      "clip": "archive/2026-09-22/1005/zhongjiao.mp4",
-      "conditions": {
-        "hour": 14,
-        "source": "windguru",
-        "wspd_kt": 8.9,
-        "wave_m": 1.1,
-        "wave_per_s": 7.4,
-        "dir_deg": 52.0,
-        "wave_dir_deg": 44.0
-      }
+      "clip": "archive/2026-09-22/1005/zhongjiao.mp4"
     },
     {
       "date": "2026-09-22",
@@ -749,16 +659,7 @@
       "wave_notes_zh": "日間光線充足但有薄霾；近岸可見大面積白沫碎浪多排向岸推進，外海相對平靜、地平線朦朧。前景為濱海綠植與林投，畫面中未見明顯人影。未估浪高。",
       "live_ok": true,
       "thumb": "archive/2026-09-22/1005/wuwei.jpg",
-      "clip": "archive/2026-09-22/1005/wuwei.mp4",
-      "conditions": {
-        "hour": 14,
-        "source": "windguru",
-        "wspd_kt": 12.4,
-        "wave_m": 1.1,
-        "wave_per_s": 8.0,
-        "dir_deg": 40.0,
-        "wave_dir_deg": 44.0
-      }
+      "clip": "archive/2026-09-22/1005/wuwei.mp4"
     },
     {
       "date": "2026-09-22",
@@ -768,16 +669,7 @@
       "wave_notes_zh": "陽光普照、天空晴朗無雲；外海可見多層平行白沫浪線向岸推進，遠方離岸風機清晰。沙灘寬闊偏濕，岸邊似有少數人影；前景為消波塊與草坡。未估浪高。",
       "live_ok": true,
       "thumb": "archive/2026-09-22/1005/zhunan.jpg",
-      "clip": "archive/2026-09-22/1005/zhunan.mp4",
-      "conditions": {
-        "hour": 14,
-        "source": "windguru",
-        "wspd_kt": 19.4,
-        "wave_m": 1.3,
-        "wave_per_s": 4.9,
-        "dir_deg": 11.0,
-        "wave_dir_deg": 26.0
-      }
+      "clip": "archive/2026-09-22/1005/zhunan.mp4"
     },
     {
       "date": "2026-09-22",
@@ -787,16 +679,7 @@
       "wave_notes_zh": "陽光普照、天空晴朗無雲；外海可見多層偏小白沫浪線向岸推進，遠方離岸風機清晰。沙灘寬闊偏濕、似退潮，前景為消波塊與草坡；畫面中未見明顯人影。未估浪高。",
       "live_ok": true,
       "thumb": "archive/2026-09-22/1205/zhunan.jpg",
-      "clip": "archive/2026-09-22/1205/zhunan.mp4",
-      "conditions": {
-        "hour": 14,
-        "source": "windguru",
-        "wspd_kt": 19.4,
-        "wave_m": 1.3,
-        "wave_per_s": 4.9,
-        "dir_deg": 11.0,
-        "wave_dir_deg": 26.0
-      }
+      "clip": "archive/2026-09-22/1205/zhunan.mp4"
     },
     {
       "date": "2026-09-22",
@@ -806,16 +689,7 @@
       "wave_notes_zh": "正午晴朗無雲、陽光充足；外海可見多層平行白沫碎浪向沙岸推進，近岸水色偏青綠。前景有步道、圓形平台與綠植，沙礫混合岸線；畫面中未見明顯人影。未估浪高。",
       "live_ok": true,
       "thumb": "archive/2026-09-22/1205/zhongjiao.jpg",
-      "clip": "archive/2026-09-22/1205/zhongjiao.mp4",
-      "conditions": {
-        "hour": 14,
-        "source": "windguru",
-        "wspd_kt": 8.9,
-        "wave_m": 1.1,
-        "wave_per_s": 7.4,
-        "dir_deg": 52.0,
-        "wave_dir_deg": 44.0
-      }
+      "clip": "archive/2026-09-22/1205/zhongjiao.mp4"
     },
     {
       "date": "2026-09-22",
@@ -825,16 +699,7 @@
       "wave_notes_zh": "日間光線充足但地平線略有薄霾；近岸可見多排白沫碎浪向岸推進，水色偏褐灰。前景為濱海綠植與林投，沙岸帶可見；畫面中未見明顯人影。未估浪高。",
       "live_ok": true,
       "thumb": "archive/2026-09-22/1205/wuwei.jpg",
-      "clip": "archive/2026-09-22/1205/wuwei.mp4",
-      "conditions": {
-        "hour": 14,
-        "source": "windguru",
-        "wspd_kt": 12.4,
-        "wave_m": 1.1,
-        "wave_per_s": 8.0,
-        "dir_deg": 40.0,
-        "wave_dir_deg": 44.0
-      }
+      "clip": "archive/2026-09-22/1205/wuwei.mp4"
     },
     {
       "date": "2026-09-22",
@@ -844,16 +709,7 @@
       "wave_notes_zh": "午後晴朗無雲、陽光充足；外海多層平行白沫碎浪向沙岸推進，遠水深藍、碎浪帶偏青綠。前景有步道、綠植與沙礫岸線；近岸淺水可見一人。未估浪高。",
       "live_ok": true,
       "thumb": "archive/2026-09-22/1405/zhongjiao.jpg",
-      "clip": "archive/2026-09-22/1405/zhongjiao.mp4",
-      "conditions": {
-        "hour": 14,
-        "source": "windguru",
-        "wspd_kt": 8.9,
-        "wave_m": 1.1,
-        "wave_per_s": 7.4,
-        "dir_deg": 52.0,
-        "wave_dir_deg": 44.0
-      }
+      "clip": "archive/2026-09-22/1405/zhongjiao.mp4"
     },
     {
       "date": "2026-09-22",
@@ -863,16 +719,7 @@
       "wave_notes_zh": "午後光線充足但帶薄霾、色調略偏黃灰；近岸多排細碎白沫浪線推進，水色偏褐灰混濁。前景為濱海綠植與林投，右後方有山丘；畫面中未見明顯人影。未估浪高。",
       "live_ok": true,
       "thumb": "archive/2026-09-22/1405/wuwei.jpg",
-      "clip": "archive/2026-09-22/1405/wuwei.mp4",
-      "conditions": {
-        "hour": 14,
-        "source": "windguru",
-        "wspd_kt": 12.4,
-        "wave_m": 1.1,
-        "wave_per_s": 8.0,
-        "dir_deg": 40.0,
-        "wave_dir_deg": 44.0
-      }
+      "clip": "archive/2026-09-22/1405/wuwei.mp4"
     },
     {
       "date": "2026-09-22",
@@ -882,16 +729,7 @@
       "wave_notes_zh": "午後陽光充足、天空晴朗略有薄霾；寬闊沙岸外可見數層平行白沫碎浪推進，近岸水色偏褐青、遠海灰藍。前景草坡與消波塊堤防，遠方可見風機；沙灘上有少數行人。未估浪高。",
       "live_ok": true,
       "thumb": "archive/2026-09-22/1405/zhunan.jpg",
-      "clip": "archive/2026-09-22/1405/zhunan.mp4",
-      "conditions": {
-        "hour": 14,
-        "source": "windguru",
-        "wspd_kt": 19.4,
-        "wave_m": 1.3,
-        "wave_per_s": 4.9,
-        "dir_deg": 11.0,
-        "wave_dir_deg": 26.0
-      }
+      "clip": "archive/2026-09-22/1405/zhunan.mp4"
     },
     {
       "date": "2026-09-22",
@@ -901,16 +739,7 @@
       "wave_notes_zh": "午後陽光充足、天空淡藍有疏雲；外海可見多層平行白沫碎浪向沙岸推進，水色藍綠偏清。沙岸較寬，岸上可見少數人與藍色帳篷；遠方有防波堤／礁岩與山丘建築。未估浪高。",
       "live_ok": true,
       "thumb": "archive/2026-09-22/1605/zhongjiao.jpg",
-      "clip": "archive/2026-09-22/1605/zhongjiao.mp4",
-      "conditions": {
-        "hour": 15,
-        "source": "windguru",
-        "wspd_kt": 8.9,
-        "wave_m": 1.1,
-        "wave_per_s": 7.3,
-        "dir_deg": 54.0,
-        "wave_dir_deg": 44.0
-      }
+      "clip": "archive/2026-09-22/1605/zhongjiao.mp4"
     },
     {
       "date": "2026-09-22",
@@ -920,16 +749,7 @@
       "wave_notes_zh": "午後光線偏平、天空略帶薄霾；近岸多排碎浪白沫覆蓋浪帶，遠海偏藍灰。前景為濱海綠植，右側山丘坡下；畫面中未見明顯人影。未估浪高。",
       "live_ok": true,
       "thumb": "archive/2026-09-22/1605/wuwei.jpg",
-      "clip": "archive/2026-09-22/1605/wuwei.mp4",
-      "conditions": {
-        "hour": 15,
-        "source": "windguru",
-        "wspd_kt": 11.1,
-        "wave_m": 1.1,
-        "wave_per_s": 8.0,
-        "dir_deg": 36.0,
-        "wave_dir_deg": 44.0
-      }
+      "clip": "archive/2026-09-22/1605/wuwei.mp4"
     },
     {
       "date": "2026-09-22",
@@ -939,16 +759,7 @@
       "wave_notes_zh": "午後陽光充足、天空晴朗略有薄霾；寬闊沙岸外可見碎浪白頭與數層浪線，遠方風機清晰。前景消波塊堤防與草坡；沙灘近水線有少數行人。未估浪高。",
       "live_ok": true,
       "thumb": "archive/2026-09-22/1605/zhunan.jpg",
-      "clip": "archive/2026-09-22/1605/zhunan.mp4",
-      "conditions": {
-        "hour": 15,
-        "source": "windguru",
-        "wspd_kt": 19.5,
-        "wave_m": 1.4,
-        "wave_per_s": 5.1,
-        "dir_deg": 15.0,
-        "wave_dir_deg": 27.0
-      }
+      "clip": "archive/2026-09-22/1605/zhunan.mp4"
     }
   ],
   "note_zh": ""
