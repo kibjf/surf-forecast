@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T12:28:17+08:00",
+  "generated_at": "2026-09-22T14:32:10+08:00",
   "archive_spots": [
     "zhongjiao",
     "wuwei",
@@ -834,6 +834,63 @@
         "wave_per_s": 8.1,
         "dir_deg": 36.0,
         "wave_dir_deg": 44.0
+      }
+    },
+    {
+      "date": "2026-09-22",
+      "slug": "zhongjiao",
+      "spot": "中角",
+      "captured_at": "2026-09-22T14:20:44+08:00",
+      "wave_notes_zh": "午後晴朗無雲、陽光充足；外海多層平行白沫碎浪向沙岸推進，遠水深藍、碎浪帶偏青綠。前景有步道、綠植與沙礫岸線；近岸淺水可見一人。未估浪高。",
+      "live_ok": true,
+      "thumb": "archive/2026-09-22/1405/zhongjiao.jpg",
+      "clip": "archive/2026-09-22/1405/zhongjiao.mp4",
+      "conditions": {
+        "hour": 13,
+        "source": "windguru",
+        "wspd_kt": 8.5,
+        "wave_m": 1.1,
+        "wave_per_s": 7.4,
+        "dir_deg": 58.0,
+        "wave_dir_deg": 46.0
+      }
+    },
+    {
+      "date": "2026-09-22",
+      "slug": "wuwei",
+      "spot": "無尾港",
+      "captured_at": "2026-09-22T14:20:44+08:00",
+      "wave_notes_zh": "午後光線充足但帶薄霾、色調略偏黃灰；近岸多排細碎白沫浪線推進，水色偏褐灰混濁。前景為濱海綠植與林投，右後方有山丘；畫面中未見明顯人影。未估浪高。",
+      "live_ok": true,
+      "thumb": "archive/2026-09-22/1405/wuwei.jpg",
+      "clip": "archive/2026-09-22/1405/wuwei.mp4",
+      "conditions": {
+        "hour": 13,
+        "source": "windguru",
+        "wspd_kt": 12.4,
+        "wave_m": 1.2,
+        "wave_per_s": 8.1,
+        "dir_deg": 40.0,
+        "wave_dir_deg": 44.0
+      }
+    },
+    {
+      "date": "2026-09-22",
+      "slug": "zhunan",
+      "spot": "竹南",
+      "captured_at": "2026-09-22T14:20:44+08:00",
+      "wave_notes_zh": "午後陽光充足、天空晴朗略有薄霾；寬闊沙岸外可見數層平行白沫碎浪推進，近岸水色偏褐青、遠海灰藍。前景草坡與消波塊堤防，遠方可見風機；沙灘上有少數行人。未估浪高。",
+      "live_ok": true,
+      "thumb": "archive/2026-09-22/1405/zhunan.jpg",
+      "clip": "archive/2026-09-22/1405/zhunan.mp4",
+      "conditions": {
+        "hour": 13,
+        "source": "windguru",
+        "wspd_kt": 17.8,
+        "wave_m": 1.2,
+        "wave_per_s": 4.9,
+        "dir_deg": 12.0,
+        "wave_dir_deg": 29.0
       }
     }
   ],
