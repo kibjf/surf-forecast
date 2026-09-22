@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T09:24:41+08:00",
+  "generated_at": "2026-09-22T10:28:09+08:00",
   "archive_spots": [
     "zhongjiao",
     "wuwei",
@@ -719,6 +719,63 @@
         "wave_m": 1.1,
         "wave_per_s": 5.0,
         "dir_deg": 46.0,
+        "wave_dir_deg": 32.0
+      }
+    },
+    {
+      "date": "2026-09-22",
+      "slug": "zhongjiao",
+      "spot": "中角",
+      "captured_at": "2026-09-22T10:18:33+08:00",
+      "wave_notes_zh": "上午陽光充足、天空晴朗；外海可見多排平行白沫碎浪規律向沙岸推進，近岸水色偏青綠。前景沙灘有漂流木與左側卵石帶，畫面中未見人影；遠方地平線隱約有船影。未估浪高。",
+      "live_ok": true,
+      "thumb": "archive/2026-09-22/1005/zhongjiao.jpg",
+      "clip": "archive/2026-09-22/1005/zhongjiao.mp4",
+      "conditions": {
+        "hour": 9,
+        "source": "windguru",
+        "wspd_kt": 7.5,
+        "wave_m": 1.1,
+        "wave_per_s": 7.4,
+        "dir_deg": 45.0,
+        "wave_dir_deg": 45.0
+      }
+    },
+    {
+      "date": "2026-09-22",
+      "slug": "wuwei",
+      "spot": "無尾港",
+      "captured_at": "2026-09-22T10:18:38+08:00",
+      "wave_notes_zh": "日間光線充足但有薄霾；近岸可見大面積白沫碎浪多排向岸推進，外海相對平靜、地平線朦朧。前景為濱海綠植與林投，畫面中未見明顯人影。未估浪高。",
+      "live_ok": true,
+      "thumb": "archive/2026-09-22/1005/wuwei.jpg",
+      "clip": "archive/2026-09-22/1005/wuwei.mp4",
+      "conditions": {
+        "hour": 9,
+        "source": "windguru",
+        "wspd_kt": 7.4,
+        "wave_m": 1.1,
+        "wave_per_s": 8.1,
+        "dir_deg": 3.0,
+        "wave_dir_deg": 44.0
+      }
+    },
+    {
+      "date": "2026-09-22",
+      "slug": "zhunan",
+      "spot": "竹南",
+      "captured_at": "2026-09-22T10:18:39+08:00",
+      "wave_notes_zh": "陽光普照、天空晴朗無雲；外海可見多層平行白沫浪線向岸推進，遠方離岸風機清晰。沙灘寬闊偏濕，岸邊似有少數人影；前景為消波塊與草坡。未估浪高。",
+      "live_ok": true,
+      "thumb": "archive/2026-09-22/1005/zhunan.jpg",
+      "clip": "archive/2026-09-22/1005/zhunan.mp4",
+      "conditions": {
+        "hour": 9,
+        "source": "windguru",
+        "wspd_kt": 13.9,
+        "wave_m": 1.2,
+        "wave_per_s": 5.0,
+        "dir_deg": 38.0,
         "wave_dir_deg": 32.0
       }
     }
