@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T05:34:57+08:00",
+  "generated_at": "2026-09-23T06:28:32+08:00",
   "archive_spots": [
     "zhongjiao",
     "wuwei",
@@ -808,6 +808,63 @@
       "live_ok": true,
       "thumb": "archive/2026-09-23/0505/zhunan.jpg",
       "clip": "archive/2026-09-23/0505/zhunan.mp4",
+      "conditions": {
+        "hour": 5,
+        "source": "windguru",
+        "wspd_kt": 8.5,
+        "wave_m": 0.8,
+        "wave_per_s": 5.2,
+        "dir_deg": 45.0,
+        "wave_dir_deg": 25.0
+      }
+    },
+    {
+      "date": "2026-09-23",
+      "slug": "zhongjiao",
+      "spot": "中角",
+      "captured_at": "2026-09-23T06:26:26+08:00",
+      "wave_notes_zh": "清晨日出逆光，右上有強眩光與海面長倒影；灣內可見約四五道相對規整的白沫碎浪線向暗色沙岸推進，層間海面偏平滑。左側岩岸有稀疏綠植；沙灘水線有一人持釣竿剪影。未估浪高。",
+      "live_ok": true,
+      "thumb": "archive/2026-09-23/0605/zhongjiao.jpg",
+      "clip": "archive/2026-09-23/0605/zhongjiao.mp4",
+      "conditions": {
+        "hour": 5,
+        "source": "windguru",
+        "wspd_kt": 6.6,
+        "wave_m": 0.9,
+        "wave_per_s": 7.2,
+        "dir_deg": 80.0,
+        "wave_dir_deg": 45.0
+      }
+    },
+    {
+      "date": "2026-09-23",
+      "slug": "wuwei",
+      "spot": "無尾港",
+      "captured_at": "2026-09-23T06:26:26+08:00",
+      "wave_notes_zh": "清晨金黃偏霧氣光線；高角度俯瞰可見至少三道有組織白沫浪線向岸推移，外海相對平靜。前景林投／濱海植栽，沙地停有一台深色休旅車。畫面標示國海院_GoOcean_蘇澳無尾港。未估浪高。",
+      "live_ok": true,
+      "thumb": "archive/2026-09-23/0605/wuwei.jpg",
+      "clip": "archive/2026-09-23/0605/wuwei.mp4",
+      "conditions": {
+        "hour": 5,
+        "source": "windguru",
+        "wspd_kt": 8.6,
+        "wave_m": 0.9,
+        "wave_per_s": 7.6,
+        "dir_deg": 290.0,
+        "wave_dir_deg": 43.0
+      }
+    },
+    {
+      "date": "2026-09-23",
+      "slug": "zhunan",
+      "spot": "竹南假日之森",
+      "captured_at": "2026-09-23T06:26:26+08:00",
+      "wave_notes_zh": "清晨灰藍薄霧光線；寬闊濕沙灘外有數道細窄白沫浪線近岸推進，遠方離岸風機可見。前景草坡與消波塊堤防；灘上約一至兩人，水中無衝浪者。整體偏平靜。未估浪高。",
+      "live_ok": true,
+      "thumb": "archive/2026-09-23/0605/zhunan.jpg",
+      "clip": "archive/2026-09-23/0605/zhunan.mp4",
       "conditions": {
         "hour": 5,
         "source": "windguru",
