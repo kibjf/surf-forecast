@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T03:16:23+08:00",
+  "generated_at": "2026-09-23T05:34:57+08:00",
   "archive_spots": [
     "zhongjiao",
     "wuwei",
@@ -760,6 +760,63 @@
       "live_ok": true,
       "thumb": "archive/2026-09-22/1605/zhunan.jpg",
       "clip": "archive/2026-09-22/1605/zhunan.mp4"
+    },
+    {
+      "date": "2026-09-23",
+      "slug": "zhongjiao",
+      "spot": "中角",
+      "captured_at": "2026-09-23T05:29:48+08:00",
+      "wave_notes_zh": "清晨晨光偏黃橘，能見度尚可；灣內可見多層規整白沫碎浪向礫石／沙岸推進，海面層與層之間相對平滑。前景觀景步道與圓形平台空無一人，遠方海平線有一艘船影。未估浪高。",
+      "live_ok": true,
+      "thumb": "archive/2026-09-23/0505/zhongjiao.jpg",
+      "clip": "archive/2026-09-23/0505/zhongjiao.mp4",
+      "conditions": {
+        "hour": 5,
+        "source": "windguru",
+        "wspd_kt": 6.6,
+        "wave_m": 0.9,
+        "wave_per_s": 7.2,
+        "dir_deg": 80.0,
+        "wave_dir_deg": 45.0
+      }
+    },
+    {
+      "date": "2026-09-23",
+      "slug": "wuwei",
+      "spot": "無尾港",
+      "captured_at": "2026-09-23T05:29:48+08:00",
+      "wave_notes_zh": "清晨光線仍顯昏暗偏藍灰，海面上方有明顯霧氣／水氣，對比偏低。可見多排細長白色碎浪帶由外海向岸推移；前景為濱海林投／綠植剪影。整體畫面偏朦朧。未估浪高。",
+      "live_ok": true,
+      "thumb": "archive/2026-09-23/0505/wuwei.jpg",
+      "clip": "archive/2026-09-23/0505/wuwei.mp4",
+      "conditions": {
+        "hour": 5,
+        "source": "windguru",
+        "wspd_kt": 8.6,
+        "wave_m": 0.9,
+        "wave_per_s": 7.6,
+        "dir_deg": 290.0,
+        "wave_dir_deg": 43.0
+      }
+    },
+    {
+      "date": "2026-09-23",
+      "slug": "zhunan",
+      "spot": "竹南假日之森",
+      "captured_at": "2026-09-23T05:29:48+08:00",
+      "wave_notes_zh": "清晨光線尚暗、天空灰白有薄霧；寬闊沙岸外可見數道細窄白沫浪線近岸推進，遠方離岸風機輪廓可辨。前景為草坡與消波塊堤防。畫面偏平靜朦朧。未估浪高。",
+      "live_ok": true,
+      "thumb": "archive/2026-09-23/0505/zhunan.jpg",
+      "clip": "archive/2026-09-23/0505/zhunan.mp4",
+      "conditions": {
+        "hour": 5,
+        "source": "windguru",
+        "wspd_kt": 8.5,
+        "wave_m": 0.8,
+        "wave_per_s": 5.2,
+        "dir_deg": 45.0,
+        "wave_dir_deg": 25.0
+      }
     }
   ],
   "note_zh": ""
