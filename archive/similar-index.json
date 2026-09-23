@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T05:40:58+08:00",
+  "generated_at": "2026-09-24T06:35:40+08:00",
   "archive_spots": [
     "zhongjiao",
     "wuwei",
@@ -1018,6 +1018,63 @@
       "live_ok": true,
       "thumb": "archive/2026-09-24/0505/zhunan.jpg",
       "clip": "archive/2026-09-24/0505/zhunan.mp4",
+      "conditions": {
+        "hour": 5,
+        "source": "windguru",
+        "wspd_kt": 5.9,
+        "wave_m": 0.7,
+        "wave_per_s": 4.2,
+        "dir_deg": 49.0,
+        "wave_dir_deg": 10.0
+      }
+    },
+    {
+      "date": "2026-09-24",
+      "slug": "zhongjiao",
+      "spot": "中角",
+      "captured_at": "2026-09-24T06:28:27+08:00",
+      "wave_notes_zh": "清晨日出，天空淡紫／淡橙薄霧，右側太陽低懸並在海面形成光帶，能見度尚可。多道小型白沫碎浪線平行向岸推進；前景濕沙灘，左下有礁石／漂流物堆積，遠方右側隱約小島礁。畫面未見人影。左上角時間戳約2026年09月24日6點26分27秒。未估浪高。",
+      "live_ok": true,
+      "thumb": "archive/2026-09-24/0605/zhongjiao.jpg",
+      "clip": "archive/2026-09-24/0605/zhongjiao.mp4",
+      "conditions": {
+        "hour": 5,
+        "source": "windguru",
+        "wspd_kt": 6.9,
+        "wave_m": 0.7,
+        "wave_per_s": 7.5,
+        "dir_deg": 98.0,
+        "wave_dir_deg": 33.0
+      }
+    },
+    {
+      "date": "2026-09-24",
+      "slug": "wuwei",
+      "spot": "無尾港",
+      "captured_at": "2026-09-24T06:28:28+08:00",
+      "wave_notes_zh": "清晨日出強光，右側眩光／薄霧明顯。海面可見數道小型碎浪線向岸推移。前景植被與消波塊／礫石岸；標示國海院_GoOcean_蘇澳無尾港。右上時間戳約2026-09-24 06:27:47。遠方水面有少數極小黑點（疑似人影，難以確認）。未估浪高。",
+      "live_ok": true,
+      "thumb": "archive/2026-09-24/0605/wuwei.jpg",
+      "clip": "archive/2026-09-24/0605/wuwei.mp4",
+      "conditions": {
+        "hour": 5,
+        "source": "windguru",
+        "wspd_kt": 5.5,
+        "wave_m": 0.8,
+        "wave_per_s": 7.5,
+        "dir_deg": 289.0,
+        "wave_dir_deg": 29.0
+      }
+    },
+    {
+      "date": "2026-09-24",
+      "slug": "zhunan",
+      "spot": "竹南假日之森",
+      "captured_at": "2026-09-24T06:29:08+08:00",
+      "wave_notes_zh": "清晨光線偏柔、天空薄霧灰藍。近岸僅見長條薄層白沫浪線，海面偏平靜。潮間帶大片濕沙出露；前景草坡與消波塊。遠方離岸風機清晰可見。標示WaveYard／竹南假日之森／Zhunan Kite beach；時間戳約2026-09-24 06:28:50。未見人影。未估浪高。",
+      "live_ok": true,
+      "thumb": "archive/2026-09-24/0605/zhunan.jpg",
+      "clip": "archive/2026-09-24/0605/zhunan.mp4",
       "conditions": {
         "hour": 5,
         "source": "windguru",
