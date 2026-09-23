@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T22:02:29+08:00",
+  "generated_at": "2026-09-24T03:44:55+08:00",
   "archive_spots": [
     "zhongjiao",
     "wuwei",
@@ -769,16 +769,7 @@
       "wave_notes_zh": "清晨晨光偏黃橘，能見度尚可；灣內可見多層規整白沫碎浪向礫石／沙岸推進，海面層與層之間相對平滑。前景觀景步道與圓形平台空無一人，遠方海平線有一艘船影。未估浪高。",
       "live_ok": true,
       "thumb": "archive/2026-09-23/0505/zhongjiao.jpg",
-      "clip": "archive/2026-09-23/0505/zhongjiao.mp4",
-      "conditions": {
-        "hour": 14,
-        "source": "windguru",
-        "wspd_kt": 9.2,
-        "wave_m": 0.8,
-        "wave_per_s": 6.9,
-        "dir_deg": 70.0,
-        "wave_dir_deg": 35.0
-      }
+      "clip": "archive/2026-09-23/0505/zhongjiao.mp4"
     },
     {
       "date": "2026-09-23",
@@ -788,16 +779,7 @@
       "wave_notes_zh": "清晨光線仍顯昏暗偏藍灰，海面上方有明顯霧氣／水氣，對比偏低。可見多排細長白色碎浪帶由外海向岸推移；前景為濱海林投／綠植剪影。整體畫面偏朦朧。未估浪高。",
       "live_ok": true,
       "thumb": "archive/2026-09-23/0505/wuwei.jpg",
-      "clip": "archive/2026-09-23/0505/wuwei.mp4",
-      "conditions": {
-        "hour": 14,
-        "source": "windguru",
-        "wspd_kt": 6.4,
-        "wave_m": 0.8,
-        "wave_per_s": 7.3,
-        "dir_deg": 31.0,
-        "wave_dir_deg": 38.0
-      }
+      "clip": "archive/2026-09-23/0505/wuwei.mp4"
     },
     {
       "date": "2026-09-23",
@@ -807,16 +789,7 @@
       "wave_notes_zh": "清晨光線尚暗、天空灰白有薄霧；寬闊沙岸外可見數道細窄白沫浪線近岸推進，遠方離岸風機輪廓可辨。前景為草坡與消波塊堤防。畫面偏平靜朦朧。未估浪高。",
       "live_ok": true,
       "thumb": "archive/2026-09-23/0505/zhunan.jpg",
-      "clip": "archive/2026-09-23/0505/zhunan.mp4",
-      "conditions": {
-        "hour": 14,
-        "source": "windguru",
-        "wspd_kt": 16.1,
-        "wave_m": 1.2,
-        "wave_per_s": 4.8,
-        "dir_deg": 359.0,
-        "wave_dir_deg": 15.0
-      }
+      "clip": "archive/2026-09-23/0505/zhunan.mp4"
     },
     {
       "date": "2026-09-23",
@@ -826,16 +799,7 @@
       "wave_notes_zh": "清晨日出逆光，右上有強眩光與海面長倒影；灣內可見約四五道相對規整的白沫碎浪線向暗色沙岸推進，層間海面偏平滑。左側岩岸有稀疏綠植；沙灘水線有一人持釣竿剪影。未估浪高。",
       "live_ok": true,
       "thumb": "archive/2026-09-23/0605/zhongjiao.jpg",
-      "clip": "archive/2026-09-23/0605/zhongjiao.mp4",
-      "conditions": {
-        "hour": 14,
-        "source": "windguru",
-        "wspd_kt": 9.2,
-        "wave_m": 0.8,
-        "wave_per_s": 6.9,
-        "dir_deg": 70.0,
-        "wave_dir_deg": 35.0
-      }
+      "clip": "archive/2026-09-23/0605/zhongjiao.mp4"
     },
     {
       "date": "2026-09-23",
@@ -845,16 +809,7 @@
       "wave_notes_zh": "清晨金黃偏霧氣光線；高角度俯瞰可見至少三道有組織白沫浪線向岸推移，外海相對平靜。前景林投／濱海植栽，沙地停有一台深色休旅車。畫面標示國海院_GoOcean_蘇澳無尾港。未估浪高。",
       "live_ok": true,
       "thumb": "archive/2026-09-23/0605/wuwei.jpg",
-      "clip": "archive/2026-09-23/0605/wuwei.mp4",
-      "conditions": {
-        "hour": 14,
-        "source": "windguru",
-        "wspd_kt": 6.4,
-        "wave_m": 0.8,
-        "wave_per_s": 7.3,
-        "dir_deg": 31.0,
-        "wave_dir_deg": 38.0
-      }
+      "clip": "archive/2026-09-23/0605/wuwei.mp4"
     },
     {
       "date": "2026-09-23",
@@ -864,16 +819,7 @@
       "wave_notes_zh": "清晨灰藍薄霧光線；寬闊濕沙灘外有數道細窄白沫浪線近岸推進，遠方離岸風機可見。前景草坡與消波塊堤防；灘上約一至兩人，水中無衝浪者。整體偏平靜。未估浪高。",
       "live_ok": true,
       "thumb": "archive/2026-09-23/0605/zhunan.jpg",
-      "clip": "archive/2026-09-23/0605/zhunan.mp4",
-      "conditions": {
-        "hour": 14,
-        "source": "windguru",
-        "wspd_kt": 16.1,
-        "wave_m": 1.2,
-        "wave_per_s": 4.8,
-        "dir_deg": 359.0,
-        "wave_dir_deg": 15.0
-      }
+      "clip": "archive/2026-09-23/0605/zhunan.mp4"
     },
     {
       "date": "2026-09-23",
@@ -883,16 +829,7 @@
       "wave_notes_zh": "上午晴朗、能見度佳；畫面時間戳約08:30。海面可見數層平行浪組，中景有一道破碎白沫線橫過灣內。左側鵝卵石／岩岸，右側沙灘可見一件漂流木；近景步道與綠植。畫面中未見衝浪者或遊客。光線均勻、無強烈眩光遮蔽浪況。未估浪高。",
       "live_ok": true,
       "thumb": "archive/2026-09-23/0805/zhongjiao.jpg",
-      "clip": "archive/2026-09-23/0805/zhongjiao.mp4",
-      "conditions": {
-        "hour": 14,
-        "source": "windguru",
-        "wspd_kt": 9.2,
-        "wave_m": 0.8,
-        "wave_per_s": 6.9,
-        "dir_deg": 70.0,
-        "wave_dir_deg": 35.0
-      }
+      "clip": "archive/2026-09-23/0805/zhongjiao.mp4"
     },
     {
       "date": "2026-09-23",
@@ -902,16 +839,7 @@
       "wave_notes_zh": "上午濃霧／霾、能見度偏低；畫面標示國海院_GoOcean_蘇澳無尾港，時間戳約08:31。高角度俯瞰可見數道白沫碎浪線向岸推移，海面中段有明顯漫射眩光。前景林投／濱海植栽與暗色岩岸，右側山坡隱入霧中。未見明顯人影。未估浪高。",
       "live_ok": true,
       "thumb": "archive/2026-09-23/0805/wuwei.jpg",
-      "clip": "archive/2026-09-23/0805/wuwei.mp4",
-      "conditions": {
-        "hour": 14,
-        "source": "windguru",
-        "wspd_kt": 6.4,
-        "wave_m": 0.8,
-        "wave_per_s": 7.3,
-        "dir_deg": 31.0,
-        "wave_dir_deg": 38.0
-      }
+      "clip": "archive/2026-09-23/0805/wuwei.mp4"
     },
     {
       "date": "2026-09-23",
@@ -921,16 +849,7 @@
       "wave_notes_zh": "上午晴朗藍天；畫面時間戳約08:31。寬闊濕沙外有數道平行細窄白沫浪線近岸推進，遠方離岸風機清晰可見。前景草坡與消波塊堤防；左側淺水處有一人持粉紅板／風箏板走向水中，岸邊另約一人。海面無明顯眩光。未估浪高。",
       "live_ok": true,
       "thumb": "archive/2026-09-23/0805/zhunan.jpg",
-      "clip": "archive/2026-09-23/0805/zhunan.mp4",
-      "conditions": {
-        "hour": 14,
-        "source": "windguru",
-        "wspd_kt": 16.1,
-        "wave_m": 1.2,
-        "wave_per_s": 4.8,
-        "dir_deg": 359.0,
-        "wave_dir_deg": 15.0
-      }
+      "clip": "archive/2026-09-23/0805/zhunan.mp4"
     },
     {
       "date": "2026-09-23",
@@ -940,16 +859,7 @@
       "wave_notes_zh": "上午晴朗、能見度佳；畫面時間戳約10:15。海面可見數層平行白沫碎浪線向岸推進，水色由外深藍轉近岸青綠。左側鵝卵石／岩岸，右側沙灘可見一件漂流木；近景綠植與白色標誌牌。畫面中未見衝浪者或遊客。光線明亮均勻。未估浪高。",
       "live_ok": true,
       "thumb": "archive/2026-09-23/1005/zhongjiao.jpg",
-      "clip": "archive/2026-09-23/1005/zhongjiao.mp4",
-      "conditions": {
-        "hour": 14,
-        "source": "windguru",
-        "wspd_kt": 9.2,
-        "wave_m": 0.8,
-        "wave_per_s": 6.9,
-        "dir_deg": 70.0,
-        "wave_dir_deg": 35.0
-      }
+      "clip": "archive/2026-09-23/1005/zhongjiao.mp4"
     },
     {
       "date": "2026-09-23",
@@ -959,16 +869,7 @@
       "wave_notes_zh": "上午天色朦朧／薄霧，能見度中等；畫面標示國海院_GoOcean_蘇澳無尾港，時間戳約10:16。高角度俯瞰可見多層連續白沫碎浪線向岸推移。前景林投／濱海植栽，下方停車場可見白色休旅車與深色廂型車，車旁似有衝浪板與一人影。未估浪高。",
       "live_ok": true,
       "thumb": "archive/2026-09-23/1005/wuwei.jpg",
-      "clip": "archive/2026-09-23/1005/wuwei.mp4",
-      "conditions": {
-        "hour": 14,
-        "source": "windguru",
-        "wspd_kt": 6.4,
-        "wave_m": 0.8,
-        "wave_per_s": 7.3,
-        "dir_deg": 31.0,
-        "wave_dir_deg": 38.0
-      }
+      "clip": "archive/2026-09-23/1005/wuwei.mp4"
     },
     {
       "date": "2026-09-23",
@@ -978,16 +879,7 @@
       "wave_notes_zh": "上午晴朗藍天無雲；畫面時間戳約10:17。寬闊濕沙外有數道平行白沫浪線近岸推進，遠方離岸風機清晰可見。前景草坡與消波塊堤防；畫面中未見明顯人影。海面光線明亮。未估浪高。",
       "live_ok": true,
       "thumb": "archive/2026-09-23/1005/zhunan.jpg",
-      "clip": "archive/2026-09-23/1005/zhunan.mp4",
-      "conditions": {
-        "hour": 14,
-        "source": "windguru",
-        "wspd_kt": 16.1,
-        "wave_m": 1.2,
-        "wave_per_s": 4.8,
-        "dir_deg": 359.0,
-        "wave_dir_deg": 15.0
-      }
+      "clip": "archive/2026-09-23/1005/zhunan.mp4"
     },
     {
       "date": "2026-09-23",
@@ -997,16 +889,7 @@
       "wave_notes_zh": "畫面為「訊號中斷／SIGNAL LOST」錯誤頁（紅字訊號中斷、Wi‑Fi 斷線圖示），即時影像連線異常，無法觀察浪況與岸際。未估浪高。",
       "live_ok": false,
       "thumb": "archive/2026-09-23/1205/zhongjiao.jpg",
-      "clip": "archive/2026-09-23/1205/zhongjiao.mp4",
-      "conditions": {
-        "hour": 14,
-        "source": "windguru",
-        "wspd_kt": 9.2,
-        "wave_m": 0.8,
-        "wave_per_s": 6.9,
-        "dir_deg": 70.0,
-        "wave_dir_deg": 35.0
-      }
+      "clip": "archive/2026-09-23/1205/zhongjiao.mp4"
     },
     {
       "date": "2026-09-23",
@@ -1016,16 +899,7 @@
       "wave_notes_zh": "正午前後天色偏亮、略有薄霧感；畫面標示國海院_GoOcean_蘇澳無尾港，時間戳約12:18。高角度俯瞰可見多層白沫碎浪線向岸推移。前景林投／濱海植栽，岸際可見消波塊；畫面中未見明顯人影或車輛活動。未估浪高。",
       "live_ok": true,
       "thumb": "archive/2026-09-23/1205/wuwei.jpg",
-      "clip": "archive/2026-09-23/1205/wuwei.mp4",
-      "conditions": {
-        "hour": 14,
-        "source": "windguru",
-        "wspd_kt": 6.4,
-        "wave_m": 0.8,
-        "wave_per_s": 7.3,
-        "dir_deg": 31.0,
-        "wave_dir_deg": 38.0
-      }
+      "clip": "archive/2026-09-23/1205/wuwei.mp4"
     },
     {
       "date": "2026-09-23",
@@ -1035,16 +909,7 @@
       "wave_notes_zh": "正午晴朗淡藍天空、能見度佳；畫面時間戳約12:18。寬闊濕沙潮間帶可見多道平行白沫浪線近岸推進，遠方離岸風機清晰。前景草坡與消波塊堤防，沙面有淺水灘；畫面中未見明顯人影。未估浪高。",
       "live_ok": true,
       "thumb": "archive/2026-09-23/1205/zhunan.jpg",
-      "clip": "archive/2026-09-23/1205/zhunan.mp4",
-      "conditions": {
-        "hour": 14,
-        "source": "windguru",
-        "wspd_kt": 16.1,
-        "wave_m": 1.2,
-        "wave_per_s": 4.8,
-        "dir_deg": 359.0,
-        "wave_dir_deg": 15.0
-      }
+      "clip": "archive/2026-09-23/1205/zhunan.mp4"
     },
     {
       "date": "2026-09-23",
@@ -1054,16 +919,7 @@
       "wave_notes_zh": "午後晴朗藍天，畫面時間戳約14:18。高角度俯瞰海灣：多道白沫碎浪線向岸推進，遠方岬角與山脈清晰。沙灘有木棧／遮陽傘，岸上與近岸可見少數人影與一名似在碎浪中的活動者；木枝欄杆前景。未估浪高。",
       "live_ok": true,
       "thumb": "archive/2026-09-23/1405/zhongjiao.jpg",
-      "clip": "archive/2026-09-23/1405/zhongjiao.mp4",
-      "conditions": {
-        "hour": 14,
-        "source": "windguru",
-        "wspd_kt": 9.2,
-        "wave_m": 0.8,
-        "wave_per_s": 6.9,
-        "dir_deg": 70.0,
-        "wave_dir_deg": 35.0
-      }
+      "clip": "archive/2026-09-23/1405/zhongjiao.mp4"
     },
     {
       "date": "2026-09-23",
@@ -1073,16 +929,7 @@
       "wave_notes_zh": "午後天色偏亮偏薄霧；畫面標示國海院_GoOcean_蘇澳無尾港，時間戳約14:19。高角度俯瞰可見多層白沫碎浪線向岸推移。前景林投／濱海植栽，岸際消波塊清楚；畫面中未見明顯人影。未估浪高。",
       "live_ok": true,
       "thumb": "archive/2026-09-23/1405/wuwei.jpg",
-      "clip": "archive/2026-09-23/1405/wuwei.mp4",
-      "conditions": {
-        "hour": 14,
-        "source": "windguru",
-        "wspd_kt": 6.4,
-        "wave_m": 0.8,
-        "wave_per_s": 7.3,
-        "dir_deg": 31.0,
-        "wave_dir_deg": 38.0
-      }
+      "clip": "archive/2026-09-23/1405/wuwei.mp4"
     },
     {
       "date": "2026-09-23",
@@ -1092,16 +939,7 @@
       "wave_notes_zh": "午後晴朗微霾、能見度佳；畫面時間戳約14:19。寬闊濕沙潮間帶大面積出露（接近乾潮），近岸僅見薄層白沫浪線推進，遠方離岸風機清晰。前景草坡與消波塊堤防；畫面中未見明顯人影。未估浪高。",
       "live_ok": true,
       "thumb": "archive/2026-09-23/1405/zhunan.jpg",
-      "clip": "archive/2026-09-23/1405/zhunan.mp4",
-      "conditions": {
-        "hour": 14,
-        "source": "windguru",
-        "wspd_kt": 16.1,
-        "wave_m": 1.2,
-        "wave_per_s": 4.8,
-        "dir_deg": 359.0,
-        "wave_dir_deg": 15.0
-      }
+      "clip": "archive/2026-09-23/1405/zhunan.mp4"
     },
     {
       "date": "2026-09-23",
@@ -1111,16 +949,7 @@
       "wave_notes_zh": "午後陰雲柔光，畫面時間戳約16:23。多道白沫碎浪線向岸推進，近岸白浪帶較寬；右側水中可見一名活動者。前景沙灘、石岸與少量漂流木。未估浪高。",
       "live_ok": true,
       "thumb": "archive/2026-09-23/1605/zhongjiao.jpg",
-      "clip": "archive/2026-09-23/1605/zhongjiao.mp4",
-      "conditions": {
-        "hour": 15,
-        "source": "windguru",
-        "wspd_kt": 10.2,
-        "wave_m": 0.7,
-        "wave_per_s": 6.9,
-        "dir_deg": 82.0,
-        "wave_dir_deg": 35.0
-      }
+      "clip": "archive/2026-09-23/1605/zhongjiao.mp4"
     },
     {
       "date": "2026-09-23",
@@ -1130,16 +959,7 @@
       "wave_notes_zh": "午後偏薄霧、光線偏暗；畫面標示國海院_GoOcean_蘇澳無尾港，時間戳約16:24。高角度俯瞰可見多層白沫碎浪線向岸推移。前景林投／濱海植栽與坡地；畫面中未見明顯人影。未估浪高。",
       "live_ok": true,
       "thumb": "archive/2026-09-23/1605/wuwei.jpg",
-      "clip": "archive/2026-09-23/1605/wuwei.mp4",
-      "conditions": {
-        "hour": 15,
-        "source": "windguru",
-        "wspd_kt": 6.5,
-        "wave_m": 0.8,
-        "wave_per_s": 7.3,
-        "dir_deg": 44.0,
-        "wave_dir_deg": 38.0
-      }
+      "clip": "archive/2026-09-23/1605/wuwei.mp4"
     },
     {
       "date": "2026-09-23",
@@ -1149,16 +969,7 @@
       "wave_notes_zh": "午後陰霾，畫面時間戳約16:25。潮間帶大片濕沙出露（剛過乾潮附近），近岸僅見少量雜亂薄層白沫浪線。遠方離岸風機清晰；前景草坡與消波塊堤防。未見明顯人影。未估浪高。",
       "live_ok": true,
       "thumb": "archive/2026-09-23/1605/zhunan.jpg",
-      "clip": "archive/2026-09-23/1605/zhunan.mp4",
-      "conditions": {
-        "hour": 15,
-        "source": "windguru",
-        "wspd_kt": 16.0,
-        "wave_m": 1.3,
-        "wave_per_s": 4.9,
-        "dir_deg": 3.0,
-        "wave_dir_deg": 16.0
-      }
+      "clip": "archive/2026-09-23/1605/zhunan.mp4"
     }
   ],
   "note_zh": ""
