@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T06:39:13+08:00",
+  "generated_at": "2026-09-24T08:35:24+08:00",
   "archive_spots": [
     "zhongjiao",
     "wuwei",
@@ -986,7 +986,7 @@
         "wspd_kt": 6.9,
         "wave_m": 0.7,
         "wave_per_s": 7.5,
-        "dir_deg": 98.0,
+        "dir_deg": 96.0,
         "wave_dir_deg": 33.0
       }
     },
@@ -1003,10 +1003,10 @@
         "hour": 5,
         "source": "windguru",
         "wspd_kt": 5.5,
-        "wave_m": 0.8,
+        "wave_m": 0.7,
         "wave_per_s": 7.5,
-        "dir_deg": 289.0,
-        "wave_dir_deg": 29.0
+        "dir_deg": 285.0,
+        "wave_dir_deg": 25.0
       }
     },
     {
@@ -1021,11 +1021,11 @@
       "conditions": {
         "hour": 5,
         "source": "windguru",
-        "wspd_kt": 5.9,
-        "wave_m": 0.7,
-        "wave_per_s": 4.2,
+        "wspd_kt": 6.2,
+        "wave_m": 0.6,
+        "wave_per_s": 4.3,
         "dir_deg": 49.0,
-        "wave_dir_deg": 10.0
+        "wave_dir_deg": 18.0
       }
     },
     {
@@ -1043,7 +1043,7 @@
         "wspd_kt": 6.9,
         "wave_m": 0.7,
         "wave_per_s": 7.5,
-        "dir_deg": 98.0,
+        "dir_deg": 96.0,
         "wave_dir_deg": 33.0
       }
     },
@@ -1060,10 +1060,10 @@
         "hour": 5,
         "source": "windguru",
         "wspd_kt": 5.5,
-        "wave_m": 0.8,
+        "wave_m": 0.7,
         "wave_per_s": 7.5,
-        "dir_deg": 289.0,
-        "wave_dir_deg": 29.0
+        "dir_deg": 285.0,
+        "wave_dir_deg": 25.0
       }
     },
     {
@@ -1078,11 +1078,68 @@
       "conditions": {
         "hour": 5,
         "source": "windguru",
-        "wspd_kt": 5.9,
-        "wave_m": 0.7,
-        "wave_per_s": 4.2,
+        "wspd_kt": 6.2,
+        "wave_m": 0.6,
+        "wave_per_s": 4.3,
         "dir_deg": 49.0,
-        "wave_dir_deg": 10.0
+        "wave_dir_deg": 18.0
+      }
+    },
+    {
+      "date": "2026-09-24",
+      "slug": "wuwei",
+      "spot": "無尾港",
+      "captured_at": "2026-09-24T08:24:57+08:00",
+      "wave_notes_zh": "午前霧氣偏重、對比偏低。海面可見多層長條白沫碎浪線向岸推移。前景林投等海岸植被與停車場（可見數輛車）；岸邊礫石／消波塊。標示國海院_GoOcean_蘇澳無尾港。右上時間戳約2026-09-24 08:24:17。岸上／水中未見清楚人影。未估浪高。",
+      "live_ok": true,
+      "thumb": "archive/2026-09-24/0805/wuwei.jpg",
+      "clip": "archive/2026-09-24/0805/wuwei.mp4",
+      "conditions": {
+        "hour": 7,
+        "source": "windguru",
+        "wspd_kt": 5.3,
+        "wave_m": 0.7,
+        "wave_per_s": 7.5,
+        "dir_deg": 282.0,
+        "wave_dir_deg": 23.0
+      }
+    },
+    {
+      "date": "2026-09-24",
+      "slug": "zhongjiao",
+      "spot": "中角",
+      "captured_at": "2026-09-24T08:25:01+08:00",
+      "wave_notes_zh": "午前光線柔和，天空略有薄霧／雲層。海面可見數道清晰白沫碎浪線平行向岸推進；前景寬闊沙灘，右側有木製平台／木樁與低矮圍籬，右下角可見白色欄杆。畫面未見明顯人影。左上角時間戳約2026年09月24日8點22分58秒。未估浪高。",
+      "live_ok": true,
+      "thumb": "archive/2026-09-24/0805/zhongjiao.jpg",
+      "clip": "archive/2026-09-24/0805/zhongjiao.mp4",
+      "conditions": {
+        "hour": 7,
+        "source": "windguru",
+        "wspd_kt": 7.2,
+        "wave_m": 0.7,
+        "wave_per_s": 7.4,
+        "dir_deg": 87.0,
+        "wave_dir_deg": 32.0
+      }
+    },
+    {
+      "date": "2026-09-24",
+      "slug": "zhunan",
+      "spot": "竹南假日之森",
+      "captured_at": "2026-09-24T08:25:06+08:00",
+      "wave_notes_zh": "午前晴朗、天空淡藍無雲，光線偏亮。近岸可見多道整齊小型白沫浪線向岸推進；潮間帶濕沙出露，前景草坡與消波塊。遠方離岸風機清晰排列。右方水面隱約有少數極小黑點（疑似人影）。標示WaveYard／竹南假日之森／Zhunan Kite beach；時間戳約2026-09-24 08:24:48。未估浪高。",
+      "live_ok": true,
+      "thumb": "archive/2026-09-24/0805/zhunan.jpg",
+      "clip": "archive/2026-09-24/0805/zhunan.mp4",
+      "conditions": {
+        "hour": 7,
+        "source": "windguru",
+        "wspd_kt": 6.4,
+        "wave_m": 0.6,
+        "wave_per_s": 7.5,
+        "dir_deg": 50.0,
+        "wave_dir_deg": 28.0
       }
     }
   ],
