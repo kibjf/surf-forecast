@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T21:22:10+08:00",
+  "generated_at": "2026-09-26T03:23:57+08:00",
   "archive_spots": [
     "zhongjiao",
     "wuwei",
@@ -1189,16 +1189,7 @@
       "wave_notes_zh": "清晨黎明時分，天色昏暗；地平線透出橘紅晨曦，上方雲層厚重。前景深色沙灘，近岸可見數道白色碎浪泡沫線向岸推進。右側岸際有密集燈火剪影（港口／聚落）。畫面未見人員。左上時間戳2026年09月25日5點09分07秒。未估浪高。",
       "live_ok": true,
       "thumb": "archive/2026-09-25/0505/zhongjiao.jpg",
-      "clip": "archive/2026-09-25/0505/zhongjiao.mp4",
-      "conditions": {
-        "hour": 14,
-        "source": "windguru",
-        "wspd_kt": 10.6,
-        "wave_m": 0.5,
-        "wave_per_s": 6.8,
-        "dir_deg": 80.0,
-        "wave_dir_deg": 38.0
-      }
+      "clip": "archive/2026-09-25/0505/zhongjiao.mp4"
     },
     {
       "date": "2026-09-25",
@@ -1208,16 +1199,7 @@
       "wave_notes_zh": "清晨微光、畫面偏暗略有雜訊；雲層下方透出粉橘色晨光。海面可見數條白色碎浪泡沫線。前景昏暗，左側有枯樹／灌叢剪影。未見人員。右上時間戳2026-09-25 05:10:30；左下標示國海院_GoOcean_蘇澳無尾港。未估浪高。",
       "live_ok": true,
       "thumb": "archive/2026-09-25/0505/wuwei.jpg",
-      "clip": "archive/2026-09-25/0505/wuwei.mp4",
-      "conditions": {
-        "hour": 14,
-        "source": "windguru",
-        "wspd_kt": 4.2,
-        "wave_m": 0.4,
-        "wave_per_s": 6.9,
-        "dir_deg": 77.0,
-        "wave_dir_deg": 46.0
-      }
+      "clip": "archive/2026-09-25/0505/wuwei.mp4"
     },
     {
       "date": "2026-09-25",
@@ -1227,16 +1209,7 @@
       "wave_notes_zh": "凌晨低光／近紅外畫面，整體偏灰暗；前景有人工照明反光，遠際可見零星路燈。海面隱約可見白色碎浪泡沫線，細節因光線受限不易辨識。沙灘空無一人；畫面有雨滴或昆蟲光斑條紋。右上時間戳2026-09-25 05:10:58 Fri；標示竹南假日之森／Zhunan Kite beach。未估浪高。",
       "live_ok": true,
       "thumb": "archive/2026-09-25/0505/zhunan.jpg",
-      "clip": "archive/2026-09-25/0505/zhunan.mp4",
-      "conditions": {
-        "hour": 14,
-        "source": "windguru",
-        "wspd_kt": 9.3,
-        "wave_m": 0.5,
-        "wave_per_s": 3.5,
-        "dir_deg": 349.0,
-        "wave_dir_deg": 19.0
-      }
+      "clip": "archive/2026-09-25/0505/zhunan.mp4"
     },
     {
       "date": "2026-09-25",
@@ -1246,16 +1219,7 @@
       "wave_notes_zh": "清晨日出時分，地平線金黃晨光，上方雲層偏薄轉淡藍灰。前景深色沙灘，左下有礁石與岸際植栽／步道。近岸可見數道細白碎浪泡沫線緩緩向岸推進，海面相對平靜。右下沙灘可見一人小剪影；地平線中央隱約有船影。左上時間戳2026年09月25日6點07分42秒。未估浪高。",
       "live_ok": true,
       "thumb": "archive/2026-09-25/0605/zhongjiao.jpg",
-      "clip": "archive/2026-09-25/0605/zhongjiao.mp4",
-      "conditions": {
-        "hour": 14,
-        "source": "windguru",
-        "wspd_kt": 10.6,
-        "wave_m": 0.5,
-        "wave_per_s": 6.8,
-        "dir_deg": 80.0,
-        "wave_dir_deg": 38.0
-      }
+      "clip": "archive/2026-09-25/0605/zhongjiao.mp4"
     },
     {
       "date": "2026-09-25",
@@ -1265,16 +1229,7 @@
       "wave_notes_zh": "清晨微光、畫面偏暗；雲層下方透出橘粉晨光。海面可見長浪線與近岸白色碎浪泡沫帶。前景昏暗，可見岸際植栽與至少兩輛停放車輛剪影。未見人員下水。右上時間戳2026-09-25 06:09:00；左下標示國海院_GoOcean_蘇澳無尾港。未估浪高。",
       "live_ok": true,
       "thumb": "archive/2026-09-25/0605/wuwei.jpg",
-      "clip": "archive/2026-09-25/0605/wuwei.mp4",
-      "conditions": {
-        "hour": 14,
-        "source": "windguru",
-        "wspd_kt": 4.2,
-        "wave_m": 0.4,
-        "wave_per_s": 6.9,
-        "dir_deg": 77.0,
-        "wave_dir_deg": 46.0
-      }
+      "clip": "archive/2026-09-25/0605/wuwei.mp4"
     },
     {
       "date": "2026-09-25",
@@ -1284,16 +1239,7 @@
       "wave_notes_zh": "清晨陰天低光；前景有消波塊與草坡，沙灘大片露出偏濕暗色，遠際可見細白碎浪線。左緣沙灘似有一人行走。整體浪況偏小、細節因光線受限。右上時間戳2026-09-25 06:09:30 Fri；標示竹南假日之森／Zhunan Kite beach、WaveYard Taiwan。未估浪高。",
       "live_ok": true,
       "thumb": "archive/2026-09-25/0605/zhunan.jpg",
-      "clip": "archive/2026-09-25/0605/zhunan.mp4",
-      "conditions": {
-        "hour": 14,
-        "source": "windguru",
-        "wspd_kt": 9.3,
-        "wave_m": 0.5,
-        "wave_per_s": 3.5,
-        "dir_deg": 349.0,
-        "wave_dir_deg": 19.0
-      }
+      "clip": "archive/2026-09-25/0605/zhunan.mp4"
     },
     {
       "date": "2026-09-25",
@@ -1303,16 +1249,7 @@
       "wave_notes_zh": "早晨光線明亮偏陰天感，海平線有薄霧。海面相對平靜，可見數道平行泡沫線向岸推進，近岸與左側較遠處有白色碎浪。右側為平整淺褐沙灘，中央至左側轉礫石／礁岸，岸際可見漂流木。前景左下有步道與石牆綠籬。畫面未見遊客。左上時間戳2026年09月25日8點12分47秒。未估浪高。",
       "live_ok": true,
       "thumb": "archive/2026-09-25/0805/zhongjiao.jpg",
-      "clip": "archive/2026-09-25/0805/zhongjiao.mp4",
-      "conditions": {
-        "hour": 14,
-        "source": "windguru",
-        "wspd_kt": 10.6,
-        "wave_m": 0.5,
-        "wave_per_s": 6.8,
-        "dir_deg": 80.0,
-        "wave_dir_deg": 38.0
-      }
+      "clip": "archive/2026-09-25/0805/zhongjiao.mp4"
     },
     {
       "date": "2026-09-25",
@@ -1322,16 +1259,7 @@
       "wave_notes_zh": "晨間強光與霧氣，畫面偏朦朧、海面有耀光。可見數條清晰白色碎浪泡沫線平行向岸推進。前景為綠色濱海植物，下方停放至少三輛白色車輛；右側遠際山頭隱於霧中。未見明顯下水人員。右上時間戳2026-09-25 08:13:52；左下標示國海院_GoOcean_蘇澳無尾港。未估浪高。",
       "live_ok": true,
       "thumb": "archive/2026-09-25/0805/wuwei.jpg",
-      "clip": "archive/2026-09-25/0805/wuwei.mp4",
-      "conditions": {
-        "hour": 14,
-        "source": "windguru",
-        "wspd_kt": 4.2,
-        "wave_m": 0.4,
-        "wave_per_s": 6.9,
-        "dir_deg": 77.0,
-        "wave_dir_deg": 46.0
-      }
+      "clip": "archive/2026-09-25/0805/wuwei.mp4"
     },
     {
       "date": "2026-09-25",
@@ -1341,16 +1269,7 @@
       "wave_notes_zh": "晨間濃霧／陰天低對比，海天相接處能見度差；遠際隱約可見離岸風機剪影。近岸有至少三道細白碎浪泡沫線平行向岸。前景消波塊與草坡，寬沙灘露出。右側消波塊附近約可見二至三人站立，未見下水。右上時間戳2026-09-25 08:14:38 Fri；標示竹南假日之森／Zhunan Kite beach、WaveYard Taiwan。未估浪高。",
       "live_ok": true,
       "thumb": "archive/2026-09-25/0805/zhunan.jpg",
-      "clip": "archive/2026-09-25/0805/zhunan.mp4",
-      "conditions": {
-        "hour": 14,
-        "source": "windguru",
-        "wspd_kt": 9.3,
-        "wave_m": 0.5,
-        "wave_per_s": 3.5,
-        "dir_deg": 349.0,
-        "wave_dir_deg": 19.0
-      }
+      "clip": "archive/2026-09-25/0805/zhunan.mp4"
     },
     {
       "date": "2026-09-25",
@@ -1360,16 +1279,7 @@
       "wave_notes_zh": "陰天、光線均勻偏柔。海面灰綠，近岸可見數道白色碎浪泡沫線向岸推進，外海有輕微波紋。前景右側為木棧／圍籬與綠籬，沙灘寬闊淺褐，岸際有少量漂流木／雜物；遠際右側有岬角與防波堤，左側海平線有島礁。畫面未見明顯遊客或衝浪者。左上時間戳2026年09月25日10點10分37秒。未估浪高。",
       "live_ok": true,
       "thumb": "archive/2026-09-25/1005/zhongjiao.jpg",
-      "clip": "archive/2026-09-25/1005/zhongjiao.mp4",
-      "conditions": {
-        "hour": 14,
-        "source": "windguru",
-        "wspd_kt": 10.6,
-        "wave_m": 0.5,
-        "wave_per_s": 6.8,
-        "dir_deg": 80.0,
-        "wave_dir_deg": 38.0
-      }
+      "clip": "archive/2026-09-25/1005/zhongjiao.mp4"
     },
     {
       "date": "2026-09-25",
@@ -1379,16 +1289,7 @@
       "wave_notes_zh": "白天明亮略帶薄霧，天空淡藍灰。海面可見多道平行白色碎浪泡沫線向岸推進，浪況看起來平緩。前景為綠色濱海林投／植被，下方停車場可見至少一輛白色轎車；右側另有車輛邊緣。低矮石牆／堤分隔停車場與深色沙灘。未見明顯下水人員。右上時間戳2026-09-25 10:11:48；左下標示國海院_GoOcean_蘇澳無尾港。未估浪高。",
       "live_ok": true,
       "thumb": "archive/2026-09-25/1005/wuwei.jpg",
-      "clip": "archive/2026-09-25/1005/wuwei.mp4",
-      "conditions": {
-        "hour": 14,
-        "source": "windguru",
-        "wspd_kt": 4.2,
-        "wave_m": 0.4,
-        "wave_per_s": 6.9,
-        "dir_deg": 77.0,
-        "wave_dir_deg": 46.0
-      }
+      "clip": "archive/2026-09-25/1005/wuwei.mp4"
     },
     {
       "date": "2026-09-25",
@@ -1398,16 +1299,7 @@
       "wave_notes_zh": "白天光線充足，遠際略有薄霧。海面平緩，近岸有細長白碎浪泡沫線。岸際灰色消波塊成排，前景綠草坡。遠際海平線隱約可見一排離岸風機。畫面未見明顯遊客、衝浪者或風箏。右上時間戳2026-09-25 10:12:26 Fri；標示竹南假日之森／Zhunan Kite beach、WaveYard Taiwan。未估浪高。",
       "live_ok": true,
       "thumb": "archive/2026-09-25/1005/zhunan.jpg",
-      "clip": "archive/2026-09-25/1005/zhunan.mp4",
-      "conditions": {
-        "hour": 14,
-        "source": "windguru",
-        "wspd_kt": 9.3,
-        "wave_m": 0.5,
-        "wave_per_s": 3.5,
-        "dir_deg": 349.0,
-        "wave_dir_deg": 19.0
-      }
+      "clip": "archive/2026-09-25/1005/zhunan.mp4"
     },
     {
       "date": "2026-09-25",
@@ -1417,16 +1309,7 @@
       "wave_notes_zh": "陰天、光線均勻偏暗。海面藍灰，近岸可見細長白色碎浪泡沫線向岸推進，外海輕微波紋。前景沙灘淺褐偏濕，左側有岩石／消波塊與少量漂流木雜物；遠際右側隱約有島礁／岬角。畫面未見明顯遊客或衝浪者。左上時間戳2026年09月25日12點11分22秒。未估浪高。",
       "live_ok": true,
       "thumb": "archive/2026-09-25/1205/zhongjiao.jpg",
-      "clip": "archive/2026-09-25/1205/zhongjiao.mp4",
-      "conditions": {
-        "hour": 14,
-        "source": "windguru",
-        "wspd_kt": 10.6,
-        "wave_m": 0.5,
-        "wave_per_s": 6.8,
-        "dir_deg": 80.0,
-        "wave_dir_deg": 38.0
-      }
+      "clip": "archive/2026-09-25/1205/zhongjiao.mp4"
     },
     {
       "date": "2026-09-25",
@@ -1436,16 +1319,7 @@
       "wave_notes_zh": "白天明亮、天空淡藍略帶薄霧感。海面可見多道平行白色碎浪泡沫線向岸推進。前景為綠色濱海林投／植被，其後灰色消波塊與開闊深色沙灘。沙灘上未見明顯遊客群；水際或有極小身影但不確定。右上時間戳2026-09-25 12:13:09；左下標示國海院_GoOcean_蘇澳無尾港。未估浪高。",
       "live_ok": true,
       "thumb": "archive/2026-09-25/1205/wuwei.jpg",
-      "clip": "archive/2026-09-25/1205/wuwei.mp4",
-      "conditions": {
-        "hour": 14,
-        "source": "windguru",
-        "wspd_kt": 4.2,
-        "wave_m": 0.4,
-        "wave_per_s": 6.9,
-        "dir_deg": 77.0,
-        "wave_dir_deg": 46.0
-      }
+      "clip": "archive/2026-09-25/1205/wuwei.mp4"
     },
     {
       "date": "2026-09-25",
@@ -1455,16 +1329,7 @@
       "wave_notes_zh": "白天陽光充足、天空淡藍。海面平緩，近岸有細長白碎浪泡沫線；外海紋理輕微。岸際灰色消波塊成排，前景綠草坡。遠際海平線可見一排離岸風機，右側遠方有小船。沙灘中左有約兩人活動，右側淺水約數人涉水，外海另有少數深色點可能為水上活動者。右上時間戳2026-09-25 12:16:10 Fri；標示竹南假日之森／Zhunan Kite beach、WaveYard Taiwan。未估浪高。",
       "live_ok": true,
       "thumb": "archive/2026-09-25/1205/zhunan.jpg",
-      "clip": "archive/2026-09-25/1205/zhunan.mp4",
-      "conditions": {
-        "hour": 14,
-        "source": "windguru",
-        "wspd_kt": 9.3,
-        "wave_m": 0.5,
-        "wave_per_s": 3.5,
-        "dir_deg": 349.0,
-        "wave_dir_deg": 19.0
-      }
+      "clip": "archive/2026-09-25/1205/zhunan.mp4"
     },
     {
       "date": "2026-09-25",
@@ -1474,16 +1339,7 @@
       "wave_notes_zh": "白天光線充足、略帶薄霧。海面青綠，近岸可見數道平緩白色碎浪泡沫線向岸推進。前景右側木欄與濱海植被，沙灘淺褐寬闊，岸上有多頂藍／粉／紅遮陽傘與不少遊客，水際亦有人活動；遠際右側岬角／島礁。左上時間戳2026年09月25日14點13分32秒。未估浪高。",
       "live_ok": true,
       "thumb": "archive/2026-09-25/1405/zhongjiao.jpg",
-      "clip": "archive/2026-09-25/1405/zhongjiao.mp4",
-      "conditions": {
-        "hour": 14,
-        "source": "windguru",
-        "wspd_kt": 10.6,
-        "wave_m": 0.5,
-        "wave_per_s": 6.8,
-        "dir_deg": 80.0,
-        "wave_dir_deg": 38.0
-      }
+      "clip": "archive/2026-09-25/1405/zhongjiao.mp4"
     },
     {
       "date": "2026-09-25",
@@ -1493,16 +1349,7 @@
       "wave_notes_zh": "白天明亮、略有水氣霧感。海面深藍綠，可見多道平行白色碎浪泡沫線向岸推進。前景為綠色濱海植被，其後岩石／礫石岸與白色小屋；右側翠綠山岬入海。畫面未見明顯遊客或衝浪者。右上時間戳2026-09-25 14:14:53；左下標示國海院_GoOcean_蘇澳無尾港。未估浪高。",
       "live_ok": true,
       "thumb": "archive/2026-09-25/1405/wuwei.jpg",
-      "clip": "archive/2026-09-25/1405/wuwei.mp4",
-      "conditions": {
-        "hour": 14,
-        "source": "windguru",
-        "wspd_kt": 4.2,
-        "wave_m": 0.4,
-        "wave_per_s": 6.9,
-        "dir_deg": 77.0,
-        "wave_dir_deg": 46.0
-      }
+      "clip": "archive/2026-09-25/1405/wuwei.mp4"
     },
     {
       "date": "2026-09-25",
@@ -1512,16 +1359,7 @@
       "wave_notes_zh": "白天陽光充足、天空淡藍偏霧白。海面平緩藍灰，近岸有細長白色碎浪泡沫線；沙灘廣闊淺褐，局部偏濕／水窪。岸際灰色消波塊成排，前景綠草坡。遠際左側可見離岸風機排。沙灘上約十餘人散步／活動。右上時間戳2026-09-25 14:15:31 Fri；標示竹南假日之森／Zhunan Kite beach、WaveYard Taiwan。未估浪高。",
       "live_ok": true,
       "thumb": "archive/2026-09-25/1405/zhunan.jpg",
-      "clip": "archive/2026-09-25/1405/zhunan.mp4",
-      "conditions": {
-        "hour": 14,
-        "source": "windguru",
-        "wspd_kt": 9.3,
-        "wave_m": 0.5,
-        "wave_per_s": 3.5,
-        "dir_deg": 349.0,
-        "wave_dir_deg": 19.0
-      }
+      "clip": "archive/2026-09-25/1405/zhunan.mp4"
     },
     {
       "date": "2026-09-25",
@@ -1531,16 +1369,7 @@
       "wave_notes_zh": "午後陽光斜照、天空清朗。海面深藍，近岸可見一道平緩白色碎浪泡沫線貼岸推進。前景左側灰岩與濱海植被，沙灘寬闊偏深色；岸上有藍／白帳與不少遊客，水際亦有人涉水；遠際右側可見船影。左上時間戳2026年09月25日16點13分37秒。未估浪高。",
       "live_ok": true,
       "thumb": "archive/2026-09-25/1605/zhongjiao.jpg",
-      "clip": "archive/2026-09-25/1605/zhongjiao.mp4",
-      "conditions": {
-        "hour": 15,
-        "source": "windguru",
-        "wspd_kt": 10.9,
-        "wave_m": 0.5,
-        "wave_per_s": 6.7,
-        "dir_deg": 81.0,
-        "wave_dir_deg": 38.0
-      }
+      "clip": "archive/2026-09-25/1605/zhongjiao.mp4"
     },
     {
       "date": "2026-09-25",
@@ -1550,16 +1379,7 @@
       "wave_notes_zh": "午後光線略帶薄霧、對比偏低。前景林投等綠植與停放白車，岩岸銜接海面；近岸可見連續小碎浪白沫線。海面藍灰至天際，天空淡灰藍。畫面有黃圓形浮體／板附近岸。右上時間戳2026-09-25 16:14:38，左下標國海院_GoOcean_蘇澳無尾港。未估浪高。",
       "live_ok": true,
       "thumb": "archive/2026-09-25/1605/wuwei.jpg",
-      "clip": "archive/2026-09-25/1605/wuwei.mp4",
-      "conditions": {
-        "hour": 15,
-        "source": "windguru",
-        "wspd_kt": 4.1,
-        "wave_m": 0.4,
-        "wave_per_s": 6.8,
-        "dir_deg": 84.0,
-        "wave_dir_deg": 49.0
-      }
+      "clip": "archive/2026-09-25/1605/wuwei.mp4"
     },
     {
       "date": "2026-09-25",
@@ -1569,16 +1389,7 @@
       "wave_notes_zh": "午後明亮、天際略霾。潮位偏低，大片濕沙與潮池／淺溝出露；遠岸海面平靜，地平線可見離岸風機列。前景草坡與消波塊護岸，沙灘上散佈多人行走。右上時間戳2026-09-25 16:15:31 Fri，左下標竹南假日之森。未估浪高。",
       "live_ok": true,
       "thumb": "archive/2026-09-25/1605/zhunan.jpg",
-      "clip": "archive/2026-09-25/1605/zhunan.mp4",
-      "conditions": {
-        "hour": 15,
-        "source": "windguru",
-        "wspd_kt": 9.7,
-        "wave_m": 0.6,
-        "wave_per_s": 3.5,
-        "dir_deg": 354.0,
-        "wave_dir_deg": 18.0
-      }
+      "clip": "archive/2026-09-25/1605/zhunan.mp4"
     }
   ],
   "note_zh": ""
