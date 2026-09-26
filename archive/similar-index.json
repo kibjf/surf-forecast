@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T15:18:17+08:00",
+  "generated_at": "2026-09-26T16:21:25+08:00",
   "archive_spots": [
     "zhongjiao",
     "wuwei",
@@ -1731,6 +1731,63 @@
         "wave_per_s": 2.2,
         "dir_deg": 281.0,
         "wave_dir_deg": 269.0
+      }
+    },
+    {
+      "date": "2026-09-26",
+      "slug": "zhongjiao",
+      "spot": "中角",
+      "captured_at": "2026-09-26T16:13:57+08:00",
+      "wave_notes_zh": "午後偏晚晴朗偏亮，左上時間戳2026年09月26日16點08分27秒。陽光斜射、沙灘影子偏長。海面整體平靜，近岸僅見細薄白沫碎浪線，無明顯浪組；灣內可見少數人在水中／板上等待。灣形沙灘金褐色，右側防波堤／礁石延伸入海；前景右側木枝圍籬與白色水泥結構，沙灘上多把藍／粉紅／紅陽傘與封帳，遊客眾多。遠際山丘與聚落清晰。未估浪高。",
+      "live_ok": true,
+      "thumb": "archive/2026-09-26/1605/zhongjiao.jpg",
+      "clip": "archive/2026-09-26/1605/zhongjiao.mp4",
+      "conditions": {
+        "hour": 15,
+        "source": "windguru",
+        "wspd_kt": 9.0,
+        "wave_m": 0.5,
+        "wave_per_s": 10.4,
+        "dir_deg": 315.0,
+        "wave_dir_deg": 110.0
+      }
+    },
+    {
+      "date": "2026-09-26",
+      "slug": "wuwei",
+      "spot": "無尾港",
+      "captured_at": "2026-09-26T16:13:57+08:00",
+      "wave_notes_zh": "右上時間戳2026-09-26 16:10:35；左下標「國海院_GoOcean_蘇澳無尾港」。天色陰沉偏暗、雲層厚重，整體灰調。近岸可見多層白色碎浪線整齊湧岸，浪列較有秩序；岸際消波塊／暗色沙岸清楚。海中約十餘名衝浪者坐板等待。前景林投／灌叢剪影，沙地上可見停放車輛。未估浪高。",
+      "live_ok": true,
+      "thumb": "archive/2026-09-26/1605/wuwei.jpg",
+      "clip": "archive/2026-09-26/1605/wuwei.mp4",
+      "conditions": {
+        "hour": 15,
+        "source": "windguru",
+        "wspd_kt": 5.9,
+        "wave_m": 0.7,
+        "wave_per_s": 10.1,
+        "dir_deg": 50.0,
+        "wave_dir_deg": 118.0
+      }
+    },
+    {
+      "date": "2026-09-26",
+      "slug": "zhunan",
+      "spot": "竹南假日之森",
+      "captured_at": "2026-09-26T16:13:57+08:00",
+      "wave_notes_zh": "晴朗藍天，右上時間戳2026-09-26 16:12:00 Sat；標「竹南假日之森／Zhunan Kite beach」。大退潮，潮間帶／濕沙大面積露出，淺水流橫跨沙灘。近岸僅細小碎浪與稀疏薄白沫線，浪列偏弱；未見明顯起浪或風箏衝浪者。岸邊與沙灘上多人散步；遠際一整排離岸風機清晰。前景草坡與消波塊，數人坐於消波塊上。未估浪高。",
+      "live_ok": true,
+      "thumb": "archive/2026-09-26/1605/zhunan.jpg",
+      "clip": "archive/2026-09-26/1605/zhunan.mp4",
+      "conditions": {
+        "hour": 15,
+        "source": "windguru",
+        "wspd_kt": 7.4,
+        "wave_m": 0.3,
+        "wave_per_s": 2.4,
+        "dir_deg": 290.0,
+        "wave_dir_deg": 271.0
       }
     }
   ],
