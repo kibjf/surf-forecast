@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T09:18:02+08:00",
+  "generated_at": "2026-09-26T10:21:57+08:00",
   "archive_spots": [
     "zhongjiao",
     "wuwei",
@@ -1560,6 +1560,63 @@
         "wave_per_s": 5.9,
         "dir_deg": 228.0,
         "wave_dir_deg": 32.0
+      }
+    },
+    {
+      "date": "2026-09-26",
+      "slug": "zhongjiao",
+      "spot": "中角",
+      "captured_at": "2026-09-26T10:13:41+08:00",
+      "wave_notes_zh": "上午晴朗偏亮，左上時間戳約2026年09月26日10點09分。海面整體平靜偏玻璃面，近岸僅見細小白沫碎浪，無明顯浪組。遠際可見一艘白色小艇／水上摩托車拖尾跡。前景左側步道綠植與標示柱，沙灘左側礫石區、右側細沙；岸邊有數人戲水／坐沙（含成人與兒童）。未估浪高。",
+      "live_ok": true,
+      "thumb": "archive/2026-09-26/1005/zhongjiao.jpg",
+      "clip": "archive/2026-09-26/1005/zhongjiao.mp4",
+      "conditions": {
+        "hour": 9,
+        "source": "windguru",
+        "wspd_kt": 3.9,
+        "wave_m": 0.3,
+        "wave_per_s": 10.2,
+        "dir_deg": 277.0,
+        "wave_dir_deg": 93.0
+      }
+    },
+    {
+      "date": "2026-09-26",
+      "slug": "wuwei",
+      "spot": "無尾港",
+      "captured_at": "2026-09-26T10:13:41+08:00",
+      "wave_notes_zh": "右上時間戳2026-09-26 10:12:05；左下標「國海院 _ GoOcean _ 蘇澳無尾港」。天氣偏霧／霾，能見度低、畫面對比偏淡。近岸可見多層白色碎浪線持續湧岸，海面有小浪活動；水中可見至少一名衝浪者。岸邊停兩輛白色車輛（有太陽反光），前景右側林投植被茂密，右側遠際山腳隱入霧中。未估浪高。",
+      "live_ok": true,
+      "thumb": "archive/2026-09-26/1005/wuwei.jpg",
+      "clip": "archive/2026-09-26/1005/wuwei.mp4",
+      "conditions": {
+        "hour": 9,
+        "source": "windguru",
+        "wspd_kt": 3.9,
+        "wave_m": 0.5,
+        "wave_per_s": 11.2,
+        "dir_deg": 31.0,
+        "wave_dir_deg": 121.0
+      }
+    },
+    {
+      "date": "2026-09-26",
+      "slug": "zhunan",
+      "spot": "竹南假日之森",
+      "captured_at": "2026-09-26T10:13:41+08:00",
+      "wave_notes_zh": "晴朗藍天，右上時間戳2026-09-26 10:12:48 Sat；標「WaveYard Taiwan／竹南假日之森／Zhunan Kite beach」。近岸有數排偏小白浪碎浪，浪列略散；離岸水面相對平靜，遠際可見一排離岸風機。岸際消波塊／礁石露出，近岸水色偏綠褐；前景草坡，右下沙灘可見一人。未估浪高。",
+      "live_ok": true,
+      "thumb": "archive/2026-09-26/1005/zhunan.jpg",
+      "clip": "archive/2026-09-26/1005/zhunan.mp4",
+      "conditions": {
+        "hour": 9,
+        "source": "windguru",
+        "wspd_kt": 4.2,
+        "wave_m": 0.2,
+        "wave_per_s": 5.9,
+        "dir_deg": 258.0,
+        "wave_dir_deg": 31.0
       }
     }
   ],
