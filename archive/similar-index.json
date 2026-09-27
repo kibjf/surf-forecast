@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-27T06:24:04+08:00",
+  "generated_at": "2026-09-27T08:21:27+08:00",
   "archive_spots": [
     "zhongjiao",
     "wuwei",
@@ -1713,6 +1713,63 @@
         "wave_per_s": 2.6,
         "dir_deg": 213.0,
         "wave_dir_deg": 240.0
+      }
+    },
+    {
+      "date": "2026-09-27",
+      "slug": "zhongjiao",
+      "spot": "中角",
+      "captured_at": "2026-09-27T08:13:22+08:00",
+      "wave_notes_zh": "左上時間戳2026年09月27日8點09分07秒。晴朗早晨，陽光自右側映照海面形成強烈反光。海面整體平靜、僅見輕微波紋；近岸有細薄白沫碎浪線洗上沙灘。潮位偏低，大片濕沙外露。右側可見岬角／山巒與遠方岩礁剪影。沙灘上有少數人影（含躺坐墊者）。未見明顯衝浪者。未估浪高。",
+      "live_ok": true,
+      "thumb": "archive/2026-09-27/0805/zhongjiao.jpg",
+      "clip": "archive/2026-09-27/0805/zhongjiao.mp4",
+      "conditions": {
+        "hour": 7,
+        "source": "windguru",
+        "wspd_kt": 7.5,
+        "wave_m": 0.6,
+        "wave_per_s": 9.7,
+        "dir_deg": 246.0,
+        "wave_dir_deg": 106.0
+      }
+    },
+    {
+      "date": "2026-09-27",
+      "slug": "wuwei",
+      "spot": "無尾港",
+      "captured_at": "2026-09-27T08:13:22+08:00",
+      "wave_notes_zh": "右上時間戳2026-09-27 08:10:24；左下標「國海院_GoOcean_蘇澳無尾港」。晴朗略帶薄霧。前景林投／海岸植被茂密，中景停有白色廂型車與轎車。岸際可見多道白色碎浪線持續推進，遠岸海面相對平整、似輕風。未見明顯衝浪者。未估浪高。",
+      "live_ok": true,
+      "thumb": "archive/2026-09-27/0805/wuwei.jpg",
+      "clip": "archive/2026-09-27/0805/wuwei.mp4",
+      "conditions": {
+        "hour": 7,
+        "source": "windguru",
+        "wspd_kt": 2.9,
+        "wave_m": 0.9,
+        "wave_per_s": 9.6,
+        "dir_deg": 270.0,
+        "wave_dir_deg": 111.0
+      }
+    },
+    {
+      "date": "2026-09-27",
+      "slug": "zhunan",
+      "spot": "竹南假日之森",
+      "captured_at": "2026-09-27T08:13:22+08:00",
+      "wave_notes_zh": "右上時間戳2026-09-27 08:11:03 Sun；標「WaveYard Taiwan／竹南假日之森／Zhunan Kite beach」。晴朗淡藍天空，遠岸離岸風機一字排開。海面平靜偏藍，近岸僅見細薄白沫碎浪線。潮位明顯偏低，大片濕沙外露；前景草坡下有消波塊。沙灘／淺灘可見少數行人。未見風箏／明顯衝浪者。未估浪高。",
+      "live_ok": true,
+      "thumb": "archive/2026-09-27/0805/zhunan.jpg",
+      "clip": "archive/2026-09-27/0805/zhunan.mp4",
+      "conditions": {
+        "hour": 7,
+        "source": "windguru",
+        "wspd_kt": 7.7,
+        "wave_m": 0.4,
+        "wave_per_s": 2.7,
+        "dir_deg": 200.0,
+        "wave_dir_deg": 229.0
       }
     }
   ],
