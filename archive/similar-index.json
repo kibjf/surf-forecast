@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T03:20:37+08:00",
+  "generated_at": "2026-10-02T05:26:03+08:00",
   "archive_spots": [
     "zhongjiao",
     "wuwei",
@@ -2914,6 +2914,66 @@
       "live_ok": true,
       "thumb": "archive/2026-10-01/1605/zhongjiao.jpg",
       "clip": "archive/2026-10-01/1605/zhongjiao.mp4"
+    },
+    {
+      "date": "2026-10-02",
+      "slug": "wuwei",
+      "spot": "無尾港",
+      "captured_at": "2026-10-02T05:17:08+08:00",
+      "wave_notes_zh": "近岸至中場可見多道橫向白沫碎浪線，外海亦有碎浪帶，海面偏活躍但浪況偏小，未估浪高。",
+      "wave_judgment_zh": "近岸至中場可見多道橫向白沫碎浪線。外海亦有碎浪帶。海面偏活躍但浪況偏小。未估浪高。",
+      "live_ok": true,
+      "thumb": "archive/2026-10-02/0505/wuwei.jpg",
+      "clip": "archive/2026-10-02/0505/wuwei.mp4",
+      "conditions": {
+        "hour": 5,
+        "source": "windguru",
+        "wspd_kt": 7.0,
+        "wave_m": 0.3,
+        "wave_per_s": 5.6,
+        "dir_deg": 306.0,
+        "wave_dir_deg": 40.0
+      }
+    },
+    {
+      "date": "2026-10-02",
+      "slug": "zhongjiao",
+      "spot": "中角",
+      "captured_at": "2026-10-02T05:17:11+08:00",
+      "wave_notes_zh": "近岸有三至四道平行白沫碎浪線，外海仍見波紋與小湧峰，浪能尚可但偏小，未估浪高。",
+      "wave_judgment_zh": "近岸有三至四道平行白沫碎浪線。外海仍見波紋與小湧峰。浪能尚可但偏小。未估浪高。",
+      "live_ok": true,
+      "thumb": "archive/2026-10-02/0505/zhongjiao.jpg",
+      "clip": "archive/2026-10-02/0505/zhongjiao.mp4",
+      "conditions": {
+        "hour": 5,
+        "source": "windguru",
+        "wspd_kt": 8.0,
+        "wave_m": 1.0,
+        "wave_per_s": 6.6,
+        "dir_deg": 59.0,
+        "wave_dir_deg": 2.0
+      }
+    },
+    {
+      "date": "2026-10-02",
+      "slug": "zhunan",
+      "spot": "竹南假日之森",
+      "captured_at": "2026-10-02T05:17:13+08:00",
+      "wave_notes_zh": "近岸有數道清晰橫向白沫碎浪線，外海偏平緩、能量偏弱，浪況偏小，未估浪高。",
+      "wave_judgment_zh": "近岸有數道清晰橫向白沫碎浪線。外海偏平緩。浪況偏小。未估浪高。",
+      "live_ok": true,
+      "thumb": "archive/2026-10-02/0505/zhunan.jpg",
+      "clip": "archive/2026-10-02/0505/zhunan.mp4",
+      "conditions": {
+        "hour": 5,
+        "source": "windguru",
+        "wspd_kt": 8.8,
+        "wave_m": 1.0,
+        "wave_per_s": 6.5,
+        "dir_deg": 48.0,
+        "wave_dir_deg": 7.0
+      }
     }
   ],
   "note_zh": ""
