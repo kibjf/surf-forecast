@@ -1,0 +1,12 @@
+{
+  "spot": "竹南假日之森",
+  "slug": "zhunan",
+  "youtube": "https://www.youtube.com/watch?v=22AdOQNS4PY",
+  "wave_notes_zh": "近岸有數道橫向白沫碎浪線，外海湧浪偏低、碎浪偏柔，能量中等偏小，未估浪高。",
+  "captured_at": "2026-10-04T05:30:25+08:00",
+  "live_ok": false,
+  "clip_bytes": 67913,
+  "frame_bytes": 30094,
+  "clip_duration_s": 3.966667,
+  "note": "YouTube HLS segments 503/TLS failures; only short fragment captured"
+}
