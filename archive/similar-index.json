@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T15:17:08+08:00",
+  "generated_at": "2026-10-04T16:26:18+08:00",
   "archive_spots": [
     "zhongjiao",
     "wuwei",
@@ -39,7 +39,7 @@
       "spot": "竹南假日之森",
       "captured_at": "2026-09-19T11:45:35+08:00",
       "wave_notes_zh": "沙灘露出範圍很寬，研判為退潮偏低潮位。浪況偏雜亂破碎、浪高不高，水色稍混，有數排碎浪但不夠整齊。遠處可見離岸風機，天氣晴朗，較適合初學或長板在碎浪區練習。",
-      "wave_judgment_zh": "浪況偏雜亂破碎。浪高不高。水色稍混。有數排碎浪但不夠整齊。較適合初學或長板在碎浪區練習。",
+      "wave_judgment_zh": "浪況偏雜亂破碎。浪高不高。有數排碎浪但不夠整齊。較適合初學或長板在碎浪區練習。",
       "live_ok": true,
       "thumb": "archive/2026-09-19/1145/zhunan.jpg",
       "clip": "archive/2026-09-19/1145/zhunan.mp4"
@@ -248,7 +248,7 @@
       "spot": "無尾港",
       "captured_at": "2026-09-20T12:08:41+08:00",
       "wave_notes_zh": "晴朗偏薄霧；前景林投清楚，海面多層白色碎浪綿延，近岸水色偏混濁褐色，浪況看起來偏凌亂但浪高不高。岸邊暫無人影，能見度普通偏好。",
-      "wave_judgment_zh": "海面多層白色碎浪綿延。近岸水色偏混濁褐色。浪況看起來偏凌亂但浪高不高。",
+      "wave_judgment_zh": "海面多層白色碎浪綿延。浪況看起來偏凌亂但浪高不高。",
       "live_ok": true,
       "thumb": "archive/2026-09-20/1205/wuwei.jpg",
       "clip": "archive/2026-09-20/1205/wuwei.mp4"
@@ -490,7 +490,7 @@
       "spot": "中角",
       "captured_at": "2026-09-21T10:13:19+08:00",
       "wave_notes_zh": "陰天灰亮、能見度尚可；近岸多層白沫碎浪持續進場，浪況中等偏有力，近岸水色偏濁。左側卵石灘、右側沙灘有數人駐足，一人下水。",
-      "wave_judgment_zh": "近岸多層白沫碎浪持續進場。浪況中等偏有力。近岸水色偏濁。",
+      "wave_judgment_zh": "近岸多層白沫碎浪持續進場。浪況中等偏有力。",
       "live_ok": true,
       "thumb": "archive/2026-09-21/1005/zhongjiao.jpg",
       "clip": "archive/2026-09-21/1005/zhongjiao.mp4"
@@ -512,7 +512,7 @@
       "spot": "中角",
       "captured_at": "2026-09-21T12:21:18+08:00",
       "wave_notes_zh": "晴朗無雲、能見度極佳；近岸可見多排整齊長線白沫碎浪持續進場，浪況穩定且偏有力，外水深藍、近岸沙灘處水色偏濁。左側卵石灘、右側沙灘，畫面無人。",
-      "wave_judgment_zh": "近岸可見多排整齊長線白沫碎浪持續進場。浪況穩定且偏有力。近岸沙灘處水色偏濁。",
+      "wave_judgment_zh": "近岸可見多排整齊長線白沫碎浪持續進場。浪況穩定且偏有力。",
       "live_ok": true,
       "thumb": "archive/2026-09-21/1205/zhongjiao.jpg",
       "clip": "archive/2026-09-21/1205/zhongjiao.mp4"
@@ -523,7 +523,7 @@
       "spot": "無尾港",
       "captured_at": "2026-09-21T12:21:20+08:00",
       "wave_notes_zh": "陰天灰白帶霧、遠方海平線偏模糊；近岸多層密集白沫碎浪偏活躍偏凌亂，海面能量明顯，水色深灰藍。前景林投清楚，岸邊岩礁／卵石灘，畫面無人。",
-      "wave_judgment_zh": "近岸多層密集白沫碎浪偏活躍偏凌亂。水色深灰藍。",
+      "wave_judgment_zh": "近岸多層密集白沫碎浪偏活躍偏凌亂。",
       "live_ok": true,
       "thumb": "archive/2026-09-21/1205/wuwei.jpg",
       "clip": "archive/2026-09-21/1205/wuwei.mp4"
@@ -534,7 +534,7 @@
       "spot": "竹南假日之森",
       "captured_at": "2026-09-21T12:21:26+08:00",
       "wave_notes_zh": "晴空但薄霧／霾使視野偏糊；潮位偏低濕沙面寬，近岸遠方數層低矮細碎浪偏弱偏凌亂，水色偏濁褐，離岸風機隱約可見。沙灘無人。",
-      "wave_judgment_zh": "近岸遠方數層低矮細碎浪偏弱偏凌亂。水色偏濁褐。",
+      "wave_judgment_zh": "近岸遠方數層低矮細碎浪偏弱偏凌亂。",
       "live_ok": true,
       "thumb": "archive/2026-09-21/1205/zhunan.jpg",
       "clip": "archive/2026-09-21/1205/zhunan.mp4"
@@ -556,7 +556,7 @@
       "spot": "無尾港",
       "captured_at": "2026-09-21T14:23:48+08:00",
       "wave_notes_zh": "天空淺灰帶霧、海平線偏糊；水色深灰藍，近岸多層平行白沫碎浪規律進場偏活躍。岸邊消波塊／礫石灘，前景林投清楚，畫面無人。",
-      "wave_judgment_zh": "水色深灰藍。近岸多層平行白沫碎浪規律進場偏活躍。",
+      "wave_judgment_zh": "近岸多層平行白沫碎浪規律進場偏活躍。",
       "live_ok": true,
       "thumb": "archive/2026-09-21/1405/wuwei.jpg",
       "clip": "archive/2026-09-21/1405/wuwei.mp4"
@@ -589,7 +589,7 @@
       "spot": "無尾港",
       "captured_at": "2026-09-21T16:24:17+08:00",
       "wave_notes_zh": "天空淡藍灰帶薄霧；水色深灰藍，近岸多層白沫碎浪連綿進場偏活躍。岸邊消波塊／岩石灘，前景林投清楚，右側綠山頭，畫面無人。",
-      "wave_judgment_zh": "水色深灰藍。近岸多層白沫碎浪連綿進場偏活躍。",
+      "wave_judgment_zh": "近岸多層白沫碎浪連綿進場偏活躍。",
       "live_ok": true,
       "thumb": "archive/2026-09-21/1605/wuwei.jpg",
       "clip": "archive/2026-09-21/1605/wuwei.mp4"
@@ -710,7 +710,7 @@
       "spot": "中角",
       "captured_at": "2026-09-22T10:18:33+08:00",
       "wave_notes_zh": "上午陽光充足、天空晴朗；外海可見多排平行白沫碎浪規律向沙岸推進，近岸水色偏青綠。前景沙灘有漂流木與左側卵石帶，畫面中未見人影；遠方地平線隱約有船影。未估浪高。",
-      "wave_judgment_zh": "外海可見多排平行白沫碎浪規律向沙岸推進。近岸水色偏青綠。未估浪高。",
+      "wave_judgment_zh": "外海可見多排平行白沫碎浪規律向沙岸推進。未估浪高。",
       "live_ok": true,
       "thumb": "archive/2026-09-22/1005/zhongjiao.jpg",
       "clip": "archive/2026-09-22/1005/zhongjiao.mp4"
@@ -754,7 +754,7 @@
       "spot": "中角",
       "captured_at": "2026-09-22T12:21:24+08:00",
       "wave_notes_zh": "正午晴朗無雲、陽光充足；外海可見多層平行白沫碎浪向沙岸推進，近岸水色偏青綠。前景有步道、圓形平台與綠植，沙礫混合岸線；畫面中未見明顯人影。未估浪高。",
-      "wave_judgment_zh": "外海可見多層平行白沫碎浪向沙岸推進。近岸水色偏青綠。未估浪高。",
+      "wave_judgment_zh": "外海可見多層平行白沫碎浪向沙岸推進。未估浪高。",
       "live_ok": true,
       "thumb": "archive/2026-09-22/1205/zhongjiao.jpg",
       "clip": "archive/2026-09-22/1205/zhongjiao.mp4"
@@ -765,7 +765,7 @@
       "spot": "無尾港",
       "captured_at": "2026-09-22T12:21:24+08:00",
       "wave_notes_zh": "日間光線充足但地平線略有薄霾；近岸可見多排白沫碎浪向岸推進，水色偏褐灰。前景為濱海綠植與林投，沙岸帶可見；畫面中未見明顯人影。未估浪高。",
-      "wave_judgment_zh": "近岸可見多排白沫碎浪向岸推進。水色偏褐灰。未估浪高。",
+      "wave_judgment_zh": "近岸可見多排白沫碎浪向岸推進。未估浪高。",
       "live_ok": true,
       "thumb": "archive/2026-09-22/1205/wuwei.jpg",
       "clip": "archive/2026-09-22/1205/wuwei.mp4"
@@ -787,7 +787,7 @@
       "spot": "無尾港",
       "captured_at": "2026-09-22T14:20:44+08:00",
       "wave_notes_zh": "午後光線充足但帶薄霾、色調略偏黃灰；近岸多排細碎白沫浪線推進，水色偏褐灰混濁。前景為濱海綠植與林投，右後方有山丘；畫面中未見明顯人影。未估浪高。",
-      "wave_judgment_zh": "近岸多排細碎白沫浪線推進。水色偏褐灰混濁。未估浪高。",
+      "wave_judgment_zh": "近岸多排細碎白沫浪線推進。未估浪高。",
       "live_ok": true,
       "thumb": "archive/2026-09-22/1405/wuwei.jpg",
       "clip": "archive/2026-09-22/1405/wuwei.mp4"
@@ -798,7 +798,7 @@
       "spot": "竹南",
       "captured_at": "2026-09-22T14:20:44+08:00",
       "wave_notes_zh": "午後陽光充足、天空晴朗略有薄霾；寬闊沙岸外可見數層平行白沫碎浪推進，近岸水色偏褐青、遠海灰藍。前景草坡與消波塊堤防，遠方可見風機；沙灘上有少數行人。未估浪高。",
-      "wave_judgment_zh": "寬闊沙岸外可見數層平行白沫碎浪推進。近岸水色偏褐青。未估浪高。",
+      "wave_judgment_zh": "寬闊沙岸外可見數層平行白沫碎浪推進。未估浪高。",
       "live_ok": true,
       "thumb": "archive/2026-09-22/1405/zhunan.jpg",
       "clip": "archive/2026-09-22/1405/zhunan.mp4"
@@ -809,7 +809,7 @@
       "spot": "中角",
       "captured_at": "2026-09-22T16:25:57+08:00",
       "wave_notes_zh": "午後陽光充足、天空淡藍有疏雲；外海可見多層平行白沫碎浪向沙岸推進，水色藍綠偏清。沙岸較寬，岸上可見少數人與藍色帳篷；遠方有防波堤／礁岩與山丘建築。未估浪高。",
-      "wave_judgment_zh": "外海可見多層平行白沫碎浪向沙岸推進。水色藍綠偏清。未估浪高。",
+      "wave_judgment_zh": "外海可見多層平行白沫碎浪向沙岸推進。未估浪高。",
       "live_ok": true,
       "thumb": "archive/2026-09-22/1605/zhongjiao.jpg",
       "clip": "archive/2026-09-22/1605/zhongjiao.mp4"
@@ -941,7 +941,7 @@
       "spot": "中角",
       "captured_at": "2026-09-23T10:17:30+08:00",
       "wave_notes_zh": "上午晴朗、能見度佳；畫面時間戳約10:15。海面可見數層平行白沫碎浪線向岸推進，水色由外深藍轉近岸青綠。左側鵝卵石／岩岸，右側沙灘可見一件漂流木；近景綠植與白色標誌牌。畫面中未見衝浪者或遊客。光線明亮均勻。未估浪高。",
-      "wave_judgment_zh": "海面可見數層平行白沫碎浪線向岸推進。水色由外深藍轉近岸青綠。未估浪高。",
+      "wave_judgment_zh": "海面可見數層平行白沫碎浪線向岸推進。未估浪高。",
       "live_ok": true,
       "thumb": "archive/2026-09-23/1005/zhongjiao.jpg",
       "clip": "archive/2026-09-23/1005/zhongjiao.mp4"
@@ -1656,7 +1656,7 @@
       "spot": "竹南假日之森",
       "captured_at": "2026-09-26T10:13:41+08:00",
       "wave_notes_zh": "晴朗藍天，右上時間戳2026-09-26 10:12:48 Sat；標「WaveYard Taiwan／竹南假日之森／Zhunan Kite beach」。近岸有數排偏小白浪碎浪，浪列略散；離岸水面相對平靜，遠際可見一排離岸風機。岸際消波塊／礁石露出，近岸水色偏綠褐；前景草坡，右下沙灘可見一人。未估浪高。",
-      "wave_judgment_zh": "近岸有數排偏小白浪碎浪。浪列略散。離岸水面相對平靜。近岸水色偏綠褐。未估浪高。",
+      "wave_judgment_zh": "近岸有數排偏小白浪碎浪。浪列略散。離岸水面相對平靜。未估浪高。",
       "live_ok": true,
       "thumb": "archive/2026-09-26/1005/zhunan.jpg",
       "clip": "archive/2026-09-26/1005/zhunan.mp4"
@@ -1887,7 +1887,7 @@
       "spot": "竹南假日之森",
       "captured_at": "2026-09-27T10:17:22+08:00",
       "wave_notes_zh": "右上時間戳2026-09-27 10:15:59 Sun；標「WaveYard Taiwan／竹南假日之森／Zhunan Kite beach」。晴朗淡藍天空，遠岸離岸風機一字排開。海面可見數層白色碎浪線往岸推進，近岸水色偏綠褐。前景草坡下有消波塊／大石。右側海域似有一名風箏／風帆玩家；岸邊右側有少數行人。未估浪高。",
-      "wave_judgment_zh": "海面可見數層白色碎浪線往岸推進。近岸水色偏綠褐。未估浪高。",
+      "wave_judgment_zh": "海面可見數層白色碎浪線往岸推進。未估浪高。",
       "live_ok": true,
       "thumb": "archive/2026-09-27/1005/zhunan.jpg",
       "clip": "archive/2026-09-27/1005/zhunan.mp4"
@@ -1920,7 +1920,7 @@
       "spot": "竹南假日之森",
       "captured_at": "2026-09-27T12:22:49+08:00",
       "wave_notes_zh": "右上時間戳2026-09-27 12:20:33 Sun；標「WaveYard Taiwan／竹南假日之森／Zhunan Kite beach」。晴朗淡藍天空略帶遠方薄霧。海面可見多層（約4–5道）白色碎浪線往岸推進，近岸水色偏綠褐。前景草坡下有消波塊／大石橫列，窄條濕沙岸線。遠岸離岸風機一字排開。此幀未見明顯風箏／衝浪者或行人。未估浪高。",
-      "wave_judgment_zh": "海面可見多層白色碎浪線往岸推進。近岸水色偏綠褐。未估浪高。",
+      "wave_judgment_zh": "海面可見多層白色碎浪線往岸推進。未估浪高。",
       "live_ok": true,
       "thumb": "archive/2026-09-27/1205/zhunan.jpg",
       "clip": "archive/2026-09-27/1205/zhunan.mp4"
@@ -1953,7 +1953,7 @@
       "spot": "竹南假日之森",
       "captured_at": "2026-09-27T14:12:04+08:00",
       "wave_notes_zh": "右上時間戳2026-09-27 14:10:34 Sun；標「WaveYard Taiwan／竹南假日之森／Zhunan Kite beach」。晴朗淡藍天空。海面可見多層白色碎浪線往岸推進，水色偏青綠。前景草坡下消波塊／大石橫列，沙灘寬闊偏濕；沙上可見粉紅與灰藍風箏平鋪，約十數人散佈岸際與淺水。遠岸離岸風機一字排開。未估浪高。",
-      "wave_judgment_zh": "海面可見多層白色碎浪線往岸推進。水色偏青綠。未估浪高。",
+      "wave_judgment_zh": "海面可見多層白色碎浪線往岸推進。未估浪高。",
       "live_ok": true,
       "thumb": "archive/2026-09-27/1405/zhunan.jpg",
       "clip": "archive/2026-09-27/1405/zhunan.mp4"
@@ -2151,7 +2151,7 @@
       "spot": "竹南假日之森",
       "captured_at": "2026-09-28T12:19:06+08:00",
       "wave_notes_zh": "畫面標示 WaveYard Taiwan／竹南假日之森／Zhunan Kite beach；時間戳2026-09-28 12:18:13 Mon。正午晴朗淡藍天空，遠方可見風力發電機排。近岸多道碎浪轉白沫，水色偏濁褐、外海轉藍；海面略有風紋。前景綠坡與白色水泥塊／石堤。未見明顯人員。未估浪高。",
-      "wave_judgment_zh": "近岸多道碎浪轉白沫。水色偏濁褐。外海轉藍。未估浪高。",
+      "wave_judgment_zh": "近岸多道碎浪轉白沫。外海轉藍。未估浪高。",
       "live_ok": true,
       "thumb": "archive/2026-09-28/1205/zhunan.jpg",
       "clip": "archive/2026-09-28/1205/zhunan.mp4"
@@ -2184,7 +2184,7 @@
       "spot": "竹南假日之森",
       "captured_at": "2026-09-28T14:17:47+08:00",
       "wave_notes_zh": "畫面標示 WaveYard Taiwan／竹南假日之森／Zhunan Kite beach；時間戳2026-09-28 14:16:39 Mon。午後晴朗淡藍天空，遠方可見風力發電機排。近岸多道碎浪轉白沫，水色偏濁褐綠、外海轉藍灰；海面略有風紋。可見一名粉紅風箏的風箏衝浪者。前景綠坡與消波塊，沙上有風箏器材；沙灘有少量行人。未估浪高。",
-      "wave_judgment_zh": "近岸多道碎浪轉白沫。水色偏濁褐綠。外海轉藍灰。未估浪高。",
+      "wave_judgment_zh": "近岸多道碎浪轉白沫。外海轉藍灰。未估浪高。",
       "live_ok": true,
       "thumb": "archive/2026-09-28/1405/zhunan.jpg",
       "clip": "archive/2026-09-28/1405/zhunan.mp4"
@@ -2217,7 +2217,7 @@
       "spot": "竹南假日之森",
       "captured_at": "2026-09-28T16:10:57+08:00",
       "wave_notes_zh": "畫面標示 WaveYard Taiwan／竹南假日之森／Zhunan Kite beach；時間戳2026-09-28 16:09:45 Mon。午後晴朗、長影明顯；遠方可見風力發電機。近岸多道碎浪白沫，水色偏濁；大片退潮灘地與潮池反光。可見攜藍色板／風箏板者與遮陽傘下休息者，沙灘有少量行人。前景消波塊與綠坡。未估浪高。",
-      "wave_judgment_zh": "近岸多道碎浪白沫。水色偏濁。未估浪高。",
+      "wave_judgment_zh": "近岸多道碎浪白沫。未估浪高。",
       "live_ok": true,
       "thumb": "archive/2026-09-28/1605/zhunan.jpg",
       "clip": "archive/2026-09-28/1605/zhunan.mp4"
@@ -2382,7 +2382,7 @@
       "spot": "竹南假日之森",
       "captured_at": "2026-09-29T12:15:53+08:00",
       "wave_notes_zh": "近岸有厚實白沫碎浪線並見次級碎浪，外海有低矮湧浪線且水面偏亂，水色偏濁，未估浪高。",
-      "wave_judgment_zh": "近岸有厚實白沫碎浪線並見次級碎浪。外海有低矮湧浪線且水面偏亂。水色偏濁。未估浪高。",
+      "wave_judgment_zh": "近岸有厚實白沫碎浪線並見次級碎浪。外海有低矮湧浪線且水面偏亂。未估浪高。",
       "live_ok": true,
       "thumb": "archive/2026-09-29/1205/zhunan.jpg",
       "clip": "archive/2026-09-29/1205/zhunan.mp4"
@@ -2415,7 +2415,7 @@
       "spot": "竹南假日之森",
       "captured_at": "2026-09-29T14:17:45+08:00",
       "wave_notes_zh": "近岸有多道連續橫向碎浪線，能量穩定但浪況偏小，外海海面平緩，水色偏濁，未估浪高。",
-      "wave_judgment_zh": "近岸有多道連續橫向碎浪線。能量穩定但浪況偏小。外海海面平緩。水色偏濁。未估浪高。",
+      "wave_judgment_zh": "近岸有多道連續橫向碎浪線。能量穩定但浪況偏小。外海海面平緩。未估浪高。",
       "live_ok": true,
       "thumb": "archive/2026-09-29/1405/zhunan.jpg",
       "clip": "archive/2026-09-29/1405/zhunan.mp4"
@@ -2646,7 +2646,7 @@
       "spot": "竹南假日之森",
       "captured_at": "2026-09-30T14:24:05+08:00",
       "wave_notes_zh": "近岸有多道低緩白沫碎浪，外海偏平，水色偏濁，浪能偏弱，未估浪高。",
-      "wave_judgment_zh": "近岸有多道低緩白沫碎浪。外海偏平。水色偏濁。浪能偏弱。未估浪高。",
+      "wave_judgment_zh": "近岸有多道低緩白沫碎浪。外海偏平。浪能偏弱。未估浪高。",
       "live_ok": true,
       "thumb": "archive/2026-09-30/1405/zhunan.jpg",
       "clip": "archive/2026-09-30/1405/zhunan.mp4"
@@ -2844,7 +2844,7 @@
       "spot": "竹南假日之森",
       "captured_at": "2026-10-01T12:12:48+08:00",
       "wave_notes_zh": "近岸有多道細長白沫碎浪線，外海偏平，能量偏弱偏小，水色偏濁，未估浪高。",
-      "wave_judgment_zh": "近岸有多道細長白沫碎浪線。外海偏平。水色偏濁。未估浪高。",
+      "wave_judgment_zh": "近岸有多道細長白沫碎浪線。外海偏平。未估浪高。",
       "live_ok": true,
       "thumb": "archive/2026-10-01/1205/zhunan.jpg",
       "clip": "archive/2026-10-01/1205/zhunan.mp4"
@@ -2877,7 +2877,7 @@
       "spot": "竹南假日之森",
       "captured_at": "2026-10-01T14:18:22+08:00",
       "wave_notes_zh": "近岸有兩道細長白沫碎浪線，外海偏平，能量偏弱偏小，水色偏濁，未估浪高。",
-      "wave_judgment_zh": "近岸有兩道細長白沫碎浪線。外海偏平。水色偏濁。未估浪高。",
+      "wave_judgment_zh": "近岸有兩道細長白沫碎浪線。外海偏平。未估浪高。",
       "live_ok": true,
       "thumb": "archive/2026-10-01/1405/zhunan.jpg",
       "clip": "archive/2026-10-01/1405/zhunan.mp4"
@@ -3064,7 +3064,7 @@
       "spot": "竹南假日之森",
       "captured_at": "2026-10-02T12:14:22+08:00",
       "wave_notes_zh": "多道平行碎浪線自外海連至近岸，近岸白沫密集、能量尚可，水色偏濁，未估浪高。",
-      "wave_judgment_zh": "多道平行碎浪線自外海連至近岸。近岸白沫密集。水色偏濁。未估浪高。",
+      "wave_judgment_zh": "多道平行碎浪線自外海連至近岸。近岸白沫密集。未估浪高。",
       "live_ok": true,
       "thumb": "archive/2026-10-02/1205/zhunan.jpg",
       "clip": "archive/2026-10-02/1205/zhunan.mp4"
@@ -3075,7 +3075,7 @@
       "spot": "無尾港",
       "captured_at": "2026-10-02T12:17:26+08:00",
       "wave_notes_zh": "近岸見多道連貫橫向碎浪線，外海偏緩，水色偏濁，未估浪高。",
-      "wave_judgment_zh": "近岸見多道連貫橫向碎浪線。外海偏緩。水色偏濁。未估浪高。",
+      "wave_judgment_zh": "近岸見多道連貫橫向碎浪線。外海偏緩。未估浪高。",
       "live_ok": true,
       "thumb": "archive/2026-10-02/1205/wuwei.jpg",
       "clip": "archive/2026-10-02/1205/wuwei.mp4"
@@ -3086,7 +3086,7 @@
       "spot": "無尾港",
       "captured_at": "2026-10-02T14:15:47+08:00",
       "wave_notes_zh": "近岸見多道細薄橫向碎浪線，外海偏緩，浪況偏小，水色略濁，未估浪高。",
-      "wave_judgment_zh": "近岸見多道細薄橫向碎浪線。外海偏緩。浪況偏小。水色略濁。未估浪高。",
+      "wave_judgment_zh": "近岸見多道細薄橫向碎浪線。外海偏緩。浪況偏小。未估浪高。",
       "live_ok": true,
       "thumb": "archive/2026-10-02/1405/wuwei.jpg",
       "clip": "archive/2026-10-02/1405/wuwei.mp4"
@@ -3108,7 +3108,7 @@
       "spot": "竹南假日之森",
       "captured_at": "2026-10-02T14:15:52+08:00",
       "wave_notes_zh": "多道平行碎浪線自外海連至近岸，近岸白沫密集、能量尚可，水色偏濁，未估浪高。",
-      "wave_judgment_zh": "多道平行碎浪線自外海連至近岸。近岸白沫密集。水色偏濁。未估浪高。",
+      "wave_judgment_zh": "多道平行碎浪線自外海連至近岸。近岸白沫密集。未估浪高。",
       "live_ok": true,
       "thumb": "archive/2026-10-02/1405/zhunan.jpg",
       "clip": "archive/2026-10-02/1405/zhunan.mp4"
@@ -3141,7 +3141,7 @@
       "spot": "竹南假日之森",
       "captured_at": "2026-10-02T16:16:49+08:00",
       "wave_notes_zh": "近岸至中岸多道碎浪白沫密集、帶面偏寬，外海表面偏碎亂，能量尚可，水色偏濁，未估浪高。",
-      "wave_judgment_zh": "近岸至中岸多道碎浪白沫密集。外海表面偏碎亂。水色偏濁。未估浪高。",
+      "wave_judgment_zh": "近岸至中岸多道碎浪白沫密集。外海表面偏碎亂。未估浪高。",
       "live_ok": true,
       "thumb": "archive/2026-10-02/1605/zhunan.jpg",
       "clip": "archive/2026-10-02/1605/zhunan.mp4"
@@ -3306,7 +3306,7 @@
       "spot": "無尾港",
       "captured_at": "2026-10-03T12:15:35+08:00",
       "wave_notes_zh": "多道橫向碎浪白沫線層疊，外海湧浪可見，近岸能量穩定、水色偏濁，未估浪高。",
-      "wave_judgment_zh": "多道橫向碎浪白沫線層疊。外海湧浪可見。近岸能量穩定。水色偏濁。未估浪高。",
+      "wave_judgment_zh": "多道橫向碎浪白沫線層疊。外海湧浪可見。近岸能量穩定。未估浪高。",
       "live_ok": true,
       "thumb": "archive/2026-10-03/1205/wuwei.jpg",
       "clip": "archive/2026-10-03/1205/wuwei.mp4"
@@ -3701,6 +3701,66 @@
         "wave_m": 0.5,
         "wave_per_s": 6.7,
         "dir_deg": 337.0,
+        "wave_dir_deg": 32.0
+      }
+    },
+    {
+      "date": "2026-10-04",
+      "slug": "zhongjiao",
+      "spot": "中角",
+      "captured_at": "2026-10-04T16:17:38+08:00",
+      "wave_notes_zh": "近岸有細碎白沫浪線緩緩推進，外海海面偏平，能量微弱，浪況極小，未估浪高。",
+      "wave_judgment_zh": "近岸有細碎白沫浪線緩緩推進。外海海面偏平。浪況極小。未估浪高。",
+      "live_ok": true,
+      "thumb": "archive/2026-10-04/1605/zhongjiao.jpg",
+      "clip": "archive/2026-10-04/1605/zhongjiao.mp4",
+      "conditions": {
+        "hour": 15,
+        "source": "windguru",
+        "wspd_kt": 7.3,
+        "wave_m": 0.8,
+        "wave_per_s": 6.4,
+        "dir_deg": 79.0,
+        "wave_dir_deg": 38.0
+      }
+    },
+    {
+      "date": "2026-10-04",
+      "slug": "wuwei",
+      "spot": "無尾港",
+      "captured_at": "2026-10-04T16:17:38+08:00",
+      "wave_notes_zh": "海面有多道整齊橫向白沫碎浪線，近岸碎浪持續，浪頭偏平能量尚可，未估浪高。",
+      "wave_judgment_zh": "海面有多道整齊橫向白沫碎浪線。近岸碎浪持續。浪頭偏平能量尚可。未估浪高。",
+      "live_ok": true,
+      "thumb": "archive/2026-10-04/1605/wuwei.jpg",
+      "clip": "archive/2026-10-04/1605/wuwei.mp4",
+      "conditions": {
+        "hour": 15,
+        "source": "windguru",
+        "wspd_kt": 4.7,
+        "wave_m": 0.7,
+        "wave_per_s": 6.4,
+        "dir_deg": 46.0,
+        "wave_dir_deg": 29.0
+      }
+    },
+    {
+      "date": "2026-10-04",
+      "slug": "zhunan",
+      "spot": "竹南假日之森",
+      "captured_at": "2026-10-04T16:17:38+08:00",
+      "wave_notes_zh": "近岸有數道平行細碎白沫浪線，外海偏平，浪況偏小能量弱，水色偏濁，未估浪高。",
+      "wave_judgment_zh": "近岸有數道平行細碎白沫浪線。外海偏平。浪況偏小能量弱。未估浪高。",
+      "live_ok": true,
+      "thumb": "archive/2026-10-04/1605/zhunan.jpg",
+      "clip": "archive/2026-10-04/1605/zhunan.mp4",
+      "conditions": {
+        "hour": 15,
+        "source": "windguru",
+        "wspd_kt": 5.8,
+        "wave_m": 0.5,
+        "wave_per_s": 6.6,
+        "dir_deg": 357.0,
         "wave_dir_deg": 32.0
       }
     }
