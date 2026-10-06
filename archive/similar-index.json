@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T05:16:23+08:00",
+  "generated_at": "2026-10-07T06:15:24+08:00",
   "archive_spots": [
     "zhongjiao",
     "wuwei",
@@ -4087,6 +4087,66 @@
       "live_ok": true,
       "thumb": "archive/2026-10-07/0505/zhunan.jpg",
       "clip": "archive/2026-10-07/0505/zhunan.mp4",
+      "conditions": {
+        "hour": 5,
+        "source": "windguru",
+        "wspd_kt": 21.2,
+        "wave_m": 2.1,
+        "wave_per_s": 6.9,
+        "dir_deg": 45.0,
+        "wave_dir_deg": 30.0
+      }
+    },
+    {
+      "date": "2026-10-07",
+      "slug": "zhongjiao",
+      "spot": "中角",
+      "captured_at": "2026-10-07T06:10:23+08:00",
+      "wave_notes_zh": "近岸到中段有多道橫向白沫碎浪線，浪線偏亂、近岸泡沫多，能量中等偏強，未估浪高。",
+      "wave_judgment_zh": "近岸到中段有多道橫向白沫碎浪線。浪線偏亂。近岸泡沫多。未估浪高。",
+      "live_ok": true,
+      "thumb": "archive/2026-10-07/0605/zhongjiao.jpg",
+      "clip": "archive/2026-10-07/0605/zhongjiao.mp4",
+      "conditions": {
+        "hour": 5,
+        "source": "windguru",
+        "wspd_kt": 14.3,
+        "wave_m": 2.0,
+        "wave_per_s": 7.6,
+        "dir_deg": 57.0,
+        "wave_dir_deg": 32.0
+      }
+    },
+    {
+      "date": "2026-10-07",
+      "slug": "wuwei",
+      "spot": "無尾港",
+      "captured_at": "2026-10-07T06:10:23+08:00",
+      "wave_notes_zh": "中段到近岸滿布白沫碎浪，外側也有白頂破浪線，浪況偏亂、能量偏強，未估浪高。",
+      "wave_judgment_zh": "中段到近岸滿布白沫碎浪。外側也有白頂破浪線。浪況偏亂。未估浪高。",
+      "live_ok": true,
+      "thumb": "archive/2026-10-07/0605/wuwei.jpg",
+      "clip": "archive/2026-10-07/0605/wuwei.mp4",
+      "conditions": {
+        "hour": 5,
+        "source": "windguru",
+        "wspd_kt": 8.5,
+        "wave_m": 1.8,
+        "wave_per_s": 8.0,
+        "dir_deg": 342.0,
+        "wave_dir_deg": 28.0
+      }
+    },
+    {
+      "date": "2026-10-07",
+      "slug": "zhunan",
+      "spot": "竹南假日之森",
+      "captured_at": "2026-10-07T06:10:23+08:00",
+      "wave_notes_zh": "中段到近岸有多道橫向碎浪與白沫線，浪線偏碎亂，能量中等，未估浪高。",
+      "wave_judgment_zh": "中段到近岸有多道橫向碎浪與白沫線。浪線偏碎亂。未估浪高。",
+      "live_ok": true,
+      "thumb": "archive/2026-10-07/0605/zhunan.jpg",
+      "clip": "archive/2026-10-07/0605/zhunan.mp4",
       "conditions": {
         "hour": 5,
         "source": "windguru",
