@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T15:21:53+08:00",
+  "generated_at": "2026-10-07T16:28:18+08:00",
   "archive_spots": [
     "zhongjiao",
     "wuwei",
@@ -4395,6 +4395,46 @@
         "wave_per_s": 7.0,
         "dir_deg": 30.0,
         "wave_dir_deg": 30.0
+      }
+    },
+    {
+      "date": "2026-10-07",
+      "slug": "zhongjiao",
+      "spot": "中角",
+      "captured_at": "2026-10-07T16:14:56+08:00",
+      "wave_notes_zh": "外側到中段多道白沫碎浪、近岸大片泡沫翻滾，浪面偏亂、能量中等，未估浪高。",
+      "wave_judgment_zh": "外側到中段多道白沫碎浪。近岸大片泡沫翻滾。浪面偏亂。未估浪高。",
+      "live_ok": true,
+      "thumb": "archive/2026-10-07/1605/zhongjiao.jpg",
+      "clip": "archive/2026-10-07/1605/zhongjiao.mp4",
+      "conditions": {
+        "hour": 15,
+        "source": "windguru",
+        "wspd_kt": 14.8,
+        "wave_m": 1.8,
+        "wave_per_s": 7.3,
+        "dir_deg": 62.0,
+        "wave_dir_deg": 35.0
+      }
+    },
+    {
+      "date": "2026-10-07",
+      "slug": "wuwei",
+      "spot": "無尾港",
+      "captured_at": "2026-10-07T16:14:56+08:00",
+      "wave_notes_zh": "外側有成形的湧浪線推進，中段至近岸白沫碎浪連片，浪面略雜但有能量，未估浪高。",
+      "wave_judgment_zh": "外側有成形的湧浪線推進。中段至近岸白沫碎浪連片。浪面略雜但有能量。未估浪高。",
+      "live_ok": true,
+      "thumb": "archive/2026-10-07/1605/wuwei.jpg",
+      "clip": "archive/2026-10-07/1605/wuwei.mp4",
+      "conditions": {
+        "hour": 15,
+        "source": "windguru",
+        "wspd_kt": 10.3,
+        "wave_m": 1.6,
+        "wave_per_s": 15.4,
+        "dir_deg": 14.0,
+        "wave_dir_deg": 91.0
       }
     }
   ],

@@ -1,0 +1,12 @@
+{
+  "spot": "竹南假日之森",
+  "slug": "zhunan",
+  "youtube": "https://www.youtube.com/watch?v=22AdOQNS4PY",
+  "wave_notes_zh": "直播串流停滯、無法取得即時影像，本次未判讀浪況，未估浪高。",
+  "captured_at": "2026-10-07T16:21:13+08:00",
+  "live_ok": false,
+  "clip_bytes": 0,
+  "frame_bytes": 0,
+  "clip_duration_s": 0,
+  "failure_reason": "YouTube 直播 HLS 播放清單停滯（最新片段約停在 14:12），yt-dlp 與 ffmpeg 直連皆卡住逾時，無 clip/frame"
+}
