@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T06:21:14+08:00",
+  "generated_at": "2026-10-10T06:24:24+08:00",
   "archive_spots": [
     "zhongjiao",
     "wuwei",
@@ -4398,16 +4398,7 @@
       "wave_judgment_zh": "外海可見多道整齊湧浪線推進。近岸有清晰白沫碎浪。浪況偏小偏穩。未估浪高。",
       "live_ok": true,
       "thumb": "archive/2026-10-09/1005/zhongjiao.jpg",
-      "clip": "archive/2026-10-09/1005/zhongjiao.mp4",
-      "conditions": {
-        "hour": 20,
-        "source": "windguru",
-        "wspd_kt": 12.2,
-        "wave_m": 1.2,
-        "wave_per_s": 5.4,
-        "dir_deg": 57.0,
-        "wave_dir_deg": 56.0
-      }
+      "clip": "archive/2026-10-09/1005/zhongjiao.mp4"
     },
     {
       "date": "2026-10-09",
@@ -4418,16 +4409,7 @@
       "wave_judgment_zh": "近岸多道白沫碎浪偏雜亂。外海亦有橫向碎浪線。浪況偏衝但偏碎。未估浪高。",
       "live_ok": true,
       "thumb": "archive/2026-10-09/1005/wuwei.jpg",
-      "clip": "archive/2026-10-09/1005/wuwei.mp4",
-      "conditions": {
-        "hour": 20,
-        "source": "windguru",
-        "wspd_kt": 7.8,
-        "wave_m": 1.1,
-        "wave_per_s": 6.0,
-        "dir_deg": 18.0,
-        "wave_dir_deg": 50.0
-      }
+      "clip": "archive/2026-10-09/1005/wuwei.mp4"
     },
     {
       "date": "2026-10-09",
@@ -4438,16 +4420,7 @@
       "wave_judgment_zh": "外海可見多道整齊湧浪線推進。近岸有連綿帶狀白沫碎浪。碎浪區偏寬。浪況偏小偏穩。未估浪高。",
       "live_ok": true,
       "thumb": "archive/2026-10-09/1205/zhongjiao.jpg",
-      "clip": "archive/2026-10-09/1205/zhongjiao.mp4",
-      "conditions": {
-        "hour": 20,
-        "source": "windguru",
-        "wspd_kt": 12.2,
-        "wave_m": 1.2,
-        "wave_per_s": 5.4,
-        "dir_deg": 57.0,
-        "wave_dir_deg": 56.0
-      }
+      "clip": "archive/2026-10-09/1205/zhongjiao.mp4"
     },
     {
       "date": "2026-10-09",
@@ -4458,16 +4431,7 @@
       "wave_judgment_zh": "外海多道橫向白沫碎浪線推進。浪頭偏軟偏散。近岸能量尚可。未估浪高。",
       "live_ok": true,
       "thumb": "archive/2026-10-09/1205/wuwei.jpg",
-      "clip": "archive/2026-10-09/1205/wuwei.mp4",
-      "conditions": {
-        "hour": 20,
-        "source": "windguru",
-        "wspd_kt": 7.8,
-        "wave_m": 1.1,
-        "wave_per_s": 6.0,
-        "dir_deg": 18.0,
-        "wave_dir_deg": 50.0
-      }
+      "clip": "archive/2026-10-09/1205/wuwei.mp4"
     },
     {
       "date": "2026-10-09",
@@ -4478,16 +4442,7 @@
       "wave_judgment_zh": "外海有數道湧浪線推進。近岸兩道白沫碎浪線連綿。碎浪區偏寬。浪況偏小但有持續能量。未估浪高。",
       "live_ok": true,
       "thumb": "archive/2026-10-09/1405/zhongjiao.jpg",
-      "clip": "archive/2026-10-09/1405/zhongjiao.mp4",
-      "conditions": {
-        "hour": 20,
-        "source": "windguru",
-        "wspd_kt": 12.2,
-        "wave_m": 1.2,
-        "wave_per_s": 5.4,
-        "dir_deg": 57.0,
-        "wave_dir_deg": 56.0
-      }
+      "clip": "archive/2026-10-09/1405/zhongjiao.mp4"
     },
     {
       "date": "2026-10-09",
@@ -4498,16 +4453,7 @@
       "wave_judgment_zh": "中段到近岸有大片白沫碎浪區。浪線較雜亂不成形。未估浪高。",
       "live_ok": true,
       "thumb": "archive/2026-10-09/1405/wuwei.jpg",
-      "clip": "archive/2026-10-09/1405/wuwei.mp4",
-      "conditions": {
-        "hour": 20,
-        "source": "windguru",
-        "wspd_kt": 7.8,
-        "wave_m": 1.1,
-        "wave_per_s": 6.0,
-        "dir_deg": 18.0,
-        "wave_dir_deg": 50.0
-      }
+      "clip": "archive/2026-10-09/1405/wuwei.mp4"
     },
     {
       "date": "2026-10-09",
@@ -4518,16 +4464,7 @@
       "wave_judgment_zh": "近岸兩到三道白沫碎浪線連續推進。外海有細小湧浪線。浪況偏小但有能量。未估浪高。",
       "live_ok": true,
       "thumb": "archive/2026-10-09/1605/zhongjiao.jpg",
-      "clip": "archive/2026-10-09/1605/zhongjiao.mp4",
-      "conditions": {
-        "hour": 20,
-        "source": "windguru",
-        "wspd_kt": 12.2,
-        "wave_m": 1.2,
-        "wave_per_s": 5.4,
-        "dir_deg": 57.0,
-        "wave_dir_deg": 56.0
-      }
+      "clip": "archive/2026-10-09/1605/zhongjiao.mp4"
     },
     {
       "date": "2026-10-09",
@@ -4538,16 +4475,7 @@
       "wave_judgment_zh": "外海多道湧浪線推進。近岸碎浪區寬。白沫翻騰偏亂。未估浪高。",
       "live_ok": true,
       "thumb": "archive/2026-10-09/1605/wuwei.jpg",
-      "clip": "archive/2026-10-09/1605/wuwei.mp4",
-      "conditions": {
-        "hour": 20,
-        "source": "windguru",
-        "wspd_kt": 7.8,
-        "wave_m": 1.1,
-        "wave_per_s": 6.0,
-        "dir_deg": 18.0,
-        "wave_dir_deg": 50.0
-      }
+      "clip": "archive/2026-10-09/1605/wuwei.mp4"
     },
     {
       "date": "2026-10-10",
