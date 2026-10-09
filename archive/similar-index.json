@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T14:19:19+08:00",
+  "generated_at": "2026-10-09T15:27:02+08:00",
   "archive_spots": [
     "zhongjiao",
     "wuwei",
@@ -4404,8 +4404,8 @@
         "source": "windguru",
         "wspd_kt": 10.3,
         "wave_m": 1.2,
-        "wave_per_s": 6.1,
-        "dir_deg": 62.0,
+        "wave_per_s": 6.2,
+        "dir_deg": 63.0,
         "wave_dir_deg": 53.0
       }
     },
@@ -4422,11 +4422,11 @@
       "conditions": {
         "hour": 9,
         "source": "windguru",
-        "wspd_kt": 3.7,
+        "wspd_kt": 4.1,
         "wave_m": 1.2,
         "wave_per_s": 6.4,
-        "dir_deg": 346.0,
-        "wave_dir_deg": 46.0
+        "dir_deg": 343.0,
+        "wave_dir_deg": 43.0
       }
     },
     {
@@ -4442,10 +4442,10 @@
       "conditions": {
         "hour": 11,
         "source": "windguru",
-        "wspd_kt": 9.7,
+        "wspd_kt": 9.9,
         "wave_m": 1.1,
-        "wave_per_s": 6.2,
-        "dir_deg": 55.0,
+        "wave_per_s": 6.1,
+        "dir_deg": 59.0,
         "wave_dir_deg": 55.0
       }
     },
@@ -4462,11 +4462,11 @@
       "conditions": {
         "hour": 11,
         "source": "windguru",
-        "wspd_kt": 8.0,
-        "wave_m": 1.2,
+        "wspd_kt": 8.5,
+        "wave_m": 1.1,
         "wave_per_s": 6.4,
-        "dir_deg": 31.0,
-        "wave_dir_deg": 50.0
+        "dir_deg": 36.0,
+        "wave_dir_deg": 47.0
       }
     },
     {
@@ -4482,11 +4482,11 @@
       "conditions": {
         "hour": 13,
         "source": "windguru",
-        "wspd_kt": 9.8,
-        "wave_m": 1.1,
+        "wspd_kt": 10.2,
+        "wave_m": 1.0,
         "wave_per_s": 6.1,
-        "dir_deg": 59.0,
-        "wave_dir_deg": 57.0
+        "dir_deg": 62.0,
+        "wave_dir_deg": 56.0
       }
     },
     {
@@ -4502,11 +4502,11 @@
       "conditions": {
         "hour": 13,
         "source": "windguru",
-        "wspd_kt": 9.8,
-        "wave_m": 1.2,
+        "wspd_kt": 9.5,
+        "wave_m": 1.1,
         "wave_per_s": 6.4,
-        "dir_deg": 26.0,
-        "wave_dir_deg": 53.0
+        "dir_deg": 27.0,
+        "wave_dir_deg": 51.0
       }
     }
   ],
