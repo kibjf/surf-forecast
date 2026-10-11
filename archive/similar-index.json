@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T08:15:58+08:00",
+  "generated_at": "2026-10-11T09:22:15+08:00",
   "archive_spots": [
     "zhongjiao",
     "wuwei",
@@ -4644,11 +4644,11 @@
       "conditions": {
         "hour": 5,
         "source": "windguru",
-        "wspd_kt": 9.0,
-        "wave_m": 1.1,
-        "wave_per_s": 13.6,
-        "dir_deg": 54.0,
-        "wave_dir_deg": 77.0
+        "wspd_kt": 8.9,
+        "wave_m": 1.0,
+        "wave_per_s": 16.5,
+        "dir_deg": 55.0,
+        "wave_dir_deg": 85.0
       }
     },
     {
@@ -4664,11 +4664,11 @@
       "conditions": {
         "hour": 5,
         "source": "windguru",
-        "wspd_kt": 9.9,
+        "wspd_kt": 9.7,
         "wave_m": 1.1,
         "wave_per_s": 16.5,
         "dir_deg": 12.0,
-        "wave_dir_deg": 93.0
+        "wave_dir_deg": 92.0
       }
     },
     {
@@ -4684,11 +4684,11 @@
       "conditions": {
         "hour": 5,
         "source": "windguru",
-        "wspd_kt": 9.0,
-        "wave_m": 1.1,
-        "wave_per_s": 13.6,
-        "dir_deg": 54.0,
-        "wave_dir_deg": 77.0
+        "wspd_kt": 8.9,
+        "wave_m": 1.0,
+        "wave_per_s": 16.5,
+        "dir_deg": 55.0,
+        "wave_dir_deg": 85.0
       }
     },
     {
@@ -4704,11 +4704,11 @@
       "conditions": {
         "hour": 5,
         "source": "windguru",
-        "wspd_kt": 9.9,
+        "wspd_kt": 9.7,
         "wave_m": 1.1,
         "wave_per_s": 16.5,
         "dir_deg": 12.0,
-        "wave_dir_deg": 93.0
+        "wave_dir_deg": 92.0
       }
     },
     {
@@ -4724,11 +4724,11 @@
       "conditions": {
         "hour": 7,
         "source": "windguru",
-        "wspd_kt": 7.7,
+        "wspd_kt": 7.5,
         "wave_m": 1.0,
         "wave_per_s": 13.4,
-        "dir_deg": 51.0,
-        "wave_dir_deg": 77.0
+        "dir_deg": 52.0,
+        "wave_dir_deg": 78.0
       }
     },
     {
@@ -4744,11 +4744,11 @@
       "conditions": {
         "hour": 7,
         "source": "windguru",
-        "wspd_kt": 10.0,
+        "wspd_kt": 9.9,
         "wave_m": 1.1,
-        "wave_per_s": 5.8,
-        "dir_deg": 5.0,
-        "wave_dir_deg": 50.0
+        "wave_per_s": 11.8,
+        "dir_deg": 3.0,
+        "wave_dir_deg": 73.0
       }
     }
   ],
