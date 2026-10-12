@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T12:23:14+08:00",
+  "generated_at": "2026-10-12T15:25:49+08:00",
   "archive_spots": [
     "zhongjiao",
     "wuwei",
@@ -4796,13 +4796,13 @@
       "thumb": "archive/2026-10-12/0505/zhongjiao.jpg",
       "clip": "archive/2026-10-12/0505/zhongjiao.mp4",
       "conditions": {
-        "hour": 5,
+        "hour": 8,
         "source": "windguru",
-        "wspd_kt": 7.5,
+        "wspd_kt": 7.8,
         "wave_m": 1.1,
         "wave_per_s": 7.3,
-        "dir_deg": 72.0,
-        "wave_dir_deg": 50.0
+        "dir_deg": 73.0,
+        "wave_dir_deg": 49.0
       }
     },
     {
@@ -4816,13 +4816,13 @@
       "thumb": "archive/2026-10-12/0505/wuwei.jpg",
       "clip": "archive/2026-10-12/0505/wuwei.mp4",
       "conditions": {
-        "hour": 5,
+        "hour": 8,
         "source": "windguru",
-        "wspd_kt": 8.1,
-        "wave_m": 1.1,
-        "wave_per_s": 13.5,
-        "dir_deg": 318.0,
-        "wave_dir_deg": 84.0
+        "wspd_kt": 7.0,
+        "wave_m": 1.0,
+        "wave_per_s": 7.2,
+        "dir_deg": 324.0,
+        "wave_dir_deg": 34.0
       }
     },
     {
@@ -4836,13 +4836,13 @@
       "thumb": "archive/2026-10-12/0605/zhongjiao.jpg",
       "clip": "archive/2026-10-12/0605/zhongjiao.mp4",
       "conditions": {
-        "hour": 5,
+        "hour": 8,
         "source": "windguru",
-        "wspd_kt": 7.5,
+        "wspd_kt": 7.8,
         "wave_m": 1.1,
         "wave_per_s": 7.3,
-        "dir_deg": 72.0,
-        "wave_dir_deg": 50.0
+        "dir_deg": 73.0,
+        "wave_dir_deg": 49.0
       }
     },
     {
@@ -4856,13 +4856,13 @@
       "thumb": "archive/2026-10-12/0605/wuwei.jpg",
       "clip": "archive/2026-10-12/0605/wuwei.mp4",
       "conditions": {
-        "hour": 5,
+        "hour": 8,
         "source": "windguru",
-        "wspd_kt": 8.1,
-        "wave_m": 1.1,
-        "wave_per_s": 13.5,
-        "dir_deg": 318.0,
-        "wave_dir_deg": 84.0
+        "wspd_kt": 7.0,
+        "wave_m": 1.0,
+        "wave_per_s": 7.2,
+        "dir_deg": 324.0,
+        "wave_dir_deg": 34.0
       }
     },
     {
@@ -4876,13 +4876,13 @@
       "thumb": "archive/2026-10-12/0805/zhongjiao.jpg",
       "clip": "archive/2026-10-12/0805/zhongjiao.mp4",
       "conditions": {
-        "hour": 7,
+        "hour": 8,
         "source": "windguru",
-        "wspd_kt": 7.3,
+        "wspd_kt": 7.8,
         "wave_m": 1.1,
         "wave_per_s": 7.3,
-        "dir_deg": 74.0,
-        "wave_dir_deg": 50.0
+        "dir_deg": 73.0,
+        "wave_dir_deg": 49.0
       }
     },
     {
@@ -4896,13 +4896,13 @@
       "thumb": "archive/2026-10-12/0805/wuwei.jpg",
       "clip": "archive/2026-10-12/0805/wuwei.mp4",
       "conditions": {
-        "hour": 7,
+        "hour": 8,
         "source": "windguru",
-        "wspd_kt": 8.4,
-        "wave_m": 1.1,
-        "wave_per_s": 13.3,
-        "dir_deg": 302.0,
-        "wave_dir_deg": 84.0
+        "wspd_kt": 7.0,
+        "wave_m": 1.0,
+        "wave_per_s": 7.2,
+        "dir_deg": 324.0,
+        "wave_dir_deg": 34.0
       }
     },
     {
@@ -4921,8 +4921,8 @@
         "wspd_kt": 7.7,
         "wave_m": 1.1,
         "wave_per_s": 7.3,
-        "dir_deg": 72.0,
-        "wave_dir_deg": 50.0
+        "dir_deg": 73.0,
+        "wave_dir_deg": 49.0
       }
     },
     {
@@ -4938,11 +4938,11 @@
       "conditions": {
         "hour": 9,
         "source": "windguru",
-        "wspd_kt": 6.5,
+        "wspd_kt": 6.8,
         "wave_m": 1.0,
-        "wave_per_s": 10.6,
-        "dir_deg": 353.0,
-        "wave_dir_deg": 63.0
+        "wave_per_s": 7.2,
+        "dir_deg": 355.0,
+        "wave_dir_deg": 34.0
       }
     },
     {
@@ -4958,7 +4958,7 @@
       "conditions": {
         "hour": 11,
         "source": "windguru",
-        "wspd_kt": 7.6,
+        "wspd_kt": 7.9,
         "wave_m": 1.0,
         "wave_per_s": 7.2,
         "dir_deg": 66.0,
@@ -4978,11 +4978,51 @@
       "conditions": {
         "hour": 11,
         "source": "windguru",
-        "wspd_kt": 7.8,
+        "wspd_kt": 8.0,
         "wave_m": 1.0,
-        "wave_per_s": 12.7,
+        "wave_per_s": 10.4,
         "dir_deg": 28.0,
-        "wave_dir_deg": 83.0
+        "wave_dir_deg": 62.0
+      }
+    },
+    {
+      "date": "2026-10-12",
+      "slug": "zhongjiao",
+      "spot": "中角",
+      "captured_at": "2026-10-12T14:05:53+08:00",
+      "wave_notes_zh": "近岸有三至四道連續橫向白沫碎浪線，外海一道較小的崩浪峰，浪型偏規則，浪況中小。",
+      "wave_judgment_zh": "近岸有三至四道連續橫向白沫碎浪線。外海一道較小的崩浪峰。浪型偏規則。浪況中小。",
+      "live_ok": true,
+      "thumb": "archive/2026-10-12/1405/zhongjiao.jpg",
+      "clip": "archive/2026-10-12/1405/zhongjiao.mp4",
+      "conditions": {
+        "hour": 13,
+        "source": "windguru",
+        "wspd_kt": 7.6,
+        "wave_m": 1.0,
+        "wave_per_s": 7.2,
+        "dir_deg": 65.0,
+        "wave_dir_deg": 49.0
+      }
+    },
+    {
+      "date": "2026-10-12",
+      "slug": "wuwei",
+      "spot": "無尾港",
+      "captured_at": "2026-10-12T14:05:53+08:00",
+      "wave_notes_zh": "近岸有多道橫向白沫碎浪線，碎浪帶寬，外海偏平，能量中等，水色偏濁，未估浪高。",
+      "wave_judgment_zh": "近岸有多道橫向白沫碎浪線。碎浪帶寬。外海偏平。未估浪高。",
+      "live_ok": true,
+      "thumb": "archive/2026-10-12/1405/wuwei.jpg",
+      "clip": "archive/2026-10-12/1405/wuwei.mp4",
+      "conditions": {
+        "hour": 13,
+        "source": "windguru",
+        "wspd_kt": 8.7,
+        "wave_m": 1.0,
+        "wave_per_s": 12.6,
+        "dir_deg": 38.0,
+        "wave_dir_deg": 82.0
       }
     }
   ],
