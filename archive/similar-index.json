@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T06:21:37+08:00",
+  "generated_at": "2026-10-12T08:19:37+08:00",
   "archive_spots": [
     "zhongjiao",
     "wuwei",
@@ -4863,6 +4863,46 @@
         "wave_per_s": 13.4,
         "dir_deg": 310.0,
         "wave_dir_deg": 84.0
+      }
+    },
+    {
+      "date": "2026-10-12",
+      "slug": "zhongjiao",
+      "spot": "中角",
+      "captured_at": "2026-10-12T08:16:14+08:00",
+      "wave_notes_zh": "近岸多道白沫碎浪線連續推進，外側有規律湧浪，浪型偏軟，浪況中小。",
+      "wave_judgment_zh": "近岸多道白沫碎浪線連續推進。外側有規律湧浪。浪型偏軟。浪況中小。",
+      "live_ok": true,
+      "thumb": "archive/2026-10-12/0805/zhongjiao.jpg",
+      "clip": "archive/2026-10-12/0805/zhongjiao.mp4",
+      "conditions": {
+        "hour": 7,
+        "source": "windguru",
+        "wspd_kt": 6.9,
+        "wave_m": 1.1,
+        "wave_per_s": 7.3,
+        "dir_deg": 68.0,
+        "wave_dir_deg": 49.0
+      }
+    },
+    {
+      "date": "2026-10-12",
+      "slug": "wuwei",
+      "spot": "無尾港",
+      "captured_at": "2026-10-12T08:16:14+08:00",
+      "wave_notes_zh": "外側可見數道橫向湧浪線，近岸有一條白沫碎浪帶，能量中等，未估浪高。",
+      "wave_judgment_zh": "外側可見數道湧浪線。近岸有一條白沫碎浪帶。未估浪高。",
+      "live_ok": true,
+      "thumb": "archive/2026-10-12/0805/wuwei.jpg",
+      "clip": "archive/2026-10-12/0805/wuwei.mp4",
+      "conditions": {
+        "hour": 7,
+        "source": "windguru",
+        "wspd_kt": 8.1,
+        "wave_m": 1.1,
+        "wave_per_s": 7.2,
+        "dir_deg": 306.0,
+        "wave_dir_deg": 38.0
       }
     }
   ],
