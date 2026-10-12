@@ -1,0 +1,12 @@
+{
+  "spot": "中角",
+  "slug": "zhongjiao",
+  "youtube": "https://www.youtube.com/watch?v=iJphhU-iaTA",
+  "captured_at": "2026-10-13T05:26:29+08:00",
+  "wave_notes_zh": "近岸可見數道斷續白沫碎浪線，外海湧浪難以辨識，未估浪高。",
+  "live_ok": true,
+  "clip_bytes": 626950,
+  "frame_bytes": 9096,
+  "clip_duration_s": 45.0,
+  "stream_note": "首次 yt-dlp 下載卡住僅 8.8 秒，改以 HLS 接近直播端重抓 45 秒（無音軌）；畫面 OSD 約 04:09，串流落後實際時間約 1 小時"
+}
