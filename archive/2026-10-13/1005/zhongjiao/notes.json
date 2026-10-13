@@ -1,0 +1,15 @@
+{
+  "spot": "中角",
+  "slug": "zhongjiao",
+  "youtube": "https://www.youtube.com/watch?v=iJphhU-iaTA",
+  "captured_at": "2026-10-13T10:11:45+08:00",
+  "wave_notes_zh": "直播畫面停滯、無新影像，未估浪況。",
+  "live_ok": false,
+  "clip_bytes": 0,
+  "frame_bytes": 0,
+  "clip_duration_s": 0,
+  "error": "stream frozen: HLS live edge 仍未前進（PROGRAM-DATE-TIME 停在 2026-10-12T19:11Z），live-edge 備援抓取 md5=5513d504d5cfcac3799fafe29b0e8a39 與 0805/0505 完全相同；主抓 yt-dlp --download-sections 卡在 ~15 秒。不採用為 1005 影像。",
+  "stale_local_files": [
+    "/workspace/surf-archive/2026-10-13/1005/zhongjiao/stale_hls_identical_to_0505.mp4"
+  ]
+}
