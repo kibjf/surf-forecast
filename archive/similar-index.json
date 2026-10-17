@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T06:22:15+08:00",
+  "generated_at": "2026-10-17T09:23:08+08:00",
   "archive_spots": [
     "zhongjiao",
     "wuwei",
@@ -5271,11 +5271,11 @@
       "conditions": {
         "hour": 5,
         "source": "windguru",
-        "wspd_kt": 5.7,
+        "wspd_kt": 6.0,
         "wave_m": 1.0,
         "wave_per_s": 5.1,
-        "dir_deg": 184.0,
-        "wave_dir_deg": 78.0
+        "dir_deg": 183.0,
+        "wave_dir_deg": 84.0
       }
     },
     {
@@ -5291,11 +5291,11 @@
       "conditions": {
         "hour": 5,
         "source": "windguru",
-        "wspd_kt": 5.7,
+        "wspd_kt": 6.0,
         "wave_m": 1.0,
         "wave_per_s": 5.1,
-        "dir_deg": 184.0,
-        "wave_dir_deg": 78.0
+        "dir_deg": 183.0,
+        "wave_dir_deg": 84.0
       }
     }
   ],
