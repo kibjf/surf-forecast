@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T21:20:03+08:00",
+  "generated_at": "2026-10-18T03:19:26+08:00",
   "archive_spots": [
     "zhongjiao",
     "wuwei",
@@ -5267,16 +5267,7 @@
       "wave_judgment_zh": "近岸隱約可見淡白碎浪帶。外側浪況細節難辨。未估浪高。",
       "live_ok": true,
       "thumb": "archive/2026-10-17/0505/wuwei.jpg",
-      "clip": "archive/2026-10-17/0505/wuwei.mp4",
-      "conditions": {
-        "hour": 14,
-        "source": "windguru",
-        "wspd_kt": 9.6,
-        "wave_m": 0.9,
-        "wave_per_s": 5.3,
-        "dir_deg": 143.0,
-        "wave_dir_deg": 80.0
-      }
+      "clip": "archive/2026-10-17/0505/wuwei.mp4"
     },
     {
       "date": "2026-10-17",
@@ -5287,16 +5278,7 @@
       "wave_judgment_zh": "外海有多道湧浪線規律推進。近岸可見細白沫碎浪。未估浪高。",
       "live_ok": true,
       "thumb": "archive/2026-10-17/0605/wuwei.jpg",
-      "clip": "archive/2026-10-17/0605/wuwei.mp4",
-      "conditions": {
-        "hour": 14,
-        "source": "windguru",
-        "wspd_kt": 9.6,
-        "wave_m": 0.9,
-        "wave_per_s": 5.3,
-        "dir_deg": 143.0,
-        "wave_dir_deg": 80.0
-      }
+      "clip": "archive/2026-10-17/0605/wuwei.mp4"
     },
     {
       "date": "2026-10-17",
@@ -5307,16 +5289,7 @@
       "wave_judgment_zh": "外海至中段有多道橫向白沫碎浪線。近岸連續細碎白沫。浪型偏鬆散。未估浪高。",
       "live_ok": true,
       "thumb": "archive/2026-10-17/1005/wuwei.jpg",
-      "clip": "archive/2026-10-17/1005/wuwei.mp4",
-      "conditions": {
-        "hour": 14,
-        "source": "windguru",
-        "wspd_kt": 9.6,
-        "wave_m": 0.9,
-        "wave_per_s": 5.3,
-        "dir_deg": 143.0,
-        "wave_dir_deg": 80.0
-      }
+      "clip": "archive/2026-10-17/1005/wuwei.mp4"
     },
     {
       "date": "2026-10-17",
@@ -5327,16 +5300,7 @@
       "wave_judgment_zh": "中段有數道斷續橫向白沫碎浪線。近岸湧上寬幅白沫。浪型偏鬆散。未估浪高。",
       "live_ok": true,
       "thumb": "archive/2026-10-17/1205/wuwei.jpg",
-      "clip": "archive/2026-10-17/1205/wuwei.mp4",
-      "conditions": {
-        "hour": 14,
-        "source": "windguru",
-        "wspd_kt": 9.6,
-        "wave_m": 0.9,
-        "wave_per_s": 5.3,
-        "dir_deg": 143.0,
-        "wave_dir_deg": 80.0
-      }
+      "clip": "archive/2026-10-17/1205/wuwei.mp4"
     },
     {
       "date": "2026-10-17",
@@ -5347,16 +5311,7 @@
       "wave_judgment_zh": "中段與近岸有數道細長白沫碎浪線。外海可見淺湧線。浪型偏鬆散。未估浪高。",
       "live_ok": true,
       "thumb": "archive/2026-10-17/1405/wuwei.jpg",
-      "clip": "archive/2026-10-17/1405/wuwei.mp4",
-      "conditions": {
-        "hour": 14,
-        "source": "windguru",
-        "wspd_kt": 9.6,
-        "wave_m": 0.9,
-        "wave_per_s": 5.3,
-        "dir_deg": 143.0,
-        "wave_dir_deg": 80.0
-      }
+      "clip": "archive/2026-10-17/1405/wuwei.mp4"
     },
     {
       "date": "2026-10-17",
@@ -5367,16 +5322,7 @@
       "wave_judgment_zh": "近岸與中段有兩三道橫向白沫碎浪線。外海僅見淡淡湧線。浪型偏鬆。未估浪高。",
       "live_ok": true,
       "thumb": "archive/2026-10-17/1605/wuwei.jpg",
-      "clip": "archive/2026-10-17/1605/wuwei.mp4",
-      "conditions": {
-        "hour": 15,
-        "source": "windguru",
-        "wspd_kt": 9.8,
-        "wave_m": 0.9,
-        "wave_per_s": 5.2,
-        "dir_deg": 145.0,
-        "wave_dir_deg": 81.0
-      }
+      "clip": "archive/2026-10-17/1605/wuwei.mp4"
     }
   ],
   "note_zh": ""
