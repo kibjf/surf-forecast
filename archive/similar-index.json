@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T08:17:25+08:00",
+  "generated_at": "2026-10-18T09:19:50+08:00",
   "archive_spots": [
     "zhongjiao",
     "wuwei",
@@ -5337,11 +5337,11 @@
       "conditions": {
         "hour": 5,
         "source": "windguru",
-        "wspd_kt": 6.9,
+        "wspd_kt": 6.3,
         "wave_m": 0.7,
-        "wave_per_s": 4.8,
-        "dir_deg": 204.0,
-        "wave_dir_deg": 83.0
+        "wave_per_s": 5.2,
+        "dir_deg": 210.0,
+        "wave_dir_deg": 81.0
       }
     },
     {
@@ -5357,11 +5357,11 @@
       "conditions": {
         "hour": 5,
         "source": "windguru",
-        "wspd_kt": 6.9,
+        "wspd_kt": 6.3,
         "wave_m": 0.7,
-        "wave_per_s": 4.8,
-        "dir_deg": 204.0,
-        "wave_dir_deg": 83.0
+        "wave_per_s": 5.2,
+        "dir_deg": 210.0,
+        "wave_dir_deg": 81.0
       }
     },
     {
@@ -5377,10 +5377,10 @@
       "conditions": {
         "hour": 7,
         "source": "windguru",
-        "wspd_kt": 6.1,
-        "wave_m": 0.6,
-        "wave_per_s": 4.8,
-        "dir_deg": 209.0,
+        "wspd_kt": 5.3,
+        "wave_m": 0.7,
+        "wave_per_s": 5.2,
+        "dir_deg": 215.0,
         "wave_dir_deg": 81.0
       }
     }
