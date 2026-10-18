@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T14:14:06+08:00",
+  "generated_at": "2026-10-18T15:20:01+08:00",
   "archive_spots": [
     "zhongjiao",
     "wuwei",
@@ -5335,13 +5335,13 @@
       "thumb": "archive/2026-10-18/0505/wuwei.jpg",
       "clip": "archive/2026-10-18/0505/wuwei.mp4",
       "conditions": {
-        "hour": 5,
+        "hour": 8,
         "source": "windguru",
-        "wspd_kt": 6.3,
+        "wspd_kt": 3.0,
         "wave_m": 0.7,
         "wave_per_s": 5.2,
-        "dir_deg": 210.0,
-        "wave_dir_deg": 81.0
+        "dir_deg": 202.0,
+        "wave_dir_deg": 86.0
       }
     },
     {
@@ -5355,13 +5355,13 @@
       "thumb": "archive/2026-10-18/0605/wuwei.jpg",
       "clip": "archive/2026-10-18/0605/wuwei.mp4",
       "conditions": {
-        "hour": 5,
+        "hour": 8,
         "source": "windguru",
-        "wspd_kt": 6.3,
+        "wspd_kt": 3.0,
         "wave_m": 0.7,
         "wave_per_s": 5.2,
-        "dir_deg": 210.0,
-        "wave_dir_deg": 81.0
+        "dir_deg": 202.0,
+        "wave_dir_deg": 86.0
       }
     },
     {
@@ -5375,13 +5375,13 @@
       "thumb": "archive/2026-10-18/0805/wuwei.jpg",
       "clip": "archive/2026-10-18/0805/wuwei.mp4",
       "conditions": {
-        "hour": 7,
+        "hour": 8,
         "source": "windguru",
-        "wspd_kt": 5.3,
+        "wspd_kt": 3.0,
         "wave_m": 0.7,
         "wave_per_s": 5.2,
-        "dir_deg": 215.0,
-        "wave_dir_deg": 81.0
+        "dir_deg": 202.0,
+        "wave_dir_deg": 86.0
       }
     },
     {
@@ -5397,11 +5397,11 @@
       "conditions": {
         "hour": 9,
         "source": "windguru",
-        "wspd_kt": 4.7,
+        "wspd_kt": 4.5,
         "wave_m": 0.8,
         "wave_per_s": 5.2,
-        "dir_deg": 156.0,
-        "wave_dir_deg": 84.0
+        "dir_deg": 155.0,
+        "wave_dir_deg": 86.0
       }
     },
     {
@@ -5417,11 +5417,11 @@
       "conditions": {
         "hour": 11,
         "source": "windguru",
-        "wspd_kt": 8.1,
+        "wspd_kt": 7.8,
         "wave_m": 0.8,
-        "wave_per_s": 5.3,
+        "wave_per_s": 5.2,
         "dir_deg": 141.0,
-        "wave_dir_deg": 87.0
+        "wave_dir_deg": 86.0
       }
     },
     {
@@ -5437,11 +5437,11 @@
       "conditions": {
         "hour": 13,
         "source": "windguru",
-        "wspd_kt": 6.7,
+        "wspd_kt": 6.6,
         "wave_m": 0.8,
-        "wave_per_s": 5.7,
-        "dir_deg": 126.0,
-        "wave_dir_deg": 89.0
+        "wave_per_s": 5.4,
+        "dir_deg": 123.0,
+        "wave_dir_deg": 87.0
       }
     }
   ],
