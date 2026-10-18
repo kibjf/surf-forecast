@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T10:12:59+08:00",
+  "generated_at": "2026-10-18T12:10:42+08:00",
   "archive_spots": [
     "zhongjiao",
     "wuwei",
@@ -5402,6 +5402,26 @@
         "wave_per_s": 5.2,
         "dir_deg": 156.0,
         "wave_dir_deg": 84.0
+      }
+    },
+    {
+      "date": "2026-10-18",
+      "slug": "wuwei",
+      "spot": "無尾港",
+      "captured_at": "2026-10-18T12:07:53+08:00",
+      "wave_notes_zh": "近岸有三道橫向白沫碎浪線，外側一道碎浪較完整，外海湧浪偏弱，能量溫和偏小，未估浪高。",
+      "wave_judgment_zh": "近岸有三道橫向白沫碎浪線。外側一道碎浪較完整。外海湧浪偏弱。未估浪高。",
+      "live_ok": true,
+      "thumb": "archive/2026-10-18/1205/wuwei.jpg",
+      "clip": "archive/2026-10-18/1205/wuwei.mp4",
+      "conditions": {
+        "hour": 11,
+        "source": "windguru",
+        "wspd_kt": 8.1,
+        "wave_m": 0.8,
+        "wave_per_s": 5.3,
+        "dir_deg": 141.0,
+        "wave_dir_deg": 87.0
       }
     }
   ],
