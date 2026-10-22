@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T08:11:34+08:00",
+  "generated_at": "2026-10-22T09:20:35+08:00",
   "archive_spots": [
     "zhongjiao",
     "wuwei",
@@ -5711,11 +5711,11 @@
       "conditions": {
         "hour": 5,
         "source": "windguru",
-        "wspd_kt": 17.4,
-        "wave_m": 4.6,
-        "wave_per_s": 17.2,
-        "dir_deg": 348.0,
-        "wave_dir_deg": 127.0
+        "wspd_kt": 20.2,
+        "wave_m": 4.8,
+        "wave_per_s": 17.3,
+        "dir_deg": 356.0,
+        "wave_dir_deg": 128.0
       }
     },
     {
@@ -5731,11 +5731,11 @@
       "conditions": {
         "hour": 5,
         "source": "windguru",
-        "wspd_kt": 29.5,
-        "wave_m": 3.1,
+        "wspd_kt": 30.0,
+        "wave_m": 3.3,
         "wave_per_s": 8.8,
-        "dir_deg": 40.0,
-        "wave_dir_deg": 17.0
+        "dir_deg": 39.0,
+        "wave_dir_deg": 20.0
       }
     },
     {
@@ -5751,11 +5751,11 @@
       "conditions": {
         "hour": 5,
         "source": "windguru",
-        "wspd_kt": 17.4,
-        "wave_m": 4.6,
-        "wave_per_s": 17.2,
-        "dir_deg": 348.0,
-        "wave_dir_deg": 127.0
+        "wspd_kt": 20.2,
+        "wave_m": 4.8,
+        "wave_per_s": 17.3,
+        "dir_deg": 356.0,
+        "wave_dir_deg": 128.0
       }
     },
     {
@@ -5771,11 +5771,11 @@
       "conditions": {
         "hour": 5,
         "source": "windguru",
-        "wspd_kt": 29.5,
-        "wave_m": 3.1,
+        "wspd_kt": 30.0,
+        "wave_m": 3.3,
         "wave_per_s": 8.8,
-        "dir_deg": 40.0,
-        "wave_dir_deg": 17.0
+        "dir_deg": 39.0,
+        "wave_dir_deg": 20.0
       }
     },
     {
@@ -5791,11 +5791,11 @@
       "conditions": {
         "hour": 7,
         "source": "windguru",
-        "wspd_kt": 22.3,
-        "wave_m": 5.0,
+        "wspd_kt": 24.1,
+        "wave_m": 5.3,
         "wave_per_s": 17.0,
-        "dir_deg": 356.0,
-        "wave_dir_deg": 127.0
+        "dir_deg": 1.0,
+        "wave_dir_deg": 128.0
       }
     },
     {
@@ -5811,11 +5811,11 @@
       "conditions": {
         "hour": 7,
         "source": "windguru",
-        "wspd_kt": 32.6,
-        "wave_m": 3.4,
+        "wspd_kt": 33.4,
+        "wave_m": 3.5,
         "wave_per_s": 8.9,
-        "dir_deg": 37.0,
-        "wave_dir_deg": 17.0
+        "dir_deg": 36.0,
+        "wave_dir_deg": 20.0
       }
     }
   ],
