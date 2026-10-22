@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T21:23:40+08:00",
+  "generated_at": "2026-10-23T03:21:57+08:00",
   "archive_spots": [
     "zhongjiao",
     "wuwei",
@@ -5707,16 +5707,7 @@
       "wave_judgment_zh": "外海至近岸可見大片連續白沫碎浪帶。湧浪能量偏強。未估浪高。",
       "live_ok": true,
       "thumb": "archive/2026-10-22/0505/wuwei.jpg",
-      "clip": "archive/2026-10-22/0505/wuwei.mp4",
-      "conditions": {
-        "hour": 14,
-        "source": "windguru",
-        "wspd_kt": 18.5,
-        "wave_m": 5.9,
-        "wave_per_s": 16.7,
-        "dir_deg": 337.0,
-        "wave_dir_deg": 127.0
-      }
+      "clip": "archive/2026-10-22/0505/wuwei.mp4"
     },
     {
       "date": "2026-10-22",
@@ -5727,16 +5718,7 @@
       "wave_judgment_zh": "海面難以辨識浪線與白沫。無法判斷浪況。未估浪高。",
       "live_ok": true,
       "thumb": "archive/2026-10-22/0505/zhunan.jpg",
-      "clip": "archive/2026-10-22/0505/zhunan.mp4",
-      "conditions": {
-        "hour": 14,
-        "source": "windguru",
-        "wspd_kt": 32.2,
-        "wave_m": 3.3,
-        "wave_per_s": 8.9,
-        "dir_deg": 35.0,
-        "wave_dir_deg": 22.0
-      }
+      "clip": "archive/2026-10-22/0505/zhunan.mp4"
     },
     {
       "date": "2026-10-22",
@@ -5747,16 +5729,7 @@
       "wave_judgment_zh": "外海到近岸整片白沫翻滾。碎浪線雜亂相連。浪況混亂偏強。未估浪高。",
       "live_ok": true,
       "thumb": "archive/2026-10-22/0605/wuwei.jpg",
-      "clip": "archive/2026-10-22/0605/wuwei.mp4",
-      "conditions": {
-        "hour": 14,
-        "source": "windguru",
-        "wspd_kt": 18.5,
-        "wave_m": 5.9,
-        "wave_per_s": 16.7,
-        "dir_deg": 337.0,
-        "wave_dir_deg": 127.0
-      }
+      "clip": "archive/2026-10-22/0605/wuwei.mp4"
     },
     {
       "date": "2026-10-22",
@@ -5767,16 +5740,7 @@
       "wave_judgment_zh": "近岸多道寬白沫碎浪帶。外海浪線雜亂。風浪偏亂。未估浪高。",
       "live_ok": true,
       "thumb": "archive/2026-10-22/0605/zhunan.jpg",
-      "clip": "archive/2026-10-22/0605/zhunan.mp4",
-      "conditions": {
-        "hour": 14,
-        "source": "windguru",
-        "wspd_kt": 32.2,
-        "wave_m": 3.3,
-        "wave_per_s": 8.9,
-        "dir_deg": 35.0,
-        "wave_dir_deg": 22.0
-      }
+      "clip": "archive/2026-10-22/0605/zhunan.mp4"
     },
     {
       "date": "2026-10-22",
@@ -5787,16 +5751,7 @@
       "wave_judgment_zh": "外海到近岸多道白沫碎浪線連成一片。浪面雜亂。未估浪高。",
       "live_ok": true,
       "thumb": "archive/2026-10-22/0805/wuwei.jpg",
-      "clip": "archive/2026-10-22/0805/wuwei.mp4",
-      "conditions": {
-        "hour": 14,
-        "source": "windguru",
-        "wspd_kt": 18.5,
-        "wave_m": 5.9,
-        "wave_per_s": 16.7,
-        "dir_deg": 337.0,
-        "wave_dir_deg": 127.0
-      }
+      "clip": "archive/2026-10-22/0805/wuwei.mp4"
     },
     {
       "date": "2026-10-22",
@@ -5807,16 +5762,7 @@
       "wave_judgment_zh": "近岸到外海多道平行寬白沫碎浪帶。風浪偏亂但浪線密集。未估浪高。",
       "live_ok": true,
       "thumb": "archive/2026-10-22/0805/zhunan.jpg",
-      "clip": "archive/2026-10-22/0805/zhunan.mp4",
-      "conditions": {
-        "hour": 14,
-        "source": "windguru",
-        "wspd_kt": 32.2,
-        "wave_m": 3.3,
-        "wave_per_s": 8.9,
-        "dir_deg": 35.0,
-        "wave_dir_deg": 22.0
-      }
+      "clip": "archive/2026-10-22/0805/zhunan.mp4"
     },
     {
       "date": "2026-10-22",
@@ -5827,16 +5773,7 @@
       "wave_judgment_zh": "外海到近岸多道寬白沫碎浪帶層層推進。浪面雜亂。未估浪高。",
       "live_ok": true,
       "thumb": "archive/2026-10-22/1005/wuwei.jpg",
-      "clip": "archive/2026-10-22/1005/wuwei.mp4",
-      "conditions": {
-        "hour": 14,
-        "source": "windguru",
-        "wspd_kt": 18.5,
-        "wave_m": 5.9,
-        "wave_per_s": 16.7,
-        "dir_deg": 337.0,
-        "wave_dir_deg": 127.0
-      }
+      "clip": "archive/2026-10-22/1005/wuwei.mp4"
     },
     {
       "date": "2026-10-22",
@@ -5847,16 +5784,7 @@
       "wave_judgment_zh": "外海多道白沫碎浪線密集。近岸內側較平但仍有亂流。風浪偏亂。未估浪高。",
       "live_ok": true,
       "thumb": "archive/2026-10-22/1005/zhunan.jpg",
-      "clip": "archive/2026-10-22/1005/zhunan.mp4",
-      "conditions": {
-        "hour": 14,
-        "source": "windguru",
-        "wspd_kt": 32.2,
-        "wave_m": 3.3,
-        "wave_per_s": 8.9,
-        "dir_deg": 35.0,
-        "wave_dir_deg": 22.0
-      }
+      "clip": "archive/2026-10-22/1005/zhunan.mp4"
     },
     {
       "date": "2026-10-22",
@@ -5867,16 +5795,7 @@
       "wave_judgment_zh": "外海到近岸多道寬白沫碎浪帶連續推進。湧浪大且浪面雜亂。未估浪高。",
       "live_ok": true,
       "thumb": "archive/2026-10-22/1205/wuwei.jpg",
-      "clip": "archive/2026-10-22/1205/wuwei.mp4",
-      "conditions": {
-        "hour": 14,
-        "source": "windguru",
-        "wspd_kt": 18.5,
-        "wave_m": 5.9,
-        "wave_per_s": 16.7,
-        "dir_deg": 337.0,
-        "wave_dir_deg": 127.0
-      }
+      "clip": "archive/2026-10-22/1205/wuwei.mp4"
     },
     {
       "date": "2026-10-22",
@@ -5887,16 +5806,7 @@
       "wave_judgment_zh": "外海有數道白沫碎浪線。近岸內側偏平。風浪雜亂。未估浪高。",
       "live_ok": true,
       "thumb": "archive/2026-10-22/1205/zhunan.jpg",
-      "clip": "archive/2026-10-22/1205/zhunan.mp4",
-      "conditions": {
-        "hour": 14,
-        "source": "windguru",
-        "wspd_kt": 32.2,
-        "wave_m": 3.3,
-        "wave_per_s": 8.9,
-        "dir_deg": 35.0,
-        "wave_dir_deg": 22.0
-      }
+      "clip": "archive/2026-10-22/1205/zhunan.mp4"
     },
     {
       "date": "2026-10-22",
@@ -5907,16 +5817,7 @@
       "wave_judgment_zh": "外海到近岸滿布寬白沫碎浪帶。多道湧浪連續推進。浪面雜亂。未估浪高。",
       "live_ok": true,
       "thumb": "archive/2026-10-22/1405/wuwei.jpg",
-      "clip": "archive/2026-10-22/1405/wuwei.mp4",
-      "conditions": {
-        "hour": 14,
-        "source": "windguru",
-        "wspd_kt": 18.5,
-        "wave_m": 5.9,
-        "wave_per_s": 16.7,
-        "dir_deg": 337.0,
-        "wave_dir_deg": 127.0
-      }
+      "clip": "archive/2026-10-22/1405/wuwei.mp4"
     },
     {
       "date": "2026-10-22",
@@ -5927,16 +5828,7 @@
       "wave_judgment_zh": "外海遠處有數道白沫碎浪線。近岸內側偏平幾無破浪。風浪雜亂。未估浪高。",
       "live_ok": true,
       "thumb": "archive/2026-10-22/1405/zhunan.jpg",
-      "clip": "archive/2026-10-22/1405/zhunan.mp4",
-      "conditions": {
-        "hour": 14,
-        "source": "windguru",
-        "wspd_kt": 32.2,
-        "wave_m": 3.3,
-        "wave_per_s": 8.9,
-        "dir_deg": 35.0,
-        "wave_dir_deg": 22.0
-      }
+      "clip": "archive/2026-10-22/1405/zhunan.mp4"
     },
     {
       "date": "2026-10-22",
@@ -5947,16 +5839,7 @@
       "wave_judgment_zh": "外海到近岸整片寬白沫碎浪帶。湧浪連續推進。浪面極雜亂。未估浪高。",
       "live_ok": true,
       "thumb": "archive/2026-10-22/1605/wuwei.jpg",
-      "clip": "archive/2026-10-22/1605/wuwei.mp4",
-      "conditions": {
-        "hour": 15,
-        "source": "windguru",
-        "wspd_kt": 19.7,
-        "wave_m": 6.0,
-        "wave_per_s": 16.5,
-        "dir_deg": 338.0,
-        "wave_dir_deg": 128.0
-      }
+      "clip": "archive/2026-10-22/1605/wuwei.mp4"
     },
     {
       "date": "2026-10-22",
@@ -5967,16 +5850,7 @@
       "wave_judgment_zh": "外海有數道白沫碎浪線。近岸內側偏平幾無破浪。風浪雜亂。未估浪高。",
       "live_ok": true,
       "thumb": "archive/2026-10-22/1605/zhunan.jpg",
-      "clip": "archive/2026-10-22/1605/zhunan.mp4",
-      "conditions": {
-        "hour": 15,
-        "source": "windguru",
-        "wspd_kt": 31.5,
-        "wave_m": 3.3,
-        "wave_per_s": 8.9,
-        "dir_deg": 37.0,
-        "wave_dir_deg": 23.0
-      }
+      "clip": "archive/2026-10-22/1605/zhunan.mp4"
     }
   ],
   "note_zh": ""
