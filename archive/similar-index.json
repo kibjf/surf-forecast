@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T06:19:47+08:00",
+  "generated_at": "2026-10-22T08:11:34+08:00",
   "archive_spots": [
     "zhongjiao",
     "wuwei",
@@ -5775,6 +5775,46 @@
         "wave_m": 3.1,
         "wave_per_s": 8.8,
         "dir_deg": 40.0,
+        "wave_dir_deg": 17.0
+      }
+    },
+    {
+      "date": "2026-10-22",
+      "slug": "wuwei",
+      "spot": "無尾港",
+      "captured_at": "2026-10-22T08:08:19+08:00",
+      "wave_notes_zh": "外海到近岸多道白沫碎浪線連成一片，浪面雜亂、能量偏強，未估浪高。",
+      "wave_judgment_zh": "外海到近岸多道白沫碎浪線連成一片。浪面雜亂。未估浪高。",
+      "live_ok": true,
+      "thumb": "archive/2026-10-22/0805/wuwei.jpg",
+      "clip": "archive/2026-10-22/0805/wuwei.mp4",
+      "conditions": {
+        "hour": 7,
+        "source": "windguru",
+        "wspd_kt": 22.3,
+        "wave_m": 5.0,
+        "wave_per_s": 17.0,
+        "dir_deg": 356.0,
+        "wave_dir_deg": 127.0
+      }
+    },
+    {
+      "date": "2026-10-22",
+      "slug": "zhunan",
+      "spot": "竹南假日之森",
+      "captured_at": "2026-10-22T08:08:19+08:00",
+      "wave_notes_zh": "近岸到外海多道平行寬白沫碎浪帶，風浪偏亂但浪線密集，未估浪高。",
+      "wave_judgment_zh": "近岸到外海多道平行寬白沫碎浪帶。風浪偏亂但浪線密集。未估浪高。",
+      "live_ok": true,
+      "thumb": "archive/2026-10-22/0805/zhunan.jpg",
+      "clip": "archive/2026-10-22/0805/zhunan.mp4",
+      "conditions": {
+        "hour": 7,
+        "source": "windguru",
+        "wspd_kt": 32.6,
+        "wave_m": 3.4,
+        "wave_per_s": 8.9,
+        "dir_deg": 37.0,
         "wave_dir_deg": 17.0
       }
     }
