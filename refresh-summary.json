@@ -1,10 +1,10 @@
 {
-  "wg_fetched_at": "2026-10-24T09:23:48.572730+08:00",
-  "tide_fetched_at": "2026-10-24T09:24:44.076093+08:00",
-  "cwa_fetched_at": "2026-10-24T09:25:16+08:00",
-  "model_init": "2026-10-23 18:00:00",
-  "今日首選": "松柏港",
-  "recommendation": "今日首選 松柏港：風約 9 kt、浪 2.4 m。",
-  "明日早上首選": "石門婚紗",
-  "明日早上推薦": "<div class=\"pick-tomorrow-board\"><div class=\"pick-tomorrow-title\">明日早上推薦（玩浪 · 前三）</div><div class=\"tm-hour\"><div class=\"tm-hour-label\">05:00</div><ol class=\"tm-top\"><li><span class=\"tm-rank\">1</span><strong>石門婚紗</strong><span class=\"tm-meta\">風 6 kt · 浪 2.7 m／10s · 北北東</span></li><li><span class=\"tm-rank\">2</span><strong>中角</strong><span class=\"tm-meta\">風 8 kt · 浪 2.8 m／10s · 北北東</span></li><li><span class=\"tm-rank\">3</span><strong>無尾港</strong><span class=\"tm-meta\">風 6 kt · 浪 2.3 m／10s · 北北東</span></li></ol></div><div class=\"tm-hour\"><div class=\"tm-hour-label\">07:00</div><ol class=\"tm-top\"><li><span class=\"tm-rank\">1</span><strong>石門婚紗</strong><span class=\"tm-meta\">風 6 kt · 浪 2.5 m／10s · 北北東</span></li><li><span class=\"tm-rank\">2</span><strong>無尾港</strong><span class=\"tm-meta\">風 3 kt · 浪 2.2 m／10s · 北</span></li><li><span class=\"tm-rank\">3</span><strong>中角</strong><span class=\"tm-meta\">風 8 kt · 浪 2.5 m／10s · 北北東</span></li></ol></div><div class=\"tm-hour\"><div class=\"tm-hour-label\">09:00</div><ol class=\"tm-top\"><li><span class=\"tm-rank\">1</span><strong>無尾港</strong><span class=\"tm-meta\">風 2 kt · 浪 2.1 m／10s · 北</span></li><li><span class=\"tm-rank\">2</span><strong>中角</strong><span class=\"tm-meta\">風 6 kt · 浪 2.3 m／10s · 北北東</span></li><li><span class=\"tm-rank\">3</span><strong>石門婚紗</strong><span class=\"tm-meta\">風 6 kt · 浪 2.3 m／10s · 北北東</span></li></ol></div></div>"
+  "wg_fetched_at": "2026-10-25T03:21:00.559193+08:00",
+  "tide_fetched_at": "2026-10-25T03:21:54.944499+08:00",
+  "cwa_fetched_at": "2026-10-25T03:22:14+08:00",
+  "model_init": "2026-10-24 12:00:00",
+  "今日首選": "無尾港",
+  "recommendation": "衝浪優先 → 宜蘭東岸（無尾港／翡翠灣）：午後風約 9–9 kt，浪約 0.9–2.0 m、週期約 9–10s。西岸風偏強（約 18 kt）較適合風箏／風浪板，衝浪抓清晨。",
+  "明日早上首選": "無尾港",
+  "明日早上推薦": "<div class=\"pick-tomorrow-board\"><div class=\"pick-tomorrow-title\">明日早上推薦（玩浪 · 前三）</div><div class=\"tm-hour\"><div class=\"tm-hour-label\">05:00</div><ol class=\"tm-top\"><li><span class=\"tm-rank\">1</span><strong>無尾港</strong><span class=\"tm-meta\">風 7 kt · 浪 1.7 m／10s · 北</span></li><li><span class=\"tm-rank\">2</span><strong>烏石</strong><span class=\"tm-meta\">風 4 kt · 浪 0.9 m／10s · 北北東</span></li><li><span class=\"tm-rank\">3</span><strong>中角</strong><span class=\"tm-meta\">風 10 kt · 浪 2.1 m／10s · 北北東</span></li></ol></div><div class=\"tm-hour\"><div class=\"tm-hour-label\">07:00</div><ol class=\"tm-top\"><li><span class=\"tm-rank\">1</span><strong>無尾港</strong><span class=\"tm-meta\">風 7 kt · 浪 1.7 m／10s · 北</span></li><li><span class=\"tm-rank\">2</span><strong>烏石</strong><span class=\"tm-meta\">風 4 kt · 浪 0.9 m／10s · 北北東</span></li><li><span class=\"tm-rank\">3</span><strong>中角</strong><span class=\"tm-meta\">風 10 kt · 浪 2.0 m／10s · 北北東</span></li></ol></div><div class=\"tm-hour\"><div class=\"tm-hour-label\">09:00</div><ol class=\"tm-top\"><li><span class=\"tm-rank\">1</span><strong>無尾港</strong><span class=\"tm-meta\">風 9 kt · 浪 1.7 m／10s · 北</span></li><li><span class=\"tm-rank\">2</span><strong>烏石</strong><span class=\"tm-meta\">風 6 kt · 浪 0.9 m／10s · 北北東</span></li><li><span class=\"tm-rank\">3</span><strong>中角</strong><span class=\"tm-meta\">風 9 kt · 浪 2.0 m／10s · 北北東</span></li></ol></div></div>"
 }
