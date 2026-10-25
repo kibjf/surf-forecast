@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T05:12:53+08:00",
+  "generated_at": "2026-10-26T06:14:02+08:00",
   "archive_spots": [
     "zhongjiao",
     "wuwei",
@@ -6344,6 +6344,46 @@
       "live_ok": true,
       "thumb": "archive/2026-10-26/0505/zhunan.jpg",
       "clip": "archive/2026-10-26/0505/zhunan.mp4",
+      "conditions": {
+        "hour": 5,
+        "source": "windguru",
+        "wspd_kt": 15.3,
+        "wave_m": 1.7,
+        "wave_per_s": 5.7,
+        "dir_deg": 43.0,
+        "wave_dir_deg": 24.0
+      }
+    },
+    {
+      "date": "2026-10-26",
+      "slug": "wuwei",
+      "spot": "無尾港",
+      "captured_at": "2026-10-26T06:10:20+08:00",
+      "wave_notes_zh": "近岸有兩三道白沫碎浪線持續推進，外海可見數條橫向浪線，浪況中等偏亂，未估浪高。",
+      "wave_judgment_zh": "近岸有兩三道白沫碎浪線持續推進。外海可見數條浪線。浪況中等偏亂。未估浪高。",
+      "live_ok": true,
+      "thumb": "archive/2026-10-26/0605/wuwei.jpg",
+      "clip": "archive/2026-10-26/0605/wuwei.mp4",
+      "conditions": {
+        "hour": 5,
+        "source": "windguru",
+        "wspd_kt": 9.1,
+        "wave_m": 1.7,
+        "wave_per_s": 9.9,
+        "dir_deg": 348.0,
+        "wave_dir_deg": 11.0
+      }
+    },
+    {
+      "date": "2026-10-26",
+      "slug": "zhunan",
+      "spot": "竹南假日之森",
+      "captured_at": "2026-10-26T06:10:20+08:00",
+      "wave_notes_zh": "水線外僅見細碎淺浪紋，近岸幾無碎浪，浪況偏平，未估浪高。",
+      "wave_judgment_zh": "水線外僅見細碎淺浪紋。近岸幾無碎浪。浪況偏平。未估浪高。",
+      "live_ok": true,
+      "thumb": "archive/2026-10-26/0605/zhunan.jpg",
+      "clip": "archive/2026-10-26/0605/zhunan.mp4",
       "conditions": {
         "hour": 5,
         "source": "windguru",
