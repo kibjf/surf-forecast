@@ -1,10 +1,10 @@
 {
-  "wg_fetched_at": "2026-10-26T21:35:04.712438+08:00",
-  "tide_fetched_at": "2026-10-26T21:36:01.834815+08:00",
-  "cwa_fetched_at": "2026-10-26T21:36:24+08:00",
-  "model_init": "2026-10-26 06:00:00",
-  "今日首選": "翡翠灣",
-  "recommendation": "今日首選 翡翠灣：風約 9 kt、浪 1.8 m／10s（北北東）。",
+  "wg_fetched_at": "2026-10-27T09:16:34.445149+08:00",
+  "tide_fetched_at": "2026-10-27T09:17:27.983673+08:00",
+  "cwa_fetched_at": "2026-10-27T09:17:53+08:00",
+  "model_init": "2026-10-26 18:00:00",
+  "今日首選": "烏石",
+  "recommendation": "今日首選 烏石：風約 9 kt、浪 1.0 m／9s（東北東）。",
   "明日早上首選": "烏石",
-  "明日早上推薦": "<div class=\"pick-tomorrow-board\"><div class=\"pick-tomorrow-title\">明日早上推薦（玩浪 · 前三）</div><div class=\"tm-hour\"><div class=\"tm-hour-label\">05:00</div><ol class=\"tm-top\"><li><span class=\"tm-rank\">1</span><strong>烏石</strong><span class=\"tm-meta\">風 6 kt · 浪 0.9 m／10s · 東北東</span></li><li><span class=\"tm-rank\">2</span><strong>無尾港</strong><span class=\"tm-meta\">風 11 kt · 浪 1.7 m／10s · 東北</span></li><li><span class=\"tm-rank\">3</span><strong>石門婚紗</strong><span class=\"tm-meta\">風 12 kt · 浪 1.8 m／9s · 東北</span></li></ol></div><div class=\"tm-hour\"><div class=\"tm-hour-label\">07:00</div><ol class=\"tm-top\"><li><span class=\"tm-rank\">1</span><strong>烏石</strong><span class=\"tm-meta\">風 5 kt · 浪 0.9 m／10s · 東北東</span></li><li><span class=\"tm-rank\">2</span><strong>無尾港</strong><span class=\"tm-meta\">風 10 kt · 浪 1.7 m／9s · 東北</span></li><li><span class=\"tm-rank\">3</span><strong>石門婚紗</strong><span class=\"tm-meta\">風 13 kt · 浪 1.8 m／9s · 東北</span></li></ol></div><div class=\"tm-hour\"><div class=\"tm-hour-label\">09:00</div><ol class=\"tm-top\"><li><span class=\"tm-rank\">1</span><strong>烏石</strong><span class=\"tm-meta\">風 8 kt · 浪 0.9 m／10s · 東</span></li><li><span class=\"tm-rank\">2</span><strong>無尾港</strong><span class=\"tm-meta\">風 12 kt · 浪 1.7 m／9s · 東北</span></li><li><span class=\"tm-rank\">3</span><strong>中角</strong><span class=\"tm-meta\">風 10 kt · 浪 1.9 m／9s · 東北</span></li></ol></div></div>"
+  "明日早上推薦": "<div class=\"pick-tomorrow-board\"><div class=\"pick-tomorrow-title\">明日早上推薦（玩浪 · 前三）</div><div class=\"tm-hour\"><div class=\"tm-hour-label\">05:00</div><ol class=\"tm-top\"><li><span class=\"tm-rank\">1</span><strong>烏石</strong><span class=\"tm-meta\">風 11 kt · 浪 1.4 m／9s · 東北</span></li><li><span class=\"tm-rank\">2</span><strong>無尾港</strong><span class=\"tm-meta\">風 16 kt · 浪 2.1 m／9s · 北北東</span></li><li><span class=\"tm-rank\">3</span><strong>石門婚紗</strong><span class=\"tm-meta\">風 20 kt · 浪 2.8 m／9s · 北北東</span></li></ol></div><div class=\"tm-hour\"><div class=\"tm-hour-label\">07:00</div><ol class=\"tm-top\"><li><span class=\"tm-rank\">1</span><strong>烏石</strong><span class=\"tm-meta\">風 10 kt · 浪 1.6 m／9s · 東北</span></li><li><span class=\"tm-rank\">2</span><strong>無尾港</strong><span class=\"tm-meta\">風 15 kt · 浪 2.4 m／9s · 北北東</span></li><li><span class=\"tm-rank\">3</span><strong>石門婚紗</strong><span class=\"tm-meta\">風 20 kt · 浪 2.8 m／9s · 北北東</span></li></ol></div><div class=\"tm-hour\"><div class=\"tm-hour-label\">09:00</div><ol class=\"tm-top\"><li><span class=\"tm-rank\">1</span><strong>烏石</strong><span class=\"tm-meta\">風 10 kt · 浪 1.6 m／9s · 東北</span></li><li><span class=\"tm-rank\">2</span><strong>無尾港</strong><span class=\"tm-meta\">風 13 kt · 浪 2.4 m／9s · 北北東</span></li><li><span class=\"tm-rank\">3</span><strong>石門婚紗</strong><span class=\"tm-meta\">風 18 kt · 浪 2.6 m／9s · 北北東</span></li></ol></div></div>"
 }
