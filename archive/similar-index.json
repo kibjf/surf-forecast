@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T10:12:33+08:00",
+  "generated_at": "2026-10-27T12:13:14+08:00",
   "archive_spots": [
     "zhongjiao",
     "wuwei",
@@ -6626,6 +6626,46 @@
         "wave_per_s": 5.7,
         "dir_deg": 38.0,
         "wave_dir_deg": 20.0
+      }
+    },
+    {
+      "date": "2026-10-27",
+      "slug": "wuwei",
+      "spot": "無尾港",
+      "captured_at": "2026-10-27T12:09:00+08:00",
+      "wave_notes_zh": "外側有數道橫向浪線破碎，近岸白沫帶寬而零散，浪況偏亂、能量中等，未估浪高。",
+      "wave_judgment_zh": "外側有數道浪線破碎。近岸白沫帶寬而零散。浪況偏亂。未估浪高。",
+      "live_ok": true,
+      "thumb": "archive/2026-10-27/1205/wuwei.jpg",
+      "clip": "archive/2026-10-27/1205/wuwei.mp4",
+      "conditions": {
+        "hour": 11,
+        "source": "windguru",
+        "wspd_kt": 14.9,
+        "wave_m": 1.5,
+        "wave_per_s": 9.3,
+        "dir_deg": 6.0,
+        "wave_dir_deg": 43.0
+      }
+    },
+    {
+      "date": "2026-10-27",
+      "slug": "zhunan",
+      "spot": "竹南假日之森",
+      "captured_at": "2026-10-27T12:09:00+08:00",
+      "wave_notes_zh": "剛過滿潮浪區貼近岸邊，一道清楚白沫碎浪線推進，近岸白沫滿布，外海偏平帶風紋，浪況偏小但有推力，未估浪高。",
+      "wave_judgment_zh": "剛過滿潮浪區貼近岸邊。一道清楚白沫碎浪線推進。近岸白沫滿布。外海偏平帶風紋。浪況偏小但有推力。未估浪高。",
+      "live_ok": true,
+      "thumb": "archive/2026-10-27/1205/zhunan.jpg",
+      "clip": "archive/2026-10-27/1205/zhunan.mp4",
+      "conditions": {
+        "hour": 11,
+        "source": "windguru",
+        "wspd_kt": 21.7,
+        "wave_m": 1.7,
+        "wave_per_s": 5.9,
+        "dir_deg": 31.0,
+        "wave_dir_deg": 19.0
       }
     }
   ],
