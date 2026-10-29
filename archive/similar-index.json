@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T08:19:29+08:00",
+  "generated_at": "2026-10-29T09:22:24+08:00",
   "archive_spots": [
     "zhongjiao",
     "wuwei",
@@ -6723,11 +6723,11 @@
       "conditions": {
         "hour": 5,
         "source": "windguru",
-        "wspd_kt": 5.4,
-        "wave_m": 1.5,
+        "wspd_kt": 5.2,
+        "wave_m": 1.4,
         "wave_per_s": 8.4,
-        "dir_deg": 286.0,
-        "wave_dir_deg": 33.0
+        "dir_deg": 282.0,
+        "wave_dir_deg": 37.0
       }
     },
     {
@@ -6743,11 +6743,11 @@
       "conditions": {
         "hour": 5,
         "source": "windguru",
-        "wspd_kt": 6.4,
+        "wspd_kt": 6.2,
         "wave_m": 1.2,
-        "wave_per_s": 6.3,
-        "dir_deg": 58.0,
-        "wave_dir_deg": 25.0
+        "wave_per_s": 6.5,
+        "dir_deg": 62.0,
+        "wave_dir_deg": 27.0
       }
     },
     {
@@ -6763,11 +6763,11 @@
       "conditions": {
         "hour": 7,
         "source": "windguru",
-        "wspd_kt": 5.6,
+        "wspd_kt": 5.2,
         "wave_m": 1.4,
         "wave_per_s": 8.4,
-        "dir_deg": 270.0,
-        "wave_dir_deg": 34.0
+        "dir_deg": 267.0,
+        "wave_dir_deg": 38.0
       }
     },
     {
@@ -6783,11 +6783,11 @@
       "conditions": {
         "hour": 7,
         "source": "windguru",
-        "wspd_kt": 3.5,
+        "wspd_kt": 3.3,
         "wave_m": 1.1,
-        "wave_per_s": 6.3,
-        "dir_deg": 54.0,
-        "wave_dir_deg": 24.0
+        "wave_per_s": 6.5,
+        "dir_deg": 57.0,
+        "wave_dir_deg": 26.0
       }
     }
   ],
