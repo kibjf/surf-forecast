@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T06:19:54+08:00",
+  "generated_at": "2026-10-29T08:19:29+08:00",
   "archive_spots": [
     "zhongjiao",
     "wuwei",
@@ -6748,6 +6748,46 @@
         "wave_per_s": 6.3,
         "dir_deg": 58.0,
         "wave_dir_deg": 25.0
+      }
+    },
+    {
+      "date": "2026-10-29",
+      "slug": "wuwei",
+      "spot": "無尾港",
+      "captured_at": "2026-10-29T08:15:48+08:00",
+      "wave_notes_zh": "近岸有數道白沫碎浪線，外側湧浪平緩推進，能量中等偏小，未估浪高。",
+      "wave_judgment_zh": "近岸有數道白沫碎浪線。外側湧浪平緩推進。未估浪高。",
+      "live_ok": true,
+      "thumb": "archive/2026-10-29/0805/wuwei.jpg",
+      "clip": "archive/2026-10-29/0805/wuwei.mp4",
+      "conditions": {
+        "hour": 7,
+        "source": "windguru",
+        "wspd_kt": 5.6,
+        "wave_m": 1.4,
+        "wave_per_s": 8.4,
+        "dir_deg": 270.0,
+        "wave_dir_deg": 34.0
+      }
+    },
+    {
+      "date": "2026-10-29",
+      "slug": "zhunan",
+      "spot": "竹南假日之森",
+      "captured_at": "2026-10-29T08:15:48+08:00",
+      "wave_notes_zh": "低潮露出大片沙灘，外側僅零星細碎白沫，近岸平靜，浪況偏小，未估浪高。",
+      "wave_judgment_zh": "外側僅零星細碎白沫。近岸平靜。浪況偏小。未估浪高。",
+      "live_ok": true,
+      "thumb": "archive/2026-10-29/0805/zhunan.jpg",
+      "clip": "archive/2026-10-29/0805/zhunan.mp4",
+      "conditions": {
+        "hour": 7,
+        "source": "windguru",
+        "wspd_kt": 3.5,
+        "wave_m": 1.1,
+        "wave_per_s": 6.3,
+        "dir_deg": 54.0,
+        "wave_dir_deg": 24.0
       }
     }
   ],
