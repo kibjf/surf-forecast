@@ -1,0 +1,13 @@
+{
+  "spot": "竹南假日之森",
+  "slug": "zhunan",
+  "youtube": "https://www.youtube.com/watch?v=F5W_RKKH5Yk",
+  "captured_at": "2026-10-30T05:15:41+08:00",
+  "wave_notes_zh": "畫面中難以辨識碎浪線，浪況細節無法判讀，未估浪高。",
+  "live_ok": true,
+  "clip_bytes": 1116184,
+  "frame_bytes": 23953,
+  "clip_duration_s": 45.0,
+  "resolved_video_id": "F5W_RKKH5Yk",
+  "resolved_via": "channel /live (is_live)"
+}

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T03:25:12+08:00",
+  "generated_at": "2026-10-30T05:18:37+08:00",
   "archive_spots": [
     "zhongjiao",
     "wuwei",
@@ -6841,6 +6841,46 @@
       "live_ok": true,
       "thumb": "archive/2026-10-29/1605/zhunan.jpg",
       "clip": "archive/2026-10-29/1605/zhunan.mp4"
+    },
+    {
+      "date": "2026-10-30",
+      "slug": "wuwei",
+      "spot": "無尾港",
+      "captured_at": "2026-10-30T05:15:41+08:00",
+      "wave_notes_zh": "隱約可見一道橫向白沫碎浪線，浪況細節難以判讀，未估浪高。",
+      "wave_judgment_zh": "隱約可見一道橫向白沫碎浪線。浪況細節難以判讀。未估浪高。",
+      "live_ok": true,
+      "thumb": "archive/2026-10-30/0505/wuwei.jpg",
+      "clip": "archive/2026-10-30/0505/wuwei.mp4",
+      "conditions": {
+        "hour": 5,
+        "source": "windguru",
+        "wspd_kt": 7.7,
+        "wave_m": 0.9,
+        "wave_per_s": 7.5,
+        "dir_deg": 359.0,
+        "wave_dir_deg": 39.0
+      }
+    },
+    {
+      "date": "2026-10-30",
+      "slug": "zhunan",
+      "spot": "竹南假日之森",
+      "captured_at": "2026-10-30T05:15:41+08:00",
+      "wave_notes_zh": "畫面中難以辨識碎浪線，浪況細節無法判讀，未估浪高。",
+      "wave_judgment_zh": "畫面中難以辨識碎浪線。浪況細節無法判讀。未估浪高。",
+      "live_ok": true,
+      "thumb": "archive/2026-10-30/0505/zhunan.jpg",
+      "clip": "archive/2026-10-30/0505/zhunan.mp4",
+      "conditions": {
+        "hour": 5,
+        "source": "windguru",
+        "wspd_kt": 8.8,
+        "wave_m": 0.8,
+        "wave_per_s": 4.3,
+        "dir_deg": 40.0,
+        "wave_dir_deg": 29.0
+      }
     }
   ],
   "note_zh": ""
