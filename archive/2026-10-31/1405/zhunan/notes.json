@@ -1,0 +1,13 @@
+{
+  "spot": "竹南假日之森",
+  "slug": "zhunan",
+  "youtube": "https://www.youtube.com/watch?v=F5W_RKKH5Yk",
+  "captured_at": "2026-10-31T14:13:14+08:00",
+  "wave_notes_zh": "滿潮前後浪在近岸消波塊前集中破碎，白沫成片，外側湧浪細碎偏亂、能量偏小，未估浪高。",
+  "live_ok": true,
+  "clip_bytes": 4659338,
+  "frame_bytes": 70115,
+  "clip_duration_s": 45.0,
+  "resolved_video_id": "F5W_RKKH5Yk",
+  "resolved_via": "channel /live (is_live)"
+}
