@@ -1,10 +1,10 @@
 {
-  "wg_fetched_at": "2026-11-02T12:20:52.766843+08:00",
-  "tide_fetched_at": "2026-11-02T12:21:48.616194+08:00",
-  "cwa_fetched_at": "2026-11-02T12:22:02+08:00",
-  "model_init": "2026-11-01 18:00:00",
+  "wg_fetched_at": "2026-11-06T03:17:54.149604+08:00",
+  "tide_fetched_at": "2026-11-06T03:18:13.987619+08:00",
+  "cwa_fetched_at": "2026-11-06T03:18:35+08:00",
+  "model_init": "2026-11-05 12:00:00",
   "今日首選": "烏石",
-  "recommendation": "今日首選 烏石：風約 8 kt、浪 1.2 m／14s（東）。",
-  "明日早上首選": "烏石",
-  "明日早上推薦": "<div class=\"pick-tomorrow-board\"><div class=\"pick-tomorrow-title\">明日早上推薦（玩浪 · 前三）</div><div class=\"tm-hour\"><div class=\"tm-hour-label\">05:00</div><ol class=\"tm-top\"><li><span class=\"tm-rank\">1</span><strong>烏石</strong><span class=\"tm-meta\">風 9 kt · 浪 1.2 m／13s · 東</span></li><li><span class=\"tm-rank\">2</span><strong>無尾港</strong><span class=\"tm-meta\">風 12 kt · 浪 1.8 m／7s · 北北東</span></li><li><span class=\"tm-rank\">3</span><strong>松柏港</strong><span class=\"tm-meta\">風 14 kt · 浪 2.0 m／7s · 北北東</span></li></ol></div><div class=\"tm-hour\"><div class=\"tm-hour-label\">07:00</div><ol class=\"tm-top\"><li><span class=\"tm-rank\">1</span><strong>烏石</strong><span class=\"tm-meta\">風 8 kt · 浪 1.2 m／13s · 東</span></li><li><span class=\"tm-rank\">2</span><strong>無尾港</strong><span class=\"tm-meta\">風 11 kt · 浪 1.8 m／7s · 北北東</span></li><li><span class=\"tm-rank\">3</span><strong>松柏港</strong><span class=\"tm-meta\">風 14 kt · 浪 1.9 m／7s · 北北東</span></li></ol></div><div class=\"tm-hour\"><div class=\"tm-hour-label\">09:00</div><ol class=\"tm-top\"><li><span class=\"tm-rank\">1</span><strong>烏石</strong><span class=\"tm-meta\">風 8 kt · 浪 1.2 m／12s · 東</span></li><li><span class=\"tm-rank\">2</span><strong>無尾港</strong><span class=\"tm-meta\">風 9 kt · 浪 1.8 m／7s · 北北東</span></li><li><span class=\"tm-rank\">3</span><strong>松柏港</strong><span class=\"tm-meta\">風 14 kt · 浪 1.8 m／7s · 北北東</span></li></ol></div></div>"
+  "recommendation": "今日首選 烏石：風約 8 kt、浪 1.1 m／12s（東）。",
+  "明日早上首選": "無尾港",
+  "明日早上推薦": "<div class=\"pick-tomorrow-board\"><div class=\"pick-tomorrow-title\">明日早上推薦（玩浪 · 前三）</div><div class=\"tm-hour\"><div class=\"tm-hour-label\">05:00</div><ol class=\"tm-top\"><li><span class=\"tm-rank\">1</span><strong>無尾港</strong><span class=\"tm-meta\">風 10 kt · 浪 1.9 m／7s · 東北</span></li><li><span class=\"tm-rank\">2</span><strong>烏石</strong><span class=\"tm-meta\">風 9 kt · 浪 1.3 m／6s · 東北東</span></li><li><span class=\"tm-rank\">3</span><strong>松柏港</strong><span class=\"tm-meta\">風 12 kt · 浪 2.2 m／8s · 北北東</span></li></ol></div><div class=\"tm-hour\"><div class=\"tm-hour-label\">07:00</div><ol class=\"tm-top\"><li><span class=\"tm-rank\">1</span><strong>松柏港</strong><span class=\"tm-meta\">風 11 kt · 浪 2.1 m／8s · 北北東</span></li><li><span class=\"tm-rank\">2</span><strong>烏石</strong><span class=\"tm-meta\">風 9 kt · 浪 1.4 m／6s · 東北東</span></li><li><span class=\"tm-rank\">3</span><strong>無尾港</strong><span class=\"tm-meta\">風 10 kt · 浪 1.9 m／7s · 東北</span></li></ol></div><div class=\"tm-hour\"><div class=\"tm-hour-label\">09:00</div><ol class=\"tm-top\"><li><span class=\"tm-rank\">1</span><strong>無尾港</strong><span class=\"tm-meta\">風 11 kt · 浪 2.0 m／7s · 東北</span></li><li><span class=\"tm-rank\">2</span><strong>松柏港</strong><span class=\"tm-meta\">風 12 kt · 浪 2.2 m／8s · 北北東</span></li><li><span class=\"tm-rank\">3</span><strong>烏石</strong><span class=\"tm-meta\">風 11 kt · 浪 1.4 m／6s · 東北東</span></li></ol></div></div>"
 }
