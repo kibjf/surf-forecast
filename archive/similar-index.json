@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T12:18:22+08:00",
+  "generated_at": "2026-11-05T14:14:08+08:00",
   "archive_spots": [
     "zhongjiao",
     "wuwei",
@@ -8311,6 +8311,66 @@
         "wave_m": 0.3,
         "wave_per_s": 6.5,
         "dir_deg": 305.0,
+        "wave_dir_deg": 36.0
+      }
+    },
+    {
+      "date": "2026-11-05",
+      "slug": "zhongjiao",
+      "spot": "中角",
+      "captured_at": "2026-11-05T14:11:04+08:00",
+      "wave_notes_zh": "中段有數道清楚的白沫碎浪線、右側較成形，近岸白沫鋪開，浪型偏鬆、能量中等偏小，未估浪高。",
+      "wave_judgment_zh": "中段有數道清楚的白沫碎浪線。近岸白沫鋪開。浪型偏鬆。未估浪高。",
+      "live_ok": true,
+      "thumb": "archive/2026-11-05/1405/zhongjiao.jpg",
+      "clip": "archive/2026-11-05/1405/zhongjiao.mp4",
+      "conditions": {
+        "hour": 13,
+        "source": "windguru",
+        "wspd_kt": 8.9,
+        "wave_m": 0.8,
+        "wave_per_s": 11.6,
+        "dir_deg": 352.0,
+        "wave_dir_deg": 89.0
+      }
+    },
+    {
+      "date": "2026-11-05",
+      "slug": "wuwei",
+      "spot": "無尾港",
+      "captured_at": "2026-11-05T14:11:04+08:00",
+      "wave_notes_zh": "近岸到中段有多道寬白沫碎浪線，浪型零亂偏碎，能量中等，未估浪高。",
+      "wave_judgment_zh": "近岸到中段有多道寬白沫碎浪線。浪型零亂偏碎。未估浪高。",
+      "live_ok": true,
+      "thumb": "archive/2026-11-05/1405/wuwei.jpg",
+      "clip": "archive/2026-11-05/1405/wuwei.mp4",
+      "conditions": {
+        "hour": 13,
+        "source": "windguru",
+        "wspd_kt": 3.5,
+        "wave_m": 0.9,
+        "wave_per_s": 11.7,
+        "dir_deg": 103.0,
+        "wave_dir_deg": 100.0
+      }
+    },
+    {
+      "date": "2026-11-05",
+      "slug": "zhunan",
+      "spot": "竹南假日之森",
+      "captured_at": "2026-11-05T14:11:04+08:00",
+      "wave_notes_zh": "僅遠處外側有一道細長白沫碎浪線，近岸幾乎無浪，浪況很小，未估浪高。",
+      "wave_judgment_zh": "僅遠處外側有一道細長白沫碎浪線。近岸幾乎無浪。浪況很小。未估浪高。",
+      "live_ok": true,
+      "thumb": "archive/2026-11-05/1405/zhunan.jpg",
+      "clip": "archive/2026-11-05/1405/zhunan.mp4",
+      "conditions": {
+        "hour": 13,
+        "source": "windguru",
+        "wspd_kt": 7.2,
+        "wave_m": 0.3,
+        "wave_per_s": 6.5,
+        "dir_deg": 329.0,
         "wave_dir_deg": 36.0
       }
     }
